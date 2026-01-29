@@ -21,7 +21,7 @@ export default function AnimatedExerciseImage({
   const [currentFrame, setCurrentFrame] = useState(1);
   const containerRef = useRef<HTMLDivElement>(null);
   const [frames, setFrames] = useState(exercise.animation_frames || 2);
-  const [orientation, setOrientation] = useState<'horizontal' | 'vertical'>(
+  const [orientation, setOrientation] = useState<'horizontal' | 'vertical' | 'random'>(
     exercise.animation_orientation || 'horizontal'
   );
 
@@ -92,22 +92,34 @@ export default function AnimatedExerciseImage({
           return;
         }
 
-        // Check for pre-organized groups ONLY for orientation="random"
-        // (WorkoutLabs format: <g id="a">, <g id="b">, <g id="c">)
-        if (orientation === 'random') {
-          const groupA = svg.querySelector('g[id="a"]');
-          const groupB = svg.querySelector('g[id="b"]');
-          const groupC = svg.querySelector('g[id="c"]');
+        // Check for pre-organized groups (WorkoutLabs format: <g id="a">, <g id="b">, <g id="c">)
+        const groupA = svg.querySelector('g[id="a"]');
+        const groupB = svg.querySelector('g[id="b"]');
+        const groupC = svg.querySelector('g[id="c"]');
 
-          // Group "a" has 3 children (nested groups containing the 3 frames)
-          // We need to use those nested children as our frames
-          let framesToUse: Element[] = [];
+        // Always log to see if groups exist
+        if (groupA) {
+          console.log(`Found group "a" with ${groupA.children.length} children for ${exercise.exerciseName} (frames needed: ${frames})`);
+        }
 
-          if (groupA && groupA.children.length >= frames) {
-            // Use nested children of group "a" as frames
-            framesToUse = Array.from(groupA.children).filter(child => child.tagName.toLowerCase() === 'g');
-            console.log(`Using ${framesToUse.length} nested groups from group "a"`);
+        // Try to use pre-organized groups for ANY orientation if structure matches
+        let framesToUse: Element[] = [];
+
+        if (groupA && groupA.children.length >= frames) {
+          // Use nested children of group "a" as frames
+          const nestedGroups = Array.from(groupA.children).filter(child => child.tagName.toLowerCase() === 'g');
+          if (nestedGroups.length >= frames) {
+            framesToUse = nestedGroups;
+            console.log(`✓ Using ${framesToUse.length} nested groups from group "a" (matches frames: ${frames})`);
+          } else {
+            console.log(`✗ Group "a" has ${nestedGroups.length} nested groups, but need ${frames} frames - using clustering`);
           }
+        } else if (groupA) {
+          console.log(`✗ Group "a" has ${groupA.children.length} children, need ${frames} - using clustering`);
+        }
+
+        // Only use pre-organized groups for horizontal/random (NOT vertical - those need clustering)
+        if (framesToUse.length >= frames && orientation !== 'vertical') {
 
           const groupInfo = framesToUse.map((g, i) => ({
             index: i,
@@ -116,9 +128,8 @@ export default function AnimatedExerciseImage({
           }));
           console.log(`Frame details:`, groupInfo);
 
-          if (framesToUse.length >= frames) {
-            // Use these groups - add frame-group class and show/hide
-            console.log(`Using ${framesToUse.length} nested frames for ${exercise.exerciseName}`);
+          // Use these groups - add frame-group class and show/hide
+          console.log(`Using ${framesToUse.length} nested frames for ${exercise.exerciseName}`);
 
             // Calculate centers for centering transforms
             const viewBox = svg.getAttribute('viewBox')?.split(' ').map(Number) || [0, 0, 900, 600];
@@ -164,10 +175,9 @@ export default function AnimatedExerciseImage({
 
             const serializer = new XMLSerializer();
             const processedSvgString = serializer.serializeToString(svg);
-            setProcessedSvg(processedSvgString);
-            setLoadingSvg(false);
-            return;
-          }
+          setProcessedSvg(processedSvgString);
+          setLoadingSvg(false);
+          return;
         }
 
         // Use coordinate-based clustering for horizontal/vertical orientations
@@ -299,15 +309,22 @@ export default function AnimatedExerciseImage({
   useEffect(() => {
     if (!processedSvg || frames === 1 || !isPlaying) return;
 
+    console.log(`🔄 Animation effect started (frames=${frames})`);
+
+    // Wait 1.5 seconds, then start cycling
     const interval = setInterval(() => {
       setCurrentFrame((prev) => {
-        // Cycle: 1 → 2 → 3 → 1 → 2 → 3 ...
-        return (prev % frames) + 1;
+        const next = (prev % frames) + 1;
+        console.log(`⏱️ Timer: ${prev} → ${next}`);
+        return next;
       });
-    }, 1500); // Slower: 1.5 seconds per frame
+    }, 1500); // 1.5 seconds per frame
 
-    return () => clearInterval(interval);
-  }, [processedSvg, frames, isPlaying]);
+    return () => {
+      console.log(`🛑 Animation cleanup`);
+      clearInterval(interval);
+    };
+  }, [frames, isPlaying]); // REMOVED processedSvg and exerciseName - only depend on frames and isPlaying
 
   if (loadingSvg) {
     return (
