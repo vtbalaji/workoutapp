@@ -92,10 +92,8 @@ export default function AnimatedExerciseImage({
           return;
         }
 
-        // Check for pre-organized groups (WorkoutLabs format: <g id="a">, <g id="b">, <g id="c">)
+        // Check for pre-organized groups (WorkoutLabs format: <g id="a"> with nested children)
         const groupA = svg.querySelector('g[id="a"]');
-        const groupB = svg.querySelector('g[id="b"]');
-        const groupC = svg.querySelector('g[id="c"]');
 
         // Always log to see if groups exist
         if (groupA) {
