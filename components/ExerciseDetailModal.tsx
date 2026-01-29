@@ -20,7 +20,7 @@ export default function ExerciseDetailModal({
   const [loadingSvg, setLoadingSvg] = useState(false);
   const [currentFrame, setCurrentFrame] = useState(1);
   const [frames, setFrames] = useState(exercise.animation_frames || 2);
-  const [orientation, setOrientation] = useState<'horizontal' | 'vertical'>(exercise.animation_orientation || 'horizontal');
+  const [orientation, setOrientation] = useState<'horizontal' | 'vertical' | 'random'>(exercise.animation_orientation || 'horizontal');
 
   // Fetch animation metadata from API if not present in exercise
   useEffect(() => {
