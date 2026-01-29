@@ -104,11 +104,11 @@ function WorkoutsContent() {
       )}
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-purple-600 to-purple-800 text-white py-12">
+      <div className="bg-gradient-to-r from-purple-600 to-purple-800 text-white py-3">
         <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
           <div>
-            <h1 className="text-4xl font-bold mb-2">My Workouts</h1>
-            <p className="text-purple-100">
+            <h1 className="text-2xl font-bold mb-1">My Workouts</h1>
+            <p className="text-purple-100 text-sm">
               Manage your custom workout plans
             </p>
           </div>

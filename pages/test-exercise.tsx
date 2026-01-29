@@ -6,11 +6,9 @@ interface Exercise {
   id: string;
   slug: string;
   title: string;
-  images: {
-    male: string;
-    female: string;
-  };
-  description?: string;
+  description: string;
+  pose_description: string;
+  pose_category: string;
 }
 
 // CSS for SVG display
@@ -75,9 +73,9 @@ export default function TestExercisePage() {
     const fetchSvg = async () => {
       setLoadingSvg(true);
       try {
-        const imageUrl = imageGender === "male" ? exercise.images.male : exercise.images.female;
-        // Use our API endpoint to fetch the SVG (avoids CORS issues)
-        const response = await fetch(`/api/exercises/svg?url=${encodeURIComponent(imageUrl)}`);
+        // Use local image path based on slug
+        const imageUrl = `/exercise-images/${exercise.slug}/${imageGender}.svg`;
+        const response = await fetch(imageUrl);
         if (response.ok) {
           const svgText = await response.text();
           setSvgContent(svgText);
@@ -180,6 +178,7 @@ export default function TestExercisePage() {
     return () => clearInterval(interval);
   }, [isAnimating, svgContent]);
 
+
   if (loading) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
@@ -201,7 +200,7 @@ export default function TestExercisePage() {
       <style>{animationStyles}</style>
       <div className="max-w-2xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-gray-900">
-          Test Exercise Display
+          Test Exercise Display with Animation
         </h1>
 
         <div className="bg-white rounded-lg shadow-lg p-6">
@@ -235,7 +234,7 @@ export default function TestExercisePage() {
           </div>
 
           {/* Animation Toggle */}
-          <div className="flex gap-2 mb-4">
+          <div className="flex gap-2 mb-4 flex-wrap">
             <button
               onClick={() => setIsAnimating(!isAnimating)}
               className={`px-4 py-2 rounded-lg font-medium transition-colors ${
@@ -308,31 +307,15 @@ export default function TestExercisePage() {
             </div>
 
             <div>
-              <h3 className="font-semibold text-gray-700 mb-1">Image URLs</h3>
-              <div className="space-y-2 text-sm">
-                <p>
-                  <strong>Male:</strong>{" "}
-                  <a
-                    href={exercise.images.male}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline break-all"
-                  >
-                    {exercise.images.male}
-                  </a>
-                </p>
-                <p>
-                  <strong>Female:</strong>{" "}
-                  <a
-                    href={exercise.images.female}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-600 hover:underline break-all"
-                  >
-                    {exercise.images.female}
-                  </a>
-                </p>
-              </div>
+              <h3 className="font-semibold text-gray-700 mb-1">Category</h3>
+              <p className="text-gray-900">{exercise.pose_category}</p>
+            </div>
+
+            <div>
+              <h3 className="font-semibold text-gray-700 mb-1">Image Path</h3>
+              <p className="text-gray-700 text-sm break-all">
+                /exercise-images/{exercise.slug}/{imageGender}.svg
+              </p>
             </div>
 
             {exercise.description && (
@@ -340,6 +323,15 @@ export default function TestExercisePage() {
                 <h3 className="font-semibold text-gray-700 mb-1">Description</h3>
                 <p className="text-gray-700 leading-relaxed">
                   {exercise.description}
+                </p>
+              </div>
+            )}
+
+            {exercise.pose_description && (
+              <div>
+                <h3 className="font-semibold text-gray-700 mb-1">Pose Description</h3>
+                <p className="text-gray-700 leading-relaxed">
+                  {exercise.pose_description}
                 </p>
               </div>
             )}

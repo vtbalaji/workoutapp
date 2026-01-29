@@ -173,12 +173,12 @@ function TemplatesContent() {
       )}
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-12">
+      <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-3">
         <div className="max-w-7xl mx-auto px-4">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-4xl font-bold mb-2">My Templates</h1>
-              <p className="text-green-100">
+              <h1 className="text-2xl font-bold mb-1">My Templates</h1>
+              <p className="text-green-100 text-sm">
                 Create and manage reusable exercise templates
               </p>
             </div>
