@@ -98,10 +98,6 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
     }
   };
 
-  const handleSkipExercise = () => {
-    moveToNextExercise();
-  };
-
   const handlePauseToggle = () => {
     setIsPaused(!isPaused);
   };
