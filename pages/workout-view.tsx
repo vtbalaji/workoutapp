@@ -344,7 +344,7 @@ function WorkoutViewContent() {
         </div>
 
         {/* Footer */}
-        <div className="mt-6 pt-6 border-t">
+        <div className="mt-6 pt-6 border-t mb-24">
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <Link
               href="/workouts"
@@ -359,6 +359,18 @@ function WorkoutViewContent() {
               Edit Workout
             </Link>
           </div>
+        </div>
+      </div>
+
+      {/* Fixed Start Workout Button - Always at bottom */}
+      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t shadow-lg z-10">
+        <div className="max-w-4xl mx-auto">
+          <Link
+            href={`/workout-player?id=${workout.id}`}
+            className="block w-full px-6 py-4 bg-indigo-600 text-white text-xl rounded-lg hover:bg-indigo-700 transition-colors font-bold text-center"
+          >
+            Let's do this! →
+          </Link>
         </div>
       </div>
 
