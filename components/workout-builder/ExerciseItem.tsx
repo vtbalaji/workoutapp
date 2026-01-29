@@ -22,7 +22,7 @@ export default function ExerciseItemCard({
   const [reps, setReps] = useState(exercise.reps);
   const [rest, setRest] = useState(exercise.restSeconds);
 
-  const { setNodeRef, isDragging, attributes, listeners } = useDraggable({
+  const { setNodeRef, isDragging } = useDraggable({
     id: `exercise-${exercise.id}`,
     data: {
       type: "exercise-in-workout",

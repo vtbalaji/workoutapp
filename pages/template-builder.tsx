@@ -316,7 +316,7 @@ function TemplateBuilderContent() {
                 <ExercisePreview
                   selectedExercise={selectedExercise}
                   workout={null}
-                  onAddExerciseToSection={(sectionId, exercise, sets, reps, rest) => {
+                  onAddExerciseToSection={(_sectionId, exercise, sets, reps, rest) => {
                     handleAddExercise(exercise, sets, reps, rest);
                   }}
                   onShowToast={(message, type) => setToast({ message, type: type || "success" })}

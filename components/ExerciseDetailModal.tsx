@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { WorkoutExercise } from "@/lib/types";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMars, faVenus } from "@fortawesome/free-solid-svg-icons";
 
 interface ExerciseDetailModalProps {
   exercise: WorkoutExercise;
@@ -85,6 +87,34 @@ export default function ExerciseDetailModal({
 
         {/* Content */}
         <div className="p-6 space-y-6">
+          {/* Gender Toggle for Animation */}
+          {!showMuscleOverlay && (
+            <div className="flex gap-2 justify-center">
+              <button
+                onClick={() => setImageGender("male")}
+                className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 ${
+                  imageGender === "male"
+                    ? "bg-blue-600 text-white"
+                    : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+                }`}
+              >
+                <FontAwesomeIcon icon={faMars} />
+                Male
+              </button>
+              <button
+                onClick={() => setImageGender("female")}
+                className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 ${
+                  imageGender === "female"
+                    ? "bg-pink-600 text-white"
+                    : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+                }`}
+              >
+                <FontAwesomeIcon icon={faVenus} />
+                Female
+              </button>
+            </div>
+          )}
+
           {/* Toggle between animation and muscle overlay */}
           <div className="flex gap-2 justify-center">
             <button

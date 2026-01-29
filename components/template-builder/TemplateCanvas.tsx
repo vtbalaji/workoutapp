@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-import { Template, WorkoutExercise } from "@/lib/types";
+import { Template } from "@/lib/types";
 import { useDroppable } from "@dnd-kit/core";
 import ExerciseItemCard from "../workout-builder/ExerciseItem";
 

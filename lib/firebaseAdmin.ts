@@ -1,6 +1,5 @@
 import * as admin from "firebase-admin";
 
-let isInitialized = false;
 let initializationAttempted = false;
 
 /**
@@ -61,7 +60,6 @@ function initializeAdmin() {
       credential: admin.credential.cert(serviceAccount as admin.ServiceAccount),
     });
 
-    isInitialized = true;
     console.log("✅ Firebase Admin SDK initialized successfully");
     return true;
   } catch (error) {

@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { useAuth } from "@/contexts/AuthContext";
 import { Template } from "@/lib/types";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
@@ -21,7 +20,6 @@ export default function TemplatesPage() {
 
 function TemplatesContent() {
   const { user } = useAuth();
-  const router = useRouter();
   const [templates, setTemplates] = useState<Template[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);

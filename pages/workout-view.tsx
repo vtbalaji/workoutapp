@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { useRouter } from "next/navigation";
 import { useAuth } from "@/contexts/AuthContext";
 import { Workout, WorkoutExercise } from "@/lib/types";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
@@ -19,7 +18,6 @@ export default function WorkoutViewPage() {
 
 function WorkoutViewContent() {
   const { user } = useAuth();
-  const router = useRouter();
   const [workout, setWorkout] = useState<Workout | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -91,13 +89,6 @@ function WorkoutViewContent() {
     (sum, section) => sum + section.exercises.length,
     0
   );
-
-  // Helper function to get first 2 lines of description
-  const getFirstTwoLines = (text?: string): string => {
-    if (!text) return "";
-    const lines = text.split("\n");
-    return lines.slice(0, 2).join("\n");
-  };
 
   // Helper function to format time (seconds to minutes)
   const formatTime = (seconds: number): string => {
