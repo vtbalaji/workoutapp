@@ -28,7 +28,7 @@ export default function AdminAnimationPage() {
     }
   };
 
-  const updateAnimation = async (slug: string, frames: number, orientation: "horizontal" | "vertical") => {
+  const updateAnimation = async (slug: string, frames: number, orientation: "horizontal" | "vertical" | "random") => {
     setSaving(slug);
     try {
       const response = await fetch("/api/admin/update-animation", {
@@ -211,11 +211,11 @@ function ExerciseRow({
   isSaving,
 }: {
   exercise: Exercise;
-  onUpdate: (slug: string, frames: number, orientation: "horizontal" | "vertical") => void;
+  onUpdate: (slug: string, frames: number, orientation: "horizontal" | "vertical" | "random") => void;
   isSaving: boolean;
 }) {
   const [frames, setFrames] = useState(exercise.animation_frames || 2);
-  const [orientation, setOrientation] = useState<"horizontal" | "vertical">(
+  const [orientation, setOrientation] = useState<"horizontal" | "vertical" | "random">(
     exercise.animation_orientation || "horizontal"
   );
 
