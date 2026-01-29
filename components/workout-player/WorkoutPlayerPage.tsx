@@ -104,7 +104,7 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
 
   const handleExit = () => {
     if (confirm("Are you sure you want to exit the workout?")) {
-      router.push(`/workout-view?id=${workout.id}`);
+      router.push("/workouts");
     }
   };
 
@@ -126,7 +126,7 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
       />
 
       {/* Main content - scrollable if needed, with bottom padding for fixed controls */}
-      <div className="flex-1 overflow-y-auto pb-40">
+      <div className="flex-1 overflow-y-auto pb-32">
         {playerState === "rest" ? (
           <RestView
             exercise={currentExercise}
@@ -148,6 +148,7 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
           isPaused={isPaused}
           onPauseToggle={handlePauseToggle}
           onNext={handleNext}
+          onExit={handleExit}
         />
       </div>
 

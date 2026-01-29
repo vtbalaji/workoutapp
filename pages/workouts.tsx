@@ -105,25 +105,16 @@ function WorkoutsContent() {
 
       {/* Header */}
       <div className="bg-gradient-to-r from-purple-600 to-purple-800 text-white py-3">
-        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-          <div>
-            <h1 className="text-2xl font-bold mb-1">My Workouts</h1>
-            <p className="text-purple-100 text-sm">
-              Manage your custom workout plans
-            </p>
-          </div>
-          <Link
-            href="/workout-builder"
-            className="px-6 py-3 bg-white text-purple-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center gap-2"
-          >
-            <FontAwesomeIcon icon={faPlus} />
-            Create New Workout
-          </Link>
+        <div className="max-w-7xl mx-auto px-4">
+          <h1 className="text-2xl font-bold mb-1">My Workouts</h1>
+          <p className="text-purple-100 text-sm">
+            Manage your custom workout plans
+          </p>
         </div>
       </div>
 
       {/* Content */}
-      <div className="max-w-7xl mx-auto px-4 py-12">
+      <div className="max-w-7xl mx-auto px-4 py-12 pb-32">
         {error && (
           <div className="mb-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded">
             {error}
@@ -217,6 +208,19 @@ function WorkoutsContent() {
             })}
           </div>
         )}
+      </div>
+
+      {/* Floating Create Workout Button */}
+      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t shadow-lg z-10">
+        <div className="max-w-7xl mx-auto">
+          <Link
+            href="/workout-builder"
+            className="block w-full px-6 py-4 bg-purple-600 text-white text-xl rounded-lg hover:bg-purple-700 transition-colors font-bold text-center flex items-center justify-center gap-2"
+          >
+            <FontAwesomeIcon icon={faPlus} />
+            Create New Workout
+          </Link>
+        </div>
       </div>
     </div>
   );

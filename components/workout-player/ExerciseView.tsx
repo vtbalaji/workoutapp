@@ -34,35 +34,36 @@ export default function ExerciseView({
 
       {playerState === "preview" ? (
         <>
-          {/* Preview: Show sets, reps, rest */}
-          <div className="flex gap-8 mb-8">
-            <div className="text-center">
-              <p className="text-4xl font-bold text-gray-900">{exercise.sets}</p>
-              <p className="text-sm text-gray-500">sets</p>
-            </div>
-            <div className="text-center">
-              <p className="text-4xl font-bold text-gray-900">{exercise.reps}</p>
-              <p className="text-sm text-gray-500">reps</p>
-            </div>
-            <div className="text-center">
-              <p className="text-4xl font-bold text-gray-900">
-                {exercise.restSeconds}
-              </p>
-              <p className="text-sm text-gray-500">sec rest</p>
-            </div>
+          {/* Preview: Show sets, reps, rest in a line */}
+          <div className="flex items-center justify-center gap-2 mb-8 text-lg font-semibold">
+            <span className="text-gray-900">{exercise.sets} sets</span>
+            <span className="text-gray-400">•</span>
+            <span className="text-gray-900">{exercise.reps} reps</span>
+            <span className="text-gray-400">•</span>
+            <span className="text-gray-900">{exercise.restSeconds}s rest</span>
           </div>
         </>
       ) : (
         <>
-          {/* Active: Show current set and reps */}
-          <p className="text-gray-500 text-base mb-2">
-            Set {currentSet} of {exercise.sets}
-          </p>
+          {/* Active: Show current set info */}
+          <div className="mb-4">
+            <p className="text-gray-500 text-lg text-center mb-2">
+              Set {currentSet} of {exercise.sets}
+            </p>
+            <p className="text-green-500 text-7xl font-bold text-center mb-4">
+              {exercise.reps}
+            </p>
+            <p className="text-gray-400 text-xl text-center font-semibold">reps</p>
+          </div>
 
-          <p className="text-green-500 text-8xl font-bold mb-8">
-            {exercise.reps}{" "}
-            <span className="text-gray-400 text-2xl font-normal">reps</span>
-          </p>
+          {/* Show full workout info below */}
+          <div className="flex items-center justify-center gap-2 text-base font-medium mb-4">
+            <span className="text-gray-700">{exercise.sets} sets</span>
+            <span className="text-gray-400">•</span>
+            <span className="text-gray-700">{exercise.reps} reps</span>
+            <span className="text-gray-400">•</span>
+            <span className="text-gray-700">{exercise.restSeconds}s rest</span>
+          </div>
         </>
       )}
 
