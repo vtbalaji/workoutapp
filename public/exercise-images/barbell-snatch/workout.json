@@ -1,0 +1,30 @@
+{
+  "id": "4295",
+  "slug": "barbell-snatch",
+  "title": "Barbell Power Snatch",
+  "description": "Stand up to finish the movement.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps",
+    "Chest",
+    "Hamstrings",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Plate Overhead Walking Lunges",
+    "Walking High Kicks / Soldier March",
+    "Battle Rope Reverse Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83990",
+    "female": "https://workoutlabs.com/train/svg.php?id=86456"
+  }
+}

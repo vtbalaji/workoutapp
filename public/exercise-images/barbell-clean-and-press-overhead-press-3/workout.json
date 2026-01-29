@@ -1,0 +1,26 @@
+{
+  "id": "3550",
+  "slug": "barbell-clean-and-press-overhead-press-3",
+  "title": "Barbell Clean and Press / Jerk / Overhead Press",
+  "description": "",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Glutes & Hip Flexors",
+    "Hamstrings",
+    "Lower Back",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Battle Bilateral Waves"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83993",
+    "female": "https://workoutlabs.com/train/svg.php?id=84779"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "19656",
+  "slug": "floor-t-raises-back-flyes",
+  "title": "Floor T Raises / Back Flyes",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Middle Back / Lats",
+    "Upper Back & Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Battle Rope Jumping Jacks",
+    "L-Sit Pull Ups / Pull-Ups",
+    "Seated Side Bends / Lat Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84149",
+    "female": "https://workoutlabs.com/train/svg.php?id=84934"
+  }
+}

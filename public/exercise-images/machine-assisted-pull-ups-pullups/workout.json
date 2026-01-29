@@ -1,0 +1,24 @@
+{
+  "id": "8120",
+  "slug": "machine-assisted-pull-ups-pullups",
+  "title": "Machine Assisted Pull-ups / Pullups",
+  "description": "",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Middle Back / Lats"
+  ],
+  "secondary_muscles": [
+    "Biceps"
+  ],
+  "related_exercises": [
+    "Machine Assisted Pull-ups / Pullups",
+    "Cable Squat Rows / Row Squats",
+    "Weighted Pull-Ups / Pullups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84249",
+    "female": "https://workoutlabs.com/train/svg.php?id=86508"
+  }
+}

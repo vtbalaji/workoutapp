@@ -1,0 +1,24 @@
+{
+  "id": "4297",
+  "slug": "flat-bench-dumbbell-flyes",
+  "title": "Flat Bench Dumbbell Flyes",
+  "description": "Holding a pair of dumbbells, sit on a flat bench and slowly lower yourself back. Keep a tight core as you push the dumbbells above your chest. The dumbbells will be facing one another and held together. With a slight bend in the elbow, open up your chest and slowly lower the dumbbells to the sides. When the dumbbells are parallel with the ground, pause, and return to the starting position.",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Your exercise (placeholder)"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84148",
+    "female": "https://workoutlabs.com/train/svg.php?id=84933"
+  }
+}

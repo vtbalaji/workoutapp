@@ -1,0 +1,27 @@
+{
+  "id": "10689",
+  "slug": "bear-crawls",
+  "title": "Bear Crawls",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Forearms",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Side Plank Dumbbell Hip Raises",
+    "Face Pull / Rear Delt Pull"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84000",
+    "female": "https://workoutlabs.com/train/svg.php?id=84785"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "71993",
+  "slug": "seated-side-bends-lat-stretch",
+  "title": "Seated Side Bends / Lat Stretch",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Middle Back / Lats"
+  ],
+  "secondary_muscles": [
+    "Upper Back & Lower Traps"
+  ],
+  "related_exercises": [
+    "Weighted Pull-Ups / Pullups",
+    "Sled Pulls",
+    "Monkey Bars / Climbing Frame"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84360",
+    "female": "https://workoutlabs.com/train/svg.php?id=85879"
+  }
+}

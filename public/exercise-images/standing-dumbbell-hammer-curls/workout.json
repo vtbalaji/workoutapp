@@ -1,0 +1,23 @@
+{
+  "id": "1746",
+  "slug": "standing-dumbbell-hammer-curls",
+  "title": "Standing Dumbbell Bicep Hammer Curls",
+  "description": "Standing Dumbbell Bicep Hammer Curls Equipment required Primary muscle group(s) Stand straight holing a dumbbell in each hand with a neutral grip.",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Battle Rope Snakes",
+    "Standing Bicep Cable Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84178",
+    "female": "https://workoutlabs.com/train/svg.php?id=84963"
+  }
+}

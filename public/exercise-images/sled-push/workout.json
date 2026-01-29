@@ -1,0 +1,28 @@
+{
+  "id": "9386",
+  "slug": "sled-push",
+  "title": "Sled Pushes",
+  "description": "Place an appropriate amount of weight on a resistance sled. Begin by placing both hands on the sled. Step back with your right leg. Bend your left knee and bring it towards the sled. With both feet on the ground, bend at the hips. This is the starting position. Beginning with your right leg, step forward towards the sled. Keep your arms straightened as you push the sled forward. Alternate stepping forward while contracting your core. Maintain a flat lower back and a lowered gaze.",
+  "equipment": [
+    "Full gym, Sled"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Donkey Kicks",
+    "Roundhouse / Side Kicks",
+    "Snap Jumps"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84432",
+    "female": "https://workoutlabs.com/train/svg.php?id=85216"
+  }
+}

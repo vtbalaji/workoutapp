@@ -1,0 +1,25 @@
+{
+  "id": "2681",
+  "slug": "wall-sit-squat",
+  "title": "Wall Sit / Squats / Chair",
+  "description": "Stand tall against a wall with your head and back touching the wall. Position your feet so that they are shoulder-width apart and a few inches away from the wall. Rest your arms at your sides. Bend your knees and lower into a squat position until your thighs are parallel to the floor and hold the position Return to starting position by straightening your knees and standing tall again.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Foam Roller Quadriceps Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84537",
+    "female": "https://workoutlabs.com/train/svg.php?id=85322"
+  }
+}

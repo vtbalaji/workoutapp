@@ -1,0 +1,26 @@
+{
+  "id": "7432",
+  "slug": "cardio-stairmaster-stairmill",
+  "title": "Cardio –&nbsp;Stairmaster / Stairmill",
+  "description": "",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Seated Hamstring Stretches",
+    "Overhead Water Bottle Squats",
+    "One Arm Kettlebell Swings"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84069",
+    "female": "https://workoutlabs.com/train/svg.php?id=84854"
+  }
+}

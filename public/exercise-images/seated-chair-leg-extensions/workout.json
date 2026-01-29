@@ -1,0 +1,21 @@
+{
+  "id": "71226",
+  "slug": "seated-chair-leg-extensions",
+  "title": "Seated Chair Leg Extensions",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Wall Partial / Half Squats",
+    "Barbell Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86636",
+    "female": "https://workoutlabs.com/train/svg.php?id=86540"
+  }
+}

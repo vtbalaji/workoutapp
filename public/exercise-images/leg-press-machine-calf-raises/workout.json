@@ -1,0 +1,24 @@
+{
+  "id": "16408",
+  "slug": "leg-press-machine-calf-raises",
+  "title": "Leg Press Machine Calf Raises",
+  "description": "Hold this fully-extended position for 1 second, before lowering the platform to your extended-leg, flat-footed position. Do not perform if you have had recent knee injuries.",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Standing Chair Calf Raises",
+    "Seal Jacks",
+    "Agility Ladder Drills"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84060",
+    "female": "https://workoutlabs.com/train/svg.php?id=84844"
+  }
+}

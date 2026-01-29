@@ -1,0 +1,21 @@
+{
+  "id": "2547",
+  "slug": "ab-crunch-machine",
+  "title": "Ab Crunch Machine",
+  "description": "Begin lifting your legs up as you engage your abs and crunch your upper torso. Exhale as you do so. Pause and slowly return to starting position as you inhale. Tip: Use slow, controlled motions and concentrate on using your abs to control the weight. Your feet and legs should be relaxed throughout.",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Kettlebell Around the Worlds",
+    "Cable Core Rotation"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83953",
+    "female": "https://workoutlabs.com/train/svg.php?id=84739"
+  }
+}

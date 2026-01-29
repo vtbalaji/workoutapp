@@ -1,0 +1,26 @@
+{
+  "id": "1559",
+  "slug": "leg-press",
+  "title": "Leg Press / Machine Squat Press",
+  "description": "",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Walking on the Spot",
+    "Resistance Band Glute Kickbacks",
+    "Inchworms / Walkouts"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84238",
+    "female": "https://workoutlabs.com/train/svg.php?id=86502"
+  }
+}

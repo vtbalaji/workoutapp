@@ -1,0 +1,24 @@
+{
+  "id": "17240",
+  "slug": "hanging-windshield-wipers",
+  "title": "Hanging Windshield Wipers",
+  "description": "",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Middle Back / Lats"
+  ],
+  "related_exercises": [
+    "Seated Vacuum",
+    "Snap Jumps"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84186",
+    "female": "https://workoutlabs.com/train/svg.php?id=86476"
+  }
+}

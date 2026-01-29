@@ -1,0 +1,24 @@
+{
+  "id": "11268",
+  "slug": "standing-reverse-barbell-curls",
+  "title": "Standing Reverse Barbell Curls",
+  "description": "Standing Reverse Barbell Curls Equipment required Barbell / EZ-Bar Primary muscle group(s) Hold a barbell with an overhand grip at shoulder width. You can also use a preacher curl bar if you feel too much pressure on the wrists. Stand tall with your chest up and core braced. You will keep your upper arms tight to your sides.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Dumbbell Biceps Curl to Shoulder Press",
+    "Barbell Curls / Standing Biceps Curls",
+    "Standing Dumbbell Bicep Hammer Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84471",
+    "female": "https://workoutlabs.com/train/svg.php?id=85255"
+  }
+}

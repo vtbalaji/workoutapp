@@ -1,0 +1,22 @@
+{
+  "id": "1975",
+  "slug": "thigh-adductor-inner-thigh-machine",
+  "title": "Adductor / Adduction Inner Thigh Machine",
+  "description": "",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Jumping Jacks / Star Jumps",
+    "Lying Crossover Leg Lifts",
+    "Barbell Power Snatch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84519",
+    "female": "https://workoutlabs.com/train/svg.php?id=85304"
+  }
+}

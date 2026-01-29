@@ -1,0 +1,24 @@
+{
+  "id": "1111",
+  "slug": "pushups",
+  "title": "Push-ups / Pushups",
+  "description": "Hold your body up and keep your back straight by tightening your abdominal muscles. Your neck and head should be bent slightly back. Lower your chest towards the ground by bending your elbows until your chest is just above the ground or you feel a stretching of your chest and shoulders. Hold for a count of one. Press upwards from your chest and shoulders, straightening your arms as you return to the starting position. Hold for a count of one.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Decline Barbell Smith Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86286",
+    "female": "https://workoutlabs.com/train/svg.php?id=86287"
+  }
+}

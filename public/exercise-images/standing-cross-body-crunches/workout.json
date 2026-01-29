@@ -1,0 +1,25 @@
+{
+  "id": "4313",
+  "slug": "standing-cross-body-crunches",
+  "title": "Standing Cross-body Crunches",
+  "description": "Standing Cross-body Crunches Equipment required Primary muscle group(s) Hamstrings, Quadriceps Standing up straight, bring your hands behind your head so that your elbows are pointed to the sides.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Hollow Body Rock Hold",
+    "Downward Cable Wood Chops"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84459",
+    "female": "https://workoutlabs.com/train/svg.php?id=85243"
+  }
+}

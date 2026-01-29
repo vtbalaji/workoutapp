@@ -1,0 +1,24 @@
+{
+  "id": "73987",
+  "slug": "standing-band-side-leg-raises",
+  "title": "Standing Band Side Leg Raises",
+  "description": "Standing Band Side Leg Raises Equipment required Resistance Bands Primary muscle group(s) Glutes & Hip Flexors With a resistance band or tube placed around your legs just above your knees, stand with your feet shoulder-width apart while keeping your chest up and your abdominals braced.",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "TRX Suspension Straps Glute Bridge",
+    "Piriformis Stretch",
+    "Duck Walks / Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86650",
+    "female": "https://workoutlabs.com/train/svg.php?id=86570"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "3600",
+  "slug": "front-barbell-squats",
+  "title": "Front Barbell Squats",
+  "description": "",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Squat Jacks / Side Sumo Walks",
+    "Foam Roller Outer Thighs Stretch",
+    "Side Lateral Leg / Hip Swings"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84168",
+    "female": "https://workoutlabs.com/train/svg.php?id=84953"
+  }
+}

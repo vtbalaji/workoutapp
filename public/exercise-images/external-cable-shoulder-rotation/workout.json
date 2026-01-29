@@ -1,0 +1,23 @@
+{
+  "id": "10692",
+  "slug": "external-cable-shoulder-rotation",
+  "title": "External Cable Shoulder Rotation",
+  "description": "Adjust a cable machine to have the pulley handle be at the height as your elbow. Stand sideways next to the cable machine while holding the handle in the opposite hand. TIghten your core and keep your feet planted firmly. Slowly pull the handle across your body only moving the forearm. Once your hand is outside of your body, pause and feel the tension in the shoulder muscle. Slowly return to the starting position but do not allow the weight plate to touch the stack.",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Barbell Cleans",
+    "External Cable Shoulder Rotation"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84141",
+    "female": "https://workoutlabs.com/train/svg.php?id=84926"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "1453",
+  "slug": "reverse-flyes",
+  "title": "Reverse Flyes",
+  "description": "Hold and squeeze your shoulder blades together Return to the starting position inhaling as you do so.",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Upper Back & Lower Traps"
+  ],
+  "related_exercises": [
+    "Shoulder Pole / Broomstick Stretch",
+    "Medicine Ball Slams",
+    "Reverse Flyes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84342",
+    "female": "https://workoutlabs.com/train/svg.php?id=86534"
+  }
+}

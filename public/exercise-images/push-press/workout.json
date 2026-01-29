@@ -1,0 +1,26 @@
+{
+  "id": "2567",
+  "slug": "push-press",
+  "title": "Barbell Push and Press",
+  "description": "Stand with feet hip width apart and grasp a barbell with an overhand grip. Make sure your hands are placed slightly wider than shoulder-width. Bring the bar to chest height and slightly retract your head back. Bend the knees, hips and ankles to dip slightly. Use your legs to explosively drive your body upwards and drive the barbell off your shoulders, extending your arms overhead. Lower the bar to your shoulders and repeat.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Glutes & Hip Flexors",
+    "Quadriceps",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Water Bottle Squat Clean and Presses",
+    "Dumbbell Biceps Curl to Shoulder Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86052",
+    "female": "https://workoutlabs.com/train/svg.php?id=86053"
+  }
+}

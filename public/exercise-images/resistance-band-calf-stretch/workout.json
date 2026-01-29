@@ -1,0 +1,22 @@
+{
+  "id": "74523",
+  "slug": "resistance-band-calf-stretch",
+  "title": "Resistance Band Calf Stretch",
+  "description": "Hold briefly allowing a deep stretch to occur in your calf muscle",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Hops / Hopping",
+    "Your exercise (placeholder)",
+    "Straight-Leg Calf Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84323",
+    "female": "https://workoutlabs.com/train/svg.php?id=85109"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "id": "3320",
+  "slug": "dumbbell-squat-thrusters",
+  "title": "Dumbbell Squat Thrusters / Squat to Overhead Press",
+  "description": "Stand with your feet shoulder-width apart with dumbbells above your shoulders. Squat down keeping your back flat and your knees over your toes. Push through your heels to return to standing while pressing the dumbbells overhead with arms fully extended. Return to starting position and repeat.",
+  "pose_description": "Compound movement combining squat depth with overhead press for full-body power development",
+  "pose_category": "Compound / Full Body",
+  "alignment_cues": [
+    "Keep dumbbells racked on shoulders during squat portion",
+    "Maintain upright torso throughout movement",
+    "Press overhead as you drive up from squat",
+    "Full lockout at top with arms straight"
+  ],
+  "benefits": [
+    "Builds total body strength and power",
+    "Improves cardiovascular conditioning",
+    "Develops coordination between upper and lower body",
+    "Increases metabolic demand for fat loss"
+  ],
+  "related_poses": [
+    "Squats",
+    "Overhead Press",
+    "Thrusters",
+    "Wall Balls"
+  ],
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Quadriceps",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Glutes & Hip Flexors",
+    "Hamstrings",
+    "Neck & Upper Traps",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Lunging / Lunge with Bicep Hammer Curls",
+    "Seated Dual / Front Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84444",
+    "female": "https://workoutlabs.com/train/svg.php?id=85228"
+  }
+}

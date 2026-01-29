@@ -1,0 +1,23 @@
+{
+  "id": "73298",
+  "slug": "standing-dumbbell-arm-twists-rotations",
+  "title": "Standing Dumbbell Arm Twists / Rotations",
+  "description": "Standing Dumbbell Arm Twists / Rotations Equipment required Primary muscle group(s) Neck & Upper Traps Stand strong, with your feet grounded and placed shoulder-width apart while maintaining a tight core, slight bend at the knee, and a flat back.",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Neck & Upper Traps"
+  ],
+  "related_exercises": [
+    "Shoulder Pole / Broomstick Stretch",
+    "Upright Kettlebell Front Rows"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86654",
+    "female": "https://workoutlabs.com/train/svg.php?id=86574"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "82472",
+  "slug": "standing-smith-calf-raises",
+  "title": "Standing Smith Calf Raises",
+  "description": "Standing Smith Calf Raises Equipment required Primary muscle group(s) Set up two weight plates next to each other or a low box on the ground under a Smith barbell. Position a loaded Smith barbell at a level that allows you to grip it at waist level with your arms fully outstretched. Step on to the weight plates with the balls of your feet.",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Barbell Split Squats",
+    "Your exercise (placeholder)",
+    "Cardio - Walking / Treadmill"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=85974",
+    "female": "https://workoutlabs.com/train/svg.php?id=86397"
+  }
+}

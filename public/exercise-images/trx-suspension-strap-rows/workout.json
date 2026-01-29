@@ -1,0 +1,26 @@
+{
+  "id": "4153",
+  "slug": "trx-suspension-strap-rows",
+  "title": "TRX Suspension Strap Rows",
+  "description": "Secure a pair of suspension straps. Stand facing the straps, brace your lower back, and tighten your core. Lean back, letting the straps hold your weight. Your arms should be straight. Pull yourself up with your back, maintaining a tight core. Squeeze the back muscles and slowly lower yourself. Repeat.",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Cat Back / Backward Camel Stretch",
+    "Cross body Cable Rows",
+    "Close Grip Pullups / Chinups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84488",
+    "female": "https://workoutlabs.com/train/svg.php?id=86588"
+  }
+}

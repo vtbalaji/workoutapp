@@ -1,0 +1,35 @@
+{
+  "id": "7345",
+  "slug": "your-exercise-placeholder",
+  "title": "Your exercise (placeholder)",
+  "description": "Placeholder for your own exercise while we build up our library!",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Biceps",
+    "Calves",
+    "Chest",
+    "Forearms",
+    "Glutes & Hip Flexors",
+    "Hamstrings",
+    "Lower Back",
+    "Middle Back / Lats",
+    "Neck & Upper Traps",
+    "Obliques",
+    "Quadriceps",
+    "Shoulders",
+    "Triceps",
+    "Upper Back & Lower Traps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Donkey Kicks",
+    "Barbell Bench Press / Chest Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=7346",
+    "female": "https://workoutlabs.com/train/svg.php?id=7346"
+  }
+}

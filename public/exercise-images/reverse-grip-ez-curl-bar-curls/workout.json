@@ -1,0 +1,23 @@
+{
+  "id": "6574",
+  "slug": "reverse-grip-ez-curl-bar-curls",
+  "title": "Reverse Grip EZ Curl Bar Curls",
+  "description": "",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Boxing with a Punching Bag",
+    "Battle Rope Snakes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84343",
+    "female": "https://workoutlabs.com/train/svg.php?id=86536"
+  }
+}

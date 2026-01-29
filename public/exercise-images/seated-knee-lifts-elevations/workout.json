@@ -1,0 +1,23 @@
+{
+  "id": "72004",
+  "slug": "seated-knee-lifts-elevations",
+  "title": "Seated Knee / Leg Lifts / Elevations",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Squat Jacks / Side Sumo Walks",
+    "Crab Walks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84373",
+    "female": "https://workoutlabs.com/train/svg.php?id=86005"
+  }
+}

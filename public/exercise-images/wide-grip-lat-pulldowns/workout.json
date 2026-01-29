@@ -1,0 +1,26 @@
+{
+  "id": "1221",
+  "slug": "wide-grip-lat-pulldowns",
+  "title": "Wide-Grip Lat Pulldowns / Pull Downs / Pullovers",
+  "description": "",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Lower Back",
+    "Middle Back / Lats"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps"
+  ],
+  "related_exercises": [
+    "One-Arm Kettlebell Rows",
+    "TRX Suspension Strap Pull Ups",
+    "One Arm Barbell Rows"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84545",
+    "female": "https://workoutlabs.com/train/svg.php?id=85329"
+  }
+}

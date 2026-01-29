@@ -1,0 +1,27 @@
+{
+  "id": "4310",
+  "slug": "medicine-ball-slams",
+  "title": "Medicine Ball Slams",
+  "description": "Begin by raising the medicine ball upward above your head with both hands. Keeping your elbows bent, forcefully throw the ball at the ground. Catch the ball as it bounces back up, and bring it back up above your head. Repeat this slam and catch movement.",
+  "equipment": [
+    "Medicine Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Chest",
+    "Shoulders",
+    "Upper Back & Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Forearms",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "TRX Suspension Straps Chest Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84260",
+    "female": "https://workoutlabs.com/train/svg.php?id=85046"
+  }
+}

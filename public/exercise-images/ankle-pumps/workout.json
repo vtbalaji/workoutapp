@@ -1,0 +1,24 @@
+{
+  "id": "74458",
+  "slug": "ankle-pumps",
+  "title": "Ankle Pumps",
+  "description": "Hold briefly before controlling the extension phase of the motion",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Ankles"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ],
+  "related_exercises": [
+    "Heel to Toe Walking / Steps",
+    "Seated Ankle Stretches",
+    "Resistance Band Dorsi Flexion"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83961",
+    "female": "https://workoutlabs.com/train/svg.php?id=86444"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "16741",
+  "slug": "landmine-press",
+  "title": "Landmine / T-Bar Presses",
+  "description": "",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Decline Dumbbell Flyes",
+    "Laying External Shoulder Rotation"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84231",
+    "female": "https://workoutlabs.com/train/svg.php?id=85016"
+  }
+}

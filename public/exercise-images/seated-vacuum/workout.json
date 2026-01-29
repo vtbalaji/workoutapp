@@ -1,0 +1,22 @@
+{
+  "id": "4258",
+  "slug": "seated-vacuum",
+  "title": "Seated Vacuum",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Snap Jumps",
+    "Dumbbell Weighted Leg Pull-Ins",
+    "Incline Plank Shoulder Taps / Planks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84387",
+    "female": "https://workoutlabs.com/train/svg.php?id=85172"
+  }
+}

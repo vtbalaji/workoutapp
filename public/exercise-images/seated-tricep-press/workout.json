@@ -1,0 +1,24 @@
+{
+  "id": "1582",
+  "slug": "seated-tricep-press",
+  "title": "Seated Tricep Press / Overhead Extensions",
+  "description": "Hold the dumbbell overhead with your arms fully extended.  This is the the start position. Keep your upper arms close to your head (biceps roughly level with your temples) and near to 90degrees to the floor. Moving only your forearms, lower the dumbbell in a smooth arc behind your head until your forearms and biceps touch. Hold for a count of one. Return to the start position by using the triceps to extend your arm and raise the dumbbell. Exhale as you do this. This exercise can be performed standing. However, it places an extra strain on your back so is not recommended for people with lower back problems. You can also perform this exercise using an EZ bar or straight bar with a close grip behind your head, palms facing forward.",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Cable Rope Overhead Triceps Extensions",
+    "Reverse Triceps Bench Press",
+    "Your exercise (placeholder)"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84386",
+    "female": "https://workoutlabs.com/train/svg.php?id=85171"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "2981",
+  "slug": "standing-quadricep-stretch",
+  "title": "Standing Quadricep Stretch",
+  "description": "Standing Quadricep Stretch Equipment required Primary muscle group(s) Glutes & Hip Flexors Stand next to a wall or stationary object to support your balance.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Wall Sit / Squats / Chair",
+    "Seated Chair Leg Extensions",
+    "Lunge Punches / Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84469",
+    "female": "https://workoutlabs.com/train/svg.php?id=85253"
+  }
+}

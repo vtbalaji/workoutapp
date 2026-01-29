@@ -1,0 +1,22 @@
+{
+  "id": "3331",
+  "slug": "flutter-kicks-2",
+  "title": "Flutter Kicks",
+  "description": "Lie on a mat with your hands under your buttocks and raise your legs slightly, keeping knees straight and ankles together. Keep abs engaged and perform short kicks in an alternating fashion. Repeat as needed and then lower legs to the ground.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Crunches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86148",
+    "female": "https://workoutlabs.com/train/svg.php?id=86149"
+  }
+}

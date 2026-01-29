@@ -1,0 +1,28 @@
+{
+  "id": "4316",
+  "slug": "medicine-ball-wall-throw",
+  "title": "Medicine Ball Wall Throw",
+  "description": "Stand up straight with a tight core and flat back. Holding a medicine ball with both hands, face a wall and make sure you have distanced yourself approximately 5 feet away. Bring the medicine ball up and behind your head in an arc fashion. Launch the ball forward towards the wall. Catch the ball as it bounces back and bring it back up and behind your head. Repeat the movement.",
+  "equipment": [
+    "Medicine Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Upper Back & Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Hamstrings",
+    "Quadriceps",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Laying External Shoulder Rotation",
+    "Kettlebell Windmills"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84265",
+    "female": "https://workoutlabs.com/train/svg.php?id=86512"
+  }
+}

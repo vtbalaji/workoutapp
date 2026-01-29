@@ -1,0 +1,31 @@
+{
+  "id": "16729",
+  "slug": "agility-ladder-drills",
+  "title": "Agility Ladder Drills",
+  "description": "",
+  "equipment": [
+    "Agility Ladder"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Calves",
+    "Glutes & Hip Flexors",
+    "Hamstrings",
+    "Lower Back",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Step Up with Knee Raises",
+    "One-Arm Kettlebell Snatch",
+    "Seated Machine Leg Extensions"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83955",
+    "female": "https://workoutlabs.com/train/svg.php?id=84741"
+  }
+}

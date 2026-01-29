@@ -1,0 +1,24 @@
+{
+  "id": "1420",
+  "slug": "barbell-curls",
+  "title": "Barbell Curls / Standing Biceps Curls",
+  "description": "Barbell Curls / Standing Biceps Curls Equipment required Barbell / EZ-Bar Primary muscle group(s) Stand straight holding a barbell with an underhand grip, your hands shoulder width apart and your arms fully extended towards the floor.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Barbell Drag Bicep Curls",
+    "Resistance Band Bicep Curls",
+    "EZ-Bar Preacher Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83975",
+    "female": "https://workoutlabs.com/train/svg.php?id=84759"
+  }
+}

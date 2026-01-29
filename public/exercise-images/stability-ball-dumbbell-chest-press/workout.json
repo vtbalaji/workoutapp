@@ -1,0 +1,24 @@
+{
+  "id": "4291",
+  "slug": "stability-ball-dumbbell-chest-press",
+  "title": "Stability / Swiss / Exercise Ball Dumbbell Chest Press",
+  "description": "",
+  "equipment": [
+    "Dumbbells, Swiss / Exercise Ball"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Turkish Get Ups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84446",
+    "female": "https://workoutlabs.com/train/svg.php?id=86564"
+  }
+}

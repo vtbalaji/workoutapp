@@ -1,0 +1,26 @@
+{
+  "id": "1181",
+  "slug": "barbell-good-morning",
+  "title": "Barbell Good Mornings",
+  "description": "Stand up to lift the barbell clear of the rack and take a few steps away from the rack. Position your feet slightly less than shoulder width apart. Keep your legs straight and bend forward at the hips. Continue bending forward until you feel a mild stretch in your hamstrings. (Do not try to bend past the mild stretching sensation. As flexibility increases so does the range of motion.) Hold for a count of one. Return to the starting position by straightening from the hips. Repeat. Start with lower weights when performing this exercise for the first few times to allow your body to adapt to the movement. This exercise can also be done with your knees slightly bent to emphasize use of your glutes.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Glutes & Hip Flexors",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Close Grip Pullups / Chinups",
+    "Scorpion Stretch",
+    "Seated Lean Backs / Chair Crunches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83979",
+    "female": "https://workoutlabs.com/train/svg.php?id=84763"
+  }
+}

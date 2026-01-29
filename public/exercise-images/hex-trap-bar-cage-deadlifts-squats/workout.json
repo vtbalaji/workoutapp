@@ -1,0 +1,25 @@
+{
+  "id": "10655",
+  "slug": "hex-trap-bar-cage-deadlifts-squats",
+  "title": "Hex / Trap Bar / Cage Deadlifts / Squats",
+  "description": "Begin the movement by engaging the hamstrings. Straighten the knees and hips simultaneously. Drive the hips forward at the top of the movement. Return to the starting position by bending at the knees and driving your hips back. Do not allow your hips to drop below your knees.",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Lower Back",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Butt Kicks",
+    "Seated Machine Leg Extensions"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84187",
+    "female": "https://workoutlabs.com/train/svg.php?id=84972"
+  }
+}

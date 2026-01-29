@@ -1,0 +1,27 @@
+{
+  "id": "1293",
+  "slug": "bodyweight-squats",
+  "title": "Bodyweight Squats",
+  "description": "Stand with your feet hip width apart. Your toes should be pointing straight ahead or only slightly outward. Cross your arms in front of your body, place your hands behind your head (prisoner squat) or at the sides of your head. Keep your weight on your heels and bend your knees while lowering your hips towards the ground as if you are sitting down on a chair. Keep your back straight at all times. Continue until you feel a slight stretch in your quadriceps. Pause for a count of one. Do not let your knees extend out beyond the level of your toes. Return to the start position by pushing down through your heels and extending your hips forward until you are standing straight. Repeat.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Resistance Band Glute Bridges",
+    "Barbell Squats",
+    "Barbell Split Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84018",
+    "female": "https://workoutlabs.com/train/svg.php?id=84803"
+  }
+}

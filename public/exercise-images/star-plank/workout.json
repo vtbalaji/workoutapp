@@ -1,0 +1,21 @@
+{
+  "id": "18046",
+  "slug": "star-plank",
+  "title": "Star Planks",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Toe Reaches / Crunches",
+    "Modified Crunches / Crunches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84476",
+    "female": "https://workoutlabs.com/train/svg.php?id=85260"
+  }
+}

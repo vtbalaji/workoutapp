@@ -1,0 +1,25 @@
+{
+  "id": "17243",
+  "slug": "l-sit-pull-ups",
+  "title": "L-Sit Pull Ups / Pull-Ups",
+  "description": "Holding this shape, engage your lats and arms to pull your body up towards the bar. Hold shortly when your chin is above the bar, before lowering back down to the starting position.",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Middle Back / Lats"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps"
+  ],
+  "related_exercises": [
+    "Rope Climb",
+    "Negative Pull-Ups / Pullups",
+    "Barbell Squat / Power Cleans"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84230",
+    "female": "https://workoutlabs.com/train/svg.php?id=85015"
+  }
+}

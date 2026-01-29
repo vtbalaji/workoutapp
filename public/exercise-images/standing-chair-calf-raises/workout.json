@@ -1,0 +1,23 @@
+{
+  "id": "73122",
+  "slug": "standing-chair-calf-raises",
+  "title": "Standing Chair Calf Raises",
+  "description": "Standing Chair Calf Raises Equipment required Primary muscle group(s) Stand tall and straight, with your feet planted about hip-width apart, and your hands on the back of a stable chair or another secure form of support.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [
+    "Ankles"
+  ],
+  "related_exercises": [
+    "Hops / Hopping",
+    "Straight-Leg Calf Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86652",
+    "female": "https://workoutlabs.com/train/svg.php?id=86572"
+  }
+}

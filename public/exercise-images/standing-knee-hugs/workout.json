@@ -1,0 +1,25 @@
+{
+  "id": "9389",
+  "slug": "standing-knee-hugs",
+  "title": "Standing Knee Hugs",
+  "description": "Standing Knee Hugs Equipment required Primary muscle group(s) Glutes & Hip Flexors, Hamstrings Stand with your feet shoulder-width apart. Maintain a tight core throughout. Lift your left knee up and towards your chest.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves"
+  ],
+  "related_exercises": [
+    "Seal Jacks",
+    "Standing Hamstring Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84463",
+    "female": "https://workoutlabs.com/train/svg.php?id=85247"
+  }
+}

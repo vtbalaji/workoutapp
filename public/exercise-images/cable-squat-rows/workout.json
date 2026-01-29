@@ -1,0 +1,28 @@
+{
+  "id": "5055",
+  "slug": "cable-squat-rows",
+  "title": "Cable Squat Rows / Row Squats",
+  "description": "Grip a cable handle in each hand. Stand away from the cable machine so that the slack tightens. Make sure your back is straight and your core is tight. Bend your knees and drive your hips back while you keep your chest up. Stand back up then pull the handles back, leading with your elbows. Tighten the back muscles then return handles to the starting position.",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Middle Back / Lats",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Butt Kicks",
+    "Front Barbell Squats",
+    "Two-Arm Kettlebell Squat Swings"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84441",
+    "female": "https://workoutlabs.com/train/svg.php?id=85225"
+  }
+}

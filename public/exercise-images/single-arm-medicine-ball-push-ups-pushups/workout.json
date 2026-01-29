@@ -1,0 +1,25 @@
+{
+  "id": "3453",
+  "slug": "single-arm-medicine-ball-push-ups-pushups",
+  "title": "Single / One Arm Medicine Ball Push-Ups / Pushups",
+  "description": "",
+  "equipment": [
+    "Medicine Ball"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Forearms",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Medicine Ball Rotational Passes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84257",
+    "female": "https://workoutlabs.com/train/svg.php?id=85043"
+  }
+}

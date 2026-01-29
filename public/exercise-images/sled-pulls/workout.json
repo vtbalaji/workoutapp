@@ -1,0 +1,25 @@
+{
+  "id": "19617",
+  "slug": "sled-pulls",
+  "title": "Sled Pulls",
+  "description": "",
+  "equipment": [
+    "Sled"
+  ],
+  "primary_muscles": [
+    "Biceps",
+    "Middle Back / Lats"
+  ],
+  "secondary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Barbell Squat / Power Cleans",
+    "One-Arm Dumbbell Preacher Curl",
+    "EZ-Bar Preacher Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84431",
+    "female": "https://workoutlabs.com/train/svg.php?id=85215"
+  }
+}

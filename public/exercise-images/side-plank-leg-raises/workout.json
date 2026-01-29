@@ -1,0 +1,25 @@
+{
+  "id": "16414",
+  "slug": "side-plank-leg-raises",
+  "title": "Side Plank Leg Raises",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Rope Jumping / Jump rope / Skipping",
+    "Kettlebell Squats",
+    "Sprints"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84401",
+    "female": "https://workoutlabs.com/train/svg.php?id=85187"
+  }
+}

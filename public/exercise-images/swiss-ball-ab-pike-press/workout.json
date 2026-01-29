@@ -1,0 +1,25 @@
+{
+  "id": "3483",
+  "slug": "swiss-ball-ab-pike-press",
+  "title": "Stability / Swiss / Exercise Ball Ab Pike Press",
+  "description": "Bend your hips and pull your feet towards your chest, allowing the ball to roll forward. Hold. Slowly roll back to the starting position and then continue rolling forward and backwards for the desired amount of repetitions.",
+  "equipment": [
+    "Swiss / Exercise Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Seated Single / One Leg Balance / Holds",
+    "Contralateral Limb Raises",
+    "Your exercise (placeholder)"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84491",
+    "female": "https://workoutlabs.com/train/svg.php?id=85274"
+  }
+}

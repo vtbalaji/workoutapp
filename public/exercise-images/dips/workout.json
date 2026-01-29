@@ -1,0 +1,26 @@
+{
+  "id": "1151",
+  "slug": "dips",
+  "title": "Triceps Dips",
+  "description": "Standing between the bars of a dip station, grip the bars with an overhand grip,keeping your elbows tucked in close to your body. Allow your body weigh to hang so it is being supported by your arms and shoulders. Keep your hips straight. Push down through your palms with your arms, lifting your body up until your arms are almost straight. (Do not lock your elbows) Lower your body by slowly bending your elbows and continue down until you feel a slight stretch in your shoulders. Pause, then push yourself back to the starting position. By keeping your back straight and not leaning forward, you will work your triceps harder.If you wish to work on your chest leaning forward puts more emphasis on your pecs. As your strength increases, you can add weight by using a dip belt.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Chest",
+    "Forearms",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Shadow Boxing",
+    "Barbell Pushups / Push-ups",
+    "Chair / Bench Tricep Dips"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84100",
+    "female": "https://workoutlabs.com/train/svg.php?id=84885"
+  }
+}

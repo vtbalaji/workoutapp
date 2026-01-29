@@ -1,0 +1,23 @@
+{
+  "id": "7457",
+  "slug": "resistance-band-standing-shoulder-press-overhead-press",
+  "title": "Resistance Band Standing Shoulder Press / Overhead Press",
+  "description": "Resistance Band Standing Shoulder Press / Overhead Press Equipment required Resistance Bands Primary muscle group(s) Place your left foot onto the middle of a resistance band. Step forward with the right. Tighten your abdominals and avoid arching your back.",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Seated Bent Over Rear Delt Raises",
+    "TRX Suspension Straps Saw Pikes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84335",
+    "female": "https://workoutlabs.com/train/svg.php?id=85121"
+  }
+}

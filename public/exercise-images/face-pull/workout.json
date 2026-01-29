@@ -1,0 +1,23 @@
+{
+  "id": "2652",
+  "slug": "face-pull",
+  "title": "Face Pull / Rear Delt Pull",
+  "description": "Stand tall facing a pulley that has been adjusted to higher than head-height. Attach a rope or dual handles to the pulley and grab hold of each end with your palms facing your head. Engage your abs and pull the weight towards your face. Separate your hands as you pull. Try to keep your arms parallel to the floor.",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "One-Arm Kettlebell Push and Press",
+    "Seated Shoulder Rolls / Shrugs"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84144",
+    "female": "https://workoutlabs.com/train/svg.php?id=84929"
+  }
+}

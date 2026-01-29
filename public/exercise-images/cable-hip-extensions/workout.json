@@ -1,0 +1,25 @@
+{
+  "id": "5060",
+  "slug": "cable-hip-extensions",
+  "title": "Cable Hip Extensions",
+  "description": "Attach an ankle strap around your right ankle. Stand tall in front of a cable machine with a flat back and tight core. Use the cable machine for balance, if necessary. While balancing on your left foot, move your right foot up and back. Pause at the top of the movement then slowly bring the foot down. Do not let your right foot touch the ground before repeating. Once finished, repeat on the other side.",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Hamstrings",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Lunge Twists",
+    "Donkey Kicks",
+    "Cable Hip Extensions"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84055",
+    "female": "https://workoutlabs.com/train/svg.php?id=84839"
+  }
+}

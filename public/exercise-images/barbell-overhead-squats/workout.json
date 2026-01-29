@@ -1,0 +1,26 @@
+{
+  "id": "12887",
+  "slug": "barbell-overhead-squats",
+  "title": "Barbell Overhead Squats",
+  "description": "Place an appropriate amount of weight on a barbell in a squat rack. Position your hands in an overhand grip outside of shoulder-width on the barbell. Before beginning, make sure that your core is tight and your chest is up. Push the barbell straight above your head, locking out your elbows. Once you feel stabilized, slowly bend the knees and drive back your hips. Once your upper thighs come parallel with the ground, slowly push back up, returning to the starting position.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Calves",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Hops / Hopping",
+    "Cossack Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83984",
+    "female": "https://workoutlabs.com/train/svg.php?id=84768"
+  }
+}

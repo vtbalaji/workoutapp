@@ -1,0 +1,25 @@
+{
+  "id": "17257",
+  "slug": "one-arm-kettlebell-swings",
+  "title": "One Arm Kettlebell Swings",
+  "description": "",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Glutes & Hip Flexors",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Dumbbell Chops",
+    "Sumo Barbell Deadlift"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86620",
+    "female": "https://workoutlabs.com/train/svg.php?id=85062"
+  }
+}

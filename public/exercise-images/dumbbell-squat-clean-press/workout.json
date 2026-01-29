@@ -1,0 +1,27 @@
+{
+  "id": "4848",
+  "slug": "dumbbell-squat-clean-press",
+  "title": "Dumbbell Squat Clean and Press",
+  "description": "",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Quadriceps",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Hamstrings",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Bosu Ball Static Balance",
+    "Incline Plank Shoulder Taps / Planks",
+    "Plank Scapula Push Ups / Planks Scaps"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84130",
+    "female": "https://workoutlabs.com/train/svg.php?id=84915"
+  }
+}

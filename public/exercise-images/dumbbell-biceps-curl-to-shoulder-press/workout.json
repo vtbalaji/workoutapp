@@ -1,0 +1,25 @@
+{
+  "id": "10243",
+  "slug": "dumbbell-biceps-curl-to-shoulder-press",
+  "title": "Dumbbell Biceps Curl to Shoulder Press",
+  "description": "Holding a pair of dumbbells, stand tall with your feet shoulder-width apart. Make sure your core is tight and your chest is up. Begin by curling the weight up towards your shoulders. Keep your upper arms tight at your sides. Once the dumbbells reach your shoulders, twist the dumbbells to have your palms face out. Now, drive the dumbbells overhead. Slowly, lower the dumbbells to your shoulders. Now, flip them back so your palms are facing you. With arms tight at your sides, lower the dumbbells to the starting position.",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Biceps",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Water Bottle Squat Clean and Presses",
+    "Standing Water Bottle Bicep Curls",
+    "Kneeling Kettlebell Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84115",
+    "female": "https://workoutlabs.com/train/svg.php?id=84900"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "6581",
+  "slug": "trx-suspension-straps-atomic-push-ups",
+  "title": "TRX Suspension Straps Atomic Push-ups / Pushups",
+  "description": "",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Chest",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Reverse Flyes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84503",
+    "female": "https://workoutlabs.com/train/svg.php?id=85286"
+  }
+}

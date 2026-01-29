@@ -1,0 +1,21 @@
+{
+  "id": "4298",
+  "slug": "kneeling-hip-flexor-stretch",
+  "title": "Kneeling Hip Flexor Stretch",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "TRX Suspension Straps Overhead Squats",
+    "Powerbag / Sandbag Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84223",
+    "female": "https://workoutlabs.com/train/svg.php?id=85008"
+  }
+}

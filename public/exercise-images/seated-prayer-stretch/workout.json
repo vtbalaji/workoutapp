@@ -1,0 +1,22 @@
+{
+  "id": "73746",
+  "slug": "seated-prayer-stretch",
+  "title": "Seated Prayer Stretch",
+  "description": "Hold this stretch for the specified amount of time",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Wrists"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Seated Prayer Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84309",
+    "female": "https://workoutlabs.com/train/svg.php?id=85993"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "71982",
+  "slug": "seated-cat-cow",
+  "title": "Seated Cat Cow",
+  "description": "Hold the stretch and then release, pushing your abs back outwards to the starting position, flexing your spine as you do so.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Chest",
+    "Middle Back / Lats",
+    "Neck & Upper Traps"
+  ],
+  "related_exercises": [
+    "Kettlebell Windmills",
+    "Side Plank Dumbbell Hip Raises",
+    "Planks / Reaches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84071",
+    "female": "https://workoutlabs.com/train/svg.php?id=84856"
+  }
+}

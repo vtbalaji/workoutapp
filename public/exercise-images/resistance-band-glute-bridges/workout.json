@@ -1,0 +1,24 @@
+{
+  "id": "16390",
+  "slug": "resistance-band-glute-bridges",
+  "title": "Resistance Band Glute Bridges",
+  "description": "Place a resistance band across your hips and pin it down to the ground using your hands at either side. Raise your hips upwards until a straight line is formed from your knees to your shoulders. Hold this extended position for 1 second before slowly lowering your hips down to the starting position. Do not perform if you suffer from hypertension.",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Roundhouse / Side Kicks",
+    "Cable Hip Extensions"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84327",
+    "female": "https://workoutlabs.com/train/svg.php?id=85113"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "12878",
+  "slug": "cardio-walking",
+  "title": "Cardio - Walking / Treadmill",
+  "description": "Begin by placing your left foot forward then shifting your hips to move the right leg forward. Continue this back and forth motion at a pace that is ideal for you. You may also want to include small weights or a grip strengthener during your walks. Remember to maintain perfect form throughout the walk. Avoid slouching.",
+  "equipment": [
+    "NO EQUIPMENT, Treadmill"
+  ],
+  "primary_muscles": [
+    "Calves",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Cardio - Assault Bike",
+    "Hops / Hopping",
+    "Standing Leg / Hamstring Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84068",
+    "female": "https://workoutlabs.com/train/svg.php?id=84853"
+  }
+}

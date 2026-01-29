@@ -1,0 +1,23 @@
+{
+  "id": "1227",
+  "slug": "close-grip-barbell-bench-press",
+  "title": "Close-Grip Overhand Barbell Bench Press",
+  "description": "Lie on a flat bench with your feet flat on the floor. Make sure your back is completely flat on the bench, with no “arching” of your spine. Grip the barbell with an overhand grip, shoulder width or slightly less than shoulder width apart. (Do not make your grip too narrow as it limits stability of the barbell which can lead to injury) Push up using your chest and shoulders to lift the barbell above your body, then lower it slowly ( a count of 2) towards the centre of your chest. Hold for a count of one. Without “bouncing” the weight, force the barbell back up over the middle of your chest, straightening your arms and locking your elbows once your arms are fully straight. Hold for a count of one.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Chest",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Assisted / Machine Seated Tricep Dips"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84078",
+    "female": "https://workoutlabs.com/train/svg.php?id=84864"
+  }
+}

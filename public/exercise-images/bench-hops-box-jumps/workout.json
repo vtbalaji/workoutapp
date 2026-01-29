@@ -1,0 +1,27 @@
+{
+  "id": "8138",
+  "slug": "bench-hops-box-jumps",
+  "title": "Bench Hops / Box Jumps",
+  "description": "Place your hands on the edges of a stable box or bench. Bend at the waist and keep your core tight. Keeping your gaze towards the bench, put a slight bend in your knees. Explosively jump, launching your body to the opposite side of the bench. Land on both feet and check your form. Again, make sure your core is braced. Repeat the movement, gaining speed as you advance.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Lunging / Lunge with Bicep Hammer Curls",
+    "Leg Press / Machine Squat Press",
+    "Cardio – Running / Jogging / Treadmill"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84003",
+    "female": "https://workoutlabs.com/train/svg.php?id=84788"
+  }
+}

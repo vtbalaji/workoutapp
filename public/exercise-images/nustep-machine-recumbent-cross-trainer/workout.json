@@ -1,0 +1,23 @@
+{
+  "id": "102189",
+  "slug": "nustep-machine-recumbent-cross-trainer",
+  "title": "NuStep Machine / Recumbent Cross Trainer",
+  "description": "Begin peddling in a smooth, controlled motion, pushing with your legs while simultaneously pulling with your arms. Keep a steady pace and breathe consistently.",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Middle Back / Lats"
+  ],
+  "secondary_muscles": [
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Modified / Knee Push-ups / Pushups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=102191",
+    "female": "https://workoutlabs.com/train/svg.php?id=102193"
+  }
+}

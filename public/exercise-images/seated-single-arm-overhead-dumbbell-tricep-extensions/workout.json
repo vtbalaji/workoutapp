@@ -1,0 +1,22 @@
+{
+  "id": "9956",
+  "slug": "seated-single-arm-overhead-dumbbell-tricep-extensions",
+  "title": "Seated Single / One Arm Overhead Dumbbell Tricep Extensions",
+  "description": "",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Shoulders",
+    "Triceps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "TRX Suspension Straps Tricep Extensions",
+    "Overhead Water Bottle Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84385",
+    "female": "https://workoutlabs.com/train/svg.php?id=85170"
+  }
+}

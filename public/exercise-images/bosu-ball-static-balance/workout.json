@@ -1,0 +1,26 @@
+{
+  "id": "16405",
+  "slug": "bosu-ball-static-balance",
+  "title": "Bosu Ball Static Balance",
+  "description": "Place your feet in a firm position on the bosu ball (about shoulder width apart) Gradually lower your body into a mid-squat position while raising your arms out in front of your body. Hold this static position with your legs bent at a 90-degree angle and your arms outstretched in front of you at shoulder height.",
+  "equipment": [
+    "Bosu Ball"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Two-Arm Kettlebell Squat Swings",
+    "Smith Machine Squats",
+    "Dumbbell Walking Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84032",
+    "female": "https://workoutlabs.com/train/svg.php?id=84818"
+  }
+}

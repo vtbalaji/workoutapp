@@ -1,0 +1,22 @@
+{
+  "id": "9374",
+  "slug": "foam-roller-adductor-adduction-stretch",
+  "title": "Foam Roller Inner Thigh Adductor / Adduction Stretch",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Sled Pushes",
+    "Burpees / Squat Thrusts",
+    "Samson / Lunge Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84150",
+    "female": "https://workoutlabs.com/train/svg.php?id=84935"
+  }
+}

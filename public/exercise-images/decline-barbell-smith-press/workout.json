@@ -1,0 +1,23 @@
+{
+  "id": "82502",
+  "slug": "decline-barbell-smith-press",
+  "title": "Decline Barbell Smith Press",
+  "description": "",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Reverse Shoulder Stretch",
+    "Bear Crawls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86127",
+    "female": "https://workoutlabs.com/train/svg.php?id=86128"
+  }
+}

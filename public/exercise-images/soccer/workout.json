@@ -1,0 +1,16 @@
+{
+  "id": "97463",
+  "slug": "soccer",
+  "title": "Sports - Soccer / Football",
+  "description": "",
+  "equipment": [
+    "Score a goal or prevent one from happening: it all depends on what position you’re playing!"
+  ],
+  "primary_muscles": [],
+  "secondary_muscles": [],
+  "related_exercises": [],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=97465",
+    "female": "https://workoutlabs.com/train/svg.php?id=97467"
+  }
+}

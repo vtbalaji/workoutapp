@@ -1,0 +1,23 @@
+{
+  "id": "4163",
+  "slug": "standing-barbell-calf-raises",
+  "title": "Standing Barbell Calf Raises",
+  "description": "Standing Barbell Calf Raises Equipment required Barbell / EZ-Bar Primary muscle group(s) Set up two weight plates on the ground next to each other. Position a loaded barbell across your trap muscles. Step on to the weight plates with the balls of your feet.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Seal Jacks",
+    "Cardio - Walking / Treadmill"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84555",
+    "female": "https://workoutlabs.com/train/svg.php?id=85339"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "4286",
+  "slug": "plank-knee-to-elbow",
+  "title": "Plank Knee to Elbow",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Obliques",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Plank Knee to Elbow",
+    "Powerbag / Sandbag Squats",
+    "Knee Plank"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84298",
+    "female": "https://workoutlabs.com/train/svg.php?id=85084"
+  }
+}

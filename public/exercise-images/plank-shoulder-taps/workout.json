@@ -1,0 +1,24 @@
+{
+  "id": "18036",
+  "slug": "plank-shoulder-taps",
+  "title": "Plank Shoulder Taps / Planks",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Seated Ab Contractions",
+    "Ab Crunch Machine",
+    "Modified Crunches / Crunches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84301",
+    "female": "https://workoutlabs.com/train/svg.php?id=85087"
+  }
+}

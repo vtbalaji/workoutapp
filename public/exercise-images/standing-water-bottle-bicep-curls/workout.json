@@ -1,0 +1,24 @@
+{
+  "id": "38423",
+  "slug": "standing-water-bottle-bicep-curls",
+  "title": "Standing Water Bottle Bicep Curls",
+  "description": "Standing Water Bottle Bicep Curls Equipment required Primary muscle group(s) Holding a water bottle in each hand, stand with your feet shoulder width apart.",
+  "equipment": [
+    "Water Bottles"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Dumbbell Biceps Curl to Shoulder Press",
+    "Standing Bicep Cable Curls",
+    "Bosu Ball Burpees"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=85973",
+    "female": "https://workoutlabs.com/train/svg.php?id=84821"
+  }
+}

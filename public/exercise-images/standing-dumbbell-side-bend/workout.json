@@ -1,0 +1,23 @@
+{
+  "id": "1346",
+  "slug": "standing-dumbbell-side-bend",
+  "title": "Standing Dumbbell / Kettlebell Side Bends",
+  "description": "Standing Dumbbell / Kettlebell Side Bends Equipment required Dumbbells, Kettlebells Primary muscle group(s) Stand straight, your feet shoulder width apart, while holding a dumbbell in your left hand with your palm facing in to your body.",
+  "equipment": [
+    "Dumbbells, Kettlebells"
+  ],
+  "primary_muscles": [
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Bosu Ball Mountain Climbers",
+    "Bosu Ball Side Planks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84128",
+    "female": "https://workoutlabs.com/train/svg.php?id=84913"
+  }
+}

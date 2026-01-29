@@ -1,0 +1,24 @@
+{
+  "id": "72024",
+  "slug": "standing-chair-supported-hamstring-curls",
+  "title": "Standing Chair / Supported Hamstring Curls",
+  "description": "Standing Chair / Supported Hamstring Curls Equipment required Primary muscle group(s) Stand tall and straight, with your feet planted about hip-width apart, and your hands on the back of a stable chair or another secure form of support.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Knees"
+  ],
+  "related_exercises": [
+    "Bench Hops / Box Jumps",
+    "Barbell High Pulls",
+    "Dumbbell Chops"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84458",
+    "female": "https://workoutlabs.com/train/svg.php?id=86376"
+  }
+}

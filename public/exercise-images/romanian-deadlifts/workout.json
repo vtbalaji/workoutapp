@@ -1,0 +1,23 @@
+{
+  "id": "3622",
+  "slug": "romanian-deadlifts",
+  "title": "Romanian Deadlifts",
+  "description": "Standing tall with a tight core and flat back, hold a barbell or a pair of dumbbells in front of you. Hands should be slightly wider than shoulder-width. Maintaining a tight core and flat back, bend your knees slightly and push your hips back. Keep your arms extended and the weight close to the body. Once you feel the contraction in the back of your legs, slowly return to the starting position.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Glutes & Hip Flexors",
+    "Lower Back"
+  ],
+  "related_exercises": [],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84351",
+    "female": "https://workoutlabs.com/train/svg.php?id=85137"
+  }
+}

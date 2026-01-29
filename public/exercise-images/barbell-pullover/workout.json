@@ -1,0 +1,27 @@
+{
+  "id": "1333",
+  "slug": "barbell-pullover",
+  "title": "Barbell Pullovers / Lying Chest Overhead Extensions",
+  "description": "Lie on a flat bench, holding a barbell on your chest with an overhand grip. (Your hands should be shoulder width apart) Get into starting position, raising the bar above your chest by extending your arms, but do NOT lock your elbows. Keeping your arms slightly bent, slower lower the weight in a smooth arc to a position behind your head by rotating your shoulders. (as if putting your hands in the air) Keep moving the barbell behind your head until you feel a slight stretch in your chest. Hold for a count of one. Return to the start position in a smooth revers arc. Continue holding the weight above your chest, then repeat.",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Upper Back & Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Inverted Rows / Reverse Pull-ups",
+    "Dumbbell Snatch",
+    "Contralateral Limb Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83985",
+    "female": "https://workoutlabs.com/train/svg.php?id=84769"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "2552",
+  "slug": "standing-leg-hamstring-curls",
+  "title": "Standing Leg / Hamstring Curls",
+  "description": "Standing Leg / Hamstring Curls Equipment required Primary muscle group(s) Glutes & Hip Flexors Begin with a light weight and stand facing the machine. Position one leg for the lift by hooking it under the weight pad.",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Prone / Lying Knee Bends",
+    "Sled Pushes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84464",
+    "female": "https://workoutlabs.com/train/svg.php?id=85248"
+  }
+}

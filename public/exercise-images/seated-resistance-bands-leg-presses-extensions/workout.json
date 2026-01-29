@@ -1,0 +1,26 @@
+{
+  "id": "101577",
+  "slug": "seated-resistance-bands-leg-presses-extensions",
+  "title": "Seated Resistance Bands Leg Presses / Extensions",
+  "description": "",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Forward Leg Hip Swings",
+    "Wide Stance / Sumo Barbell Squats",
+    "Air Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=101644",
+    "female": "https://workoutlabs.com/train/svg.php?id=101584"
+  }
+}

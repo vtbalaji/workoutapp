@@ -1,0 +1,25 @@
+{
+  "id": "17254",
+  "slug": "kettlebell-squats",
+  "title": "Kettlebell Squats",
+  "description": "Stand with your feet slightly wider than shoulder width apart Hold the kettlebell with both hands in an overhand grip in front of your chest. Keep your elbows locked at your sides. Lower your body towards the ground, ensuring that you’re not leaning too far forwards or too far backwards. At your lowest point, drive upwards through your feet and tense your glutes at the top of the motion.",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Kneeling Hip Flexor Stretch",
+    "Standing Long Jumps",
+    "Walking on the Spot"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84214",
+    "female": "https://workoutlabs.com/train/svg.php?id=84999"
+  }
+}

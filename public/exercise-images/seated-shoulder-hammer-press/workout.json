@@ -1,0 +1,24 @@
+{
+  "id": "17286",
+  "slug": "seated-shoulder-hammer-press",
+  "title": "Seated Shoulder Hammer / Overhead Presses",
+  "description": "",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Laying Internal Shoulder Rotation",
+    "Reverse Shoulder Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84383",
+    "female": "https://workoutlabs.com/train/svg.php?id=85168"
+  }
+}

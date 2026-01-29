@@ -1,0 +1,24 @@
+{
+  "id": "19136",
+  "slug": "bosu-ball-side-planks",
+  "title": "Bosu Ball Side Planks",
+  "description": "",
+  "equipment": [
+    "Bosu Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Side Plank Leg Raises",
+    "Seated Punches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84035",
+    "female": "https://workoutlabs.com/train/svg.php?id=84806"
+  }
+}

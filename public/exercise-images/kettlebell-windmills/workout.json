@@ -1,0 +1,26 @@
+{
+  "id": "2734",
+  "slug": "kettlebell-windmills",
+  "title": "Kettlebell Windmills",
+  "description": "",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Glutes & Hip Flexors",
+    "Hamstrings",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Star Planks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84216",
+    "female": "https://workoutlabs.com/train/svg.php?id=85001"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "1349",
+  "slug": "plank",
+  "title": "Plank",
+  "description": "Hold for as long as possible. For extra balance training and core strengthening, you can lift one arm or leg.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Hanging Leg Raises to Bar",
+    "Agility Ladder Drills",
+    "Your exercise (placeholder)"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86256",
+    "female": "https://workoutlabs.com/train/svg.php?id=86257"
+  }
+}

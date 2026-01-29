@@ -1,0 +1,24 @@
+{
+  "id": "34449",
+  "slug": "elevatedbarbell-glute-bridgeship-raises",
+  "title": "Elevated / Barbell Glute Bridges / Hip Raises",
+  "description": "",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Kettlebell Around the Worlds",
+    "Chair Squats",
+    "Dumbbell Squat Clean and Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84137",
+    "female": "https://workoutlabs.com/train/svg.php?id=84922"
+  }
+}

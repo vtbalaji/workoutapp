@@ -1,0 +1,23 @@
+{
+  "id": "8162",
+  "slug": "wall-push-ups-pushups",
+  "title": "Wall Push-Ups / Pushups / Standing Press Ups",
+  "description": "Wall Push-Ups / Pushups / Standing Press Ups Equipment required Primary muscle group(s) Stand in front of a wall, extend your arms out to measure the correct distance. Brace your core and place your hands against the wall.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Kneeling Kettlebell Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84536",
+    "female": "https://workoutlabs.com/train/svg.php?id=85321"
+  }
+}

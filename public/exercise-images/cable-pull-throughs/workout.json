@@ -1,0 +1,23 @@
+{
+  "id": "38548",
+  "slug": "cable-pull-throughs",
+  "title": "Cable Pull Throughs / Pulls",
+  "description": "Hold the top portion while tensing your glutes. Slowly lower yourself back down to the starting position to complete 1 rep.",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Weighted Glute Bridges",
+    "Bodyweight Side Steps / Lateral Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84056",
+    "female": "https://workoutlabs.com/train/svg.php?id=84840"
+  }
+}

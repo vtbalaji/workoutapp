@@ -1,0 +1,31 @@
+Firestore Security Rules for Workout App
+==========================================
+
+Go to Firebase Console → fitness-coach-20c20 → Firestore Database → Rules
+
+Replace the rules with:
+
+---
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow users to read/write their own workouts
+    match /workouts/{userId}/userWorkouts/{workoutId} {
+      allow read, write: if request.auth.uid == userId;
+    }
+
+    // Deny all other access
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
+
+---
+
+These rules ensure:
+- Each user can only access their own workouts (userId must match their authenticated UID)
+- Workouts are organized in: /workouts/{userId}/userWorkouts/{workoutId}
+- All other database access is denied
+- Your sections and exercises are stored within each workout document

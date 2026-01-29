@@ -1,0 +1,23 @@
+{
+  "id": "18076",
+  "slug": "smith-machine-leg-press",
+  "title": "Smith Machine Leg Press / Reverse Squats",
+  "description": "Lay on the floor with your glutes almost directly underneath the bar. Place the balls of your feet on the underside of the lowered bar. Drive the weight upwards using your quadriceps and glutes. Lower the weight back down to the safety brackets to complete one rep. Take extra care with this motion! Practice with a an empty bar first to master the movement.",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Glutes & Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Cardio – Rowing Machine"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84434",
+    "female": "https://workoutlabs.com/train/svg.php?id=86558"
+  }
+}

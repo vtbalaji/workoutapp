@@ -1,0 +1,25 @@
+{
+  "id": "17280",
+  "slug": "trx-pistol-squatstrx-single-leg-squats",
+  "title": "TRX Suspension Strap Pistol / Single / One Leg Squats",
+  "description": "",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Air Squats",
+    "Seated Machine Leg Extensions",
+    "Sumo / Plié Dumbbell Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84507",
+    "female": "https://workoutlabs.com/train/svg.php?id=85290"
+  }
+}

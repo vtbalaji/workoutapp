@@ -1,0 +1,25 @@
+{
+  "id": "1447",
+  "slug": "dumbbell-shoulder-press",
+  "title": "Dumbbell Overhead Shoulder Press",
+  "description": "Place the dumbbells on top of your thighs with your palms facing down. Raise the dumbbells to your shoulders. Rotate your wrists so that the palms of your hands are facing away from you. This is the start position. As you exhale,  push the dumbbells up and over your head by extending your arms until the dumbbells touch at the top of the movement. Pause for a count of one. Slowly return to the start position inhaling as you do so. This exercise can be performed standing or sitting on  flat bench. For people with lower back problems, the version described is better.",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Triceps",
+    "Upper Back & Lower Traps"
+  ],
+  "related_exercises": [
+    "Seated Jumping Jacks / Star Jumps",
+    "Seated Arnold Dumbbell Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84126",
+    "female": "https://workoutlabs.com/train/svg.php?id=84911"
+  }
+}

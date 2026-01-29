@@ -1,0 +1,25 @@
+{
+  "id": "36423",
+  "slug": "kneeling-t-bar-presseslandmine-presses",
+  "title": "Kneeling T-Bar Presses / Landmine Presses",
+  "description": "",
+  "equipment": [
+    "Barbell / EZ-Bar, Full gym"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Barbell Bench Press / Chest Press",
+    "Decline Barbell Bench Press",
+    "Modified / Knee Push-ups / Pushups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84228",
+    "female": "https://workoutlabs.com/train/svg.php?id=85013"
+  }
+}

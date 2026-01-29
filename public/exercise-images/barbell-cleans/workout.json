@@ -1,0 +1,43 @@
+{
+  "id": "21019",
+  "slug": "barbell-cleans",
+  "title": "Barbell Cleans",
+  "description": "Stand with your feet a little wider than shoulder width apart with your hands firmly gripped on the barbell at about the same width as your feet. The barbell should be resting on your upper thighs Using your hips for initial explosiveness, thrust them forward into the barbell At the same time bring the barbell up along your body using the initial thrust Finish with the barbell resting across your upper pectoral muscles",
+  "pose_description": "Explosive full-body Olympic lift developing power and coordination",
+  "pose_category": "Olympic Lift / Compound",
+  "alignment_cues": [
+    "Keep chest up and back straight throughout movement",
+    "Drive through heels with explosive hip extension",
+    "Keep bar close to body during pull",
+    "Catch bar in athletic stance with knees bent"
+  ],
+  "benefits": [
+    "Develops full-body explosive power",
+    "Improves athletic performance and coordination",
+    "Builds functional strength for real-world movements",
+    "Strengthens posterior chain and grip"
+  ],
+  "related_poses": [
+    "Deadlifts",
+    "Power Cleans",
+    "Hang Cleans",
+    "Front Squats"
+  ],
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Middle Back / Lats",
+    "Upper Back & Lower Traps"
+  ],
+  "related_exercises": [
+    "Barbell Push and Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83974",
+    "female": "https://workoutlabs.com/train/svg.php?id=84758"
+  }
+}

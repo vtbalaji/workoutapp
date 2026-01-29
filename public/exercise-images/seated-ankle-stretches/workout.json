@@ -1,0 +1,24 @@
+{
+  "id": "104308",
+  "slug": "seated-ankle-stretches",
+  "title": "Seated Ankle Stretches",
+  "description": "Hold briefly before controlling the extension phase of the motion, pointing your toes directly away from you.",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Ankles"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ],
+  "related_exercises": [
+    "Ankle Stretch",
+    "Semi-Tandem Standing / Stance Balance",
+    "Ankle Circles / Rotations / Rolls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=104321",
+    "female": "https://workoutlabs.com/train/svg.php?id=104322"
+  }
+}

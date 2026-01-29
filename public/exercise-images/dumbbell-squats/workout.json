@@ -1,0 +1,27 @@
+{
+  "id": "4615",
+  "slug": "dumbbell-squats",
+  "title": "Dumbbell Squats",
+  "description": "",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Glutes & Hip Flexors",
+    "Hamstrings",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Machine Hack Squats",
+    "Front Kicks",
+    "Seated Machine Leg Extensions"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84131",
+    "female": "https://workoutlabs.com/train/svg.php?id=84916"
+  }
+}

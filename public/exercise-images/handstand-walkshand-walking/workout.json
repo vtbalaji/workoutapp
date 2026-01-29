@@ -1,0 +1,24 @@
+{
+  "id": "34453",
+  "slug": "handstand-walkshand-walking",
+  "title": "Handstand Walks / Hand Walking",
+  "description": "",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Middle Back / Lats"
+  ],
+  "related_exercises": [
+    "Overhead Water Bottle Squats",
+    "Battle Rope Jumping Jacks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84182",
+    "female": "https://workoutlabs.com/train/svg.php?id=84967"
+  }
+}

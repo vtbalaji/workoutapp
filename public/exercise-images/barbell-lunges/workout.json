@@ -1,0 +1,27 @@
+{
+  "id": "1432",
+  "slug": "barbell-lunges",
+  "title": "Barbell Lunges",
+  "description": "",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Glutes & Hip Flexors",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Kettlebell Squats",
+    "Butt Kicks",
+    "Bulgarian Split Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83983",
+    "female": "https://workoutlabs.com/train/svg.php?id=84767"
+  }
+}

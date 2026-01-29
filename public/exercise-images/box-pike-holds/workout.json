@@ -1,0 +1,23 @@
+{
+  "id": "82868",
+  "slug": "box-pike-holds",
+  "title": "Box Pike Holds",
+  "description": "Equipment required Primary muscle group(s) Shoulders, Upper Back & Lower Traps Middle Back / Lats Begin by placing an exercise box in position firmly on the ground.",
+  "equipment": [
+    "Plyo Box"
+  ],
+  "primary_muscles": [
+    "Shoulders",
+    "Upper Back & Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Middle Back / Lats"
+  ],
+  "related_exercises": [
+    "TRX Suspension Strap Planks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=85980",
+    "female": "https://workoutlabs.com/train/svg.php?id=84829"
+  }
+}

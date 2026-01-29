@@ -1,0 +1,24 @@
+{
+  "id": "10668",
+  "slug": "standing-trx-suspension-strap-ab-rollout",
+  "title": "TRX Suspension Strap Standing Ab Rollout",
+  "description": "TRX Suspension Strap Standing Ab Rollout Equipment required Suspension Straps / TRX Primary muscle group(s) Middle Back / Lats, Obliques Holding a TRX band with both hands, tighten your abs, keep your chest up, and place your gaze straight ahead.",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Middle Back / Lats",
+    "Obliques"
+  ],
+  "related_exercises": [
+    "Bear Crawls",
+    "Plank Shoulder Taps / Planks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84474",
+    "female": "https://workoutlabs.com/train/svg.php?id=85258"
+  }
+}

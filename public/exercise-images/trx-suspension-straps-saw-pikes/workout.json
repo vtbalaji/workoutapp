@@ -1,0 +1,24 @@
+{
+  "id": "6579",
+  "slug": "trx-suspension-straps-saw-pikes",
+  "title": "TRX Suspension Straps Saw Pikes",
+  "description": "",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Glutes & Hip Flexors"
+  ],
+  "related_exercises": [
+    "Upright Kettlebell Front Rows",
+    "Bear Crawls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84511",
+    "female": "https://workoutlabs.com/train/svg.php?id=85294"
+  }
+}
