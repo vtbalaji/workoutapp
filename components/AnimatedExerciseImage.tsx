@@ -92,6 +92,87 @@ export default function AnimatedExerciseImage({
           return;
         }
 
+        // Check for pre-organized groups ONLY for orientation="random"
+        // (WorkoutLabs format: <g id="a">, <g id="b">, <g id="c">)
+        if (orientation === 'random') {
+          const groupA = svg.querySelector('g[id="a"]');
+          const groupB = svg.querySelector('g[id="b"]');
+          const groupC = svg.querySelector('g[id="c"]');
+
+          // Group "a" has 3 children (nested groups containing the 3 frames)
+          // We need to use those nested children as our frames
+          let framesToUse: Element[] = [];
+
+          if (groupA && groupA.children.length >= frames) {
+            // Use nested children of group "a" as frames
+            framesToUse = Array.from(groupA.children).filter(child => child.tagName.toLowerCase() === 'g');
+            console.log(`Using ${framesToUse.length} nested groups from group "a"`);
+          }
+
+          const groupInfo = framesToUse.map((g, i) => ({
+            index: i,
+            childCount: g.children.length,
+            pathCount: g.querySelectorAll('path').length
+          }));
+          console.log(`Frame details:`, groupInfo);
+
+          if (framesToUse.length >= frames) {
+            // Use these groups - add frame-group class and show/hide
+            console.log(`Using ${framesToUse.length} nested frames for ${exercise.exerciseName}`);
+
+            // Calculate centers for centering transforms
+            const viewBox = svg.getAttribute('viewBox')?.split(' ').map(Number) || [0, 0, 900, 600];
+            const [vbX, vbY, vbWidth, vbHeight] = viewBox;
+            const targetCenterX = vbX + vbWidth / 2;
+            const targetCenterY = vbY + vbHeight / 2;
+
+            const frameCenters: { x: number; y: number }[] = [];
+            framesToUse.forEach((group) => {
+              const paths = group.querySelectorAll('path');
+              const coords: { x: number; y: number }[] = [];
+
+              paths.forEach(path => {
+                const d = path.getAttribute('d') || '';
+                const matches = d.match(/M([\d.]+)[,\s]+([\d.]+)/g) || [];
+                matches.forEach(match => {
+                  const [_, x, y] = match.match(/M([\d.]+)[,\s]+([\d.]+)/) || [];
+                  if (x && y) coords.push({ x: parseFloat(x), y: parseFloat(y) });
+                });
+              });
+
+              if (coords.length > 0) {
+                const avgX = coords.reduce((sum, c) => sum + c.x, 0) / coords.length;
+                const avgY = coords.reduce((sum, c) => sum + c.y, 0) / coords.length;
+                frameCenters.push({ x: avgX, y: avgY });
+              } else {
+                frameCenters.push({ x: targetCenterX, y: targetCenterY });
+              }
+            });
+
+            framesToUse.forEach((group, index) => {
+              if (index < frames) {
+                const offsetX = targetCenterX - frameCenters[index].x;
+                const offsetY = targetCenterY - frameCenters[index].y;
+
+                group.setAttribute('class', `frame-group frame-${index + 1}`);
+                group.setAttribute('transform', `translate(${offsetX.toFixed(1)}, ${offsetY.toFixed(1)})`);
+                group.setAttribute('style', index === 0 ? 'display: block' : 'display: none');
+
+                console.log(`Frame ${index + 1}: center=(${frameCenters[index].x.toFixed(1)},${frameCenters[index].y.toFixed(1)}), offset=(${offsetX.toFixed(1)},${offsetY.toFixed(1)})`);
+              }
+            });
+
+            const serializer = new XMLSerializer();
+            const processedSvgString = serializer.serializeToString(svg);
+            setProcessedSvg(processedSvgString);
+            setLoadingSvg(false);
+            return;
+          }
+        }
+
+        // Use coordinate-based clustering for horizontal/vertical orientations
+        console.log(`Using coordinate clustering for ${exercise.exerciseName} (orientation: ${orientation})`);
+
         const paths = Array.from(svg.querySelectorAll('path'));
 
         // Extract coordinates
@@ -203,9 +284,14 @@ export default function AnimatedExerciseImage({
     if (!containerRef.current || frames === 1) return;
 
     const frameGroups = containerRef.current.querySelectorAll('g.frame-group');
+    console.log(`Showing frame ${currentFrame} of ${frames}, found ${frameGroups.length} frame groups`);
+
     frameGroups.forEach((group, index) => {
       const isCurrentFrame = (index + 1) === currentFrame;
       (group as HTMLElement).style.display = isCurrentFrame ? 'block' : 'none';
+      if (isCurrentFrame) {
+        console.log(`  - Frame ${index + 1} (${group.getAttribute('class')}) is visible`);
+      }
     });
   }, [currentFrame, frames]);
 
@@ -215,10 +301,10 @@ export default function AnimatedExerciseImage({
 
     const interval = setInterval(() => {
       setCurrentFrame((prev) => {
-        if (prev >= frames) return 1;
-        return prev + 1;
+        // Cycle: 1 → 2 → 3 → 1 → 2 → 3 ...
+        return (prev % frames) + 1;
       });
-    }, 1000);
+    }, 1500); // Slower: 1.5 seconds per frame
 
     return () => clearInterval(interval);
   }, [processedSvg, frames, isPlaying]);
