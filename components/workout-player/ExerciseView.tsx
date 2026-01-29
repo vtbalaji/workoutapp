@@ -7,14 +7,12 @@ interface ExerciseViewProps {
   exercise: WorkoutExercise;
   currentSet: number;
   playerState: "preview" | "active" | "rest" | "complete";
-  onSkipExercise: () => void;
 }
 
 export default function ExerciseView({
   exercise,
   currentSet,
   playerState,
-  onSkipExercise,
 }: ExerciseViewProps) {
   return (
     <div className="flex-1 flex flex-col items-center justify-center px-6">

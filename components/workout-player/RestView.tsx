@@ -6,13 +6,11 @@ import AnimatedExerciseImage from "../AnimatedExerciseImage";
 interface RestViewProps {
   exercise: WorkoutExercise;
   restSecondsLeft: number;
-  onSkipExercise: () => void;
 }
 
 export default function RestView({
   exercise,
   restSecondsLeft,
-  onSkipExercise,
 }: RestViewProps) {
   const formatCountdown = (seconds: number): string => {
     const mins = Math.floor(seconds / 60);

@@ -135,14 +135,12 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
           <RestView
             exercise={currentExercise}
             restSecondsLeft={restSecondsLeft}
-            onSkipExercise={handleSkipExercise}
           />
         ) : (
           <ExerciseView
             exercise={currentExercise}
             currentSet={currentSet}
             playerState={playerState}
-            onSkipExercise={handleSkipExercise}
           />
         )}
       </div>
