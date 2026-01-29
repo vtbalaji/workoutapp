@@ -31,7 +31,7 @@ export interface Exercise {
   related_exercises: string[];
   related_poses: string[];
   animation_frames?: number; // 1, 2, or 3
-  animation_orientation?: 'horizontal' | 'vertical';
+  animation_orientation?: 'horizontal' | 'vertical' | 'random';
 }
 
 export interface Workout {
@@ -70,7 +70,7 @@ export interface WorkoutExercise {
   equipment: string[];
   description?: string;
   animation_frames?: number; // 1, 2, or 3
-  animation_orientation?: 'horizontal' | 'vertical';
+  animation_orientation?: 'horizontal' | 'vertical' | 'random';
 }
 
 export interface SectionTemplate {

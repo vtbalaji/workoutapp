@@ -25,9 +25,8 @@ export default function AnimatedExerciseImage({
     exercise.animation_orientation || 'horizontal'
   );
 
-  // Fetch animation metadata from API if not present
+  // Fetch animation metadata from API (always fetch to get latest data)
   useEffect(() => {
-    if (exercise.animation_frames !== undefined) return;
     if (!exercise.exerciseId && !exercise.exerciseSlug) return;
 
     const fetchMetadata = async () => {
@@ -39,16 +38,25 @@ export default function AnimatedExerciseImage({
         );
 
         if (fullExercise) {
-          setFrames(fullExercise.animation_frames || 2);
-          setOrientation(fullExercise.animation_orientation || 'horizontal');
+          // Use API data (latest) over cached workout data
+          setFrames(fullExercise.animation_frames || exercise.animation_frames || 2);
+          setOrientation(fullExercise.animation_orientation || exercise.animation_orientation || 'horizontal');
+          console.log(`Loaded metadata for ${exercise.exerciseName}: frames=${fullExercise.animation_frames}, orientation=${fullExercise.animation_orientation}`);
+        } else {
+          // Fallback to workout data if not found in API
+          setFrames(exercise.animation_frames || 2);
+          setOrientation(exercise.animation_orientation || 'horizontal');
         }
       } catch (error) {
         console.error('Error fetching animation metadata:', error);
+        // Fallback to workout data on error
+        setFrames(exercise.animation_frames || 2);
+        setOrientation(exercise.animation_orientation || 'horizontal');
       }
     };
 
     fetchMetadata();
-  }, [exercise.exerciseId, exercise.exerciseSlug, exercise.animation_frames]);
+  }, [exercise.exerciseId, exercise.exerciseSlug, exercise.animation_frames, exercise.animation_orientation, exercise.exerciseName]);
 
   // Fetch and process SVG
   useEffect(() => {

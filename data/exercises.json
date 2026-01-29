@@ -9103,7 +9103,7 @@
       "Alternative Movement"
     ],
     "animation_frames": 3,
-    "animation_orientation": "vertical"
+    "animation_orientation": "random"
   },
   {
     "slug": "hindu-squats",
