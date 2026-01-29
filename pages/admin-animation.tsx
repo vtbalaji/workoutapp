@@ -218,7 +218,6 @@ function ExerciseRow({
   const [orientation, setOrientation] = useState<"horizontal" | "vertical">(
     exercise.animation_orientation || "horizontal"
   );
-  const [previewOpen, setPreviewOpen] = useState(false);
 
   const hasChanges =
     frames !== (exercise.animation_frames || 2) ||

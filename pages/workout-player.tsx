@@ -5,6 +5,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { Workout } from "@/lib/types";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
 import WorkoutPlayerPage from "@/components/workout-player/WorkoutPlayerPage";
+import Link from "next/link";
 
 export default function WorkoutPlayer() {
   return (
@@ -71,9 +72,9 @@ function WorkoutPlayerContent() {
       <div className="min-h-screen flex items-center justify-center bg-white p-4">
         <div className="text-center">
           <p className="text-red-600 mb-4">{error || "Failed to load workout"}</p>
-          <a href="/workouts" className="text-blue-600 hover:underline">
+          <Link href="/workouts" className="text-blue-600 hover:underline">
             Back to My Workouts
-          </a>
+          </Link>
         </div>
       </div>
     );

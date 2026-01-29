@@ -369,7 +369,7 @@ function WorkoutViewContent() {
             href={`/workout-player?id=${workout.id}`}
             className="block w-full px-6 py-4 bg-indigo-600 text-white text-xl rounded-lg hover:bg-indigo-700 transition-colors font-bold text-center"
           >
-            Let's do this! →
+            Let&apos;s do this! →
           </Link>
         </div>
       </div>

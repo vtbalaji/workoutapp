@@ -6,7 +6,7 @@ import AnimatedExerciseImage from "../AnimatedExerciseImage";
 interface ExerciseViewProps {
   exercise: WorkoutExercise;
   currentSet: number;
-  playerState: "preview" | "active";
+  playerState: "preview" | "active" | "rest" | "complete";
   onSkipExercise: () => void;
 }
 
@@ -18,30 +18,11 @@ export default function ExerciseView({
 }: ExerciseViewProps) {
   return (
     <div className="flex-1 flex flex-col items-center justify-center px-6">
-      {/* Exercise name + skip */}
-      <div className="w-full flex justify-between items-center mb-8">
-        <h1 className="text-2xl font-bold text-gray-900">
+      {/* Exercise name */}
+      <div className="w-full mb-8">
+        <h1 className="text-2xl font-bold text-gray-900 text-center whitespace-nowrap overflow-hidden text-ellipsis">
           {exercise.exerciseName}
         </h1>
-        <button
-          onClick={onSkipExercise}
-          className="p-2 text-gray-400 hover:text-gray-600 transition-colors"
-          title="Skip exercise"
-        >
-          <svg
-            className="w-6 h-6"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M13 5l7 7-7 7M5 5l7 7-7 7"
-            />
-          </svg>
-        </button>
       </div>
 
       {/* Large exercise image with animation */}

@@ -27,10 +27,10 @@ export default function WorkoutCanvas({
   const [showAddSection, setShowAddSection] = useState(false);
   const [customSectionName, setCustomSectionName] = useState("");
 
-  const updateWorkout = (updatedWorkout: Workout) => {
+  const updateWorkout = useCallback((updatedWorkout: Workout) => {
     onWorkoutChange(updatedWorkout);
     onUnsavedChangesChange(true);
-  };
+  }, [onWorkoutChange, onUnsavedChangesChange]);
 
   const handleAddExerciseFromFinder = useCallback(
     (sectionId: string, exercise: Exercise, sets: number, reps: number, rest: number) => {

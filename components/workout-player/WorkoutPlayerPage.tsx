@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Workout, WorkoutExercise } from "@/lib/types";
+import { Workout } from "@/lib/types";
 import PlayerHeader from "./PlayerHeader";
 import ExerciseView from "./ExerciseView";
 import RestView from "./RestView";
