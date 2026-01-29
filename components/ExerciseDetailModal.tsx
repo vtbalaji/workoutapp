@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { WorkoutExercise } from "@/lib/types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMars, faVenus } from "@fortawesome/free-solid-svg-icons";
+import MuscleGroupImage from "./MuscleGroupImage";
 
 interface ExerciseDetailModalProps {
   exercise: WorkoutExercise;
@@ -17,7 +18,34 @@ export default function ExerciseDetailModal({
   const [imageGender, setImageGender] = useState<"male" | "female">("male");
   const [svgContent, setSvgContent] = useState<string>("");
   const [loadingSvg, setLoadingSvg] = useState(false);
-  const [showMuscleOverlay, setShowMuscleOverlay] = useState(false);
+  const [currentFrame, setCurrentFrame] = useState(1);
+  const [frames, setFrames] = useState(exercise.animation_frames || 2);
+  const [orientation, setOrientation] = useState<'horizontal' | 'vertical'>(exercise.animation_orientation || 'horizontal');
+
+  // Fetch animation metadata from API if not present in exercise
+  useEffect(() => {
+    if (exercise.animation_frames !== undefined) return;
+    if (!exercise.exerciseId && !exercise.exerciseSlug) return;
+
+    const fetchMetadata = async () => {
+      try {
+        const response = await fetch('/api/exercises');
+        const allExercises = await response.json();
+        const fullExercise = allExercises.find((ex: any) =>
+          ex.id === exercise.exerciseId || ex.slug === exercise.exerciseSlug
+        );
+
+        if (fullExercise) {
+          setFrames(fullExercise.animation_frames || 2);
+          setOrientation(fullExercise.animation_orientation || 'horizontal');
+        }
+      } catch (error) {
+        console.error('Error fetching animation metadata:', error);
+      }
+    };
+
+    fetchMetadata();
+  }, [exercise.exerciseId, exercise.exerciseSlug, exercise.animation_frames]);
 
   // Fetch SVG when modal opens or gender changes
   useEffect(() => {
@@ -42,6 +70,132 @@ export default function ExerciseDetailModal({
 
     fetchSvg();
   }, [exercise.exerciseSlug, imageGender]);
+
+  // Group paths by frame and apply transform to center each person
+  useEffect(() => {
+    if (!svgContent || frames === 1) return;
+
+    const container = document.querySelector('.svg-animation-container');
+    if (!container) return;
+
+    const svg = container.querySelector('svg');
+    if (!svg) return;
+
+    // Check if we already created frame groups
+    let frameGroups = svg.querySelectorAll('g.frame-group');
+
+    if (frameGroups.length === 0) {
+      const paths = Array.from(svg.querySelectorAll('path'));
+
+      // Extract coordinates
+      const coords = paths.map(path => {
+        const d = path.getAttribute('d') || '';
+        const xMatch = d.match(/M([\d.]+)/);
+        const yMatch = d.match(/M[\d.]+[,\s]+([\d.]+)/);
+        return {
+          path,
+          x: xMatch ? parseFloat(xMatch[1]) : 0,
+          y: yMatch ? parseFloat(yMatch[1]) : 0
+        };
+      }).filter(c => c.x > 0 || c.y > 0);
+
+      if (coords.length === 0) return;
+
+      const useCoord = orientation === 'horizontal' ? 'x' : 'y';
+      const values = coords.map(c => c[useCoord]).sort((a, b) => a - b);
+      const min = values[0];
+      const max = values[values.length - 1];
+      const range = max - min;
+
+      // Create groups
+      const groups: SVGGElement[] = [];
+      for (let i = 0; i < frames; i++) {
+        const group = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+        group.setAttribute('class', `frame-group frame-${i + 1}`);
+        groups.push(group);
+      }
+
+      // Distribute paths to frames based on coordinate position
+      coords.forEach(({ path, x, y }) => {
+        const value = orientation === 'horizontal' ? x : y;
+        const normalizedPos = (value - min) / range;
+
+        let frameIndex = 0;
+        if (frames === 2) {
+          frameIndex = normalizedPos < 0.5 ? 0 : 1;
+        } else if (frames === 3) {
+          if (normalizedPos < 0.33) frameIndex = 0;
+          else if (normalizedPos < 0.67) frameIndex = 1;
+          else frameIndex = 2;
+        }
+
+        const clonedPath = path.cloneNode(true) as SVGPathElement;
+        groups[frameIndex].appendChild(clonedPath);
+      });
+
+      // Calculate actual centers of each frame for better centering
+      const frameCenters: number[] = [];
+      groups.forEach((group) => {
+        const groupPaths = Array.from(group.querySelectorAll('path'));
+        const groupCoords = groupPaths.map(p => {
+          const d = p.getAttribute('d') || '';
+          const match = d.match(/M([\d.]+)[,\s]+([\d.]+)/);
+          if (!match) return null;
+          return {
+            x: parseFloat(match[1]),
+            y: parseFloat(match[2])
+          };
+        }).filter(c => c !== null);
+
+        if (groupCoords.length > 0) {
+          const coordValues = groupCoords.map(c => orientation === 'horizontal' ? c!.x : c!.y);
+          const avg = coordValues.reduce((a, b) => a + b, 0) / coordValues.length;
+          frameCenters.push(avg);
+        } else {
+          frameCenters.push(0);
+        }
+      });
+
+      // Target center (middle of range)
+      const targetCenter = (min + max) / 2;
+
+      // Apply transforms to center each frame
+      groups.forEach((group, index) => {
+        const offset = targetCenter - frameCenters[index];
+        if (orientation === 'horizontal') {
+          group.setAttribute('transform', `translate(${offset.toFixed(0)}, 0)`);
+        } else {
+          group.setAttribute('transform', `translate(0, ${offset.toFixed(0)})`);
+        }
+      });
+
+      // Remove original paths and add groups
+      paths.forEach(p => p.remove());
+      groups.forEach(g => svg.appendChild(g));
+
+      frameGroups = svg.querySelectorAll('g.frame-group');
+    }
+
+    // Show/hide frame groups
+    frameGroups.forEach((group, index) => {
+      const isCurrentFrame = (index + 1) === currentFrame;
+      (group as HTMLElement).style.display = isCurrentFrame ? 'block' : 'none';
+    });
+  }, [currentFrame, svgContent, frames, orientation]);
+
+  // Auto-start animation when SVG loads and cycle through frames
+  useEffect(() => {
+    if (!svgContent || frames === 1) return;
+
+    const interval = setInterval(() => {
+      setCurrentFrame((prev) => {
+        if (prev >= frames) return 1;
+        return prev + 1;
+      });
+    }, 1000); // Change frame every 1 second
+
+    return () => clearInterval(interval);
+  }, [svgContent, frames]);
 
   // Muscle overlay is now a static image that we'll style with CSS to highlight muscles
   // We'll use the muscle names from exercise.primaryMuscles to determine what to highlight
@@ -87,130 +241,38 @@ export default function ExerciseDetailModal({
 
         {/* Content */}
         <div className="p-6 space-y-6">
-          {/* Gender Toggle for Animation */}
-          {!showMuscleOverlay && (
-            <div className="flex gap-2 justify-center">
-              <button
-                onClick={() => setImageGender("male")}
-                className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 ${
-                  imageGender === "male"
-                    ? "bg-blue-600 text-white"
-                    : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-                }`}
-              >
-                <FontAwesomeIcon icon={faMars} />
-                Male
-              </button>
-              <button
-                onClick={() => setImageGender("female")}
-                className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 ${
-                  imageGender === "female"
-                    ? "bg-pink-600 text-white"
-                    : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-                }`}
-              >
-                <FontAwesomeIcon icon={faVenus} />
-                Female
-              </button>
-            </div>
-          )}
-
-          {/* Toggle between animation and muscle overlay */}
-          <div className="flex gap-2 justify-center">
+          {/* Gender Toggle */}
+          <div className="flex gap-2 justify-center flex-wrap">
             <button
-              onClick={() => setShowMuscleOverlay(false)}
-              className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                !showMuscleOverlay
+              onClick={() => setImageGender("male")}
+              className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 ${
+                imageGender === "male"
                   ? "bg-blue-600 text-white"
                   : "bg-gray-200 text-gray-800 hover:bg-gray-300"
               }`}
             >
-              Animation
+              <FontAwesomeIcon icon={faMars} />
+              Male
             </button>
             <button
-              onClick={() => setShowMuscleOverlay(true)}
-              className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-                showMuscleOverlay
-                  ? "bg-blue-600 text-white"
+              onClick={() => setImageGender("female")}
+              className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 ${
+                imageGender === "female"
+                  ? "bg-pink-600 text-white"
                   : "bg-gray-200 text-gray-800 hover:bg-gray-300"
               }`}
             >
-              Muscles
+              <FontAwesomeIcon icon={faVenus} />
+              Female
             </button>
           </div>
 
-          {/* Exercise Image/Animation or Muscle Overlay */}
-          <div className="bg-white rounded-lg overflow-hidden flex items-center justify-center min-h-[300px]">
-            {showMuscleOverlay ? (
-              // Layered muscle diagram with highlighted muscles
-              <div className="w-full max-w-md mx-auto p-4 relative">
-                {/* Base muscle diagram */}
-                <img
-                  src="/muscle-groups/master.png"
-                  alt="Muscle Groups"
-                  className="w-full h-auto block"
-                />
-
-                {/* Overlay highlighted muscles */}
-                {exercise.primaryMuscles && exercise.primaryMuscles.length > 0 && (
-                  <div className="absolute inset-0 flex items-center justify-center p-4">
-                    {exercise.primaryMuscles.map((muscle, idx) => {
-                      // Map muscle names to actual file names
-                      const muscleMap: { [key: string]: string } = {
-                        'ankles': 'ankles-p',
-                        'abs': 'abs-p',
-                        'abdominals': 'abs-p',
-                        'biceps': 'biceps-p',
-                        'calves': 'calves-p',
-                        'chest': 'chest-p',
-                        'forearms': 'forearms-p',
-                        'glutes': 'glutes-hip-flexors-p',
-                        'gluteus': 'glutes-hip-flexors-p',
-                        'hip flexors': 'glutes-hip-flexors-p',
-                        'hamstrings': 'hamstrings-p',
-                        'lower back': 'lower-back-p',
-                        'lower-back': 'lower-back-p',
-                        'neck': 'neck-upper-traps-p',
-                        'neck & upper traps': 'neck-upper-traps-p',
-                        'neck and upper traps': 'neck-upper-traps-p',
-                        'traps': 'neck-upper-traps-p',
-                        'trapezius': 'neck-upper-traps-p',
-                        'upper traps': 'neck-upper-traps-p',
-                        'obliques': 'obliques-p',
-                        'quadriceps': 'quadriceps-p',
-                        'quads': 'quadriceps-p',
-                        'shoulders': 'shoulders-p',
-                        'deltoids': 'shoulders-p',
-                        'triceps': 'triceps-p',
-                      };
-
-                      const muscleLower = muscle.toLowerCase();
-                      const fileName = muscleMap[muscleLower] || `${muscleLower.replace(/\s+/g, '-').replace(/&/g, 'and')}-p`;
-
-                      return (
-                        <img
-                          key={idx}
-                          src={`/muscle-groups/${fileName}.png`}
-                          alt={muscle}
-                          className="absolute inset-0 w-full h-auto"
-                          style={{ mixBlendMode: 'multiply' }}
-                          onError={(e) => {
-                            e.currentTarget.style.display = "none";
-                          }}
-                        />
-                      );
-                    })}
-                  </div>
-                )}
-
-                <p className="text-center text-sm text-gray-600 mt-4">
-                  Primary: {exercise.primaryMuscles?.join(", ") || "Various muscles"}
-                </p>
-              </div>
-            ) : loadingSvg ? (
+          {/* Exercise Animation */}
+          <div className="bg-white rounded-lg overflow-hidden flex items-center justify-center min-h-[400px]">
+            {loadingSvg ? (
               <p className="text-gray-600">Loading animation...</p>
             ) : svgContent ? (
-              <div className="w-full h-full" dangerouslySetInnerHTML={{ __html: svgContent }} />
+              <div className="svg-animation-container w-full h-full" dangerouslySetInnerHTML={{ __html: svgContent }} />
             ) : exercise.exerciseSlug ? (
               <img
                 src={`/exercise-images/${exercise.exerciseSlug}/male.svg`}
@@ -243,6 +305,18 @@ export default function ExerciseDetailModal({
               <div className="text-sm text-gray-600 font-medium">Rest</div>
             </div>
           </div>
+
+          {/* Muscle Diagram */}
+          {exercise.primaryMuscles && exercise.primaryMuscles.length > 0 && (
+            <div>
+              <MuscleGroupImage
+                exercise={{
+                  primary_muscles: exercise.primaryMuscles,
+                  secondary_muscles: [],
+                } as any}
+              />
+            </div>
+          )}
 
           {/* Description */}
           {exercise.description && (
@@ -293,16 +367,6 @@ export default function ExerciseDetailModal({
               <p className="text-gray-700 leading-relaxed">{exercise.notes}</p>
             </div>
           )}
-        </div>
-
-        {/* Footer */}
-        <div className="sticky bottom-0 bg-gray-50 px-6 py-4 border-t">
-          <button
-            onClick={onClose}
-            className="w-full px-4 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
-          >
-            Close
-          </button>
         </div>
       </div>
     </div>

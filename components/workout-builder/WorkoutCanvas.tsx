@@ -48,6 +48,8 @@ export default function WorkoutCanvas({
         primaryMuscles: exercise.primary_muscles || [],
         equipment: exercise.equipment || [],
         description: exercise.description,
+        animation_frames: exercise.animation_frames,
+        animation_orientation: exercise.animation_orientation,
       };
 
       const updatedSections = workout.sections.map((section) => {

@@ -82,6 +82,8 @@ export default function SectionTemplateModal({
           primaryMuscles: ex.primaryMuscles || fullExercise?.primary_muscles || [],
           equipment: ex.equipment || fullExercise?.equipment || [],
           description: ex.description || fullExercise?.description,
+          animation_frames: ex.animation_frames || fullExercise?.animation_frames,
+          animation_orientation: ex.animation_orientation || fullExercise?.animation_orientation,
         };
       }
     );

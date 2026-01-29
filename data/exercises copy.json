@@ -118,9 +118,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "thigh-adductor-inner-thigh-machine",
@@ -202,9 +200,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "air-squats",
@@ -283,9 +279,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "alternating-bodyweight-lunges",
@@ -403,9 +397,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "ankle-pumps",
@@ -443,9 +435,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "assisted-machine-seated-tricep-dips",
@@ -722,9 +712,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "barbell-cleans",
@@ -884,9 +872,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "barbell-front-raises",
@@ -1086,9 +1072,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "barbell-kneeling-squats",
@@ -1254,9 +1238,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "barbell-pullover",
@@ -1334,9 +1316,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "barbell-pushups-push-ups",
@@ -1417,9 +1397,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "barbell-shrugs",
@@ -1500,9 +1478,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "barbell-split-squats",
@@ -1584,9 +1560,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "barbell-squats",
@@ -1707,9 +1681,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "battle-rope-snakes",
@@ -1752,9 +1724,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "battle-rope-double-arm-slams",
@@ -1923,9 +1893,7 @@
       "Walking Lunges",
       "Reverse Lunges",
       "Lateral Lunges"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "battle-rope-side-to-side-swings",
@@ -2053,9 +2021,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "behind-back-standing-band-chest-presses",
@@ -2206,9 +2172,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "bench-hops-box-jumps",
@@ -2608,9 +2572,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "bird-dogs",
@@ -2973,9 +2935,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "bosu-ball-chest-dumbbell-flyes-flies",
@@ -3053,9 +3013,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "bosu-ball-leg-pull-in-knee-tucks",
@@ -3096,9 +3054,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "bosu-ball-mountain-climbers",
@@ -3140,9 +3096,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "bosu-ball-plank",
@@ -3180,9 +3134,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "bosu-ball-plank-leg-lifts",
@@ -3222,9 +3174,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "bosu-ball-plank-to-push-up-walking-plank-up-downs",
@@ -3264,9 +3214,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "bosu-ball-push-ups-pushups",
@@ -3306,9 +3254,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "bosu-ball-side-planks",
@@ -3347,9 +3293,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "bosu-ball-single-leg-bridge-hip-thrust-extension-raises",
@@ -3512,9 +3456,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "bosu-ball-v-ups",
@@ -3592,9 +3534,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "boxing-with-a-punching-bag",
@@ -3719,9 +3659,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "butt-kicks",
@@ -3840,9 +3778,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cable-core-rotation",
@@ -4305,9 +4241,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cardio-walking",
@@ -4348,9 +4282,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cardio-cross-trainer-crosstrainer-machine",
@@ -4393,9 +4325,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cardio-elliptical-machine",
@@ -4435,9 +4365,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cardio-recumbent-bike",
@@ -4478,9 +4406,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cardio-road-bike-cycling-riding",
@@ -4519,9 +4445,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cardio-rowing-machine",
@@ -4564,9 +4488,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "running-jogging-treadmill",
@@ -4605,9 +4527,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cardio-stairmaster-stairmill",
@@ -4648,9 +4568,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cardio-stationary-bike-spinning",
@@ -4690,9 +4608,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cardio-swimming",
@@ -4740,9 +4656,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cat-back-backward-camel-stretch",
@@ -4928,9 +4842,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "close-grip-lat-pulldowns",
@@ -5084,9 +4996,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "contralateral-limb-raises",
@@ -5126,9 +5036,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cossack-squats",
@@ -5168,9 +5076,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "crab-toe-touches",
@@ -5254,9 +5160,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "crossbody-cable-rows",
@@ -5334,9 +5238,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "crunches",
@@ -5373,9 +5275,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "dead-bug",
@@ -5412,9 +5312,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "decline-barbell-bench-press",
@@ -5452,9 +5350,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "decline-barbell-smith-press",
@@ -5687,9 +5583,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "diamond-tricep-pushup-pushups",
@@ -5729,9 +5623,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "donkey-kicks",
@@ -5849,9 +5741,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "double-arm-side-lateral-raises",
@@ -5928,9 +5818,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "double-crunches",
@@ -5967,9 +5855,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "double-side-jackknifes",
@@ -6009,9 +5895,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "downward-cable-wood-chops",
@@ -6246,9 +6130,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "dumbbell-chops",
@@ -6328,9 +6210,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "dumbbell-deadlifts",
@@ -6414,9 +6294,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "dumbbell-floor-chest-press",
@@ -6456,9 +6334,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "dumbbell-incline-rows",
@@ -6738,9 +6614,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "dumbbell-squat-clean-press",
@@ -6782,9 +6656,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "dumbbell-squat-thrusters",
@@ -7027,9 +6899,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "elevatedbarbell-glute-bridgeship-raises",
@@ -7068,9 +6938,7 @@
       "Glute Kickbacks",
       "Hip Thrusts",
       "Single Leg Glute Bridges"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "explosive-jumping-alternating-lunges",
@@ -7112,9 +6980,7 @@
       "Walking Lunges",
       "Reverse Lunges",
       "Lateral Lunges"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "external-cable-shoulder-rotation",
@@ -7310,9 +7176,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "fire-hydrants",
@@ -7351,9 +7215,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "flat-bench-barbell-skull-crushers",
@@ -7470,9 +7332,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "floor-t-raises-back-flyes",
@@ -7549,9 +7409,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-anterior-tibialis-shin-stretch",
@@ -7584,9 +7442,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-calf-calves-stretch",
@@ -7622,9 +7478,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-chest-opener-stretch",
@@ -7661,9 +7515,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "foam-roller-forearm-roll",
@@ -7700,9 +7552,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-glutes-butt-stretch",
@@ -7739,9 +7589,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-hamstring-stretch",
@@ -7777,9 +7625,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-adductor-adduction-stretch",
@@ -7816,9 +7662,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "foam-roller-lat-stretch",
@@ -7854,9 +7698,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-lower-back-stretch",
@@ -7893,9 +7735,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-neck-release",
@@ -7931,9 +7771,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-outer-thighs-stretch",
@@ -7972,9 +7810,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-quadriceps-stretch",
@@ -8010,9 +7846,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "foam-roller-upper-back-stretch",
@@ -8048,9 +7882,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "forward-front-shoulder-dumbbell-raises",
@@ -8166,9 +7998,7 @@
       "Box Jumps",
       "Burpees",
       "Broad Jumps"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "front-barbell-squats",
@@ -8293,9 +8123,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "gluteus-glute-gluteal-stretch",
@@ -8334,9 +8162,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "goblet-squats",
@@ -8498,9 +8324,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "gymnastic-ring-pull-ups-pullups",
@@ -8583,9 +8407,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "half-modified-one-leg-push-ups",
@@ -8625,9 +8447,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "hammer-strength-machine-seated-chest-press",
@@ -8939,9 +8759,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "hex-trap-bar-cage-deadlifts-squats",
@@ -9020,9 +8838,7 @@
       "Box Jumps",
       "Burpees",
       "Broad Jumps"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "high-knees-front-knee-lifts-run-on-the-spot",
@@ -9144,9 +8960,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "hip-circles",
@@ -9226,9 +9040,7 @@
       "Glute Kickbacks",
       "Hip Thrusts",
       "Single Leg Glute Bridges"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "hollow-body-rock-hold",
@@ -9263,9 +9075,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "hops-hopping",
@@ -9304,9 +9114,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "inchworm-walkouts",
@@ -9350,9 +9158,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "incline-barbell-bench-chest-press",
@@ -9550,9 +9356,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "incline-plank-shoulder-taps",
@@ -9590,9 +9394,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "incline-planks",
@@ -9632,9 +9434,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "incline-push-ups-pushups",
@@ -9675,9 +9475,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "internal-cable-shoulder-rotation",
@@ -9835,9 +9633,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "jump-squats",
@@ -9999,9 +9795,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "kettlebell-deadlifts",
@@ -10123,9 +9917,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "kettlebell-squats",
@@ -10165,9 +9957,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "kettlebell-thruster",
@@ -10211,9 +10001,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "kettlebell-windmills",
@@ -10294,9 +10082,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "knee-planks-reaches",
@@ -10336,9 +10122,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "knee-to-box-jump-squats-power-jumps",
@@ -10378,9 +10162,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "knee-to-chest-lower-back-stretch",
@@ -10417,9 +10199,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "kneeling-cable-crunches",
@@ -10575,9 +10355,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "kneeling-t-bar-presseslandmine-presses",
@@ -10617,9 +10395,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "kneeling-wrist-forearm-stretch",
@@ -10886,9 +10662,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "laying-dumbbell-internal-shoulder-rotation",
@@ -10923,9 +10697,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "laying-external-shoulder-rotation",
@@ -10960,9 +10732,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "laying-heel-slides-knee-bends",
@@ -11002,9 +10772,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "laying-internal-shoulder-rotation",
@@ -11040,9 +10808,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "leg-press",
@@ -11199,9 +10965,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "low-upward-cable-pulley-crossover-chest-flyes",
@@ -11448,9 +11212,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "lying-dumbbell-tricep-extensions",
@@ -11490,9 +11252,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "lying-face-down-plate-neck-resistance",
@@ -11528,9 +11288,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "lying-leg-curls",
@@ -11607,9 +11365,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "lying-side-leg-lifts-lateral-raises-hip-abductors-adductors",
@@ -11646,9 +11402,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "lying-single-leg-lifts-raises",
@@ -11686,9 +11440,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "machine-assisted-pull-ups-pullups",
@@ -11971,9 +11723,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "medicine-ball-punch-throws",
@@ -12052,9 +11802,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "medicine-ball-rotational-passes",
@@ -12216,9 +11964,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "medicine-ball-v-ups",
@@ -12257,9 +12003,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "medicine-ball-wall-throw",
@@ -12380,9 +12124,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "modified-bicycles-elbow-to-knee-crunches-cross-body-crunches",
@@ -12419,9 +12161,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "modified-crunches-crunches",
@@ -12457,9 +12197,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "modified-plank-shoulder-taps-planks",
@@ -12498,9 +12236,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "modified-side-planks",
@@ -12537,9 +12273,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "monkey-barsclimbing-frame",
@@ -12578,9 +12312,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "mountain-climbers",
@@ -12621,9 +12353,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "muscle-ups",
@@ -12666,9 +12396,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "neck-stretch",
@@ -12784,9 +12512,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "one-arm-barbell-rows",
@@ -12904,9 +12630,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "one-arm-dumbbell-preacher-curl",
@@ -12987,9 +12711,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "one-arm-kettlebell-rows",
@@ -13308,9 +13030,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "overhead-water-bottle-squats",
@@ -13471,9 +13191,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "piriformis-stretch",
@@ -13511,9 +13229,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "pistol-squatss",
@@ -13592,9 +13308,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "plank-jacks",
@@ -13633,9 +13347,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "plank-knee-to-elbow",
@@ -13676,9 +13388,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "plank-leg-lifts",
@@ -13717,9 +13427,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "plank-rolls",
@@ -13754,9 +13462,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "plank-scapula-push-ups-planks-scaps",
@@ -13797,9 +13503,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "plank-shoulder-taps",
@@ -13838,9 +13542,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "plank-to-push-up-pushups-walking-plank",
@@ -13877,9 +13579,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "planks-reaches",
@@ -13919,9 +13619,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "plate-overhead-walking-lunges",
@@ -13993,9 +13691,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "power-skips",
@@ -14197,9 +13893,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "prone-lying-leg-lifts",
@@ -14238,9 +13932,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "prone-lying-resistance-band-knee-bends",
@@ -14280,9 +13972,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "pullups",
@@ -14363,9 +14053,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "rack-pulls",
@@ -14443,9 +14131,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "raised-leg-push-ups",
@@ -14483,9 +14169,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "rear-delt-machine-flyes",
@@ -14563,9 +14247,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "resistanceweighted-crunches",
@@ -14602,9 +14284,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "resistance-band-bent-over-rows",
@@ -14717,9 +14397,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "resistance-band-chest-opener-stretch",
@@ -14756,9 +14434,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "resistance-band-chest-press",
@@ -14835,9 +14511,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "resistance-band-deadlifts",
@@ -14916,9 +14590,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "resistance-band-glute-bridges",
@@ -14957,9 +14629,7 @@
       "Glute Kickbacks",
       "Hip Thrusts",
       "Single Leg Glute Bridges"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "resistance-band-glute-kickbacks",
@@ -14996,9 +14666,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "resistance-band-lateral-raises-side-raises",
@@ -15076,9 +14744,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "resistance-band-plantar-flexion-ankle-pumps",
@@ -15115,9 +14781,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "resistance-band-push-ups-pushups",
@@ -15157,9 +14821,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "resistance-band-shoulder-front-raises",
@@ -15464,9 +15126,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "reverse-cable-flyesreverse-cable-crossovers",
@@ -15661,9 +15321,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "reverse-grip-ez-curl-bar-curls",
@@ -15740,9 +15398,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "reverse-shoulder-stretch",
@@ -15781,9 +15437,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "reverse-triceps-bench-press",
@@ -15938,9 +15592,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "rope-jumping-skipping",
@@ -16020,9 +15672,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "russian-twists",
@@ -16060,9 +15710,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "samson-stretch-lunge-stretch",
@@ -16221,9 +15869,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "seal-jacks",
@@ -16382,9 +16028,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "seated-ankle-stretches",
@@ -16737,9 +16381,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "seated-dual-front-raises-raises",
@@ -17084,9 +16726,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "seated-jumping-jacks-star-jumps",
@@ -17200,9 +16840,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "seated-knee-to-elbows-chair-cross-body-crunches-bicycles",
@@ -17926,9 +17564,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "seated-rest-water-break",
@@ -17959,9 +17595,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "seated-shoulder-hammer-press",
@@ -18041,9 +17675,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "seated-side-chair-leans",
@@ -18268,9 +17900,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "semi-supine-laying-down-constructive-rest-position",
@@ -18310,9 +17940,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "shadow-boxing",
@@ -18396,9 +18024,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "shoulder-stretch",
@@ -18436,9 +18062,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "side-lateral-medicine-ball-throw-slam",
@@ -18557,9 +18181,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "side-lateral-leg-hip-swings",
@@ -18632,9 +18254,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "side-plank",
@@ -18673,9 +18293,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "side-plank-dumbbell-hip-raises",
@@ -18714,9 +18332,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "side-plank-hip-raises",
@@ -18754,9 +18370,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "side-plank-leg-raises",
@@ -18796,9 +18410,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "side-plank-rotations-elbow-twists",
@@ -18836,9 +18448,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "side-to-side-jump-squats",
@@ -18877,9 +18487,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "single-arm-floor-glute-bridge-press",
@@ -19232,9 +18840,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "single-arm-overhead-dumbbell-squats",
@@ -19351,9 +18957,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "single-leg-bench-bodyweight-squats",
@@ -19474,9 +19078,7 @@
       "Box Jumps",
       "Burpees",
       "Broad Jumps"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "single-straight-leg-dumbbell-deadlift",
@@ -19592,9 +19194,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "single-arm-side-lateral-raises",
@@ -19668,9 +19268,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "single-arm-lateral-raises-side-flyes",
@@ -19784,9 +19382,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "sled-pulls",
@@ -19826,9 +19422,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "sled-push",
@@ -19871,9 +19465,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "smith-machine-bench-chest-press",
@@ -20067,9 +19659,7 @@
       "Box Jumps",
       "Burpees",
       "Broad Jumps"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "spiderman-push-ups-pushups",
@@ -20109,9 +19699,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "split-alternating-squat-jumps",
@@ -20153,9 +19741,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "baseball-2",
@@ -20186,9 +19772,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "hacky-sack",
@@ -20219,9 +19803,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "soccer",
@@ -20252,9 +19834,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "tennis",
@@ -20285,9 +19865,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "cadio-sprints",
@@ -20332,9 +19910,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "squat-jacks-side-sumo-walks",
@@ -20452,9 +20028,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "swiss-ball-back-extensions",
@@ -20490,9 +20064,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "bench-swiss-exercise-ball-russian-twists",
@@ -20685,9 +20257,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "stability-ball-dumbbell-shoulder-press",
@@ -20766,9 +20336,7 @@
       "Glute Kickbacks",
       "Hip Thrusts",
       "Single Leg Glute Bridges"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "swiss-ball-hand-off-v-pass",
@@ -20807,9 +20375,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "swiss-ball-knee-tuck-to-chest",
@@ -20850,9 +20416,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "swiss-ball-leg-lifts",
@@ -20891,9 +20455,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "swiss-ball-plank",
@@ -20930,9 +20492,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "swiss-exercise-ball-push-ups-press-ups",
@@ -20971,9 +20531,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "stability-swiss-exercise-ball-pushups-push-ups",
@@ -21012,9 +20570,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "swiss-exercise-ball-reverse-crunches",
@@ -21053,9 +20609,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "stability-swiss-exercise-ball-rollout",
@@ -21095,9 +20649,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "single-leg-swiss-ball-hips-raises-leg-curls",
@@ -21134,9 +20686,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "stability-swiss-exercise-ball-squats",
@@ -21217,9 +20767,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "standing-adductor-adduction-stretch",
@@ -21258,9 +20806,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "standing-arm-circles",
@@ -22033,9 +21579,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "standing-knee-hugs",
@@ -22075,9 +21619,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "standing-leg-hamstring-curls",
@@ -22157,9 +21699,7 @@
       "Box Jumps",
       "Burpees",
       "Broad Jumps"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "overhead-barbell-triceps-extensions",
@@ -22273,9 +21813,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "standing-palm-up-wrist-stretch",
@@ -22311,9 +21849,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "standing-quadricep-stretch",
@@ -22352,9 +21888,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "standing-resistance-band-chest-pulls-chest-openers-back-flyes",
@@ -22425,9 +21959,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "standing-reverse-barbell-curls",
@@ -22505,9 +22037,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "standing-side-leans-reaches-bends",
@@ -22660,9 +22190,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "standing-smith-calf-raises",
@@ -22853,9 +22381,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "static-bicep-curls",
@@ -22894,9 +22420,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "static-push-up-hold",
@@ -22936,9 +22460,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "static-squat-hold",
@@ -22979,9 +22501,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "step-up-with-knee-raises",
@@ -23138,9 +22658,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "plie-sumo-dumbbell-squat-deadlifts",
@@ -23260,9 +22778,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "supine-lying-down-position-corpse-pose",
@@ -23302,9 +22818,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "surrenders",
@@ -23344,9 +22858,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 3,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "swiss-ball-squeezes",
@@ -23383,9 +22895,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "toe-reaches-crunches",
@@ -24064,9 +23574,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "trx-suspension-straps-chest-press",
@@ -24264,9 +23772,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "trx-suspension-straps-side-stepl-lateral-lunges",
@@ -24514,9 +24020,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "two-arm-kettlebell-squat-swings",
@@ -24639,9 +24143,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "upper-body-ergometers-bike-ube",
@@ -24679,9 +24181,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "upright-barbell-rows",
@@ -25118,9 +24618,7 @@
       "Dumbbell Press",
       "Incline Press",
       "Overhead Press"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "water-bottle-lunges",
@@ -25276,9 +24774,7 @@
       "Air Squats",
       "Jump Squats",
       "Goblet Squats"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "water-bottle-squat-thrusters",
@@ -25478,9 +24974,7 @@
       "Glute Kickbacks",
       "Hip Thrusts",
       "Single Leg Glute Bridges"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "weighted-pull-ups",
@@ -25558,9 +25052,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "weighted-tricep-dips",
@@ -25635,9 +25127,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 1,
-    "animation_orientation": "horizontal"
+    ]
   },
   {
     "slug": "wide-push-ups",
@@ -25678,9 +25168,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "wide-stance-sumo-barbell-squats",
@@ -25798,9 +25286,7 @@
       "Basic Variation",
       "Advanced Version",
       "Alternative Movement"
-    ],
-    "animation_frames": 2,
-    "animation_orientation": "vertical"
+    ]
   },
   {
     "slug": "wrist-circles-rotations",

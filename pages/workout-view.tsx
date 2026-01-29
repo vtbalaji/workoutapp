@@ -112,18 +112,12 @@ function WorkoutViewContent() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="bg-white border-b sticky top-0 z-10">
-        <div className="max-w-4xl mx-auto px-4 py-3 sm:py-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 sm:gap-0">
+        <div className="max-w-4xl mx-auto px-4 py-3 sm:py-4">
           <Link
             href="/workouts"
             className="text-blue-600 hover:text-blue-700 font-medium text-sm sm:text-base"
           >
             ← Back to Workouts
-          </Link>
-          <Link
-            href={`/workout-builder?id=${workout.id}`}
-            className="px-3 sm:px-4 py-2 bg-blue-600 text-white text-sm sm:text-base rounded-lg hover:bg-blue-700 transition-colors"
-          >
-            Edit
           </Link>
         </div>
       </div>
@@ -136,16 +130,45 @@ function WorkoutViewContent() {
             {workout.workoutName}
           </h1>
 
-          <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-base sm:text-lg text-gray-600 mb-4 sm:mb-6">
-            <span className="text-green-600 font-semibold">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
+            <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-semibold">
               {workout.estimatedDuration || Math.ceil(totalExercises * 3)} min
             </span>
-            <span>•</span>
-            <span>{totalExercises} exercises</span>
+            <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
+              {totalExercises} exercises
+            </span>
+            <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">
+              {workout.difficulty || 'Beginner'}
+            </span>
+            {(() => {
+              // Aggregate unique equipment
+              const equipmentSet = new Set<string>();
+              workout.sections.forEach(section => {
+                section.exercises.forEach(ex => {
+                  (ex.equipment || []).forEach(item => equipmentSet.add(item));
+                });
+              });
+
+              const equipmentList = Array.from(equipmentSet);
+
+              if (equipmentList.length === 0) {
+                return (
+                  <span className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-semibold">
+                    No equipment
+                  </span>
+                );
+              }
+
+              return equipmentList.slice(0, 3).map(item => (
+                <span key={item} className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-semibold">
+                  {item}
+                </span>
+              ));
+            })()}
           </div>
 
           {workout.workoutDescription && (
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-base sm:text-lg text-gray-700 leading-relaxed">
               {workout.workoutDescription}
             </p>
           )}
@@ -170,9 +193,9 @@ function WorkoutViewContent() {
                       className="bg-white rounded-lg p-4 sm:p-6 shadow-sm cursor-pointer hover:shadow-md transition-shadow"
                       onClick={() => setSelectedExercise(exercise)}
                     >
-                      <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
+                      <div className="flex gap-4">
                         {/* Exercise Image */}
-                        <div className="flex-shrink-0 w-full sm:w-40 h-32 sm:h-40 bg-gray-50 rounded-lg overflow-hidden flex items-center justify-center">
+                        <div className="flex-shrink-0 w-24 sm:w-40 h-24 sm:h-40 bg-gray-50 rounded-lg overflow-hidden flex items-center justify-center">
                           {exercise.imageUrl && exercise.imageUrl.trim() ? (
                             <img
                               src={exercise.imageUrl}
@@ -186,8 +209,8 @@ function WorkoutViewContent() {
                           ) : null}
                           {!exercise.imageUrl || !exercise.imageUrl.trim() ? (
                             <div className="text-center">
-                              <div className="text-5xl mb-2">💪</div>
-                              <p className="text-gray-500 text-sm">{exercise.exerciseName}</p>
+                              <div className="text-3xl sm:text-5xl mb-1 sm:mb-2">💪</div>
+                              <p className="text-gray-500 text-xs sm:text-sm hidden sm:block">{exercise.exerciseName}</p>
                             </div>
                           ) : null}
                         </div>
@@ -241,8 +264,87 @@ function WorkoutViewContent() {
           ))}
         </div>
 
-        {/* Footer */}
+        {/* Workout Summary */}
         <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">Workout Summary</h2>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            {/* Target Muscles */}
+            <div className="bg-white rounded-lg shadow p-6">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">Target Muscles</h3>
+              <div className="space-y-3">
+                {(() => {
+                  // Aggregate all muscles from all exercises
+                  const muscleCounts: { [key: string]: number } = {};
+                  workout.sections.forEach(section => {
+                    section.exercises.forEach(ex => {
+                      (ex.primaryMuscles || []).forEach(muscle => {
+                        muscleCounts[muscle] = (muscleCounts[muscle] || 0) + 1;
+                      });
+                    });
+                  });
+
+                  // Sort by frequency
+                  const sortedMuscles = Object.entries(muscleCounts).sort((a, b) => b[1] - a[1]);
+
+                  return sortedMuscles.map(([muscle, count]) => (
+                    <div key={muscle} className="flex items-center justify-between">
+                      <span className="text-gray-900 font-medium">{muscle}</span>
+                      <div className="flex items-center gap-2 flex-1 ml-4">
+                        <span className="text-gray-500 text-sm">{count} exercises</span>
+                        <div className="flex-1 bg-gray-200 rounded-full h-2 max-w-[200px]">
+                          <div
+                            className="bg-blue-600 h-2 rounded-full"
+                            style={{ width: `${(count / totalExercises) * 100}%` }}
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  ));
+                })()}
+              </div>
+            </div>
+
+            {/* Equipment Needed */}
+            <div className="bg-white rounded-lg shadow p-6">
+              <h3 className="text-lg font-bold text-gray-900 mb-4">Equipment Needed</h3>
+              <div className="space-y-2">
+                {(() => {
+                  // Aggregate unique equipment
+                  const equipmentSet = new Set<string>();
+                  workout.sections.forEach(section => {
+                    section.exercises.forEach(ex => {
+                      (ex.equipment || []).forEach(item => equipmentSet.add(item));
+                    });
+                  });
+
+                  const equipmentList = Array.from(equipmentSet);
+
+                  if (equipmentList.length === 0) {
+                    return <p className="text-gray-500">No equipment needed</p>;
+                  }
+
+                  return equipmentList.map(item => (
+                    <div key={item} className="flex items-center gap-2">
+                      <input type="checkbox" className="w-4 h-4 text-blue-600" readOnly />
+                      <span className="text-gray-900">{item}</span>
+                    </div>
+                  ));
+                })()}
+              </div>
+
+              <div className="mt-6 pt-4 border-t">
+                <h4 className="text-sm font-bold text-gray-900 mb-2">Difficulty</h4>
+                <span className="inline-block px-4 py-2 bg-green-600 text-white rounded-lg font-semibold">
+                  {workout.difficulty || 'Beginner'}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Footer */}
+        <div className="mt-6 pt-6 border-t">
           <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
             <Link
               href="/workouts"

@@ -30,6 +30,8 @@ export interface Exercise {
   secondary_muscles: string[];
   related_exercises: string[];
   related_poses: string[];
+  animation_frames?: number; // 1, 2, or 3
+  animation_orientation?: 'horizontal' | 'vertical';
 }
 
 export interface Workout {
@@ -67,6 +69,8 @@ export interface WorkoutExercise {
   primaryMuscles: string[];
   equipment: string[];
   description?: string;
+  animation_frames?: number; // 1, 2, or 3
+  animation_orientation?: 'horizontal' | 'vertical';
 }
 
 export interface SectionTemplate {
