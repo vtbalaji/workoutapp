@@ -122,6 +122,13 @@ export default function WorkoutCanvas({
     updateWorkout({ ...workout, sections: updatedSections });
   };
 
+  const handleUpdateSectionSets = (sectionId: string, sets: number) => {
+    const updatedSections = workout.sections.map((section) =>
+      section.id === sectionId ? { ...section, sets } : section
+    );
+    updateWorkout({ ...workout, sections: updatedSections });
+  };
+
   const handleAddSection = (name: string) => {
     const newSection: WorkoutSection = {
       id: uuidv4(),
@@ -303,6 +310,7 @@ export default function WorkoutCanvas({
                   onDeleteExercise={handleDeleteExercise}
                   onDeleteSection={handleDeleteSection}
                   onUpdateSectionName={handleUpdateSectionName}
+                  onUpdateSectionSets={handleUpdateSectionSets}
                   onApplyTemplate={handleApplyTemplate}
                 />
               ))}

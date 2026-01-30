@@ -29,8 +29,8 @@ export default function ExercisePreview({
   const [selectedSectionId, setSelectedSectionId] = useState<string>(
     workout?.sections?.[0]?.id || ""
   );
-  const [customSets, setCustomSets] = useState(3);
-  const [customReps, setCustomReps] = useState(10);
+  const [customSets, setCustomSets] = useState(1);
+  const [customReps, setCustomReps] = useState("10");
   const [customRest, setCustomRest] = useState(60);
 
   // For template builder (no workout/sections)
@@ -56,7 +56,7 @@ export default function ExercisePreview({
         "", // No section ID for templates
         selectedExercise,
         customSets,
-        customReps,
+        parseInt(customReps) || 10,
         customRest
       );
       if (onShowToast) {
@@ -76,7 +76,7 @@ export default function ExercisePreview({
       selectedSectionId,
       selectedExercise,
       customSets,
-      customReps,
+      parseInt(customReps) || 10,
       customRest
     );
 
@@ -172,40 +172,6 @@ export default function ExercisePreview({
         </div>
       )}
 
-      {/* Quick Presets */}
-      <div className="mb-4 pb-4 border-b">
-        <h3 className="font-semibold text-sm mb-2">Quick Presets</h3>
-        <div className="space-y-2">
-          <button
-            onClick={() => {
-              setCustomSets(3);
-              setCustomReps(10);
-            }}
-            className="w-full px-3 py-2 bg-gray-100 hover:bg-gray-200 rounded text-xs font-medium transition-colors"
-          >
-            3x10
-          </button>
-          <button
-            onClick={() => {
-              setCustomSets(4);
-              setCustomReps(8);
-            }}
-            className="w-full px-3 py-2 bg-gray-100 hover:bg-gray-200 rounded text-xs font-medium transition-colors"
-          >
-            4x8
-          </button>
-          <button
-            onClick={() => {
-              setCustomSets(5);
-              setCustomReps(5);
-            }}
-            className="w-full px-3 py-2 bg-gray-100 hover:bg-gray-200 rounded text-xs font-medium transition-colors"
-          >
-            5x5
-          </button>
-        </div>
-      </div>
-
       {/* Custom Sets/Reps/Rest */}
       <div className="mb-4 space-y-3">
         <div>
@@ -222,11 +188,14 @@ export default function ExercisePreview({
         <div>
           <label className="block text-sm font-medium mb-1">Reps</label>
           <input
-            type="number"
-            min="1"
-            max="50"
+            type="text"
             value={customReps}
-            onChange={(e) => setCustomReps(Number(e.target.value))}
+            onChange={(e) => {
+              // Only allow numbers
+              const value = e.target.value.replace(/[^0-9]/g, '');
+              setCustomReps(value);
+            }}
+            placeholder="Enter reps"
             className="w-full px-2 py-1 border border-gray-300 rounded text-sm"
           />
         </div>

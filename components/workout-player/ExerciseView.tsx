@@ -4,7 +4,11 @@ import { WorkoutExercise } from "@/lib/types";
 import AnimatedExerciseImage from "../AnimatedExerciseImage";
 
 interface ExerciseViewProps {
-  exercise: WorkoutExercise;
+  exercise: WorkoutExercise & {
+    sectionName?: string;
+    sectionSets?: number;
+    currentSectionRound?: number;
+  };
   currentSet: number;
   playerState: "preview" | "active" | "rest" | "complete";
 }
@@ -16,6 +20,15 @@ export default function ExerciseView({
 }: ExerciseViewProps) {
   return (
     <div className="flex-1 flex flex-col items-center justify-center px-6">
+      {/* Section round indicator */}
+      {exercise.sectionName && exercise.sectionSets && exercise.sectionSets > 1 && (
+        <div className="w-full mb-2">
+          <p className="text-sm text-indigo-600 font-semibold text-center">
+            {exercise.sectionName} - Round {exercise.currentSectionRound} of {exercise.sectionSets}
+          </p>
+        </div>
+      )}
+
       {/* Exercise name */}
       <div className="w-full mb-8">
         <h1 className="text-2xl font-bold text-gray-900 text-center whitespace-nowrap overflow-hidden text-ellipsis">

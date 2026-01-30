@@ -180,9 +180,23 @@ function WorkoutViewContent() {
             <div key={section.id}>
               {/* Section Header */}
               {section.name && (
-                <h2 className="text-xl font-bold text-gray-900 mb-4 pb-2 border-b">
-                  {section.name}
-                </h2>
+                <div className="mb-4 pb-2 border-b">
+                  <div className="flex items-center justify-between">
+                    <h2 className="text-xl font-bold text-gray-900">
+                      {section.name}
+                    </h2>
+                    {section.sets && section.sets > 1 && (
+                      <span className="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm font-semibold">
+                        {section.sets} rounds
+                      </span>
+                    )}
+                  </div>
+                  {section.sets && section.sets > 1 && (
+                    <p className="text-sm text-gray-600 mt-1">
+                      Complete all exercises below {section.sets} times
+                    </p>
+                  )}
+                </div>
               )}
 
               {/* Exercise Cards */}

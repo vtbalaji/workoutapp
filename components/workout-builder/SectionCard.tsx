@@ -17,6 +17,7 @@ interface SectionCardProps {
   onDeleteExercise: (sectionId: string, exerciseId: string) => void;
   onDeleteSection: (sectionId: string) => void;
   onUpdateSectionName: (sectionId: string, newName: string) => void;
+  onUpdateSectionSets: (sectionId: string, sets: number) => void;
   onApplyTemplate: (sectionId: string) => void;
 }
 
@@ -26,11 +27,13 @@ export default function SectionCard({
   onDeleteExercise,
   onDeleteSection,
   onUpdateSectionName,
+  onUpdateSectionSets,
   onApplyTemplate,
 }: SectionCardProps) {
   const [isExpanded, setIsExpanded] = useState(true);
   const [isEditingName, setIsEditingName] = useState(false);
   const [newName, setNewName] = useState(section.name);
+  const [sectionSets, setSectionSets] = useState(section.sets || 1);
   const { setNodeRef, isOver } = useDroppable({
     id: `section-${section.id}`,
     data: {
@@ -90,6 +93,26 @@ export default function SectionCard({
           <span className="text-sm text-gray-600 bg-gray-200 px-2 py-1 rounded">
             {section.exercises.length}
           </span>
+
+          {/* Section Sets Input */}
+          <div className="flex items-center gap-2 ml-4">
+            <label className="text-sm font-medium text-gray-700">
+              Rounds:
+            </label>
+            <input
+              type="number"
+              min="1"
+              max="10"
+              value={sectionSets}
+              onChange={(e) => {
+                const value = parseInt(e.target.value) || 1;
+                setSectionSets(value);
+                onUpdateSectionSets(section.id, value);
+              }}
+              onClick={(e) => e.stopPropagation()}
+              className="w-16 px-2 py-1 border border-gray-300 rounded text-center font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500"
+            />
+          </div>
         </div>
 
         <div className="flex gap-2">

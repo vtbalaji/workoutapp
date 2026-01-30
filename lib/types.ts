@@ -53,6 +53,7 @@ export interface WorkoutSection {
   name: string;
   exercises: WorkoutExercise[];
   order: number;
+  sets?: number; // Number of times to repeat all exercises in this section (default: 1)
 }
 
 export interface WorkoutExercise {

@@ -18,8 +18,25 @@ type PlayerState = "preview" | "active" | "rest" | "complete";
 export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
   const router = useRouter();
 
-  // Flatten all exercises from sections
-  const allExercises = workout.sections.flatMap(section => section.exercises);
+  // Flatten all exercises from sections, accounting for section sets
+  // If a section has sets=3, include each exercise 3 times
+  const allExercises = workout.sections.flatMap(section => {
+    const sectionSets = section.sets || 1;
+    const exercisesWithMetadata = section.exercises.map(ex => ({
+      ...ex,
+      sectionName: section.name,
+      sectionSets: sectionSets,
+    }));
+
+    // Repeat exercises for each section set
+    return Array.from({ length: sectionSets }, (_, setIndex) =>
+      exercisesWithMetadata.map(ex => ({
+        ...ex,
+        currentSectionRound: setIndex + 1,
+      }))
+    ).flat();
+  });
+
   const totalExercises = allExercises.length;
 
   // Player state
