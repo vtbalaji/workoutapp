@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Workout } from "@/lib/types";
 import PlayerHeader from "./PlayerHeader";
 import ExerciseView from "./ExerciseView";
@@ -58,6 +58,53 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
 
   const currentExercise = allExercises[currentExerciseIndex];
 
+  const handleRestComplete = () => {
+    setCurrentSet(prev => prev + 1);
+    setPlayerState("active");
+  };
+
+  const moveToNextExercise = useCallback(() => {
+    if (currentExerciseIndex < totalExercises - 1) {
+      setCurrentExerciseIndex(prev => prev + 1);
+      setCurrentSet(1);
+      setPlayerState("active"); // Auto-start next exercise instead of preview
+    } else {
+      // Workout complete
+      setPlayerState("complete");
+    }
+  }, [currentExerciseIndex, totalExercises]);
+
+  const handleNext = useCallback(() => {
+    if (playerState === "preview") {
+      // Start first set
+      setPlayerState("active");
+    } else if (playerState === "active") {
+      // Check if more sets remaining
+      if (currentSet < currentExercise.sets) {
+        // Start rest timer
+        setRestSecondsLeft(currentExercise.restSeconds);
+        setPlayerState("rest");
+      } else {
+        // Move to next exercise
+        moveToNextExercise();
+      }
+    } else if (playerState === "rest") {
+      // Skip rest, go to next set
+      setCurrentSet(prev => prev + 1);
+      setPlayerState("active");
+    }
+  }, [playerState, currentSet, currentExercise.sets, currentExercise.restSeconds, moveToNextExercise]);
+
+  const handlePauseToggle = useCallback(() => {
+    setIsPaused(!isPaused);
+  }, [isPaused]);
+
+  const handleExit = useCallback(() => {
+    if (confirm("Are you sure you want to exit the workout?")) {
+      router.push("/workouts");
+    }
+  }, [router]);
+
   // Keyboard shortcuts
   useEffect(() => {
     const handleKeyPress = (e: KeyboardEvent) => {
@@ -86,7 +133,7 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
 
     window.addEventListener("keydown", handleKeyPress);
     return () => window.removeEventListener("keydown", handleKeyPress);
-  }, [playerState, isPaused]); // Dependencies needed for handlers
+  }, [handleExit, handleNext, handlePauseToggle]);
 
   // Total elapsed timer
   useEffect(() => {
@@ -116,53 +163,6 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
 
     return () => clearInterval(timer);
   }, [playerState, isPaused, restSecondsLeft]);
-
-  const handleRestComplete = () => {
-    setCurrentSet(prev => prev + 1);
-    setPlayerState("active");
-  };
-
-  const handleNext = () => {
-    if (playerState === "preview") {
-      // Start first set
-      setPlayerState("active");
-    } else if (playerState === "active") {
-      // Check if more sets remaining
-      if (currentSet < currentExercise.sets) {
-        // Start rest timer
-        setRestSecondsLeft(currentExercise.restSeconds);
-        setPlayerState("rest");
-      } else {
-        // Move to next exercise
-        moveToNextExercise();
-      }
-    } else if (playerState === "rest") {
-      // Skip rest, go to next set
-      setCurrentSet(prev => prev + 1);
-      setPlayerState("active");
-    }
-  };
-
-  const moveToNextExercise = () => {
-    if (currentExerciseIndex < totalExercises - 1) {
-      setCurrentExerciseIndex(prev => prev + 1);
-      setCurrentSet(1);
-      setPlayerState("active"); // Auto-start next exercise instead of preview
-    } else {
-      // Workout complete
-      setPlayerState("complete");
-    }
-  };
-
-  const handlePauseToggle = () => {
-    setIsPaused(!isPaused);
-  };
-
-  const handleExit = () => {
-    if (confirm("Are you sure you want to exit the workout?")) {
-      router.push("/workouts");
-    }
-  };
 
   const calculateProgress = () => {
     const exerciseProgress = currentExerciseIndex / totalExercises;

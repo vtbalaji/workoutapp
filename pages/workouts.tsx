@@ -10,7 +10,7 @@ import Toast from "@/components/Toast";
 import ConfirmModal from "@/components/ConfirmModal";
 import { SkeletonWorkoutCard } from "@/components/Skeleton";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEye, faEdit, faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faEdit, faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
 
 export default function WorkoutsPage() {
   return (
@@ -207,7 +207,7 @@ function WorkoutsContent() {
                     }
                     className="w-full px-4 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 active:scale-95 transition-all duration-200"
                   >
-                    Let's Start
+                    Let&apos;s Start
                   </button>
                 </div>
               );

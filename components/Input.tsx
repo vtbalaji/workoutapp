@@ -193,6 +193,7 @@ interface SelectProps extends BaseInputProps {
   onChange?: (e: React.ChangeEvent<HTMLSelectElement>) => void;
   placeholder?: string;
   id?: string;
+  className?: string;
 }
 
 export function Select({
