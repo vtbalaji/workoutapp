@@ -1,0 +1,25 @@
+{
+  "id": "83631",
+  "slug": "hanging-windshield-wipers",
+  "title": "Hanging Windshield Wipers",
+  "description": "Hanging Windshield Wipers is a gym work out exercise that targets abs and obliques and also involves middle back / lats",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Middle Back Lats"
+  ],
+  "related_exercises": [
+    "Side / Oblique Crunches",
+    "Upward Cable Wood Chops",
+    "Standing Side Leans / Reaches / Bends"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83631",
+    "female": "https://workoutlabs.com/train/svg.php?id=86475"
+  }
+}

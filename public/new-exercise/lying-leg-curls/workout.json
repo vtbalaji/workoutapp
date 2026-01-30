@@ -1,0 +1,24 @@
+{
+  "id": "83680",
+  "slug": "lying-leg-curls",
+  "title": "Lying Leg Curls",
+  "description": "Lying Leg Curls is a gym work out exercise that targets hamstrings and also involves glutes & hip flexors",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Surrenders",
+    "Frog Jumps",
+    "Bodyweight Side Steps / Lateral Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83680",
+    "female": "https://workoutlabs.com/train/svg.php?id=85601"
+  }
+}

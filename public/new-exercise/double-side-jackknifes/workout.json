@@ -1,0 +1,25 @@
+{
+  "id": "83556",
+  "slug": "double-side-jackknifes",
+  "title": "Double Side Jackknifes",
+  "description": "Double Side Jackknifes is a at-home work out exercise that targets abs and obliques and also involves glutes & hip flexors",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Knee Plank",
+    "Cobra Abdominal Stretch / Old Horse Stretch",
+    "Mountain Climbers / Alternating Knee-ins"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83556",
+    "female": "https://workoutlabs.com/train/svg.php?id=85471"
+  }
+}

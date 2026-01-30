@@ -1,0 +1,22 @@
+{
+  "id": "95403",
+  "slug": "seated-neck-roll",
+  "title": "Seated Neck Roll",
+  "description": "Seated Neck Roll is a at-home work out exercise that targets neck & upper traps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Neck Upper Traps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Chin Tucks / Neck Extensions",
+    "Foam Roller Neck Release",
+    "Farmer?s Walk / Carry"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=95403",
+    "female": "https://workoutlabs.com/train/svg.php?id=95401"
+  }
+}

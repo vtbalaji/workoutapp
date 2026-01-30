@@ -1,0 +1,25 @@
+{
+  "id": "95506",
+  "slug": "standing-hip-rotations",
+  "title": "Standing Hip Rotations",
+  "description": "Standing Hip Rotations is a at-home work out exercise that targets glutes & hip flexors and also involves abs and lower back",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "TRX Suspension Strap Reverse Lunges / Lunges",
+    "Resistance Band Side Steps",
+    "Foam Roller Inner Thigh Adductor / Adduction Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=95506",
+    "female": "https://workoutlabs.com/train/svg.php?id=95504"
+  }
+}

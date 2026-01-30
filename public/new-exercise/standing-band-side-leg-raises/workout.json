@@ -1,0 +1,24 @@
+{
+  "id": "86649",
+  "slug": "standing-band-side-leg-raises",
+  "title": "Standing Band Side Leg Raises",
+  "description": "Band Side Leg Raises is a gym work out exercise that targets glutes & hip flexors and also involves quadriceps",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Crab Walks",
+    "Hops / Hopping",
+    "Snap Jumps"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86649",
+    "female": "https://workoutlabs.com/train/svg.php?id=86569"
+  }
+}

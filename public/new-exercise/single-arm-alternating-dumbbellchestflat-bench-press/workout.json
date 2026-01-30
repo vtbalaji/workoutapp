@@ -1,0 +1,24 @@
+{
+  "id": "83820",
+  "slug": "single-arm-alternating-dumbbellchestflat-bench-press",
+  "title": "Single / One Arm Alternating Dumbbell / Chest / Flat Bench Press",
+  "description": "Alternating Dumbbell Press is a gym work out exercise that targets chest and also involves triceps",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Incline Bench Dumbbell Flyes",
+    "Kneeling Kettlebell Press",
+    "Stability / Swiss / Exercise Ball Push Ups / Press Ups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83820",
+    "female": "https://workoutlabs.com/train/svg.php?id=85742"
+  }
+}

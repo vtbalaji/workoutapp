@@ -1,0 +1,25 @@
+{
+  "id": "84583",
+  "slug": "hops-hopping",
+  "title": "Hops / Hopping",
+  "description": "Hopping is a at-home work out exercise that targets calves and glutes & hip flexors and also involves quadriceps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Calves",
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Seal Jacks",
+    "Barbell Split Squats",
+    "Sumo / Plié Dumbbell Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84583",
+    "female": "https://workoutlabs.com/train/svg.php?id=85553"
+  }
+}

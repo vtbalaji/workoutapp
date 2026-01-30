@@ -1,0 +1,25 @@
+{
+  "id": "83906",
+  "slug": "trx-reverse-lunges-lunges",
+  "title": "TRX Suspension Strap Reverse Lunges / Lunges",
+  "description": "Suspension Reverse Lunges is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves hamstrings",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Standing Single / One Leg Circles",
+    "Walking High Kicks / Soldier March",
+    "Bosu Ball Bridges Hip Raises / Glute Bridges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83906",
+    "female": "https://workoutlabs.com/train/svg.php?id=85825"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "86299",
+  "slug": "seated-knee-extension",
+  "title": "Seated Knee Extensions",
+  "description": "Seated Knee Extensions is a at-home work out exercise that targets knees and also involves quadriceps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Knees"
+  ],
+  "secondary_muscles": [
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Prone / Lying Knee Bends",
+    "Seated Knee Extensions",
+    "Seated Resistance Knee Flexion"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86299",
+    "female": "https://workoutlabs.com/train/svg.php?id=86297"
+  }
+}

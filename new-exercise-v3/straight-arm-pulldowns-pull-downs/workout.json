@@ -1,0 +1,24 @@
+{
+  "id": "83884",
+  "slug": "straight-arm-pulldowns-pull-downs",
+  "title": "Straight Arm Pulldowns / Pull Downs / Pullovers",
+  "description": "Straight Arm Pulldowns is a gym work out exercise that targets middle back / lats and also involves lower back",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Middle Back Lats"
+  ],
+  "secondary_muscles": [
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Straight Arm Pulldowns / Pull Downs / Pullovers",
+    "Machine Assisted Pull-ups / Pullups",
+    "Your exercise (placeholder)"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83884",
+    "female": "https://workoutlabs.com/train/svg.php?id=85804"
+  }
+}

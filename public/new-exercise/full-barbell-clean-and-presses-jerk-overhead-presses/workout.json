@@ -1,0 +1,27 @@
+{
+  "id": "85964",
+  "slug": "full-barbell-clean-and-presses-jerk-overhead-presses",
+  "title": "Full Barbell Clean and Presses / Jerk / Overhead Presses",
+  "description": "Full Barbell Clean And Presses is a gym work out exercise that targets middle back / lats and shoulders and also involves abs and glutes & hip flexors and hamstrings",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Middle Back Lats",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Glutes Hip Flexors",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Battle Rope Squatting Alternating Waves",
+    "Bent Over Two-Arm Long Barbell / T-Bar Rows",
+    "Medicine Ball Wall Throw"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=85964",
+    "female": "https://workoutlabs.com/train/svg.php?id=85358"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "83927",
+  "slug": "v-bar-triangle-bar-lat-pulldowns",
+  "title": "V-Bar / Triangle Bar Lat Pulldowns / Pull Downs / Pullovers",
+  "description": "Triangle Bar Lat Pulldowns is a gym work out exercise that targets middle back / lats and also involves biceps",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Middle Back Lats"
+  ],
+  "secondary_muscles": [
+    "Biceps"
+  ],
+  "related_exercises": [
+    "Your exercise (placeholder)",
+    "Negative Pull-Ups / Pullups",
+    "Straight Arm Pulldowns / Pull Downs / Pullovers"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83927",
+    "female": "https://workoutlabs.com/train/svg.php?id=85848"
+  }
+}

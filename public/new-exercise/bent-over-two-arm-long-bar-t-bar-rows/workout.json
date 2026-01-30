@@ -1,0 +1,28 @@
+{
+  "id": "83479",
+  "slug": "bent-over-two-arm-long-bar-t-bar-rows",
+  "title": "Bent Over Two-Arm Long Barbell / T-Bar Rows",
+  "description": "T-bar Rows is a gym work out exercise that targets lower back and middle back / lats and also involves abs and biceps and forearms and upper back & lower traps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Lower Back",
+    "Middle Back Lats"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps",
+    "Forearms",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Barbell Good Mornings",
+    "Wide-Grip Lat Pulldowns / Pull Downs / Pullovers",
+    "TRX Suspension Strap Pull Ups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83479",
+    "female": "https://workoutlabs.com/train/svg.php?id=85396"
+  }
+}

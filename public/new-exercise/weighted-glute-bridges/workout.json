@@ -1,0 +1,25 @@
+{
+  "id": "83935",
+  "slug": "weighted-glute-bridges",
+  "title": "Weighted Glute Bridges",
+  "description": "Weighted Glute Bridges is a gym work out exercise that targets glutes & hip flexors and also involves abs and lower back",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Bosu Ball Single / One Leg Bridge / Hip Thrusts / Extensions / Raises",
+    "Seated Resistance Band Leg / Hip Abduction",
+    "Standing Adductor / Adduction Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83935",
+    "female": "https://workoutlabs.com/train/svg.php?id=85856"
+  }
+}

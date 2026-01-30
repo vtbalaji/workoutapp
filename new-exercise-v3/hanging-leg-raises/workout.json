@@ -1,0 +1,25 @@
+{
+  "id": "83629",
+  "slug": "hanging-leg-raises",
+  "title": "Hanging Leg Raises",
+  "description": "Hanging Leg Raises is a gym work out exercise that targets abs and also involves forearms and glutes & hip flexors",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Forearms",
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Side / Lateral Medicine Ball Throw / Slam",
+    "Mountain Climbers / Alternating Knee-ins",
+    "Battle Rope Double Arm Slams"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83629",
+    "female": "https://workoutlabs.com/train/svg.php?id=85544"
+  }
+}

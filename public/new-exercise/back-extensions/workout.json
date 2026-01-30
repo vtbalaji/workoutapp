@@ -1,0 +1,25 @@
+{
+  "id": "83436",
+  "slug": "back-extensions",
+  "title": "Back Extensions / Hyperextensions",
+  "description": "Back Extensions is a gym work out exercise that targets lower back and also involves glutes & hip flexors and hamstrings",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Foam Roller Lower Back Stretch",
+    "Seated Lean Backs / Chair Crunches",
+    "Supermans / Extended Arms & Legs Lifts"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83436",
+    "female": "https://workoutlabs.com/train/svg.php?id=85354"
+  }
+}

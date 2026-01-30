@@ -1,0 +1,28 @@
+{
+  "id": "83450",
+  "slug": "barbell-high-pulls",
+  "title": "Barbell High Pulls",
+  "description": "Barbell High Pulls is a gym work out exercise that targets hamstrings and quadriceps and shoulders and also involves calves and glutes & hip flexors and lower back",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Glutes Hip Flexors",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Agility Ladder Drills",
+    "Resistance Band Deadlifts",
+    "Cardio – Recumbent Bike"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83450",
+    "female": "https://workoutlabs.com/train/svg.php?id=85366"
+  }
+}

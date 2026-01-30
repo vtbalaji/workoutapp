@@ -1,0 +1,27 @@
+{
+  "id": "83648",
+  "slug": "inverted-row",
+  "title": "Inverted Rows / Reverse Pull-ups",
+  "description": "Inverted Rows is a gym work out exercise that targets lower back and upper back & lower traps and also involves abs and biceps and shoulders",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Lower Back",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "One Arm Barbell Rows",
+    "Inchworms / Walkouts",
+    "Powerbag / Sandbag Good Mornings"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83648",
+    "female": "https://workoutlabs.com/train/svg.php?id=91675"
+  }
+}

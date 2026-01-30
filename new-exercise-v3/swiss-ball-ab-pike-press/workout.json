@@ -1,0 +1,25 @@
+{
+  "id": "83890",
+  "slug": "swiss-ball-ab-pike-press",
+  "title": "Stability / Swiss / Exercise Ball Ab Pike Press",
+  "description": "Swiss Ball Ab Pike Press is a gym work out exercise that targets abs and glutes & hip flexors and also involves shoulders",
+  "equipment": [
+    "Swiss / Exercise Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "TRX Suspension Strap Planks",
+    "Cable Hip Extensions",
+    "Standing Long Jumps"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83890",
+    "female": "https://workoutlabs.com/train/svg.php?id=85809"
+  }
+}

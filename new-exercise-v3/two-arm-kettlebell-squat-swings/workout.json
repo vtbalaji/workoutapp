@@ -1,0 +1,29 @@
+{
+  "id": "83921",
+  "slug": "two-arm-kettlebell-squat-swings",
+  "title": "Two-Arm Kettlebell Squat Swings",
+  "description": "Two-arm Kettlebell Squat Swings is a gym work out exercise that targets glutes & hip flexors and quadriceps and shoulders and also involves abs and calves and hamstrings and lower back",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Reverse Dumbbell Lunges",
+    "Laying External Shoulder Rotation",
+    "Medicine Ball Throw to Chase"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83921",
+    "female": "https://workoutlabs.com/train/svg.php?id=85842"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83549",
+  "slug": "decline-pushups-pushups",
+  "title": "Decline Push-ups / Pushups",
+  "description": "Decline Push-ups is a at-home work out exercise that targets chest and also involves abs and shoulders and triceps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Single / One Arm / Floor Glute Bridge Press",
+    "Incline Close-Grip / Bench Presses",
+    "Bosu Ball Chest Dumbbell Flyes / Flies"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83549",
+    "female": "https://workoutlabs.com/train/svg.php?id=85464"
+  }
+}

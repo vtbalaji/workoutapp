@@ -1,0 +1,26 @@
+{
+  "id": "83759",
+  "slug": "resistance-band-squats",
+  "title": "Resistance Band Squats",
+  "description": "Resistance Band Squats is a gym work out exercise that targets hamstrings and quadriceps and also involves calves and glutes & hip flexors",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Prone / Lying Knee Bends",
+    "Duck Walks / Squats",
+    "Front Barbell Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83759",
+    "female": "https://workoutlabs.com/train/svg.php?id=85679"
+  }
+}

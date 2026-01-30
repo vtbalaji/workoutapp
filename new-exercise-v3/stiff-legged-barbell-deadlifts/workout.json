@@ -1,0 +1,26 @@
+{
+  "id": "83883",
+  "slug": "stiff-legged-barbell-deadlifts",
+  "title": "Stiff Legged Barbell Deadlifts",
+  "description": "Stiff Legged Barbell Deadlifts is a gym work out exercise that targets hamstrings and also involves abs and glutes & hip flexors and lower back",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Glutes Hip Flexors",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Surrenders",
+    "Bosu Ball Single / One Leg Pistol Squats",
+    "Hip Raises / Butt Lift / Bridges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83883",
+    "female": "https://workoutlabs.com/train/svg.php?id=85803"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83726",
+  "slug": "plank-knee-to-elbow",
+  "title": "Plank Knee to Elbow",
+  "description": "Plank Knee To Elbow is a at-home work out exercise that targets abs and glutes & hip flexors and also involves obliques and shoulders",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Obliques",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Standing Hip Rotations",
+    "Bench Flutter Kicks",
+    "Chair Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83726",
+    "female": "https://workoutlabs.com/train/svg.php?id=85647"
+  }
+}

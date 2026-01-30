@@ -1,0 +1,26 @@
+{
+  "id": "83456",
+  "slug": "barbell-shoulder-press",
+  "title": "Barbell Shoulder Press / Overhead Press",
+  "description": "Barbell Shoulder Press is a gym work out exercise that targets shoulders and also involves abs and triceps and upper back & lower traps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Triceps",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Medicine Ball Throw to Chase",
+    "Shadow Boxing",
+    "Dumbbell Overhead Shoulder Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83456",
+    "female": "https://workoutlabs.com/train/svg.php?id=86061"
+  }
+}

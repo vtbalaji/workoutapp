@@ -1,0 +1,28 @@
+{
+  "id": "83658",
+  "slug": "kettlebell-windmills",
+  "title": "Kettlebell Windmills",
+  "description": "Kettlebell Windmills is a gym work out exercise that targets abs and obliques and also involves glutes & hip flexors and hamstrings and shoulders and triceps",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Staggered Hand Push-Ups / Pushups",
+    "Plank Rolls / Planks",
+    "Plank to Push-Up / Pushups / Walking Plank Up-Downs"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83658",
+    "female": "https://workoutlabs.com/train/svg.php?id=85574"
+  }
+}

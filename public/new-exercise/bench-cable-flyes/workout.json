@@ -1,0 +1,22 @@
+{
+  "id": "83469",
+  "slug": "bench-cable-flyes",
+  "title": "Bench Cable Flyes",
+  "description": "Bench Cable Flyes is a gym work out exercise that targets chest",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Bosu Ball Plank to Push-Up / Walking Plank Up-Downs",
+    "Standing Cable Crossover Press / Flyes",
+    "Single / One Arm Kneeling T-Bar / Landmine Presses"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83469",
+    "female": "https://workoutlabs.com/train/svg.php?id=85386"
+  }
+}

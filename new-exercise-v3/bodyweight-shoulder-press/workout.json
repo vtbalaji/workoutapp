@@ -1,0 +1,24 @@
+{
+  "id": "83484",
+  "slug": "bodyweight-shoulder-press",
+  "title": "Bodyweight Shoulder Presses",
+  "description": "Bodyweight Shoulder Presses is a at-home work out exercise that targets shoulders and also involves chest",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Chest"
+  ],
+  "related_exercises": [
+    "Laying Dumbbell Internal Shoulder Rotation",
+    "Standing Front Shoulder Plate / Dumbbell / Kettlebell Raises",
+    "Barbell Shoulder Press / Overhead Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83484",
+    "female": "https://workoutlabs.com/train/svg.php?id=85401"
+  }
+}

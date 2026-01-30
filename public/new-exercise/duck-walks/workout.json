@@ -1,0 +1,25 @@
+{
+  "id": "83564",
+  "slug": "duck-walks",
+  "title": "Duck Walks / Squats",
+  "description": "Duck Walks is a at-home work out exercise that targets glutes & hip flexors and quadriceps and also involves hamstrings",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Hip Circles",
+    "Toe Taps",
+    "Plate Overhead Walking Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83564",
+    "female": "https://workoutlabs.com/train/svg.php?id=85479"
+  }
+}

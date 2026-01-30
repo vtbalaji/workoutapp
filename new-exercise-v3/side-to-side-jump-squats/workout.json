@@ -1,0 +1,25 @@
+{
+  "id": "83818",
+  "slug": "side-to-side-jump-squats",
+  "title": "Side to Side Jump Squats",
+  "description": "Side To Side Jump Squats is a at-home work out exercise that targets quadriceps and also involves calves and hamstrings",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Two-Arm Kettlebell Squat Swings",
+    "Reverse Dumbbell Lunges",
+    "Smith Machine Leg Press / Reverse Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83818",
+    "female": "https://workoutlabs.com/train/svg.php?id=85740"
+  }
+}

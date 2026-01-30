@@ -1,0 +1,27 @@
+{
+  "id": "83553",
+  "slug": "hindu-judo-push-up-dive-bombers",
+  "title": "Hindu / Judo Push-up / Dive Bombers",
+  "description": "Hindu Push-ups is a at-home work out exercise that targets abs and chest and also involves lower back and shoulders and triceps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Lower Back",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Landmine / T-Bar Presses",
+    "Side / Lateral Medicine Ball Throw / Slam",
+    "Dumbbell Pullovers"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83553",
+    "female": "https://workoutlabs.com/train/svg.php?id=85468"
+  }
+}

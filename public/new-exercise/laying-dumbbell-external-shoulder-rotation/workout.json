@@ -1,0 +1,24 @@
+{
+  "id": "84589",
+  "slug": "laying-dumbbell-external-shoulder-rotation",
+  "title": "Laying Dumbbell External Shoulder Rotation",
+  "description": "Laying Dumbbell External Shoulder Rotation is a gym work out exercise that targets shoulders and also involves upper back & lower traps",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Farmer?s Walk / Carry",
+    "Laying Dumbbell External Shoulder Rotation",
+    "Kettlebell Single / One Arm Clean and Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84589",
+    "female": "https://workoutlabs.com/train/svg.php?id=86491"
+  }
+}

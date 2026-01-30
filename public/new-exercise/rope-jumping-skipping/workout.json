@@ -1,0 +1,27 @@
+{
+  "id": "83776",
+  "slug": "rope-jumping-skipping",
+  "title": "Rope Jumping / Jump rope / Skipping",
+  "description": "Jump Rope is a at-home work out exercise that targets calves and glutes & hip flexors and also involves abs and hamstrings and quadriceps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Calves",
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Squat Jacks / Side Sumo Walks",
+    "Resistance Band Calf Stretch",
+    "Cardio - Walking / Treadmill"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83776",
+    "female": "https://workoutlabs.com/train/svg.php?id=85697"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83844",
+  "slug": "skaters",
+  "title": "Side / Lateral Shuffles / Hops / Skaters",
+  "description": "Lateral Shuffles is a at-home work out exercise that targets hamstrings and quadriceps and also involves abs and calves",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves"
+  ],
+  "related_exercises": [
+    "Alternating Bodyweight Lunges",
+    "Side to Side Jump Squats",
+    "Stability / Swiss / Exercise Ball Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83844",
+    "female": "https://workoutlabs.com/train/svg.php?id=85765"
+  }
+}

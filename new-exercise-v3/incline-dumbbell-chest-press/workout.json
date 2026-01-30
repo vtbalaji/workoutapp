@@ -1,0 +1,26 @@
+{
+  "id": "83642",
+  "slug": "incline-dumbbell-chest-press",
+  "title": "Incline Dumbbell Bench Chest Press",
+  "description": "Incline Dumbbell Bench Chest Press is a gym work out exercise that targets chest and also involves abs and shoulders and triceps",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Raised One-Legged / Leg Push Ups / Push-ups",
+    "Reverse Grip Barbell Push ups / Press Ups",
+    "Push-ups / Pushups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83642",
+    "female": "https://workoutlabs.com/train/svg.php?id=86477"
+  }
+}

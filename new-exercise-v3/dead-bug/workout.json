@@ -1,0 +1,22 @@
+{
+  "id": "83543",
+  "slug": "dead-bug",
+  "title": "Dead Bug",
+  "description": "Dead Bug is a at-home work out exercise that targets abs",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Modified Crunches / Crunches",
+    "Walking High Kicks / Soldier March",
+    "Standing Side Leans / Reaches / Bends"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83543",
+    "female": "https://workoutlabs.com/train/svg.php?id=85458"
+  }
+}

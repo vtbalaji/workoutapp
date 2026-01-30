@@ -1,0 +1,24 @@
+{
+  "id": "83685",
+  "slug": "machine-bicep-preacher-concentration-curls",
+  "title": "Machine Bicep Preacher / Concentration Curls",
+  "description": "Machine Bicep Preacher Curls is a gym work out exercise that targets biceps and also involves forearms",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Battle Rope Reverse Lunges",
+    "Underhand Grip / Chin-Ups / Pull-Ups /Pullups",
+    "Resistance Band Bicep Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83685",
+    "female": "https://workoutlabs.com/train/svg.php?id=85606"
+  }
+}

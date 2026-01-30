@@ -1,0 +1,26 @@
+{
+  "id": "86619",
+  "slug": "one-arm-kettlebell-swings",
+  "title": "One Arm Kettlebell Swings",
+  "description": "One Arm Kettlebell Swings is a gym work out exercise that targets hamstrings and shoulders and also involves glutes & hip flexors and triceps",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Farmer?s Walk / Carry",
+    "Toe Taps",
+    "Cardio - Walking / Treadmill"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86619",
+    "female": "https://workoutlabs.com/train/svg.php?id=85629"
+  }
+}

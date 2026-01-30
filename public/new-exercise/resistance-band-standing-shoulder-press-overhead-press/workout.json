@@ -1,0 +1,24 @@
+{
+  "id": "83760",
+  "slug": "resistance-band-standing-shoulder-press-overhead-press",
+  "title": "Resistance Band Standing Shoulder Press / Overhead Press",
+  "description": "Resistance Band Standing Shoulder Press is a gym work out exercise that targets shoulders and also involves abs",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Boxing with a Punching Bag",
+    "Medicine Ball Throw to Chase",
+    "Medicine Ball Rotational Passes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83760",
+    "female": "https://workoutlabs.com/train/svg.php?id=85681"
+  }
+}

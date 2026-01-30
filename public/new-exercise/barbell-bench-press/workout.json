@@ -1,0 +1,25 @@
+{
+  "id": "83440",
+  "slug": "barbell-bench-press",
+  "title": "Barbell Bench Press / Chest Press",
+  "description": "Barbell Bench Press is a gym work out exercise that targets chest and also involves shoulders and triceps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Standing Cable Crossover Press / Flyes",
+    "Standing Cable Chest Press",
+    "Decline Barbell Smith Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83440",
+    "female": "https://workoutlabs.com/train/svg.php?id=85356"
+  }
+}

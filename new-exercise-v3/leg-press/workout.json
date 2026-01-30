@@ -1,0 +1,26 @@
+{
+  "id": "83673",
+  "slug": "leg-press",
+  "title": "Leg Press / Machine Squat Press",
+  "description": "Leg Press is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves calves and hamstrings",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Rope Jumping / Jump rope / Skipping",
+    "Static Squat Hold",
+    "Bulgarian Split Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83673",
+    "female": "https://workoutlabs.com/train/svg.php?id=86501"
+  }
+}

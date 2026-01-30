@@ -1,0 +1,22 @@
+{
+  "id": "83892",
+  "slug": "swiss-ball-crunches",
+  "title": "Stability / Swiss / Exercise Ball Crunches",
+  "description": "Swiss Ball Crunches is a gym work out exercise that targets abs",
+  "equipment": [
+    "Swiss / Exercise Ball"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "TRX Suspension Strap Mountain Climbers",
+    "Seated Ab Contractions",
+    "Flutter Kicks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83892",
+    "female": "https://workoutlabs.com/train/svg.php?id=85811"
+  }
+}

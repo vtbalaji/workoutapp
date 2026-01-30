@@ -1,0 +1,25 @@
+{
+  "id": "83548",
+  "slug": "decline-ez-bar-triceps-extension",
+  "title": "Decline Lying Triceps Extension / Decline Skull Crushers",
+  "description": "Decline Lying Triceps Extension is a gym work out exercise that targets triceps and also involves abs and shoulders",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Behind Back Standing Resistance Band Chest Presses",
+    "Incline Close-Grip / Bench Presses",
+    "Stability / Swiss / Exercise Ball Pushups / Push-ups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83548",
+    "female": "https://workoutlabs.com/train/svg.php?id=85463"
+  }
+}

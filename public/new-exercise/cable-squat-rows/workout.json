@@ -1,0 +1,28 @@
+{
+  "id": "83852",
+  "slug": "cable-squat-rows",
+  "title": "Cable Squat Rows / Row Squats",
+  "description": "Cable Squat Rows is a gym work out exercise that targets middle back / lats and quadriceps and also involves abs and biceps and calves and hamstrings",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Middle Back Lats",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Power Skips",
+    "Partial / Half Squats",
+    "TRX Suspension Strap Pistol / Single / One Leg Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83852",
+    "female": "https://workoutlabs.com/train/svg.php?id=85773"
+  }
+}

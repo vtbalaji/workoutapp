@@ -1,0 +1,26 @@
+{
+  "id": "83766",
+  "slug": "reverse-dumbbell-lunges",
+  "title": "Reverse Dumbbell Lunges",
+  "description": "Reverse Dumbbell Lunges is a gym work out exercise that targets hamstrings and quadriceps and also involves abs and calves",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves"
+  ],
+  "related_exercises": [
+    "Cardio – Cross Trainer / Crosstrainer Machine",
+    "Overhead Dumbbell Squats",
+    "Side Lying Quadricep Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83766",
+    "female": "https://workoutlabs.com/train/svg.php?id=85687"
+  }
+}

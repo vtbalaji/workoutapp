@@ -1,0 +1,25 @@
+{
+  "id": "83518",
+  "slug": "cable-hip-extensions",
+  "title": "Cable Hip Extensions",
+  "description": "Cable Hip Extensions is a gym work out exercise that targets glutes & hip flexors and also involves hamstrings and lower back",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Hamstrings",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Hip Raises / Butt Lift / Bridges",
+    "Lunge / Front Kicks",
+    "TRX Suspension Straps Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83518",
+    "female": "https://workoutlabs.com/train/svg.php?id=85433"
+  }
+}

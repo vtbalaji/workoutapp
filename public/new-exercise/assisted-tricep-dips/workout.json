@@ -1,0 +1,24 @@
+{
+  "id": "83434",
+  "slug": "assisted-tricep-dips",
+  "title": "Assisted Tricep Dips",
+  "description": "Assisted Tricep Dips is a gym work out exercise that targets triceps and also involves chest",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Chest"
+  ],
+  "related_exercises": [
+    "Barbell Pushups / Push-ups",
+    "Stability / Swiss / Exercise Ball Push Ups / Press Ups",
+    "Gymnastic Ring Dips"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83434",
+    "female": "https://workoutlabs.com/train/svg.php?id=85352"
+  }
+}

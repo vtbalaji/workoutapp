@@ -1,0 +1,22 @@
+{
+  "id": "83517",
+  "slug": "cable-hip-abduction",
+  "title": "Cable Hip Abduction / Adduction",
+  "description": "Cable Hip Abduction is a gym work out exercise that targets quadriceps",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Single / One Leg Bench Bodyweight Squats",
+    "Barbell Step-ups",
+    "Lateral Lunges to Floor Touches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83517",
+    "female": "https://workoutlabs.com/train/svg.php?id=85432"
+  }
+}

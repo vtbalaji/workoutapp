@@ -1,0 +1,27 @@
+{
+  "id": "83723",
+  "slug": "plie-sumo-dumbbell-squat-deadlifts",
+  "title": "Sumo / Plié Dumbbell Squats",
+  "description": "Sumo Dumbbell Squats is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves and hamstrings",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Overhead Dumbbell Squats",
+    "TRX Suspension Strap Hamstring / Leg Curls",
+    "Standing Quadricep Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83723",
+    "female": "https://workoutlabs.com/train/svg.php?id=85644"
+  }
+}

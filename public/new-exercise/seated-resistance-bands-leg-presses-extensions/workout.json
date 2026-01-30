@@ -1,0 +1,26 @@
+{
+  "id": "101580",
+  "slug": "seated-resistance-bands-leg-presses-extensions",
+  "title": "Seated Resistance Bands Leg Presses / Extensions",
+  "description": "Resistance Bands Leg Presses is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves calves and hamstrings",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Water Bottle Squat Clean and Presses",
+    "TRX Suspension Strap Pistol / Single / One Leg Squats",
+    "Resistance Band Glute Bridges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=101580",
+    "female": "https://workoutlabs.com/train/svg.php?id=101583"
+  }
+}

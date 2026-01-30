@@ -1,0 +1,25 @@
+{
+  "id": "83640",
+  "slug": "incline-close-grip-bench-press",
+  "title": "Incline Close-Grip / Bench Presses",
+  "description": "Incline Close-grip Bench Press is a gym work out exercise that targets chest and triceps and also involves shoulders",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Close-Grip Overhand Barbell Bench Press",
+    "NuStep Machine / Recumbent Cross Trainer",
+    "Medicine Ball Punch Throws"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83640",
+    "female": "https://workoutlabs.com/train/svg.php?id=85556"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83460",
+  "slug": "barbell-split-squats",
+  "title": "Barbell Split Squats",
+  "description": "Barbell Split Squats is a gym work out exercise that targets calves and hamstrings and quadriceps and also involves abs",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Calves",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Duck Walks / Squats",
+    "Foam Roller Calf / Calves Stretch",
+    "Resistance Band Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83460",
+    "female": "https://workoutlabs.com/train/svg.php?id=85376"
+  }
+}

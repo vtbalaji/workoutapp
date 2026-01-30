@@ -1,0 +1,25 @@
+{
+  "id": "83712",
+  "slug": "one-arm-side-push-ups",
+  "title": "One Arm Side Push Ups",
+  "description": "One Arm Side Push Ups is a at-home work out exercise that targets chest and triceps and also involves obliques",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Obliques"
+  ],
+  "related_exercises": [
+    "Barbell Pullovers / Lying Chest Overhead Extensions",
+    "Triceps Dips",
+    "Low Upward Cable Pulley Crossover Chest Flyes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83712",
+    "female": "https://workoutlabs.com/train/svg.php?id=85633"
+  }
+}

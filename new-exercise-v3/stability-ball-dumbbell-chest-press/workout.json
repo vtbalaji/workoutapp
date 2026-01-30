@@ -1,0 +1,26 @@
+{
+  "id": "83857",
+  "slug": "stability-ball-dumbbell-chest-press",
+  "title": "Stability / Swiss / Exercise Ball Dumbbell Chest Press",
+  "description": "Swiss Ball Dumbbell Chest Press is a gym work out exercise that targets chest and triceps and also involves abs and shoulders",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Modified / Knee Push-ups / Pushups",
+    "Medicine Ball Punch Throws",
+    "Flat Bench Barbell Skull Crushers"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83857",
+    "female": "https://workoutlabs.com/train/svg.php?id=86563"
+  }
+}

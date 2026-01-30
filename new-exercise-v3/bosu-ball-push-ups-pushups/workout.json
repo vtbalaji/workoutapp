@@ -1,0 +1,26 @@
+{
+  "id": "83496",
+  "slug": "bosu-ball-push-ups-pushups",
+  "title": "Bosu Ball Push-ups / Pushups",
+  "description": "Bosu Ball Push-ups is a gym work out exercise that targets abs and chest and also involves shoulders and triceps",
+  "equipment": [
+    "Bosu Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Standing Cable Crossover Press / Flyes",
+    "Plank to Push-Up / Pushups / Walking Plank Up-Downs",
+    "Flutter Kicks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83496",
+    "female": "https://workoutlabs.com/train/svg.php?id=85412"
+  }
+}

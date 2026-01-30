@@ -1,0 +1,24 @@
+{
+  "id": "83950",
+  "slug": "standing-barbell-calf-raises",
+  "title": "Standing Barbell Calf Raises",
+  "description": "Standing Barbell Calf Raises is a gym work out exercise that targets calves and also involves abs",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Resistance Band Plantar Flexion / Ankle Pumps",
+    "Internal Rotation / Bodyweight Calf Raises",
+    "Jumping Calf Presses / Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83950",
+    "female": "https://workoutlabs.com/train/svg.php?id=85870"
+  }
+}

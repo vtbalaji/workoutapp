@@ -1,0 +1,28 @@
+{
+  "id": "83694",
+  "slug": "medicine-ball-side-slams",
+  "title": "Medicine Ball / Alternating Side Slams",
+  "description": "Medicine Ball Side Slams is a gym work out exercise that targets abs and middle back / lats and obliques and also involves glutes & hip flexors and quadriceps and upper back & lower traps",
+  "equipment": [
+    "Medicine Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Middle Back Lats",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Walking High Kicks / Soldier March",
+    "Ab Crunch Machine",
+    "Alternate Heel Touches / Lying Oblique Reach"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83694",
+    "female": "https://workoutlabs.com/train/svg.php?id=85615"
+  }
+}

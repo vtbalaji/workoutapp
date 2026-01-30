@@ -1,0 +1,25 @@
+{
+  "id": "101630",
+  "slug": "seated-resistance-band-leg-curls-flexions",
+  "title": "Seated Resistance Band Leg Curls / Flexions",
+  "description": "Resistance Band Leg Curls is a gym work out exercise that targets glutes & hip flexors and hamstrings and also involves calves",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ],
+  "related_exercises": [
+    "Bodyweight Sumo / Wide Stance Squats",
+    "Ragdoll / Forward Bend / Fold Stretch / Toe Touches",
+    "Your exercise (placeholder)"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=101630",
+    "female": "https://workoutlabs.com/train/svg.php?id=101634"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83632",
+  "slug": "hex-trap-bar-cage-deadlifts-squats",
+  "title": "Hex / Trap Bar / Cage Deadlifts / Squats",
+  "description": "Hex Bar Deadlifts is a gym work out exercise that targets hamstrings and lower back and quadriceps and also involves abs",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Lower Back",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Side / Lateral Shuffles / Hops / Skaters",
+    "180 / Twisting Jump Squats",
+    "Cable Squat Rows / Row Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83632",
+    "female": "https://workoutlabs.com/train/svg.php?id=85547"
+  }
+}

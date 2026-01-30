@@ -1,0 +1,26 @@
+{
+  "id": "83838",
+  "slug": "single-straight-leg-dumbbell-deadlift",
+  "title": "Single / One Straight Leg Dumbbell Deadlift",
+  "description": "Single Straight Leg Dumbbell Deadlift is a gym work out exercise that targets hamstrings and also involves abs and calves and glutes & hip flexors",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Explosive Jumping Alternating Lunges",
+    "Plate Overhead Walking Lunges",
+    "Barbell Box Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83838",
+    "female": "https://workoutlabs.com/train/svg.php?id=85760"
+  }
+}

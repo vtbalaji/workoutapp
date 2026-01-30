@@ -1,0 +1,27 @@
+{
+  "id": "83928",
+  "slug": "walking-high-kicks",
+  "title": "Walking High Kicks / Soldier March",
+  "description": "Walking High Kicks is a at-home work out exercise that targets abs and glutes & hip flexors and also involves calves and hamstrings and lower back",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Bear Crawls",
+    "Donkey Kicks",
+    "Stability / Swiss / Exercise Ball Ab Pike Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83928",
+    "female": "https://workoutlabs.com/train/svg.php?id=85849"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "83655",
+  "slug": "kettlebell-single-arm-clean-and-press",
+  "title": "Kettlebell Single / One Arm Clean and Press",
+  "description": "Kettlebell Single Arm Clean And Press is a gym work out exercise that targets shoulders and also involves abs",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Standing Barbell Shoulder Press",
+    "Laying Internal Shoulder Rotation",
+    "Incline Planks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83655",
+    "female": "https://workoutlabs.com/train/svg.php?id=85571"
+  }
+}

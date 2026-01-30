@@ -1,0 +1,23 @@
+{
+  "id": "86665",
+  "slug": "wrist-circles-rotations",
+  "title": "Wrist Circles / Rotations",
+  "description": "Wrist Circles is a at-home work out exercise that targets forearms and wrists",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Forearms",
+    "Wrists"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Standing Palm-Down Wrist Stretch",
+    "Behind-the-Back Standing Bicep Curls",
+    "Seated Dumbbell Palm-Up Wrist Curls / Forearm Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86665",
+    "female": "https://workoutlabs.com/train/svg.php?id=86593"
+  }
+}

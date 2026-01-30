@@ -1,0 +1,26 @@
+{
+  "id": "83770",
+  "slug": "reverse-triceps-bench-press",
+  "title": "Reverse Triceps Bench Press",
+  "description": "Reverse Bench Press is a gym work out exercise that targets triceps and also involves abs and chest and shoulders",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Chest",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Gymnastic Ring Support Position",
+    "Tricep Dumbbell Kickbacks",
+    "Stability / Swiss / Exercise Ball Pushups / Push-ups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83770",
+    "female": "https://workoutlabs.com/train/svg.php?id=85691"
+  }
+}

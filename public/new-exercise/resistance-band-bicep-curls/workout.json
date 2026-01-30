@@ -1,0 +1,24 @@
+{
+  "id": "83748",
+  "slug": "resistance-band-bicep-curls",
+  "title": "Resistance Band Bicep Curls",
+  "description": "Resistance Band Bicep Curls is a gym work out exercise that targets biceps and also involves forearms",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Barbell Drag Bicep Curls",
+    "Bosu Ball Burpees",
+    "Standing Bicep Cable Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83748",
+    "female": "https://workoutlabs.com/train/svg.php?id=85669"
+  }
+}

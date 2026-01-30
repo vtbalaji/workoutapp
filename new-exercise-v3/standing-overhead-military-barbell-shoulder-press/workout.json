@@ -1,0 +1,24 @@
+{
+  "id": "83873",
+  "slug": "standing-overhead-military-barbell-shoulder-press",
+  "title": "Standing Overhead Military Barbell Shoulder Press",
+  "description": "Standing Overhead Military Barbell Shoulder Press is a gym work out exercise that targets shoulders and also involves abs",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Kettlebell Thruster / Squat to Clean to Overhead Press",
+    "Barbell Clean and Press / Jerk / Overhead Press",
+    "Seated Lateral / Side Shoulder Dumbbell Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83873",
+    "female": "https://workoutlabs.com/train/svg.php?id=85793"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "83435",
+  "slug": "assisted-machine-seated-tricep-dips",
+  "title": "Assisted / Machine Seated Tricep Dips",
+  "description": "Machine Tricep Dips is a gym work out exercise that targets triceps",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Cable Triceps Kickbacks",
+    "TRX Suspension Straps Tricep Extensions",
+    "Resistance Band Tricep Kickbacks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83435",
+    "female": "https://workoutlabs.com/train/svg.php?id=85353"
+  }
+}

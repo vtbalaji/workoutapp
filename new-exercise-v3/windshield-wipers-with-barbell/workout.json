@@ -1,0 +1,24 @@
+{
+  "id": "83943",
+  "slug": "windshield-wipers-with-barbell",
+  "title": "Barbell Windshield Wipers",
+  "description": "Barbell Windshield Wipers is a gym work out exercise that targets abs and also involves shoulders",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Sit-ups",
+    "Kettlebell Around the Worlds",
+    "Bosu Ball Leg Pull-in / Knee Tucks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83943",
+    "female": "https://workoutlabs.com/train/svg.php?id=85863"
+  }
+}

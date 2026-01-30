@@ -1,0 +1,27 @@
+{
+  "id": "83498",
+  "slug": "bosu-ball-squats",
+  "title": "Bosu Ball Squats",
+  "description": "Bosu Ball Squats is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves and hamstrings",
+  "equipment": [
+    "Bosu Ball"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Plank Jacks / Extended Leg",
+    "Resistance Band Side Steps",
+    "Side / Lateral Shuffles / Hops / Skaters"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83498",
+    "female": "https://workoutlabs.com/train/svg.php?id=85413"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "83554",
+  "slug": "donkey-kicks",
+  "title": "Donkey Kicks",
+  "description": "Donkey Kicks is a at-home work out exercise that targets glutes & hip flexors and also involves abs",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Standing Hip Rotations",
+    "Lunge / Front Kicks",
+    "Resistance Band Deadlifts"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83554",
+    "female": "https://workoutlabs.com/train/svg.php?id=85469"
+  }
+}

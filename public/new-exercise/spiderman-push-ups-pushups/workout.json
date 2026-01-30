@@ -1,0 +1,26 @@
+{
+  "id": "83850",
+  "slug": "spiderman-push-ups-pushups",
+  "title": "Spiderman Push-ups / Pushups",
+  "description": "Spiderman Push-ups is a at-home work out exercise that targets chest and triceps and also involves abs and shoulders",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Dumbbell Pullovers",
+    "Boxing with a Punching Bag",
+    "Decline Bench Dumbbell Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83850",
+    "female": "https://workoutlabs.com/train/svg.php?id=85771"
+  }
+}

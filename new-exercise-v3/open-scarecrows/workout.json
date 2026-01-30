@@ -1,0 +1,24 @@
+{
+  "id": "86621",
+  "slug": "open-scarecrows",
+  "title": "Open Scarecrows",
+  "description": "Open Scarecrows is a at-home work out exercise that targets shoulders and also involves upper back & lower traps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Double Arm Side / Lateral Raises to Overhead Extension",
+    "Barbell Push and Press",
+    "Stability / Swiss / Exercise Ball Pushups / Push-ups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86621",
+    "female": "https://workoutlabs.com/train/svg.php?id=86513"
+  }
+}

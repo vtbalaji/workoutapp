@@ -1,0 +1,25 @@
+{
+  "id": "83559",
+  "slug": "double-arm-front-raises",
+  "title": "Double Arm Front Raises",
+  "description": "Double Arm Front Raises is a at-home work out exercise that targets shoulders and also involves neck & upper traps and upper back & lower traps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Neck Upper Traps",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Bosu Ball Burpees",
+    "Battle Rope Double Waves",
+    "Barbell Front Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83559",
+    "female": "https://workoutlabs.com/train/svg.php?id=85474"
+  }
+}

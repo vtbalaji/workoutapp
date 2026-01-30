@@ -1,0 +1,22 @@
+{
+  "id": "83609",
+  "slug": "foam-roller-quadriceps-stretch",
+  "title": "Foam Roller Quadriceps Stretch",
+  "description": "Foam Roller Quadriceps Stretch is a gym work out exercise that targets quadriceps",
+  "equipment": [
+    "Foam roller"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Turkish Get Ups",
+    "Machine Hack Squats",
+    "Water Bottle Squat Thrusters"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83609",
+    "female": "https://workoutlabs.com/train/svg.php?id=85524"
+  }
+}

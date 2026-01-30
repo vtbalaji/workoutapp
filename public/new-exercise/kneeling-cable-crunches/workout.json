@@ -1,0 +1,24 @@
+{
+  "id": "83662",
+  "slug": "kneeling-cable-crunches",
+  "title": "Kneeling Cable Crunches",
+  "description": "Kneeling Cable Crunches is a gym work out exercise that targets abs and also involves forearms",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Battle Rope Double Arm Slams",
+    "Bosu Ball Plank",
+    "Seated Lean Backs / Chair Crunches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83662",
+    "female": "https://workoutlabs.com/train/svg.php?id=85578"
+  }
+}

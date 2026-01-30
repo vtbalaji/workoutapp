@@ -1,0 +1,24 @@
+{
+  "id": "83437",
+  "slug": "resistance-band-chest-opener-stretch",
+  "title": "Resistance Band Chest Opener / Stretch",
+  "description": "Resistance Band Chest Opener is a gym work out exercise that targets shoulders and also involves chest",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Chest"
+  ],
+  "related_exercises": [
+    "Boxing with a Punching Bag",
+    "Water Bottle Squat Thrusters",
+    "Lateral Raise Machine"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83437",
+    "female": "https://workoutlabs.com/train/svg.php?id=86525"
+  }
+}

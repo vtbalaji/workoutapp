@@ -1,0 +1,27 @@
+{
+  "id": "84567",
+  "slug": "trx-suspension-straps-squats",
+  "title": "TRX Suspension Straps Squats",
+  "description": "Trx Suspension Straps Squats is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves and hamstrings",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Side / Lateral Shuffles / Hops / Skaters",
+    "Wall Sit / Squats / Chair",
+    "Knee to Box Jump Squats / Power Jumps"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84567",
+    "female": "https://workoutlabs.com/train/svg.php?id=85831"
+  }
+}

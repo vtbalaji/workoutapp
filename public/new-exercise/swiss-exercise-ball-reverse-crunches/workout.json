@@ -1,0 +1,25 @@
+{
+  "id": "83897",
+  "slug": "swiss-exercise-ball-reverse-crunches",
+  "title": "Stability / Swiss / Exercise Ball Reverse Crunches",
+  "description": "Swiss Ball Reverse Crunches is a gym work out exercise that targets abs and obliques and also involves glutes & hip flexors",
+  "equipment": [
+    "Swiss / Exercise Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Reverse Crunch",
+    "Windshield Wipers",
+    "Incline Planks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83897",
+    "female": "https://workoutlabs.com/train/svg.php?id=85816"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "83751",
+  "slug": "resistance-band-shoulder-front-raises",
+  "title": "Resistance Band Shoulder Front Raises",
+  "description": "Resistance Band Shoulder Front Raises is a gym work out exercise that targets shoulders",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Box Pike Holds",
+    "Resistance Band Squat and Overhead Press",
+    "Standing Dumbbell Overhead Shoulder Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83751",
+    "female": "https://workoutlabs.com/train/svg.php?id=85672"
+  }
+}

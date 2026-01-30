@@ -1,0 +1,24 @@
+{
+  "id": "83545",
+  "slug": "decline-barbell-bench-press",
+  "title": "Decline Barbell Bench Press",
+  "description": "Decline Barbell Bench Press is a gym work out exercise that targets chest and also involves triceps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Spin / Push Up Rotations",
+    "TRX Suspension Straps Atomic Push-ups / Pushups",
+    "Medicine Ball Slams"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83545",
+    "female": "https://workoutlabs.com/train/svg.php?id=85460"
+  }
+}

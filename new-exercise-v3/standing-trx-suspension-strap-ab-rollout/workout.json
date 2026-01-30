@@ -1,0 +1,25 @@
+{
+  "id": "83880",
+  "slug": "standing-trx-suspension-strap-ab-rollout",
+  "title": "TRX Suspension Strap Standing Ab Rollout",
+  "description": "Trx Suspension Strap Standing Ab Rollout is a gym work out exercise that targets abs and also involves middle back / lats and obliques",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Middle Back Lats",
+    "Obliques"
+  ],
+  "related_exercises": [
+    "Ab Crunch Machine",
+    "Battle Rope Double Arm Slams",
+    "Flutter Kicks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83880",
+    "female": "https://workoutlabs.com/train/svg.php?id=85800"
+  }
+}

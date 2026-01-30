@@ -1,0 +1,26 @@
+{
+  "id": "83720",
+  "slug": "palloff-press-oblique-iso-hold",
+  "title": "Palloff Press / Oblique Iso Hold",
+  "description": "Palloff Press is a gym work out exercise that targets abs and obliques and also involves biceps and triceps",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Kettlebell Windmills",
+    "Double Crunches",
+    "Medicine Ball Wall Throw"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83720",
+    "female": "https://workoutlabs.com/train/svg.php?id=85641"
+  }
+}

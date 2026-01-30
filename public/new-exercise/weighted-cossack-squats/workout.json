@@ -1,0 +1,25 @@
+{
+  "id": "86012",
+  "slug": "weighted-cossack-squats",
+  "title": "Weighted Cossack Squats",
+  "description": "Weighted Cossack Squats is a gym work out exercise that targets glutes & hip flexors and hamstrings and also involves quadriceps",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Bench Hops / Box Jumps",
+    "Cable Hip Extensions",
+    "Toe Taps"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86012",
+    "female": "https://workoutlabs.com/train/svg.php?id=86013"
+  }
+}

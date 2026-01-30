@@ -1,0 +1,28 @@
+{
+  "id": "83885",
+  "slug": "sumo-barbell-deadlift",
+  "title": "Sumo Barbell Deadlift",
+  "description": "Sumo Barbell Deadlift is a gym work out exercise that targets glutes & hip flexors and hamstrings and quadriceps and also involves abs and calves and lower back",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Lunge / Front Kicks",
+    "Powerbag / Sandbag Squats",
+    "Bulgarian Split Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83885",
+    "female": "https://workoutlabs.com/train/svg.php?id=85805"
+  }
+}

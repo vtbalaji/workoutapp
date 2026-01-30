@@ -1,0 +1,25 @@
+{
+  "id": "83500",
+  "slug": "bosu-ball-bridges-hip-raises-glute-bridges",
+  "title": "Bosu Ball Bridges Hip Raises / Glute Bridges",
+  "description": "Bosu Ball Bridges Hip Raises is a gym work out exercise that targets glutes & hip flexors and hamstrings and also involves abs",
+  "equipment": [
+    "Bosu Ball"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Cardio – Cross Trainer / Crosstrainer Machine",
+    "One Arm Kettlebell Swings",
+    "Lying Leg Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83500",
+    "female": "https://workoutlabs.com/train/svg.php?id=85415"
+  }
+}

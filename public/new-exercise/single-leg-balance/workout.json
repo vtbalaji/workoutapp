@@ -1,0 +1,24 @@
+{
+  "id": "101790",
+  "slug": "single-leg-balance",
+  "title": "Single / One Leg Balance / Holds",
+  "description": "Single Leg Balance is a at-home work out exercise that targets ankles and also involves knees",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Ankles"
+  ],
+  "secondary_muscles": [
+    "Knees"
+  ],
+  "related_exercises": [
+    "Seated Ankle Circles / Rotations / Rolls",
+    "Seated Ankle Stretches",
+    "Semi-Tandem Standing / Stance Balance"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=101790",
+    "female": "https://workoutlabs.com/train/svg.php?id=101791"
+  }
+}

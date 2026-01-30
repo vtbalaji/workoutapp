@@ -1,0 +1,22 @@
+{
+  "id": "83800",
+  "slug": "seated-palm-up-barbell-wrist-curls",
+  "title": "Seated Palm-Up Wrist Curls / Forearm Curls",
+  "description": "Seated Palm-up Wrist Curls is a gym work out exercise that targets forearms",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Forearms"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Foam Roller Forearm Stretch",
+    "Standing Palm-Down Wrist Stretch",
+    "Seated Dumbbell Palm-Up Wrist Curls / Forearm Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83800",
+    "female": "https://workoutlabs.com/train/svg.php?id=85722"
+  }
+}

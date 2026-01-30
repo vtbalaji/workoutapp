@@ -1,0 +1,26 @@
+{
+  "id": "83439",
+  "slug": "barbell-step-ups",
+  "title": "Barbell Step-ups",
+  "description": "Barbell Step-ups is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves"
+  ],
+  "related_exercises": [
+    "Foam Roller Outer Thighs Stretch",
+    "Resistance Band Squat and Overhead Press",
+    "TRX Suspension Straps Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83439",
+    "female": "https://workoutlabs.com/train/svg.php?id=85378"
+  }
+}

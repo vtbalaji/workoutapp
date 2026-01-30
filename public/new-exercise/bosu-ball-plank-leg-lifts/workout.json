@@ -1,0 +1,26 @@
+{
+  "id": "83495",
+  "slug": "bosu-ball-plank-leg-lifts",
+  "title": "Bosu Ball Plank Leg Lifts",
+  "description": "Bosu Ball Plank Leg Lifts is a gym work out exercise that targets abs and glutes & hip flexors and also involves hamstrings and shoulders",
+  "equipment": [
+    "Bosu Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Hamstrings",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "TRX Suspension Straps Overhead Squats",
+    "TRX Suspension Strap Mountain Climbers",
+    "Seated Knee / Leg Lifts / Elevations"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83495",
+    "female": "https://workoutlabs.com/train/svg.php?id=86459"
+  }
+}

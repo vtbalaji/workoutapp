@@ -1,0 +1,25 @@
+{
+  "id": "83945",
+  "slug": "upward-cable-wood-chops",
+  "title": "Upward Cable Wood Chops",
+  "description": "Upward Cable Wood Chops is a gym work out exercise that targets abs and obliques and also involves shoulders",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Incline Plank Shoulder Taps / Planks",
+    "Bosu Ball V-ups",
+    "Burpees / Squat Thrusts"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83945",
+    "female": "https://workoutlabs.com/train/svg.php?id=85865"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "83615",
+  "slug": "single-arm-front-water-bottle-raises",
+  "title": "Single / One Arm Front Water Bottle Raises",
+  "description": "Single-arm Front Water Bottle Raises is a gym work out exercise that targets shoulders",
+  "equipment": [
+    "Water Bottles"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Battle Bilateral Waves",
+    "Battle Rope Squatting Alternating Waves",
+    "Seated Bent Over Rear Delt Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83615",
+    "female": "https://workoutlabs.com/train/svg.php?id=85530"
+  }
+}

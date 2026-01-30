@@ -1,0 +1,26 @@
+{
+  "id": "83466",
+  "slug": "battle-rope-reverse-lunges",
+  "title": "Battle Rope Reverse Lunges",
+  "description": "Battle Rope Reverse Lunges is a gym work out exercise that targets biceps and glutes & hip flexors and quadriceps and also involves forearms",
+  "equipment": [
+    "Battle Rope"
+  ],
+  "primary_muscles": [
+    "Biceps",
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Sprints",
+    "Plate Overhead Walking Lunges",
+    "Wide Stance / Sumo Barbell Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83466",
+    "female": "https://workoutlabs.com/train/svg.php?id=85383"
+  }
+}

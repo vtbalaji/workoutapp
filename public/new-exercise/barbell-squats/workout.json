@@ -1,0 +1,28 @@
+{
+  "id": "83438",
+  "slug": "barbell-squats",
+  "title": "Barbell Squats",
+  "description": "Barbell Squats is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves and hamstrings and lower back",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Standing Quadricep Stretch",
+    "Cable Hip Extensions",
+    "Bosu Ball Plank Leg Lifts"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83438",
+    "female": "https://workoutlabs.com/train/svg.php?id=85377"
+  }
+}

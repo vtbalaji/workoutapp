@@ -1,0 +1,26 @@
+{
+  "id": "83551",
+  "slug": "diamond-tricep-pushup-pushups",
+  "title": "Diamond / Pyramid / Triceps Push-ups / Pushups",
+  "description": "Diamond Push Ups is a at-home work out exercise that targets triceps and also involves abs and chest and shoulders",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Chest",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Wall Push-Ups / Pushups / Standing Press Ups",
+    "Resistance Band Tricep Overhead Extensions",
+    "Standing Overhead Barbell Triceps Extensions"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83551",
+    "female": "https://workoutlabs.com/train/svg.php?id=85466"
+  }
+}

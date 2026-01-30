@@ -1,0 +1,27 @@
+{
+  "id": "83947",
+  "slug": "chair-squats",
+  "title": "Chair Squats",
+  "description": "Chair Squats is a at-home work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves and hamstrings",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Barbell Lunges",
+    "Seated Resistance Bands Leg Presses / Extensions",
+    "Alternating Bodyweight Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83947",
+    "female": "https://workoutlabs.com/train/svg.php?id=85867"
+  }
+}

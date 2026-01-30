@@ -1,0 +1,27 @@
+{
+  "id": "83574",
+  "slug": "dumbbell-lunges",
+  "title": "Dumbbell Lunges",
+  "description": "Dumbbell Lunges is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves and hamstrings",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Kettlebell Squats",
+    "Tuck Jumps",
+    "Fire Hydrants / Abductor / Adductor Knee Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83574",
+    "female": "https://workoutlabs.com/train/svg.php?id=85489"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "83504",
+  "slug": "water-bottle-lunges",
+  "title": "Water Bottle Lunges",
+  "description": "Water Bottle Lunges is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves hamstrings",
+  "equipment": [
+    "Water Bottles"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Step Up with Knee Raises",
+    "Barbell Hip Thrusts",
+    "Piriformis Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83504",
+    "female": "https://workoutlabs.com/train/svg.php?id=85419"
+  }
+}

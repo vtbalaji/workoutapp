@@ -1,0 +1,27 @@
+{
+  "id": "83485",
+  "slug": "bodyweight-side-steps-lateral-lunges",
+  "title": "Bodyweight Side Steps / Lateral Lunges",
+  "description": "Lateral Lunges is a at-home work out exercise that targets glutes & hip flexors and hamstrings and quadriceps and also involves abs and calves",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves"
+  ],
+  "related_exercises": [
+    "Side Lying Quadricep Stretch",
+    "Lateral Lunges to Floor Touches",
+    "Air Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83485",
+    "female": "https://workoutlabs.com/train/svg.php?id=85402"
+  }
+}

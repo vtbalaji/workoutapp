@@ -1,0 +1,22 @@
+{
+  "id": "86173",
+  "slug": "foam-roller-lat-stretch",
+  "title": "Foam Roller Lat Stretch",
+  "description": "Foam Roller Lat Stretch is a gym work out exercise that targets middle back / lats",
+  "equipment": [
+    "Foam roller"
+  ],
+  "primary_muscles": [
+    "Middle Back Lats"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Wide-Grip Lat Pulldowns / Pull Downs / Pullovers",
+    "One Arm Barbell Rows",
+    "Bent Over Barbell Row from Floor / Barbell / Pendlay Row"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86173",
+    "female": "https://workoutlabs.com/train/svg.php?id=85520"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "83516",
+  "slug": "cable-hammer-bicep-curls",
+  "title": "Cable Hammer Bicep Curls",
+  "description": "Cable Hammer Bicep Curls is a gym work out exercise that targets biceps and also involves forearms",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "One-Arm Dumbbell Preacher Curl",
+    "Underhand Grip / Chin-Ups / Pull-Ups /Pullups",
+    "Seated Alternating Incline Bench Dumbbell Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83516",
+    "female": "https://workoutlabs.com/train/svg.php?id=85431"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "83905",
+  "slug": "trx-pull-ups",
+  "title": "TRX Suspension Strap Pull Ups",
+  "description": "Trx Pull Ups is a gym work out exercise that targets middle back / lats and also involves biceps",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Middle Back Lats"
+  ],
+  "secondary_muscles": [
+    "Biceps"
+  ],
+  "related_exercises": [
+    "Machine Assisted Pull-ups / Pullups",
+    "Cross body Cable Rows",
+    "Weighted Pull-Ups / Pullups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83905",
+    "female": "https://workoutlabs.com/train/svg.php?id=85824"
+  }
+}

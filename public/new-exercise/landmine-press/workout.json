@@ -1,0 +1,25 @@
+{
+  "id": "83670",
+  "slug": "landmine-press",
+  "title": "Landmine / T-Bar Presses",
+  "description": "T-bar Presses is a gym work out exercise that targets chest and shoulders and also involves triceps",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Incline Dumbbell Bench Chest Press",
+    "Seated Bent Over Rear Delt Raises",
+    "Plate Overhead Walking Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83670",
+    "female": "https://workoutlabs.com/train/svg.php?id=85586"
+  }
+}

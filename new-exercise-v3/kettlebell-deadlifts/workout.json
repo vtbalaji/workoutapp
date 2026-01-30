@@ -1,0 +1,28 @@
+{
+  "id": "83653",
+  "slug": "kettlebell-deadlifts",
+  "title": "Kettlebell Deadlifts",
+  "description": "Kettlebell Deadlifts is a gym work out exercise that targets abs and hamstrings and lower back and also involves calves and obliques and shoulders",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Hamstrings",
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Obliques",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "One Arm Barbell Rows",
+    "Hanging Leg Raises",
+    "Bosu Ball Plank Leg Lifts"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83653",
+    "female": "https://workoutlabs.com/train/svg.php?id=86485"
+  }
+}

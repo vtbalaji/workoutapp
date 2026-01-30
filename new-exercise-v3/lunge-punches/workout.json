@@ -1,0 +1,27 @@
+{
+  "id": "83676",
+  "slug": "lunge-punches",
+  "title": "Lunge Punches / Lunges",
+  "description": "Lunge Punches is a at-home work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and hamstrings and shoulders",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Hamstrings",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Bosu Ball Bridges Hip Raises / Glute Bridges",
+    "Jumping Jacks / Star Jumps",
+    "Samson / Lunge Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83676",
+    "female": "https://workoutlabs.com/train/svg.php?id=85596"
+  }
+}

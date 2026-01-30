@@ -53,3 +53,6 @@ pages/test*.tsx
 exercise/
 yoga/
 yoga-old/
+
+# Test files to be deleted
+tobedelete/

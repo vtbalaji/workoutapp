@@ -1,0 +1,27 @@
+{
+  "id": "83924",
+  "slug": "underhand-grip-barbell-bench-press",
+  "title": "Underhand Grip Barbell Bench Press",
+  "description": "Underhand Grip Barbell Bench Press is a gym work out exercise that targets chest and shoulders and triceps and also involves abs and biceps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Shoulders",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps"
+  ],
+  "related_exercises": [
+    "Overhead Plate Presses",
+    "Cardio - Assault Bike",
+    "Incline Plank Shoulder Taps / Planks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83924",
+    "female": "https://workoutlabs.com/train/svg.php?id=85845"
+  }
+}

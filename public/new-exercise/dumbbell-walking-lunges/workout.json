@@ -1,0 +1,27 @@
+{
+  "id": "83586",
+  "slug": "dumbbell-walking-lunges",
+  "title": "Dumbbell Walking Lunges",
+  "description": "Dumbbell Walking Lunges is a gym work out exercise that targets hamstrings and quadriceps and also involves abs and calves and glutes & hip flexors",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "TRX Suspension Straps Squats",
+    "Barbell High Pulls",
+    "Kettlebell Deadlifts"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83586",
+    "female": "https://workoutlabs.com/train/svg.php?id=85501"
+  }
+}

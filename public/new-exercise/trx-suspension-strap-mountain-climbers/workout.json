@@ -1,0 +1,26 @@
+{
+  "id": "83911",
+  "slug": "trx-suspension-strap-mountain-climbers",
+  "title": "TRX Suspension Strap Mountain Climbers",
+  "description": "Trx Suspension Strap Mountain Climbers is a gym work out exercise that targets abs and hamstrings and quadriceps and also involves shoulders",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Knee Planks / Reaches",
+    "Bosu Ball V-ups",
+    "Jackknife Sit-ups / Crunch / Toe Touches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83911",
+    "female": "https://workoutlabs.com/train/svg.php?id=85830"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83474",
+  "slug": "bent-over-barbell-row-from-floor",
+  "title": "Bent Over Barbell Row from Floor / Barbell / Pendlay Row",
+  "description": "Pendlay Rows is a gym work out exercise that targets lower back and middle back / lats and also involves biceps and upper back & lower traps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Lower Back",
+    "Middle Back Lats"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Bent Over Two-Arm Long Barbell / T-Bar Rows",
+    "Renegade / Alternating Plank / Commando Rows",
+    "Seated Knee to Elbows / Chair Cross Body Crunches / Bicycles"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83474",
+    "female": "https://workoutlabs.com/train/svg.php?id=85391"
+  }
+}

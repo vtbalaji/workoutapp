@@ -1,0 +1,26 @@
+{
+  "id": "83796",
+  "slug": "seated-low-cable-back-rows",
+  "title": "Seated Low Cable Back Rows",
+  "description": "Low Cable Back Rows is a gym work out exercise that targets lower back and also involves biceps and shoulders and upper back & lower traps",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Shoulders",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Single / One Arm Dumbbell Bench Rows",
+    "Supermans / Extended Arms & Legs Lifts",
+    "Wide-Grip Lat Pulldowns / Pull Downs / Pullovers"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83796",
+    "female": "https://workoutlabs.com/train/svg.php?id=85717"
+  }
+}

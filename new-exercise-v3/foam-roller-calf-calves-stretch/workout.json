@@ -1,0 +1,22 @@
+{
+  "id": "83601",
+  "slug": "foam-roller-calf-calves-stretch",
+  "title": "Foam Roller Calf / Calves Stretch",
+  "description": "Foam Roller Calf Stretch is a gym work out exercise that targets calves",
+  "equipment": [
+    "Foam roller"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Standing Barbell Calf Raises",
+    "Seated Dumbbell / Chair Calf Raises",
+    "Rope Jumping / Jump rope / Skipping"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83601",
+    "female": "https://workoutlabs.com/train/svg.php?id=85516"
+  }
+}

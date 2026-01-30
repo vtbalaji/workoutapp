@@ -1,0 +1,25 @@
+{
+  "id": "83738",
+  "slug": "prone-lying-resistance-band-knee-bends",
+  "title": "Prone / Lying Resistance Band Knee Bends",
+  "description": "Lying Resistance Band Knee Bends is a gym work out exercise that targets knees and quadriceps and also involves hamstrings",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Knees",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Dumbbell Chops",
+    "TRX Suspension Strap Mountain Climbers",
+    "Partial / Half Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83738",
+    "female": "https://workoutlabs.com/train/svg.php?id=85659"
+  }
+}

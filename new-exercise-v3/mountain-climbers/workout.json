@@ -1,0 +1,26 @@
+{
+  "id": "86235",
+  "slug": "mountain-climbers",
+  "title": "Mountain Climbers / Alternating Knee-ins",
+  "description": "Mountain Climbers is a at-home work out exercise that targets abs and glutes & hip flexors and also involves chest and shoulders",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Chest",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Hip Raises / Butt Lift / Bridges",
+    "TRX Suspension Strap Reverse Lunges / Lunges",
+    "Side Plank Hip Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86235",
+    "female": "https://workoutlabs.com/train/svg.php?id=86236"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "83677",
+  "slug": "lunge-twists",
+  "title": "Lunge Twists",
+  "description": "Lunge Twists is a gym work out exercise that targets glutes & hip flexors and obliques and quadriceps and also involves abs and calves and hamstrings",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Obliques",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Bench Hops / Box Jumps",
+    "Pelvic Tilt With Marching",
+    "Cardio – Stationary / Exercise Bike / Bicycle Spinning"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83677",
+    "female": "https://workoutlabs.com/train/svg.php?id=85597"
+  }
+}

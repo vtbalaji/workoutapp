@@ -1,0 +1,24 @@
+{
+  "id": "86645",
+  "slug": "seated-extended-leg-raises-flutter-kicks",
+  "title": "Seated Extended Leg Raises / Flutter Kicks",
+  "description": "Seated Extended Leg Raises is a at-home work out exercise that targets abs and also involves glutes & hip flexors",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Staggered Hand Push-Ups / Pushups",
+    "TRX Suspension Strap Planks",
+    "Kneeling Cable Crunches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86645",
+    "female": "https://workoutlabs.com/train/svg.php?id=86551"
+  }
+}

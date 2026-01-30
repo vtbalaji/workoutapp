@@ -1,0 +1,26 @@
+{
+  "id": "83900",
+  "slug": "trx-suspension-straps-atomic-push-ups",
+  "title": "TRX Suspension Straps Atomic Push-ups / Pushups",
+  "description": "Suspension Atomic Push-ups is a gym work out exercise that targets abs and chest and shoulders and also involves glutes & hip flexors",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Chest",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Seated Ab Contractions",
+    "Stability / Swiss / Exercise Ball Plank",
+    "Standing Cross-body Crunches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83900",
+    "female": "https://workoutlabs.com/train/svg.php?id=85819"
+  }
+}

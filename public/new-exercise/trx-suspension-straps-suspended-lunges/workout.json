@@ -1,0 +1,25 @@
+{
+  "id": "83909",
+  "slug": "trx-suspension-straps-suspended-lunges",
+  "title": "TRX Suspension Straps Suspended Lunges",
+  "description": "Trx Suspension Straps Suspended Lunges is a gym work out exercise that targets quadriceps and also involves abs and hamstrings",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Hindu Squats",
+    "Chair Squats",
+    "Barbell Snatch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83909",
+    "female": "https://workoutlabs.com/train/svg.php?id=85828"
+  }
+}

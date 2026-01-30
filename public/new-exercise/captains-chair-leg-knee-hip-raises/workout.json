@@ -1,0 +1,24 @@
+{
+  "id": "83659",
+  "slug": "captains-chair-leg-knee-hip-raises",
+  "title": "Captain's Chair Leg / Knee / Hip Raises",
+  "description": "Captain's Chair Leg Raises is a gym work out exercise that targets abs and also involves lower back",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Bosu Ball Leg Pull-in / Knee Tucks",
+    "Plank Knee to Elbow",
+    "Stability / Swiss / Exercise Ball Plank"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83659",
+    "female": "https://workoutlabs.com/train/svg.php?id=85575"
+  }
+}

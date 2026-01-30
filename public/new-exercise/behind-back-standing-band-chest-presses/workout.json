@@ -1,0 +1,25 @@
+{
+  "id": "101758",
+  "slug": "behind-back-standing-band-chest-presses",
+  "title": "Behind Back Standing Resistance Band Chest Presses",
+  "description": "Resistance Band Chest Presses is a gym work out exercise that targets chest and triceps and also involves shoulders",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Bosu Ball Plank to Push-Up / Walking Plank Up-Downs",
+    "Flat Bench Dumbbell Flyes",
+    "Static Push-up / Pushup Hold"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=101758",
+    "female": "https://workoutlabs.com/train/svg.php?id=101761"
+  }
+}

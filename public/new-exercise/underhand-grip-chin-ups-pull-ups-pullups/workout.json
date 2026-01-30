@@ -1,0 +1,24 @@
+{
+  "id": "86019",
+  "slug": "underhand-grip-chin-ups-pull-ups-pullups",
+  "title": "Underhand Grip / Chin-Ups / Pull-Ups /Pullups",
+  "description": "Chin-ups is a gym work out exercise that targets biceps and also involves middle back / lats",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Middle Back Lats"
+  ],
+  "related_exercises": [
+    "Overhead Cable Curl / Crucifix Curls",
+    "Battle Rope Reverse Lunges",
+    "Sled Pulls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86019",
+    "female": "https://workoutlabs.com/train/svg.php?id=85444"
+  }
+}

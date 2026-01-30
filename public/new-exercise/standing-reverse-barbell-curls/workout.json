@@ -1,0 +1,24 @@
+{
+  "id": "83877",
+  "slug": "standing-reverse-barbell-curls",
+  "title": "Standing Reverse Barbell Curls",
+  "description": "Standing Reverse Barbell Curls is a gym work out exercise that targets biceps and also involves forearms",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Bosu Ball Burpees",
+    "Battle Rope Reverse Lunges",
+    "Stability / Swiss / Exercise Ball Bicep Curls"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83877",
+    "female": "https://workoutlabs.com/train/svg.php?id=85797"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "86266",
+  "slug": "plank-leg-lifts",
+  "title": "Plank Leg Lifts",
+  "description": "Plank Leg Lifts is a at-home work out exercise that targets abs and also involves glutes & hip flexors",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Plank Jacks / Extended Leg",
+    "Stability / Swiss / Exercise Ball Rollout",
+    "Ab Crunch Machine"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86266",
+    "female": "https://workoutlabs.com/train/svg.php?id=86267"
+  }
+}

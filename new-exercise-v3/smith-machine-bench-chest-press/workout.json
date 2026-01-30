@@ -1,0 +1,26 @@
+{
+  "id": "83845",
+  "slug": "smith-machine-bench-chest-press",
+  "title": "Smith Machine Bench Chest Press",
+  "description": "Smith Machine Bench Chest Press is a gym work out exercise that targets chest and also involves abs and shoulders and triceps",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Barbell Pullovers / Lying Chest Overhead Extensions",
+    "Smith Machine Bench Chest Press",
+    "Raised One-Legged / Leg Push Ups / Push-ups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83845",
+    "female": "https://workoutlabs.com/train/svg.php?id=85766"
+  }
+}

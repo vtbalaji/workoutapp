@@ -1,0 +1,28 @@
+{
+  "id": "83462",
+  "slug": "barbell-clean-and-press-overhead-press-3",
+  "title": "Barbell Clean and Press / Jerk / Overhead Press",
+  "description": "Barbell Clean And Press is a gym work out exercise that targets shoulders and also involves calves and glutes & hip flexors and hamstrings and lower back and quadriceps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Glutes Hip Flexors",
+    "Hamstrings",
+    "Lower Back",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Boxing with a Punching Bag",
+    "Dumbbell Bent Over Lateral Rear Delt Raises / Flyes",
+    "Kneeling Kettlebell Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83462",
+    "female": "https://workoutlabs.com/train/svg.php?id=86047"
+  }
+}

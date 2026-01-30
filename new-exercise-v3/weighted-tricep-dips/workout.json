@@ -1,0 +1,22 @@
+{
+  "id": "83938",
+  "slug": "weighted-tricep-dips",
+  "title": "Weighted Tricep Dips",
+  "description": "Weighted Tricep Dips is a gym work out exercise that targets triceps",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Bosu Ball Burpees",
+    "Weighted Tricep Dips",
+    "Chair / Bench Tricep Dips"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83938",
+    "female": "https://workoutlabs.com/train/svg.php?id=86591"
+  }
+}

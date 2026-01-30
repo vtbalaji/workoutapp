@@ -1,0 +1,25 @@
+{
+  "id": "101823",
+  "slug": "walking-on-the-spot",
+  "title": "Walking on the Spot",
+  "description": "Walking On The Spot is a at-home work out exercise that targets calves and quadriceps and also involves abs",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Calves",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Sled Pushes",
+    "Explosive Jumping Alternating Lunges",
+    "Seal Jacks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=101823",
+    "female": "https://workoutlabs.com/train/svg.php?id=101824"
+  }
+}

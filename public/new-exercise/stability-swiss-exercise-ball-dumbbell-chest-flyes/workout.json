@@ -1,0 +1,26 @@
+{
+  "id": "83860",
+  "slug": "stability-swiss-exercise-ball-dumbbell-chest-flyes",
+  "title": "Stability / Swiss / Exercise Ball Dumbbell Chest Flyes",
+  "description": "Swiss Ball Dumbbell Chest Flyes is a gym work out exercise that targets abs and chest and also involves shoulders and triceps",
+  "equipment": [
+    "Swiss / Exercise Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Standing Side Leans / Reaches / Bends",
+    "Smith Machine Bench Chest Press",
+    "Standing Chest Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83860",
+    "female": "https://workoutlabs.com/train/svg.php?id=85781"
+  }
+}

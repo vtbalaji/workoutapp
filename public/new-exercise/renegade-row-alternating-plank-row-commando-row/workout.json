@@ -1,0 +1,28 @@
+{
+  "id": "83746",
+  "slug": "renegade-row-alternating-plank-row-commando-row",
+  "title": "Renegade / Alternating Plank / Commando Rows",
+  "description": "Renegade Rows is a gym work out exercise that targets lower back and upper back & lower traps and also involves abs and biceps and chest and triceps",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Lower Back",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps",
+    "Chest",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Inverted Rows / Reverse Pull-ups",
+    "Barbell Deadlifts",
+    "Your exercise (placeholder)"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83746",
+    "female": "https://workoutlabs.com/train/svg.php?id=85667"
+  }
+}

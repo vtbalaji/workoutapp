@@ -1,0 +1,22 @@
+{
+  "id": "84601",
+  "slug": "laying-dumbbell-internal-shoulder-rotation",
+  "title": "Laying Dumbbell Internal Shoulder Rotation",
+  "description": "Laying Dumbbell Internal Shoulder Rotation is a gym work out exercise that targets shoulders",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Bear Crawls",
+    "Resistance Band Squat and Overhead Press",
+    "Standing Dumbbell Overhead Shoulder Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=84601",
+    "female": "https://workoutlabs.com/train/svg.php?id=86493"
+  }
+}

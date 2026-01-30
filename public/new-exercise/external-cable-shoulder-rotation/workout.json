@@ -1,0 +1,24 @@
+{
+  "id": "83593",
+  "slug": "external-cable-shoulder-rotation",
+  "title": "External Cable Shoulder Rotation",
+  "description": "External Cable Shoulder Rotation is a gym work out exercise that targets shoulders and also involves abs",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Resistance Band Lateral / Side Raises / Shoulder Abductions",
+    "Standing Dumbbell Overhead Shoulder Press",
+    "Seated Shoulder Hammer / Overhead Presses"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83593",
+    "female": "https://workoutlabs.com/train/svg.php?id=85508"
+  }
+}

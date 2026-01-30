@@ -1,0 +1,25 @@
+{
+  "id": "83778",
+  "slug": "scarecrows",
+  "title": "Scarecrows",
+  "description": "Scarecrows is a gym work out exercise that targets abs and shoulders and also involves upper back & lower traps",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Seated Ab Contractions",
+    "Plank Rolls / Planks",
+    "External Cable Shoulder Rotation"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83778",
+    "female": "https://workoutlabs.com/train/svg.php?id=85700"
+  }
+}

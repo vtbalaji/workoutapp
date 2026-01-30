@@ -1,0 +1,29 @@
+{
+  "id": "83700",
+  "slug": "medicine-ball-wall-throw",
+  "title": "Medicine Ball Wall Throw",
+  "description": "Medicine Ball Wall Throw is a gym work out exercise that targets abs and shoulders and upper back & lower traps and also involves biceps and hamstrings and quadriceps and triceps",
+  "equipment": [
+    "Medicine Ball"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Hamstrings",
+    "Quadriceps",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Bent Over Dumbbell Shoulder Pendulums / Swings",
+    "Medicine Ball Chest Pass",
+    "Lying Leg Raises / Lifts"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83700",
+    "female": "https://workoutlabs.com/train/svg.php?id=86511"
+  }
+}

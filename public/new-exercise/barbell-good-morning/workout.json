@@ -1,0 +1,26 @@
+{
+  "id": "83448",
+  "slug": "barbell-good-morning",
+  "title": "Barbell Good Mornings",
+  "description": "Barbell Good Mornings is a gym work out exercise that targets lower back and also involves abs and glutes & hip flexors and hamstrings",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Glutes Hip Flexors",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Cross body Cable Rows",
+    "Semi-Supine Laying Down / Constructive Rest Position",
+    "Scorpion Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83448",
+    "female": "https://workoutlabs.com/train/svg.php?id=85364"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83757",
+  "slug": "resistance-band-side-steps",
+  "title": "Resistance Band Side Steps",
+  "description": "Resistance Band Side Steps is a gym work out exercise that targets glutes & hip flexors and also involves calves and hamstrings and quadriceps",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Jumping Jacks / Star Jumps",
+    "Resistance Band Glute Bridges",
+    "Dumbbell Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83757",
+    "female": "https://workoutlabs.com/train/svg.php?id=85678"
+  }
+}

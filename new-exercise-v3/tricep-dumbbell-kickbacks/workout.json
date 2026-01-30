@@ -1,0 +1,25 @@
+{
+  "id": "83917",
+  "slug": "tricep-dumbbell-kickbacks",
+  "title": "Tricep Dumbbell Kickbacks",
+  "description": "Tricep Dumbbell Kickbacks is a gym work out exercise that targets triceps and also involves abs and forearms",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Incline Close-Grip / Bench Presses",
+    "Assisted / Machine Seated Tricep Dips",
+    "Tricep Dumbbell Kickbacks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83917",
+    "female": "https://workoutlabs.com/train/svg.php?id=86585"
+  }
+}

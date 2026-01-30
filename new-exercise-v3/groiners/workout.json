@@ -1,0 +1,24 @@
+{
+  "id": "83620",
+  "slug": "groiners",
+  "title": "Groiners",
+  "description": "Groiners is a at-home work out exercise that targets glutes & hip flexors and also involves hamstrings",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Elevated / Barbell Glute Bridges / Hip Raises",
+    "Weighted Glute Bridges",
+    "Standing Adductor / Adduction Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83620",
+    "female": "https://workoutlabs.com/train/svg.php?id=85535"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "83675",
+  "slug": "lunge-kicks",
+  "title": "Lunge / Front Kicks",
+  "description": "Lunge Front Kicks is a at-home work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves and hamstrings",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Bulgarian Split Squats",
+    "Dumbbell Walking Lunges",
+    "Overhead Dumbbell Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83675",
+    "female": "https://workoutlabs.com/train/svg.php?id=85595"
+  }
+}

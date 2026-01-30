@@ -1,0 +1,26 @@
+{
+  "id": "83735",
+  "slug": "powerbagsandbag-lunges",
+  "title": "Powerbag / Sandbag Lunges",
+  "description": "Sandbag Lunges is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves calves and hamstrings",
+  "equipment": [
+    "Powerbag / Sandbag"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Barbell Step-ups",
+    "Barbell High Pulls",
+    "Squat Jacks / Side Sumo Walks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83735",
+    "female": "https://workoutlabs.com/train/svg.php?id=85656"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "83525",
+  "slug": "cat-back-backward-camel-stretch",
+  "title": "Cat Back / Backward Camel Stretch",
+  "description": "Backward Camel Stretch is a at-home work out exercise that targets lower back and also involves upper back & lower traps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Your exercise (placeholder)",
+    "Wide-Grip Lat Pulldowns / Pull Downs / Pullovers",
+    "Hex / Trap Bar / Cage Deadlifts / Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83525",
+    "female": "https://workoutlabs.com/train/svg.php?id=85440"
+  }
+}

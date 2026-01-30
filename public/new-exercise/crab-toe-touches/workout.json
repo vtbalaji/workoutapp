@@ -1,0 +1,30 @@
+{
+  "id": "83537",
+  "slug": "crab-toe-touches",
+  "title": "Crab Toe Touches",
+  "description": "Crab Toe Touches is a at-home work out exercise that targets hamstrings and lower back and quadriceps and shoulders and upper back & lower traps and also involves abs and calves and obliques",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Lower Back",
+    "Quadriceps",
+    "Shoulders",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Obliques"
+  ],
+  "related_exercises": [
+    "Single Arm Front Raises to Overhead Extension",
+    "Bent Over Shoulder Pendulums / Swings",
+    "Alternating Curtsy Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83537",
+    "female": "https://workoutlabs.com/train/svg.php?id=85452"
+  }
+}

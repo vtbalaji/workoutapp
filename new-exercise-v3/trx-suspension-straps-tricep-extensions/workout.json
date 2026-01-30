@@ -1,0 +1,25 @@
+{
+  "id": "83889",
+  "slug": "trx-suspension-straps-tricep-extensions",
+  "title": "TRX Suspension Straps Tricep Extensions",
+  "description": "Trx Suspension Straps Tricep Extensions is a gym work out exercise that targets triceps and also involves abs and upper back & lower traps",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Gymnastic Ring Support Position",
+    "Chair / Bench Tricep Dips",
+    "Reverse Grip Barbell Push ups / Press Ups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83889",
+    "female": "https://workoutlabs.com/train/svg.php?id=85833"
+  }
+}

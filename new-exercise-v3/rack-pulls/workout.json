@@ -1,0 +1,26 @@
+{
+  "id": "83743",
+  "slug": "rack-pulls",
+  "title": "Rack Pulls",
+  "description": "Rack Pulls is a gym work out exercise that targets lower back and also involves abs and hamstrings and quadriceps",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "One Arm Barbell Rows",
+    "Knee Planks / Reaches",
+    "Seated Lumbar Rotations / Chair Twists"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83743",
+    "female": "https://workoutlabs.com/train/svg.php?id=85664"
+  }
+}

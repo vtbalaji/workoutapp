@@ -108,16 +108,15 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
                 </button>
               </div>
             )}
-            <div className="bg-gray-200 rounded-lg overflow-hidden h-80">
+            <div className="bg-gray-100 rounded-lg overflow-hidden h-80">
               {!isYoga(item) ? (
-                <img
-                  key={imageGender}
-                  src={`/exercise-images/${(item as Exercise).slug}/${imageGender}.svg`}
-                  alt={`${item.title} - ${imageGender}`}
-                  className="w-full h-full object-contain"
-                  onError={(e) => {
-                    e.currentTarget.src = "https://via.placeholder.com/400?text=Image";
-                  }}
+                <iframe
+                  key={`${(item as Exercise).slug}-${imageGender}`}
+                  src={`/svg-animator.html?slug=${encodeURIComponent((item as Exercise).slug)}&gender=${imageGender}&playing=true`}
+                  className="w-full h-full border-0"
+                  style={{ background: 'transparent' }}
+                  title={item.title}
+                  loading="eager"
                 />
               ) : (
                 <img

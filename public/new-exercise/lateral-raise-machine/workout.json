@@ -1,0 +1,22 @@
+{
+  "id": "83672",
+  "slug": "lateral-raise-machine",
+  "title": "Lateral Raise Machine",
+  "description": "Lateral Raise Machine is a gym work out exercise that targets shoulders",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Overhead Plate Presses",
+    "Scarecrows",
+    "Standing Shoulder Rolls / Shrugs"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83672",
+    "female": "https://workoutlabs.com/train/svg.php?id=85588"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "86200",
+  "slug": "knee-to-box-jump-squats-power-jumps",
+  "title": "Knee to Box Jump Squats / Power Jumps",
+  "description": "Knee To Box Jump Squats is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves calves and hamstrings",
+  "equipment": [
+    "Plyo Box"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Chair Squats",
+    "Kettlebell Around the Worlds",
+    "Standing Quadricep Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86200",
+    "female": "https://workoutlabs.com/train/svg.php?id=85576"
+  }
+}

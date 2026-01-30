@@ -1,0 +1,25 @@
+{
+  "id": "83755",
+  "slug": "resistance-band-lying-leg-extensions",
+  "title": "Resistance Band Lying Leg Extensions",
+  "description": "Resistance Band Lying Leg Extensions is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves calves",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ],
+  "related_exercises": [
+    "Mountain Climbers / Alternating Knee-ins",
+    "TRX Suspension Straps Glute Bridge",
+    "Hops / Hopping"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83755",
+    "female": "https://workoutlabs.com/train/svg.php?id=85676"
+  }
+}

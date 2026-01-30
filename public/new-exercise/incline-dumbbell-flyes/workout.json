@@ -1,0 +1,25 @@
+{
+  "id": "83641",
+  "slug": "incline-dumbbell-flyes",
+  "title": "Incline Bench Dumbbell Flyes",
+  "description": "Incline Bench Dumbbell Flyes is a gym work out exercise that targets chest and also involves abs and shoulders",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Turkish Get Ups",
+    "Staggered Hand Push-Ups / Pushups",
+    "Dumbbell Flat Bench Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83641",
+    "female": "https://workoutlabs.com/train/svg.php?id=85557"
+  }
+}

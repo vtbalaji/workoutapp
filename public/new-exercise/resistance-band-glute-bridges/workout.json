@@ -1,0 +1,25 @@
+{
+  "id": "83752",
+  "slug": "resistance-band-glute-bridges",
+  "title": "Resistance Band Glute Bridges",
+  "description": "Resistance Band Glute Bridges is a gym work out exercise that targets glutes & hip flexors and lower back and also involves quadriceps",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Seated Low Cable Back Rows",
+    "Dumbbell Deadlifts",
+    "Bodyweight Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83752",
+    "female": "https://workoutlabs.com/train/svg.php?id=85673"
+  }
+}

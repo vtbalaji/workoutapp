@@ -1,0 +1,22 @@
+{
+  "id": "95454",
+  "slug": "seated-ab-contractions",
+  "title": "Seated Ab Contractions",
+  "description": "Seated Ab Contractions is a at-home work out exercise that targets abs",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Your exercise (placeholder)",
+    "Bear Crawls",
+    "Knee Planks / Reaches"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=95454",
+    "female": "https://workoutlabs.com/train/svg.php?id=95452"
+  }
+}

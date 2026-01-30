@@ -1,0 +1,24 @@
+{
+  "id": "83576",
+  "slug": "dumbbell-reverse-curls",
+  "title": "Dumbbell Bicep Reverse Curls",
+  "description": "Dumbbell Bicep Reverse Curls is a gym work out exercise that targets forearms and also involves biceps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Forearms"
+  ],
+  "secondary_muscles": [
+    "Biceps"
+  ],
+  "related_exercises": [
+    "Standing Palm-Up Wrist Stretch",
+    "Standing Palm-Down Wrist Stretch",
+    "Wrist Circles / Rotations"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83576",
+    "female": "https://workoutlabs.com/train/svg.php?id=85491"
+  }
+}

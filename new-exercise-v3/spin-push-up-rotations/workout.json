@@ -1,0 +1,24 @@
+{
+  "id": "83741",
+  "slug": "spin-push-up-rotations",
+  "title": "Spin / Push Up Rotations",
+  "description": "Push Up Rotations is a gym work out exercise that targets chest and triceps and also involves abs and obliques",
+  "equipment": [],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "related_exercises": [
+    "Water Bottle Floor Chest Presses",
+    "Bosu Ball Push-ups / Pushups",
+    "Decline Lying Triceps Extension / Decline Skull Crushers"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83741",
+    "female": "https://workoutlabs.com/train/svg.php?id=85662"
+  }
+}

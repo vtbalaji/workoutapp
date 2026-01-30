@@ -1,0 +1,28 @@
+{
+  "id": "83465",
+  "slug": "battle-rope-jumping-jacks",
+  "title": "Battle Rope Jumping Jacks",
+  "description": "Battle Rope Jumping Jacks is a gym work out exercise that targets abs and calves and shoulders and upper back & lower traps and also involves hamstrings and quadriceps",
+  "equipment": [
+    "Battle Rope"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Calves",
+    "Shoulders",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "External Cable Shoulder Rotation",
+    "Lying Single / One Leg Lifts / Raises",
+    "Laying Internal Shoulder Rotation"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83465",
+    "female": "https://workoutlabs.com/train/svg.php?id=85382"
+  }
+}

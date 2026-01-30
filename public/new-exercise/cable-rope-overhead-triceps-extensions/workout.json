@@ -1,0 +1,24 @@
+{
+  "id": "83520",
+  "slug": "cable-rope-overhead-triceps-extensions",
+  "title": "Cable Rope Overhead Triceps Extensions",
+  "description": "Cable Overhead Triceps Extensions is a gym work out exercise that targets triceps and also involves forearms",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Incline Medicine Ball Push Ups",
+    "Diamond / Pyramid / Triceps Push-ups / Pushups",
+    "Resistance Band Tricep Overhead Extensions"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83520",
+    "female": "https://workoutlabs.com/train/svg.php?id=85435"
+  }
+}

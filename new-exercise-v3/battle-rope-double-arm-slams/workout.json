@@ -1,0 +1,30 @@
+{
+  "id": "83463",
+  "slug": "battle-rope-double-arm-slams",
+  "title": "Battle Rope Double Arm Slams",
+  "description": "Battle Rope Double Slams is a gym work out exercise that targets abs and shoulders and upper back & lower traps and also involves biceps and calves and glutes & hip flexors and hamstrings and quadriceps",
+  "equipment": [
+    "Battle Rope"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Calves",
+    "Glutes Hip Flexors",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Shoulder Stretch",
+    "One Arm Kettlebell Swings",
+    "Stability / Swiss / Exercise Ball Ab Pike Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83463",
+    "female": "https://workoutlabs.com/train/svg.php?id=85380"
+  }
+}

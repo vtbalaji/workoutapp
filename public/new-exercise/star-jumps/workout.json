@@ -1,0 +1,24 @@
+{
+  "id": "97429",
+  "slug": "star-jumps",
+  "title": "Star Jumps / Jumping Jacks",
+  "description": "Star Jumps is a at-home work out exercise that targets calves and also involves shoulders",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Agility Ladder Drills",
+    "Single / One Leg Hops / Jumps",
+    "Straight-Leg Calf Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=97429",
+    "female": "https://workoutlabs.com/train/svg.php?id=97433"
+  }
+}

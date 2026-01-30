@@ -1,0 +1,22 @@
+{
+  "id": "83810",
+  "slug": "side-oblique-crunches",
+  "title": "Side / Oblique Crunches",
+  "description": "Oblique Crunches is a at-home work out exercise that targets obliques",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Obliques"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Hanging Windshield Wipers",
+    "Bosu Ball Mountain Climbers",
+    "Alternate Heel Touches / Lying Oblique Reach"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83810",
+    "female": "https://workoutlabs.com/train/svg.php?id=85732"
+  }
+}

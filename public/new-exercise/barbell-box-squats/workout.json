@@ -1,0 +1,26 @@
+{
+  "id": "83441",
+  "slug": "barbell-box-squats",
+  "title": "Barbell Box Squats",
+  "description": "Barbell Box Squats is a gym work out exercise that targets glutes & hip flexors and hamstrings and quadriceps and also involves calves",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ],
+  "related_exercises": [
+    "Tuck Jumps",
+    "TRX Suspension Strap Hamstring / Leg Curls",
+    "Sumo / Plié Dumbbell Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83441",
+    "female": "https://workoutlabs.com/train/svg.php?id=85357"
+  }
+}

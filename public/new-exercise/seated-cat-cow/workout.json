@@ -1,0 +1,27 @@
+{
+  "id": "83526",
+  "slug": "seated-cat-cow",
+  "title": "Seated Cat Cow",
+  "description": "Seated Cat Cow is a at-home work out exercise that targets abs and lower back and also involves chest and middle back / lats and neck & upper traps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Chest",
+    "Middle Back Lats",
+    "Neck Upper Traps"
+  ],
+  "related_exercises": [
+    "Dumbbell Weighted Leg Pull-Ins",
+    "Palloff Press / Oblique Iso Hold",
+    "Bosu Ball Chest Dumbbell Flyes / Flies"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83526",
+    "female": "https://workoutlabs.com/train/svg.php?id=85441"
+  }
+}

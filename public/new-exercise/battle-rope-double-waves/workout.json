@@ -1,0 +1,28 @@
+{
+  "id": "83464",
+  "slug": "battle-rope-double-waves",
+  "title": "Battle Rope Double Waves",
+  "description": "Battle Rope Double Waves is a gym work out exercise that targets abs and shoulders and upper back & lower traps and also involves calves and hamstrings and quadriceps",
+  "equipment": [
+    "Battle Rope"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Battle Bilateral Waves",
+    "Gymnastic Ring Support Position",
+    "Seated Shoulder Hammer / Overhead Presses"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83464",
+    "female": "https://workoutlabs.com/train/svg.php?id=85381"
+  }
+}

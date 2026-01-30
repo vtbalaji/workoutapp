@@ -1,0 +1,29 @@
+{
+  "id": "83707",
+  "slug": "one-arm-kettlebell-snatch",
+  "title": "One-Arm Kettlebell Snatch",
+  "description": "One-arm Kettlebell Snatch is a gym work out exercise that targets glutes & hip flexors and shoulders and also involves abs and calves and lower back and triceps and upper back & lower traps",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Lower Back",
+    "Triceps",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Crab Toe Touches",
+    "Battle Bilateral Waves",
+    "Scarecrows"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83707",
+    "female": "https://workoutlabs.com/train/svg.php?id=85628"
+  }
+}

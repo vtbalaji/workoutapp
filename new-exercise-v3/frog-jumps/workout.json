@@ -1,0 +1,25 @@
+{
+  "id": "83614",
+  "slug": "frog-jumps",
+  "title": "Frog Jumps",
+  "description": "Frog Jumps is a at-home work out exercise that targets hamstrings and quadriceps and also involves calves",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ],
+  "related_exercises": [
+    "Romanian Deadlifts",
+    "Partial / Half Squats",
+    "Cardio – Road Bike / Cycling / Riding"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83614",
+    "female": "https://workoutlabs.com/train/svg.php?id=85529"
+  }
+}

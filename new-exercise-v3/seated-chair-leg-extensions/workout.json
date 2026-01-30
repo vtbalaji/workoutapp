@@ -1,0 +1,22 @@
+{
+  "id": "86635",
+  "slug": "seated-chair-leg-extensions",
+  "title": "Seated Chair Leg Extensions",
+  "description": "Chair Leg Extensions is a at-home work out exercise that targets quadriceps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Foam Roller Quadriceps Stretch",
+    "Bulgarian Split Squats",
+    "Knee to Box Jump Squats / Power Jumps"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86635",
+    "female": "https://workoutlabs.com/train/svg.php?id=86539"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83833",
+  "slug": "single-leg-hops-jumps",
+  "title": "Single / One Leg Hops / Jumps",
+  "description": "Single Leg Hops is a at-home work out exercise that targets calves and glutes & hip flexors and also involves hamstrings and quadriceps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Calves",
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Standing Band Side Leg Raises",
+    "Powerbag / Sandbag Good Mornings",
+    "Seated Dumbbell / Chair Calf Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83833",
+    "female": "https://workoutlabs.com/train/svg.php?id=85755"
+  }
+}

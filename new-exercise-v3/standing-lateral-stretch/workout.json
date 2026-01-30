@@ -1,0 +1,24 @@
+{
+  "id": "95491",
+  "slug": "standing-lateral-stretch",
+  "title": "Standing Lateral Stretch",
+  "description": "Standing Lateral Stretch is a at-home work out exercise that targets middle back / lats and also involves lower back",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Middle Back Lats"
+  ],
+  "secondary_muscles": [
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Medicine Ball / Alternating Side Slams",
+    "Your exercise (placeholder)",
+    "Barbell / Box / Block Cleans"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=95491",
+    "female": "https://workoutlabs.com/train/svg.php?id=95489"
+  }
+}

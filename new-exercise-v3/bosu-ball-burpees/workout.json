@@ -1,0 +1,29 @@
+{
+  "id": "83490",
+  "slug": "bosu-ball-burpees",
+  "title": "Bosu Ball Burpees",
+  "description": "Bosu Ball Burpees is a gym work out exercise that targets biceps and shoulders and triceps and upper back & lower traps and also involves abs and calves and quadriceps",
+  "equipment": [
+    "Bosu Ball"
+  ],
+  "primary_muscles": [
+    "Biceps",
+    "Shoulders",
+    "Triceps",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Triceps Dips",
+    "Resistance Band Bicep Curls",
+    "Double Arm Front Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83490",
+    "female": "https://workoutlabs.com/train/svg.php?id=85407"
+  }
+}

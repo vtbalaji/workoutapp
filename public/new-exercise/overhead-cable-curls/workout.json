@@ -1,0 +1,24 @@
+{
+  "id": "83716",
+  "slug": "overhead-cable-curls",
+  "title": "Overhead Cable Curl / Crucifix Curls",
+  "description": "Overhead Cable Curl is a gym work out exercise that targets biceps and also involves abs",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Biceps"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Seated Alternating Incline Bench Dumbbell Curls",
+    "Stability / Swiss / Exercises Ball Dumbbell Preacher Curls",
+    "Battle Rope Reverse Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83716",
+    "female": "https://workoutlabs.com/train/svg.php?id=85637"
+  }
+}

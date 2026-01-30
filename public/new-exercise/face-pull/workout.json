@@ -1,0 +1,24 @@
+{
+  "id": "83596",
+  "slug": "face-pull",
+  "title": "Face Pull / Rear Delt Pull",
+  "description": "Rear Delt Pull is a gym work out exercise that targets shoulders and also involves lower back",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Dual / Two Arm Dumbbell Front Shoulder Raises",
+    "Bodyweight Shoulder Presses",
+    "Shoulder Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83596",
+    "female": "https://workoutlabs.com/train/svg.php?id=85511"
+  }
+}

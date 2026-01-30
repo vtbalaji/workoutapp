@@ -1,0 +1,27 @@
+{
+  "id": "83881",
+  "slug": "standing-long-jumps",
+  "title": "Standing Long Jumps",
+  "description": "Standing Long Jumps is a at-home work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves and hamstrings",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Bosu Ball Static Balance",
+    "Barbell Kneeling Squats",
+    "Standing Adductor / Adduction Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83881",
+    "female": "https://workoutlabs.com/train/svg.php?id=85801"
+  }
+}

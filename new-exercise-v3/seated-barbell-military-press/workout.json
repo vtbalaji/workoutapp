@@ -1,0 +1,26 @@
+{
+  "id": "83782",
+  "slug": "seated-barbell-military-press",
+  "title": "Seated Barbell Military Press",
+  "description": "Seated Barbell Military Press is a gym work out exercise that targets shoulders and upper back & lower traps and also involves abs and triceps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Shoulders",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Standing Dumbbell Arm Twists / Rotations",
+    "Battle Rope Double Waves",
+    "Laying External Shoulder Rotation"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83782",
+    "female": "https://workoutlabs.com/train/svg.php?id=85704"
+  }
+}

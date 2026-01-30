@@ -1,0 +1,22 @@
+{
+  "id": "83483",
+  "slug": "bodyweight-calf-raises",
+  "title": "Bodyweight Calf Raises",
+  "description": "Bodyweight Calf Raises is a at-home work out exercise that targets calves",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Rope Jumping / Jump rope / Skipping",
+    "Barbell Overhead Squats",
+    "Leg Press Machine Calf Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83483",
+    "female": "https://workoutlabs.com/train/svg.php?id=85400"
+  }
+}

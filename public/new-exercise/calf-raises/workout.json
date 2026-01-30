@@ -1,0 +1,24 @@
+{
+  "id": "95538",
+  "slug": "calf-raises",
+  "title": "Calf Raises",
+  "description": "Calf Raises is a at-home work out exercise that targets calves and also involves ankles",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [
+    "Ankles"
+  ],
+  "related_exercises": [
+    "Resistance Band Calf Stretch",
+    "Sprints",
+    "Seated / Chair Calf Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=95538",
+    "female": "https://workoutlabs.com/train/svg.php?id=95536"
+  }
+}

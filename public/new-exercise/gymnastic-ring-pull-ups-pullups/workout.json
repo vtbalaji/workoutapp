@@ -1,0 +1,27 @@
+{
+  "id": "83622",
+  "slug": "gymnastic-ring-pull-ups-pullups",
+  "title": "Gymnastic Ring Pull-Ups / Pullups",
+  "description": "Gymnastic Ring Pull-ups is a gym work out exercise that targets middle back / lats and upper back & lower traps and also involves biceps and forearms and shoulders",
+  "equipment": [
+    "Gymnastic Rings"
+  ],
+  "primary_muscles": [
+    "Middle Back Lats",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Forearms",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Barbell Pullovers / Lying Chest Overhead Extensions",
+    "Resistance Band Bent Over Rows",
+    "Foam Roller Lat Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83622",
+    "female": "https://workoutlabs.com/train/svg.php?id=86473"
+  }
+}

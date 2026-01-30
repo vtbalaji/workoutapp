@@ -1,0 +1,27 @@
+{
+  "id": "83711",
+  "slug": "one-arm-dumbbell-rows",
+  "title": "Single / One Arm Dumbbell Bench Rows",
+  "description": "Single Arm Dumbbell Bench Rows is a gym work out exercise that targets lower back and upper back & lower traps and also involves abs and biceps and shoulders",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Lower Back",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Biceps",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Seated Lean Backs / Chair Crunches",
+    "Powerbag / Sandbag Good Mornings",
+    "Close Grip Pullups / Chinups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83711",
+    "female": "https://workoutlabs.com/train/svg.php?id=85632"
+  }
+}

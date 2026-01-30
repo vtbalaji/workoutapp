@@ -1,0 +1,27 @@
+{
+  "id": "83471",
+  "slug": "bench-hops-box-jumps",
+  "title": "Bench Hops / Box Jumps",
+  "description": "Bench Hops is a at-home work out exercise that targets hamstrings and quadriceps and also involves abs and calves and glutes & hip flexors",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Stability / Swiss / Exercise Ball Hamstring Leg Curl / Hip Raise / Bridge",
+    "Air Squats",
+    "Battle Rope Squatting Alternating Waves"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83471",
+    "female": "https://workoutlabs.com/train/svg.php?id=85388"
+  }
+}

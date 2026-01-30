@@ -1,0 +1,29 @@
+{
+  "id": "83509",
+  "slug": "boxing-with-a-punching-bag",
+  "title": "Boxing with a Punching Bag",
+  "description": "Boxing With A Punching Bag is a gym work out exercise that targets biceps and shoulders and triceps and upper back & lower traps and also involves abs and calves and quadriceps",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Biceps",
+    "Shoulders",
+    "Triceps",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Quadriceps"
+  ],
+  "related_exercises": [
+    "Cable Rope Overhead Triceps Extensions",
+    "Double Arm Side / Lateral Raises to Overhead Extension",
+    "One Arm Kettlebell Swings"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83509",
+    "female": "https://workoutlabs.com/train/svg.php?id=85424"
+  }
+}

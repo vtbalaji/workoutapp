@@ -1,0 +1,27 @@
+{
+  "id": "83775",
+  "slug": "romanian-deadlifts",
+  "title": "Romanian Deadlifts",
+  "description": "Romanian Deadlifts is a gym work out exercise that targets hamstrings and also involves abs and calves and glutes & hip flexors and lower back",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Glutes Hip Flexors",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Ragdoll / Forward Bend / Fold Stretch / Toe Touches",
+    "Hamstring Stretch",
+    "Surrenders"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83775",
+    "female": "https://workoutlabs.com/train/svg.php?id=85696"
+  }
+}

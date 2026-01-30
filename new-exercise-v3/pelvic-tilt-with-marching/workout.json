@@ -1,0 +1,24 @@
+{
+  "id": "86251",
+  "slug": "pelvic-tilt-with-marching",
+  "title": "Pelvic Tilt With Marching",
+  "description": "Pelvic Tilt With Marching is a at-home work out exercise that targets glutes & hip flexors and also involves abs",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Hip Circles",
+    "TRX Suspension Straps Overhead Squats",
+    "Dumbbell Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86251",
+    "female": "https://workoutlabs.com/train/svg.php?id=85643"
+  }
+}

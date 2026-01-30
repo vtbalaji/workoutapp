@@ -1,0 +1,27 @@
+{
+  "id": "83939",
+  "slug": "weighted-twist",
+  "title": "Weighted Russian / Mason Twists",
+  "description": "Weighted Russian Twists is a at-home work out exercise that targets abs and obliques and also involves biceps and forearms and lower back",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Forearms",
+    "Lower Back"
+  ],
+  "related_exercises": [
+    "Reverse Plank Kicks / Planks",
+    "Kettlebell Around the Worlds",
+    "Incline Planks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83939",
+    "female": "https://workoutlabs.com/train/svg.php?id=85859"
+  }
+}

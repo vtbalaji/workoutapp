@@ -1,0 +1,24 @@
+{
+  "id": "83636",
+  "slug": "hip-circles",
+  "title": "Hip Circles",
+  "description": "Hip Circles is a at-home work out exercise that targets glutes & hip flexors and also involves abs",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Bodyweight Squats",
+    "Barbell Squats",
+    "Single / One Leg Bench Bodyweight Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83636",
+    "female": "https://workoutlabs.com/train/svg.php?id=85551"
+  }
+}

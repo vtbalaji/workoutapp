@@ -1,0 +1,26 @@
+{
+  "id": "83621",
+  "slug": "gymnastic-ring-dips",
+  "title": "Gymnastic Ring Dips",
+  "description": "Gymnastic Ring Dips is a gym work out exercise that targets chest and triceps and also involves abs and shoulders",
+  "equipment": [
+    "Gymnastic Rings"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Stability / Swiss / Exercise Ball Push Ups / Press Ups",
+    "Decline Bench Dumbbell Press",
+    "Staggered Hand Push-Ups / Pushups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83621",
+    "female": "https://workoutlabs.com/train/svg.php?id=86471"
+  }
+}

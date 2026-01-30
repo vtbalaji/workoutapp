@@ -1,0 +1,24 @@
+{
+  "id": "86377",
+  "slug": "standing-chair-supported-hamstring-curls",
+  "title": "Standing Chair / Supported Hamstring Curls",
+  "description": "Standing Hamstring Curls is a at-home work out exercise that targets hamstrings and also involves knees",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Knees"
+  ],
+  "related_exercises": [
+    "Barbell Split Squats",
+    "Standing Leg / Hamstring Curls",
+    "Cossack Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86377",
+    "female": "https://workoutlabs.com/train/svg.php?id=85788"
+  }
+}

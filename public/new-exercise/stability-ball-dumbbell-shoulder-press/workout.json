@@ -1,0 +1,24 @@
+{
+  "id": "83858",
+  "slug": "stability-ball-dumbbell-shoulder-press",
+  "title": "Stability / Swiss / Exercise Ball Dumbbell Shoulder Press",
+  "description": "Swiss Ball Dumbbell Shoulder Press is a gym work out exercise that targets shoulders and also involves abs",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "TRX Suspension Straps Deltoid Y Flyes",
+    "Medicine Ball Punch Throws",
+    "Handstand Walks / Hand Walking"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83858",
+    "female": "https://workoutlabs.com/train/svg.php?id=85779"
+  }
+}

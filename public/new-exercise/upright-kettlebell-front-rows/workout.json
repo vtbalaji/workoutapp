@@ -1,0 +1,25 @@
+{
+  "id": "83926",
+  "slug": "upright-kettlebell-front-rows",
+  "title": "Upright Kettlebell Front Rows",
+  "description": "Upright Kettlebell Front Rows is a gym work out exercise that targets shoulders and upper back & lower traps and also involves abs",
+  "equipment": [
+    "Kettlebells"
+  ],
+  "primary_muscles": [
+    "Shoulders",
+    "Upper Back Lower Traps"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Crab Walks",
+    "Gymnastic Ring Pull-Ups / Pullups",
+    "Medicine Ball Punch Throws"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83926",
+    "female": "https://workoutlabs.com/train/svg.php?id=85847"
+  }
+}

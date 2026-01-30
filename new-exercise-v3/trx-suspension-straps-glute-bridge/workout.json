@@ -1,0 +1,24 @@
+{
+  "id": "83902",
+  "slug": "trx-suspension-straps-glute-bridge",
+  "title": "TRX Suspension Straps Glute Bridge",
+  "description": "Trx Suspension Straps Glute Bridge is a gym work out exercise that targets glutes & hip flexors and also involves abs",
+  "equipment": [
+    "Suspension Straps / TRX"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [
+    "Abs"
+  ],
+  "related_exercises": [
+    "Squat Jacks / Side Sumo Walks",
+    "Single / One Leg Hip Raises / Glute Bridges / Hip Extensions with Leg Lift",
+    "TRX Suspension Straps Side Step / Lateral Lunges"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83902",
+    "female": "https://workoutlabs.com/train/svg.php?id=85821"
+  }
+}

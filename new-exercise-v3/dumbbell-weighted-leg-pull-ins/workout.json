@@ -1,0 +1,24 @@
+{
+  "id": "83587",
+  "slug": "dumbbell-weighted-leg-pull-ins",
+  "title": "Dumbbell Weighted Leg Pull-Ins",
+  "description": "Dumbbell Weighted Leg Pull-ins is a gym work out exercise that targets abs and also involves glutes & hip flexors",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Hanging Knee Raises",
+    "Double Side Jackknifes",
+    "Hanging Windshield Wipers"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83587",
+    "female": "https://workoutlabs.com/train/svg.php?id=85502"
+  }
+}

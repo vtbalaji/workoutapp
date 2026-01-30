@@ -1,0 +1,27 @@
+{
+  "id": "83942",
+  "slug": "wide-stance-sumo-barbell-squats",
+  "title": "Wide Stance / Sumo Barbell Squats",
+  "description": "Sumo Barbell Squats is a gym work out exercise that targets quadriceps and also involves abs and calves and glutes & hip flexors and hamstrings",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Glutes Hip Flexors",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Squat Jacks / Side Sumo Walks",
+    "Sumo Barbell Deadlift",
+    "Bodyweight Sumo / Wide Stance Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83942",
+    "female": "https://workoutlabs.com/train/svg.php?id=85862"
+  }
+}

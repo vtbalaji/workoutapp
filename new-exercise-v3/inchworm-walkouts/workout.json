@@ -1,0 +1,30 @@
+{
+  "id": "83638",
+  "slug": "inchworm-walkouts",
+  "title": "Inchworms / Walkouts",
+  "description": "Inchworms is a at-home work out exercise that targets abs and glutes & hip flexors and lower back and also involves biceps and calves and chest and forearms and shoulders",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Glutes Hip Flexors",
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Calves",
+    "Chest",
+    "Forearms",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Incline Plank Shoulder Taps / Planks",
+    "Bodyweight Squats",
+    "Seated Resistance Band Leg / Hip Abduction"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83638",
+    "female": "https://workoutlabs.com/train/svg.php?id=85554"
+  }
+}

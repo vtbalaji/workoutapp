@@ -1,0 +1,27 @@
+{
+  "id": "83568",
+  "slug": "dumbbell-chops",
+  "title": "Dumbbell Chops",
+  "description": "Dumbbell Chops is a gym work out exercise that targets hamstrings and obliques and quadriceps and also involves calves and hamstrings",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Obliques",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Standing Chair / Supported Hamstring Curls",
+    "Single / One Straight Leg Dumbbell Deadlift",
+    "Your exercise (placeholder)"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83568",
+    "female": "https://workoutlabs.com/train/svg.php?id=85483"
+  }
+}

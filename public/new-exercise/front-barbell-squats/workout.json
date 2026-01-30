@@ -1,0 +1,27 @@
+{
+  "id": "83617",
+  "slug": "front-barbell-squats",
+  "title": "Front Barbell Squats",
+  "description": "Front Barbell Squats is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves abs and calves and hamstrings",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Dumbbell Step-Ups",
+    "Bosu Ball Plank Leg Lifts",
+    "TRX Suspension Strap Pistol / Single / One Leg Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83617",
+    "female": "https://workoutlabs.com/train/svg.php?id=85532"
+  }
+}

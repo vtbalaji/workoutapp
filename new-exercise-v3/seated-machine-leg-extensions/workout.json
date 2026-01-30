@@ -1,0 +1,22 @@
+{
+  "id": "83798",
+  "slug": "seated-machine-leg-extensions",
+  "title": "Seated Machine Leg Extensions",
+  "description": "Seated Machine Leg Extensions is a gym work out exercise that targets quadriceps",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Quadriceps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Resistance Band Lying Leg Extensions",
+    "Cardio - Walking / Treadmill",
+    "Barbell Power Snatch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83798",
+    "female": "https://workoutlabs.com/train/svg.php?id=85720"
+  }
+}

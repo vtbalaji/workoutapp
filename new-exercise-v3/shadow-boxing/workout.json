@@ -1,0 +1,32 @@
+{
+  "id": "83806",
+  "slug": "shadow-boxing",
+  "title": "Shadow Boxing",
+  "description": "Shadow Boxing is a at-home work out exercise that targets abs and biceps and shoulders and triceps and also involves calves and glutes & hip flexors and lower back and quadriceps and shoulders and triceps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Biceps",
+    "Shoulders",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Calves",
+    "Glutes Hip Flexors",
+    "Lower Back",
+    "Quadriceps",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Face Pull / Rear Delt Pull",
+    "Lying Single / One Leg Lifts / Raises",
+    "Reverse Triceps Bench Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83806",
+    "female": "https://workoutlabs.com/train/svg.php?id=85728"
+  }
+}

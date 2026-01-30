@@ -1,0 +1,24 @@
+{
+  "id": "83689",
+  "slug": "medicine-ball-floor-press",
+  "title": "Medicine Ball Floor Press / Laying Chest Passes",
+  "description": "Medicine Ball Floor Press is a gym work out exercise that targets chest and also involves triceps",
+  "equipment": [
+    "Medicine Ball"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Raised One-Legged / Leg Push Ups / Push-ups",
+    "Hammer Strength Machine / Seated Chest Press",
+    "Decline Dumbbell Flyes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83689",
+    "female": "https://workoutlabs.com/train/svg.php?id=86509"
+  }
+}

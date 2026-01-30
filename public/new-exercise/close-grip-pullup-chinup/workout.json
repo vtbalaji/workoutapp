@@ -1,0 +1,26 @@
+{
+  "id": "83534",
+  "slug": "close-grip-pullup-chinup",
+  "title": "Close Grip Pullups / Chinups",
+  "description": "Close Grip Pullups is a gym work out exercise that targets lower back and also involves biceps and forearms and upper back & lower traps",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Forearms",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Foam Roller Lower Back Stretch",
+    "Back Extensions / Hyperextensions",
+    "Seated Low Cable Back Rows"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83534",
+    "female": "https://workoutlabs.com/train/svg.php?id=85449"
+  }
+}

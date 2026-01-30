@@ -1,0 +1,24 @@
+{
+  "id": "83432",
+  "slug": "standing-arm-circles",
+  "title": "Standing Arm Circles",
+  "description": "Standing Arm Circles is a at-home work out exercise that targets shoulders and also involves upper back & lower traps",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Resistance Band Shoulder Front Raises",
+    "Machine Seated Shoulder Press",
+    "Bent Over Dumbbell Shoulder Pendulums / Swings"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83432",
+    "female": "https://workoutlabs.com/train/svg.php?id=85350"
+  }
+}

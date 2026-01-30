@@ -1,0 +1,26 @@
+{
+  "id": "83719",
+  "slug": "overhead-plate-squats",
+  "title": "Overhead Plate Squats",
+  "description": "Overhead Plate Squats is a gym work out exercise that targets glutes & hip flexors and quadriceps and also involves hamstrings and shoulders",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Hamstrings",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Plate Overhead Walking Lunges",
+    "Water Bottle Squat Clean and Presses",
+    "Foam Roller Outer Thighs Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83719",
+    "female": "https://workoutlabs.com/train/svg.php?id=85640"
+  }
+}

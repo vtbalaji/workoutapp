@@ -1,0 +1,22 @@
+{
+  "id": "83762",
+  "slug": "resistance-band-tricep-kickbacks",
+  "title": "Resistance Band Tricep Kickbacks",
+  "description": "Resistance Band Tricep Kickbacks is a gym work out exercise that targets triceps",
+  "equipment": [
+    "Resistance Bands"
+  ],
+  "primary_muscles": [
+    "Triceps"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Barbell Pushups / Push-ups",
+    "Weighted Bench Dips",
+    "Underhand Grip Barbell Bench Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83762",
+    "female": "https://workoutlabs.com/train/svg.php?id=85683"
+  }
+}

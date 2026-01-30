@@ -1,0 +1,27 @@
+{
+  "id": "83572",
+  "slug": "dumbbell-incline-rows",
+  "title": "Dumbbell Incline Bench Rows",
+  "description": "Dumbbell Incline Bench Rows is a gym work out exercise that targets lower back and middle back / lats and also involves biceps and forearms and shoulders",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Lower Back",
+    "Middle Back Lats"
+  ],
+  "secondary_muscles": [
+    "Biceps",
+    "Forearms",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Cross body Cable Rows",
+    "Powerbag / Sandbag Good Mornings",
+    "Cable Squat Rows / Row Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83572",
+    "female": "https://workoutlabs.com/train/svg.php?id=85487"
+  }
+}

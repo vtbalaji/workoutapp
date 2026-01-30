@@ -1,0 +1,27 @@
+{
+  "id": "83507",
+  "slug": "water-bottle-squat-thrusters",
+  "title": "Water Bottle Squat Thrusters",
+  "description": "Water Bottle Squat Thrusters is a gym work out exercise that targets glutes & hip flexors and quadriceps and shoulders and also involves hamstrings and triceps",
+  "equipment": [
+    "Water Bottles"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Hamstrings",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Dual / Two Arm Dumbbell Front Shoulder Raises",
+    "Lunging / Lunge with Bicep Hammer Curls",
+    "Dumbbell Bent Over Lateral Rear Delt Raises / Flyes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83507",
+    "female": "https://workoutlabs.com/train/svg.php?id=85422"
+  }
+}

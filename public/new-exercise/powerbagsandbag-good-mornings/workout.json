@@ -1,0 +1,25 @@
+{
+  "id": "83734",
+  "slug": "powerbagsandbag-good-mornings",
+  "title": "Powerbag / Sandbag Good Mornings",
+  "description": "Sandbag Good Mornings is a gym work out exercise that targets glutes & hip flexors and lower back and also involves hamstrings",
+  "equipment": [
+    "Powerbag / Sandbag"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Squat Jacks / Side Sumo Walks",
+    "Cardio – Swimming",
+    "Seated Cat Cow"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83734",
+    "female": "https://workoutlabs.com/train/svg.php?id=85655"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "86150",
+  "slug": "flutter-kicks-2",
+  "title": "Flutter Kicks",
+  "description": "Flutter Kicks is a at-home work out exercise that targets abs and also involves glutes & hip flexors",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Crunches",
+    "Battle Rope Jumping Jacks",
+    "Gymnastic Ring L-Holds"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86150",
+    "female": "https://workoutlabs.com/train/svg.php?id=86151"
+  }
+}

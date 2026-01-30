@@ -1,0 +1,22 @@
+{
+  "id": "83663",
+  "slug": "kneeling-hip-flexor-stretch",
+  "title": "Kneeling Hip Flexor Stretch",
+  "description": "Kneeling Hip Flexor Stretch is a at-home work out exercise that targets glutes & hip flexors",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Toe Taps",
+    "Roundhouse / Side Kicks",
+    "Cable Hip Extensions"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83663",
+    "female": "https://workoutlabs.com/train/svg.php?id=85579"
+  }
+}

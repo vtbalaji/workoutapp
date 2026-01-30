@@ -1,0 +1,24 @@
+{
+  "id": "86637",
+  "slug": "seated-dumbbell-chair-calf-raises",
+  "title": "Seated Dumbbell / Chair Calf Raises",
+  "description": "Seated Dumbbell Calf Raises is a gym work out exercise that targets calves and also involves ankles",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Calves"
+  ],
+  "secondary_muscles": [
+    "Ankles"
+  ],
+  "related_exercises": [
+    "Standing Barbell Calf Raises",
+    "Internal Rotation / Bodyweight Calf Raises",
+    "Barbell Split Squats"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86637",
+    "female": "https://workoutlabs.com/train/svg.php?id=86541"
+  }
+}

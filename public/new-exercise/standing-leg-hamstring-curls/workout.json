@@ -1,0 +1,24 @@
+{
+  "id": "83872",
+  "slug": "standing-leg-hamstring-curls",
+  "title": "Standing Leg / Hamstring Curls",
+  "description": "Standing Hamstring Curls is a gym work out exercise that targets hamstrings and also involves glutes & hip flexors",
+  "equipment": [
+    "Full gym"
+  ],
+  "primary_muscles": [
+    "Hamstrings"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors"
+  ],
+  "related_exercises": [
+    "Reverse Dumbbell Lunges",
+    "Power Skips",
+    "Tuck Jumps"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83872",
+    "female": "https://workoutlabs.com/train/svg.php?id=85792"
+  }
+}

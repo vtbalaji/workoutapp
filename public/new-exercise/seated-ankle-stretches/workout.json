@@ -1,0 +1,24 @@
+{
+  "id": "104323",
+  "slug": "seated-ankle-stretches",
+  "title": "Seated Ankle Stretches",
+  "description": "Seated Ankle Stretches is a at-home work out exercise that targets ankles and also involves calves",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Ankles"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ],
+  "related_exercises": [
+    "Ankle Circles / Rotations / Rolls",
+    "Ankle Stretch",
+    "Single / One Leg Balance / Holds"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=104323",
+    "female": "https://workoutlabs.com/train/svg.php?id=104324"
+  }
+}

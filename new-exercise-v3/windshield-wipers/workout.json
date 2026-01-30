@@ -1,0 +1,23 @@
+{
+  "id": "83944",
+  "slug": "windshield-wipers",
+  "title": "Windshield Wipers",
+  "description": "Windshield Wipers is a at-home work out exercise that targets abs and obliques",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Abs",
+    "Obliques"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Bear Crawls",
+    "Seated Bench Leg Pull-Ins / Flat Bench Knee-ups",
+    "Single / One Arm Dumbbell / Suitcase Carry"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83944",
+    "female": "https://workoutlabs.com/train/svg.php?id=85864"
+  }
+}

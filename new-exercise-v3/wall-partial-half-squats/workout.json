@@ -1,0 +1,25 @@
+{
+  "id": "83930",
+  "slug": "wall-partial-half-squats",
+  "title": "Wall Partial / Half Squats",
+  "description": "Partial Wall Squats is a at-home work out exercise that targets glutes & hip flexors and quadriceps and also involves hamstrings",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Dumbbell Lunges",
+    "Wall Sit / Squats / Chair",
+    "Lunge / Front Kicks"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83930",
+    "female": "https://workoutlabs.com/train/svg.php?id=85851"
+  }
+}

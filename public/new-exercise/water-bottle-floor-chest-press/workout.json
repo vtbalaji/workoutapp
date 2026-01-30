@@ -1,0 +1,24 @@
+{
+  "id": "83503",
+  "slug": "water-bottle-floor-chest-press",
+  "title": "Water Bottle Floor Chest Presses",
+  "description": "Water Bottle Floor Chest Presses is a gym work out exercise that targets chest and also involves triceps",
+  "equipment": [
+    "Water Bottles"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Incline Close-Grip / Bench Presses",
+    "Single / One Arm Medicine Ball Push-Ups / Pushups",
+    "Medicine Ball Punch Throws"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83503",
+    "female": "https://workoutlabs.com/train/svg.php?id=85418"
+  }
+}

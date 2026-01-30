@@ -1,0 +1,26 @@
+{
+  "id": "83497",
+  "slug": "bosu-ball-single-leg-pistol-squats",
+  "title": "Bosu Ball Single / One Leg Pistol Squats",
+  "description": "Bosu Ball Pistol Squats is a gym work out exercise that targets hamstrings and quadriceps and also involves abs and calves",
+  "equipment": [
+    "Bosu Ball"
+  ],
+  "primary_muscles": [
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves"
+  ],
+  "related_exercises": [
+    "Resistance Band Lying Leg Extensions",
+    "Standing Quadricep Stretch",
+    "Dumbbell Squat Thrusters / Squat to Overhead Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83497",
+    "female": "https://workoutlabs.com/train/svg.php?id=86108"
+  }
+}

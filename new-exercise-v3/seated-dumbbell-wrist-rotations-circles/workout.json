@@ -1,0 +1,24 @@
+{
+  "id": "86643",
+  "slug": "seated-dumbbell-wrist-rotations-circles",
+  "title": "Seated Dumbbell Wrist Rotations / Circles",
+  "description": "Seated Dumbbell Wrist Rotations is a gym work out exercise that targets wrists and also involves forearms",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Wrists"
+  ],
+  "secondary_muscles": [
+    "Forearms"
+  ],
+  "related_exercises": [
+    "Seated Dumbbell Palm-Up Wrist Curls / Forearm Curls",
+    "Seated Prayer Stretch",
+    "Kneeling Wrist / Forearm Stretch"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=86643",
+    "female": "https://workoutlabs.com/train/svg.php?id=86549"
+  }
+}

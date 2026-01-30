@@ -1,0 +1,25 @@
+{
+  "id": "83696",
+  "slug": "medicine-ball-swings",
+  "title": "Medicine Ball Swings",
+  "description": "Medicine Ball Swings is a gym work out exercise that targets shoulders and also involves glutes & hip flexors and hamstrings",
+  "equipment": [
+    "Medicine Ball"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings"
+  ],
+  "related_exercises": [
+    "Seated Single / One Arm Overhead Dumbbell Tricep Extensions",
+    "Open Scarecrows",
+    "Standing Dumbbell Overhead Shoulder Press"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83696",
+    "female": "https://workoutlabs.com/train/svg.php?id=85617"
+  }
+}

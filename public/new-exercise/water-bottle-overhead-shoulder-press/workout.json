@@ -1,0 +1,25 @@
+{
+  "id": "83715",
+  "slug": "water-bottle-overhead-shoulder-press",
+  "title": "Water Bottle Overhead Shoulder Presses",
+  "description": "Water Bottle Overhead Shoulder Presses is a gym work out exercise that targets chest and shoulders and also involves triceps",
+  "equipment": [
+    "Water Bottles"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Landmine / T-Bar Presses",
+    "Underhand Grip Barbell Bench Press",
+    "Single / One Arm Front Water Bottle Raises"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83715",
+    "female": "https://workoutlabs.com/train/svg.php?id=85636"
+  }
+}

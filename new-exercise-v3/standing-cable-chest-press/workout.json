@@ -1,0 +1,26 @@
+{
+  "id": "83864",
+  "slug": "standing-cable-chest-press",
+  "title": "Standing Cable Chest Press",
+  "description": "Standing Cable Chest Press is a gym work out exercise that targets chest and also involves abs and shoulders and triceps",
+  "equipment": [
+    "Cable Station"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Low Upward Cable Pulley Crossover Chest Flyes",
+    "Dumbbell Flat Bench Press",
+    "Decline Dumbbell Flyes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83864",
+    "female": "https://workoutlabs.com/train/svg.php?id=85784"
+  }
+}

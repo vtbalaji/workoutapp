@@ -1,0 +1,30 @@
+{
+  "id": "83445",
+  "slug": "barbell-deadlifts",
+  "title": "Barbell Deadlifts",
+  "description": "Barbell Deadlifts is a gym work out exercise that targets lower back and also involves abs and calves and forearms and glutes & hip flexors and hamstrings and quadriceps and upper back & lower traps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Lower Back"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Calves",
+    "Forearms",
+    "Glutes Hip Flexors",
+    "Hamstrings",
+    "Quadriceps",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Supine Lying Down Position / Corpse Pose",
+    "Resistance Band Glute Bridges",
+    "Inchworms / Walkouts"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83445",
+    "female": "https://workoutlabs.com/train/svg.php?id=85361"
+  }
+}

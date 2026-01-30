@@ -1,0 +1,26 @@
+{
+  "id": "83840",
+  "slug": "sissy-squats",
+  "title": "Sissy Squats",
+  "description": "Sissy Squats is a at-home work out exercise that targets glutes & hip flexors and hamstrings and quadriceps and also involves calves",
+  "equipment": [
+    "NO EQUIPMENT"
+  ],
+  "primary_muscles": [
+    "Glutes Hip Flexors",
+    "Hamstrings",
+    "Quadriceps"
+  ],
+  "secondary_muscles": [
+    "Calves"
+  ],
+  "related_exercises": [
+    "Single / One Leg Bench Bodyweight Squats",
+    "Hops / Hopping",
+    "Prone / Lying Resistance Band Knee Bends"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83840",
+    "female": "https://workoutlabs.com/train/svg.php?id=85762"
+  }
+}

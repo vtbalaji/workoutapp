@@ -1,0 +1,22 @@
+{
+  "id": "83799",
+  "slug": "seated-palm-down-barbell-wrist-curls",
+  "title": "Seated Palm-Down Wrist Curls / Forearm Curls",
+  "description": "Seated Palm-down Wrist Curls is a gym work out exercise that targets forearms",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Forearms"
+  ],
+  "secondary_muscles": [],
+  "related_exercises": [
+    "Monkey Bars / Climbing Frame",
+    "Seated Dumbbell Palm-Up Wrist Curls / Forearm Curls",
+    "Wrist Circles / Rotations"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83799",
+    "female": "https://workoutlabs.com/train/svg.php?id=85721"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "83578",
+  "slug": "dumbbell-shoulder-press",
+  "title": "Dumbbell Overhead Shoulder Press",
+  "description": "Dumbbell Overhead Shoulder Press is a gym work out exercise that targets shoulders and also involves abs and triceps and upper back & lower traps",
+  "equipment": [
+    "Dumbbells"
+  ],
+  "primary_muscles": [
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Triceps",
+    "Upper Back Lower Traps"
+  ],
+  "related_exercises": [
+    "Resistance Band Lateral / Side Raises / Shoulder Abductions",
+    "Plate Overhead Walking Lunges",
+    "Your exercise (placeholder)"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83578",
+    "female": "https://workoutlabs.com/train/svg.php?id=85493"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "83668",
+  "slug": "kneeling-t-bar-presseslandmine-presses",
+  "title": "Kneeling T-Bar Presses / Landmine Presses",
+  "description": "Landmine Presses is a gym work out exercise that targets chest and also involves shoulders and triceps",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Chest"
+  ],
+  "secondary_muscles": [
+    "Shoulders",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Cardio - Assault Bike",
+    "Wall Push-Ups / Pushups / Standing Press Ups",
+    "Push-ups / Pushups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83668",
+    "female": "https://workoutlabs.com/train/svg.php?id=85584"
+  }
+}

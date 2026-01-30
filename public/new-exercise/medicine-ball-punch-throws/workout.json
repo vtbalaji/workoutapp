@@ -1,0 +1,26 @@
+{
+  "id": "83690",
+  "slug": "medicine-ball-punch-throws",
+  "title": "Medicine Ball Punch Throws",
+  "description": "Medicine Ball Punch Throws is a gym work out exercise that targets chest and shoulders and also involves obliques and triceps",
+  "equipment": [
+    "Medicine Ball"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Shoulders"
+  ],
+  "secondary_muscles": [
+    "Obliques",
+    "Triceps"
+  ],
+  "related_exercises": [
+    "Machine Seated Shoulder Press",
+    "Barbell Clean and Press / Jerk / Overhead Press",
+    "Bosu Ball Push-ups / Pushups"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83690",
+    "female": "https://workoutlabs.com/train/svg.php?id=85611"
+  }
+}

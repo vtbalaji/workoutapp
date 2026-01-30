@@ -1,0 +1,26 @@
+{
+  "id": "83455",
+  "slug": "barbell-pushups-push-ups",
+  "title": "Barbell Pushups / Push-ups",
+  "description": "Barbell Push-ups is a gym work out exercise that targets chest and triceps and also involves abs and shoulders",
+  "equipment": [
+    "Barbell / EZ-Bar"
+  ],
+  "primary_muscles": [
+    "Chest",
+    "Triceps"
+  ],
+  "secondary_muscles": [
+    "Abs",
+    "Shoulders"
+  ],
+  "related_exercises": [
+    "Tricep Dumbbell Kickbacks",
+    "Dynamic Clap Push-ups / Pushups",
+    "Butterflies / Pec Deck / Seated Machine Flyes"
+  ],
+  "images": {
+    "male": "https://workoutlabs.com/train/svg.php?id=83455",
+    "female": "https://workoutlabs.com/train/svg.php?id=85371"
+  }
+}
