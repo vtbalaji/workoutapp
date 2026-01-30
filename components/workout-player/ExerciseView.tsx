@@ -37,7 +37,7 @@ export default function ExerciseView({
       </div>
 
       {/* Large exercise image with animation */}
-      <div className="w-full max-w-md h-80 sm:h-96 mb-12 flex items-center justify-center">
+      <div className="w-full max-w-md h-64 sm:h-80 mb-3 flex items-center justify-center">
         <AnimatedExerciseImage
           exercise={exercise}
           isPlaying={playerState === "active"}
@@ -48,7 +48,7 @@ export default function ExerciseView({
       {playerState === "preview" ? (
         <>
           {/* Preview: Show sets, reps, rest in a line */}
-          <div className="flex items-center justify-center gap-2 mb-8 text-lg font-semibold">
+          <div className="flex items-center justify-center gap-2 mb-6 text-lg font-semibold">
             <span className="text-gray-900">{exercise.sets} sets</span>
             <span className="text-gray-400">•</span>
             <span className="text-gray-900">{exercise.reps} reps</span>
@@ -59,14 +59,14 @@ export default function ExerciseView({
       ) : (
         <>
           {/* Active: Show current set info */}
-          <div className="mb-4">
-            <p className="text-gray-500 text-lg text-center mb-2">
+          <div className="mb-2">
+            <p className="text-gray-500 text-base text-center mb-2">
               Set {currentSet} of {exercise.sets}
             </p>
-            <p className="text-green-500 text-7xl font-bold text-center mb-4">
+            <p className="text-green-500 text-6xl font-bold text-center mb-2">
               {exercise.reps}
             </p>
-            <p className="text-gray-400 text-xl text-center font-semibold">reps</p>
+            <p className="text-gray-400 text-lg text-center font-semibold">reps</p>
           </div>
 
           {/* Show full workout info below */}

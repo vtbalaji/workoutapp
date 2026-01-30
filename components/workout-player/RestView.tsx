@@ -41,7 +41,7 @@ export default function RestView({
       </div>
 
       {/* Faded exercise image with animation */}
-      <div className="w-full max-w-md h-80 sm:h-96 mb-12 flex items-center justify-center">
+      <div className="w-full max-w-md h-64 sm:h-80 mb-3 flex items-center justify-center">
         <AnimatedExerciseImage
           exercise={exercise}
           isPlaying={true}
@@ -51,12 +51,12 @@ export default function RestView({
       </div>
 
       {/* Rest label */}
-      <p className="text-green-500 text-lg font-semibold mb-4">
+      <p className="text-green-500 text-base font-semibold mb-3">
         Rest before next set
       </p>
 
       {/* HUGE countdown */}
-      <p className="text-green-500 text-8xl font-bold">
+      <p className="text-green-500 text-7xl font-bold">
         {formatCountdown(restSecondsLeft)}
       </p>
     </div>
