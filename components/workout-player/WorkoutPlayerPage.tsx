@@ -181,8 +181,8 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
         onExit={handleExit}
       />
 
-      {/* Main content - scrollable if needed, with bottom padding for fixed controls */}
-      <div className="flex-1 overflow-y-auto pb-32">
+      {/* Main content */}
+      <div className="flex-1 overflow-hidden">
         {playerState === "rest" ? (
           <RestView
             exercise={currentExercise}
@@ -204,7 +204,6 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
           isPaused={isPaused}
           onPauseToggle={handlePauseToggle}
           onNext={handleNext}
-          onExit={handleExit}
         />
       </div>
 

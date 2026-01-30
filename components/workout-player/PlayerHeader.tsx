@@ -32,17 +32,17 @@ export default function PlayerHeader({
       </div>
 
       {/* Header info */}
-      <div className="flex justify-between items-center px-6 py-4">
+      <div className="flex justify-between items-center px-3 py-1">
         <button
           onClick={onExit}
-          className="text-gray-500 text-sm hover:text-gray-700"
+          className="text-gray-500 text-xs hover:text-gray-700"
         >
-          Workout
+          ← Exit
         </button>
-        <span className="font-semibold text-gray-900">
-          {currentExercise} of {totalExercises}
+        <span className="font-semibold text-gray-900 text-sm">
+          {currentExercise}/{totalExercises}
         </span>
-        <span className="text-gray-500 text-sm">{formatTime(totalSeconds)}</span>
+        <span className="text-gray-500 text-xs">{formatTime(totalSeconds)}</span>
       </div>
     </div>
   );

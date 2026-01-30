@@ -8,7 +8,7 @@ import Link from "next/link";
 import Toast from "@/components/Toast";
 import ConfirmModal from "@/components/ConfirmModal";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCopy, faTrash, faEdit, faPlus } from "@fortawesome/free-solid-svg-icons";
+import { faCopy, faTrash, faPlus } from "@fortawesome/free-solid-svg-icons";
 
 export default function TemplatesPage() {
   return (
@@ -173,154 +173,99 @@ function TemplatesContent() {
       )}
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-3">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <h1 className="text-2xl font-bold mb-1">My Templates</h1>
-              <p className="text-blue-100 text-sm">
-                Create and manage reusable exercise templates
-              </p>
-            </div>
-            <Link
-              href="/template-builder"
-              className="px-6 py-3 bg-yellow-500 text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors flex items-center gap-2"
-            >
-              <FontAwesomeIcon icon={faPlus} />
-              New Template
-            </Link>
-          </div>
+      <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-1">
+        <div className="max-w-7xl mx-auto px-3">
+          <h1 className="text-sm font-semibold">My Templates</h1>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto px-2 py-1">
         {error && (
-          <div className="mb-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded">
+          <div className="mb-2 p-2 bg-red-100 border border-red-400 text-red-700 rounded text-sm">
             {error}
           </div>
         )}
 
         {templates.length === 0 ? (
-          <div className="text-center py-20">
-            <div className="text-6xl mb-4">📋</div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-2">
-              No templates yet
-            </h2>
-            <p className="text-gray-600 mb-6">
-              Create your first template to get started
-            </p>
+          <div className="text-center py-8">
+            <p className="text-gray-600 mb-2 text-sm">No templates yet</p>
             <Link
               href="/template-builder"
-              className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="inline-block px-3 py-1.5 bg-green-600 text-white rounded text-xs font-semibold hover:bg-green-700"
             >
               Create Template
             </Link>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2">
             {templates.map((template) => (
               <div
                 key={template.id}
-                className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden"
+                className="bg-white rounded shadow p-3 hover:shadow-md transition-shadow"
               >
-                <div className="p-6">
-                  {/* Category Badge */}
-                  <div className="mb-3">
-                    <span
-                      className={`inline-block px-3 py-1 rounded-full text-xs font-semibold capitalize ${getCategoryColor(
-                        template.category
-                      )}`}
-                    >
-                      {template.category}
-                    </span>
-                  </div>
-
-                  {/* Template Name */}
-                  <h3 className="text-xl font-bold text-gray-900 mb-2">
+                <div className="flex items-center justify-between mb-1">
+                  <h3 className="text-sm font-bold text-gray-900 truncate flex-1">
                     {template.name}
                   </h3>
-
-                  {/* Description */}
-                  {template.description && (
-                    <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                      {template.description}
-                    </p>
-                  )}
-
-                  {/* Stats */}
-                  <div className="flex items-center gap-4 text-sm text-gray-600 mb-4">
-                    <span className="font-semibold">
-                      {template.exercises.length} exercises
-                    </span>
-                    <span>•</span>
-                    <span>
-                      {Math.ceil(
-                        template.exercises.reduce(
-                          (sum, ex) =>
-                            sum + (ex.sets * ex.reps * 3 + ex.restSeconds),
-                          0
-                        ) / 60
-                      )}{" "}
-                      min
-                    </span>
-                  </div>
-
-                  {/* Exercise Preview */}
-                  <div className="mb-4 text-sm text-gray-600">
-                    {template.exercises.slice(0, 3).map((ex, idx) => (
-                      <div key={idx} className="truncate">
-                        • {ex.exerciseName} ({ex.sets}x{ex.reps})
-                      </div>
-                    ))}
-                    {template.exercises.length > 3 && (
-                      <div className="text-gray-500 italic">
-                        +{template.exercises.length - 3} more...
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Actions */}
-                  <div className="flex gap-2">
-                    <Link
-                      href={`/template-builder?id=${template.id}`}
-                      className="flex-1 px-4 py-2 bg-green-600 text-white rounded-lg text-center font-medium hover:bg-green-700 transition-colors text-sm flex items-center justify-center gap-2"
-                    >
-                      <FontAwesomeIcon icon={faEdit} />
-                      Edit
-                    </Link>
-                    <button
-                      onClick={() => handleDuplicate(template)}
-                      className="px-4 py-2 bg-blue-100 text-blue-700 rounded-lg font-medium hover:bg-blue-200 transition-colors text-sm"
-                      title="Duplicate"
-                    >
-                      <FontAwesomeIcon icon={faCopy} />
-                    </button>
-                    <button
-                      onClick={() => handleDelete(template.id)}
-                      disabled={deletingId === template.id}
-                      className="px-4 py-2 bg-red-100 text-red-700 rounded-lg font-medium hover:bg-red-200 transition-colors disabled:opacity-50 text-sm"
-                      title="Delete"
-                    >
-                      <FontAwesomeIcon icon={faTrash} />
-                    </button>
-                  </div>
+                  <span
+                    className={`px-2 py-0.5 rounded-full text-[10px] font-semibold capitalize ${getCategoryColor(
+                      template.category
+                    )}`}
+                  >
+                    {template.category}
+                  </span>
                 </div>
 
-                {/* Footer with timestamp */}
-                <div className="bg-gray-50 px-6 py-3 text-xs text-gray-500">
-                  Updated{" "}
-                  {new Date(template.updatedAt).toLocaleDateString("en-US", {
-                    month: "short",
-                    day: "numeric",
-                    year: "numeric",
-                  })}
+                <div className="flex items-center gap-2 text-xs text-gray-500 mb-2">
+                  <span>{template.exercises.length} exercises</span>
+                  <span>•</span>
+                  <span>
+                    {Math.ceil(
+                      template.exercises.reduce(
+                        (sum, ex) => sum + (ex.sets * ex.reps * 3 + ex.restSeconds),
+                        0
+                      ) / 60
+                    )} min
+                  </span>
+                </div>
+
+                <div className="flex gap-1">
+                  <Link
+                    href={`/template-builder?id=${template.id}`}
+                    className="flex-1 py-1 bg-green-600 text-white rounded text-xs font-medium hover:bg-green-700 text-center"
+                  >
+                    Edit
+                  </Link>
+                  <button
+                    onClick={() => handleDuplicate(template)}
+                    className="px-2 py-1 bg-blue-100 text-blue-700 rounded text-xs hover:bg-blue-200"
+                    title="Duplicate"
+                  >
+                    <FontAwesomeIcon icon={faCopy} />
+                  </button>
+                  <button
+                    onClick={() => handleDelete(template.id)}
+                    disabled={deletingId === template.id}
+                    className="px-2 py-1 bg-red-100 text-red-700 rounded text-xs hover:bg-red-200 disabled:opacity-50"
+                    title="Delete"
+                  >
+                    <FontAwesomeIcon icon={faTrash} />
+                  </button>
                 </div>
               </div>
             ))}
           </div>
         )}
       </div>
+
+      {/* Floating + Button */}
+      <Link
+        href="/template-builder"
+        className="fixed bottom-4 right-4 w-12 h-12 bg-green-600 text-white rounded-full shadow-lg hover:bg-green-700 flex items-center justify-center z-10"
+      >
+        <FontAwesomeIcon icon={faPlus} className="text-xl" />
+      </Link>
     </div>
   );
 }

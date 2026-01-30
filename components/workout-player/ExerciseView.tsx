@@ -19,25 +19,21 @@ export default function ExerciseView({
   playerState,
 }: ExerciseViewProps) {
   return (
-    <div className="flex-1 flex flex-col items-center justify-center px-6">
-      {/* Section round indicator */}
-      {exercise.sectionName && exercise.sectionSets && exercise.sectionSets > 1 && (
-        <div className="w-full mb-2">
-          <p className="text-sm text-indigo-600 font-semibold text-center">
-            {exercise.sectionName} - Round {exercise.currentSectionRound} of {exercise.sectionSets}
-          </p>
-        </div>
-      )}
-
+    <div className="h-full flex flex-col">
       {/* Exercise name */}
-      <div className="w-full mb-8">
-        <h1 className="text-2xl font-bold text-gray-900 text-center whitespace-nowrap overflow-hidden text-ellipsis">
+      <div className="text-center py-1 px-2">
+        <h1 className="text-sm font-bold text-gray-900 truncate">
           {exercise.exerciseName}
         </h1>
+        {exercise.sectionName && exercise.sectionSets && exercise.sectionSets > 1 && (
+          <p className="text-[10px] text-indigo-600">
+            {exercise.sectionName} • Round {exercise.currentSectionRound}/{exercise.sectionSets}
+          </p>
+        )}
       </div>
 
-      {/* Large exercise image with animation */}
-      <div className="w-full max-w-md h-64 sm:h-80 mb-3 flex items-center justify-center">
+      {/* Large exercise image - takes all available space */}
+      <div className="flex-1 min-h-0">
         <AnimatedExerciseImage
           exercise={exercise}
           isPlaying={playerState === "active"}
@@ -45,47 +41,26 @@ export default function ExerciseView({
         />
       </div>
 
-      {playerState === "preview" ? (
-        <>
-          {/* Preview: Show sets, reps, rest in a line */}
-          <div className="flex items-center justify-center gap-2 mb-6 text-lg font-semibold">
-            <span className="text-gray-900">{exercise.sets} sets</span>
+      {/* Info bar - fixed above bottom controls */}
+      <div className="py-2 px-4 text-center bg-white border-t mb-14">
+        {playerState === "preview" ? (
+          <div className="flex items-center justify-center gap-3 text-base font-semibold">
+            <span>{exercise.sets} sets</span>
             <span className="text-gray-400">•</span>
-            <span className="text-gray-900">{exercise.reps} reps</span>
+            <span>{exercise.reps} reps</span>
             <span className="text-gray-400">•</span>
-            <span className="text-gray-900">{exercise.restSeconds}s rest</span>
+            <span>{exercise.restSeconds}s rest</span>
           </div>
-        </>
-      ) : (
-        <>
-          {/* Active: Show current set info */}
-          <div className="mb-2">
-            <p className="text-gray-500 text-base text-center mb-2">
-              Set {currentSet} of {exercise.sets}
-            </p>
-            <p className="text-blue-500 text-6xl font-bold text-center mb-2">
-              {exercise.reps}
-            </p>
-            <p className="text-gray-400 text-lg text-center font-semibold">reps</p>
+        ) : (
+          <div className="flex items-center justify-center gap-4">
+            <span className="text-3xl font-bold text-blue-600">{exercise.reps} <span className="text-sm text-gray-500 font-normal">reps</span></span>
+            <span className="text-gray-300">|</span>
+            <span className="text-lg font-bold text-gray-700">{currentSet}/{exercise.sets} <span className="text-sm text-gray-500 font-normal">set</span></span>
+            <span className="text-gray-300">|</span>
+            <span className="text-lg font-bold text-gray-700">{exercise.restSeconds}s <span className="text-sm text-gray-500 font-normal">rest</span></span>
           </div>
-
-          {/* Show full workout info below */}
-          <div className="flex items-center justify-center gap-2 text-base font-medium mb-4">
-            <span className="text-gray-700">{exercise.sets} sets</span>
-            <span className="text-gray-400">•</span>
-            <span className="text-gray-700">{exercise.reps} reps</span>
-            <span className="text-gray-400">•</span>
-            <span className="text-gray-700">{exercise.restSeconds}s rest</span>
-          </div>
-        </>
-      )}
-
-      {/* Notes */}
-      {(exercise.notes || exercise.description) && (
-        <p className="text-gray-500 text-sm text-center max-w-md px-4">
-          {exercise.notes || exercise.description}
-        </p>
-      )}
+        )}
+      </div>
     </div>
   );
 }

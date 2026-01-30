@@ -30,12 +30,12 @@ export default function TopNav() {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-40">
-      <div className="max-w-7xl mx-auto px-3 sm:px-4 py-1 sm:py-2">
+      <div className="max-w-7xl mx-auto px-2 sm:px-4 py-0.5 sm:py-2">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link
             href="/"
-            className="text-base sm:text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors"
+            className="text-sm sm:text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors"
           >
             💪 FitnessPro
           </Link>
@@ -65,11 +65,11 @@ export default function TopNav() {
             {/* Hamburger Menu */}
             <button
               onClick={() => setShowMobileMenu(!showMobileMenu)}
-              className="p-2 text-gray-700 hover:bg-gray-100 rounded-lg transition-colors"
+              className="p-1 text-gray-700 hover:bg-gray-100 rounded transition-colors"
               aria-label="Toggle menu"
             >
               <svg
-                className="w-6 h-6"
+                className="w-4 h-4 sm:w-6 sm:h-6"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -107,13 +107,13 @@ export default function TopNav() {
 
           {/* Menu Panel */}
           <div className="fixed top-0 left-0 bottom-0 w-64 bg-white shadow-xl z-50 animate-slideInLeft">
-            <div className="p-4">
+            <div className="p-2">
               {/* Close button */}
               <button
                 onClick={() => setShowMobileMenu(false)}
-                className="mb-6 p-2 text-gray-700 hover:bg-gray-100 rounded-lg"
+                className="mb-1 p-1 text-gray-700 hover:bg-gray-100 rounded-lg"
               >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                 </svg>
               </button>
@@ -121,14 +121,14 @@ export default function TopNav() {
               {/* Logo */}
               <Link
                 href="/"
-                className="block text-xl font-bold text-blue-600 mb-6"
+                className="block text-base font-bold text-blue-600 mb-1"
                 onClick={() => setShowMobileMenu(false)}
               >
                 💪 FitnessPro
               </Link>
 
               {/* Navigation Links */}
-              <div className="space-y-2">
+              <div className="space-y-0.5">
                 {navLinks.map((link) => {
                   if (link.protected && !user) {
                     return null;
@@ -137,7 +137,7 @@ export default function TopNav() {
                     <Link
                       key={link.href}
                       href={link.href}
-                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg font-medium transition-colors"
+                      className="block px-3 py-1.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded font-medium transition-colors"
                       onClick={() => setShowMobileMenu(false)}
                     >
                       {link.label}
@@ -150,7 +150,7 @@ export default function TopNav() {
                   <>
                     <Link
                       href="/profile"
-                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg font-medium transition-colors"
+                      className="block px-3 py-1.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded font-medium transition-colors"
                       onClick={() => setShowMobileMenu(false)}
                     >
                       Profile
@@ -160,7 +160,7 @@ export default function TopNav() {
                         setShowMobileMenu(false);
                         handleLogout();
                       }}
-                      className="w-full text-left px-4 py-3 text-red-600 hover:bg-red-50 rounded-lg font-medium"
+                      className="w-full text-left px-3 py-1.5 text-sm text-red-600 hover:bg-red-50 rounded font-medium"
                     >
                       Logout
                     </button>
@@ -172,14 +172,14 @@ export default function TopNav() {
                   <>
                     <Link
                       href="/login"
-                      className="block px-4 py-3 text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded-lg font-medium transition-colors"
+                      className="block px-3 py-1.5 text-sm text-gray-700 hover:bg-blue-50 hover:text-blue-600 rounded font-medium transition-colors"
                       onClick={() => setShowMobileMenu(false)}
                     >
                       Login
                     </Link>
                     <Link
                       href="/signup"
-                      className="block px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 font-medium transition-colors"
+                      className="block px-3 py-1.5 text-sm bg-blue-600 text-white rounded hover:bg-blue-700 font-medium transition-colors"
                       onClick={() => setShowMobileMenu(false)}
                     >
                       Sign Up

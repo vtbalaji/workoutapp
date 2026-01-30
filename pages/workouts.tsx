@@ -105,17 +105,14 @@ function WorkoutsContent() {
       )}
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-3">
-        <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-2xl font-bold mb-1">My Workouts</h1>
-          <p className="text-blue-100 text-sm">
-            Manage your custom workout plans
-          </p>
+      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-1">
+        <div className="max-w-7xl mx-auto px-3">
+          <h1 className="text-sm font-semibold">My Workouts</h1>
         </div>
       </div>
 
       {/* Content */}
-      <div className="max-w-7xl mx-auto px-4 py-12 pb-32">
+      <div className="max-w-7xl mx-auto px-2 py-1 pb-4">
         {error && (
           <div className="mb-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded">
             {error}
@@ -123,23 +120,23 @@ function WorkoutsContent() {
         )}
 
         {loading ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {Array.from({ length: 6 }).map((_, i) => (
               <SkeletonWorkoutCard key={i} />
             ))}
           </div>
         ) : workouts.length === 0 ? (
-          <div className="text-center py-12">
-            <p className="text-gray-600 mb-4">No workouts yet</p>
+          <div className="text-center py-8">
+            <p className="text-gray-600 mb-3">No workouts yet</p>
             <Link
               href="/workout-builder"
-              className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
+              className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg text-sm font-semibold hover:bg-blue-700"
             >
               Create Your First Workout
             </Link>
           </div>
         ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             {workouts.map((workout) => {
               const totalExercises = workout.sections.reduce(
                 (sum, section) => sum + section.exercises.length,
@@ -149,66 +146,61 @@ function WorkoutsContent() {
               return (
                 <div
                   key={workout.id}
-                  className="bg-white rounded-lg shadow-md p-6 hover:shadow-xl hover:-translate-y-1 transition-all duration-200"
+                  className="bg-white rounded-lg shadow-md p-3 hover:shadow-lg transition-all"
                 >
-                  <div className="flex items-center justify-between mb-2">
-                    <h3 className="text-xl font-bold text-gray-800 flex-1">
+                  <div className="flex items-center justify-between">
+                    <h3 className="text-sm font-bold text-gray-800 flex-1 truncate">
                       {workout.workoutName}
                     </h3>
-                    <div className="flex gap-2">
+                    <div className="flex">
                       <button
                         onClick={() =>
                           router.push(`/workout-builder?id=${workout.id}`)
                         }
-                        className="p-3 min-w-[44px] min-h-[44px] text-blue-600 hover:bg-blue-50 rounded-lg transition-all duration-200 hover:scale-110 flex items-center justify-center"
-                        title="Edit workout"
-                        aria-label="Edit workout"
+                        className="p-1 text-blue-600 hover:bg-blue-50 rounded"
+                        title="Edit"
                       >
-                        <FontAwesomeIcon icon={faEdit} className="text-lg" />
+                        <FontAwesomeIcon icon={faEdit} className="text-xs" />
                       </button>
                       <button
                         onClick={() => handleDelete(workout.id)}
-                        className="p-3 min-w-[44px] min-h-[44px] text-red-600 hover:bg-red-50 rounded-lg transition-all duration-200 hover:scale-110 flex items-center justify-center"
-                        title="Delete workout"
-                        aria-label="Delete workout"
+                        className="p-1 text-red-600 hover:bg-red-50 rounded"
+                        title="Delete"
                       >
-                        <FontAwesomeIcon icon={faTrash} className="text-lg" />
+                        <FontAwesomeIcon icon={faTrash} className="text-xs" />
                       </button>
                     </div>
                   </div>
-                  <p className="text-gray-600 text-sm mb-4">
-                    {workout.workoutDescription || "No description"}
-                  </p>
 
-                  <div className="grid grid-cols-3 gap-3 mb-4 py-3 border-y">
+                  <div className="grid grid-cols-3 gap-1 my-1 py-1 border-y text-center">
                     <div>
-                      <p className="text-gray-600 text-xs">Exercises</p>
-                      <p className="text-2xl font-bold text-blue-600">
-                        {totalExercises}
-                      </p>
+                      <p className="text-gray-500 text-[10px]">Exercises</p>
+                      <p className="text-lg font-bold text-blue-600">{totalExercises}</p>
                     </div>
                     <div>
-                      <p className="text-gray-600 text-xs">Sections</p>
-                      <p className="text-2xl font-bold text-blue-600">
-                        {workout.sections.length}
-                      </p>
+                      <p className="text-gray-500 text-[10px]">Sections</p>
+                      <p className="text-lg font-bold text-blue-600">{workout.sections.length}</p>
                     </div>
                     <div>
-                      <p className="text-gray-600 text-xs">Level</p>
-                      <p className="text-sm font-bold text-blue-600">
-                        {workout.difficulty}
-                      </p>
+                      <p className="text-gray-500 text-[10px]">Level</p>
+                      <p className="text-xs font-bold text-blue-600">{workout.difficulty}</p>
                     </div>
                   </div>
 
-                  <button
-                    onClick={() =>
-                      router.push(`/workout-view?id=${workout.id}`)
-                    }
-                    className="w-full px-4 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 active:scale-95 transition-all duration-200"
-                  >
-                    Let&apos;s Start
-                  </button>
+                  <div className="flex gap-1">
+                    <button
+                      onClick={() => router.push(`/workout-view?id=${workout.id}`)}
+                      className="flex-1 py-1.5 bg-blue-600 text-white rounded text-xs font-semibold hover:bg-blue-700"
+                    >
+                      View
+                    </button>
+                    <button
+                      onClick={() => router.push(`/workout-player?id=${workout.id}`)}
+                      className="flex-1 py-1.5 bg-green-600 text-white rounded text-xs font-semibold hover:bg-green-700"
+                    >
+                      Start
+                    </button>
+                  </div>
                 </div>
               );
             })}
@@ -216,18 +208,13 @@ function WorkoutsContent() {
         )}
       </div>
 
-      {/* Floating Create Workout Button */}
-      <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t shadow-lg z-10">
-        <div className="max-w-7xl mx-auto">
-          <Link
-            href="/workout-builder"
-            className="block w-full px-6 py-4 bg-blue-600 text-white text-xl rounded-lg hover:bg-blue-700 transition-colors font-bold text-center flex items-center justify-center gap-2"
-          >
-            <FontAwesomeIcon icon={faPlus} />
-            Create New Workout
-          </Link>
-        </div>
-      </div>
+      {/* Floating + Button */}
+      <Link
+        href="/workout-builder"
+        className="fixed bottom-4 right-4 w-12 h-12 bg-blue-600 text-white rounded-full shadow-lg hover:bg-blue-700 flex items-center justify-center z-10"
+      >
+        <FontAwesomeIcon icon={faPlus} className="text-xl" />
+      </Link>
     </div>
   );
 }

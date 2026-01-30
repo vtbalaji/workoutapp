@@ -102,15 +102,6 @@ function WorkoutViewContent() {
     return `${minutes}:${remainingSeconds.toString().padStart(2, "0")}`;
   };
 
-  // Calculate duration per exercise
-  const getExerciseDuration = (sets: number, reps: number, restSeconds: number): string => {
-    // Approximate: 3 seconds per rep
-    const workTime = sets * reps * 3;
-    const totalTime = workTime + restSeconds;
-    const minutes = Math.ceil(totalTime / 60);
-    return `${minutes} min`;
-  };
-
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
