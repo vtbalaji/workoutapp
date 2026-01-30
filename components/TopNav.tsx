@@ -30,12 +30,12 @@ export default function TopNav() {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-40">
-      <div className="max-w-7xl mx-auto px-4 py-4">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4 py-1 sm:py-2">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link
             href="/"
-            className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors"
+            className="text-base sm:text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors"
           >
             💪 FitnessPro
           </Link>

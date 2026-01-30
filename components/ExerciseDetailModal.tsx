@@ -1,10 +1,9 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { WorkoutExercise } from "@/lib/types";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMars, faVenus } from "@fortawesome/free-solid-svg-icons";
 import MuscleGroupImage from "./MuscleGroupImage";
+import { useUserProfile } from "@/hooks/useUserProfile";
 
 interface ExerciseDetailModalProps {
   exercise: WorkoutExercise;
@@ -15,7 +14,8 @@ export default function ExerciseDetailModal({
   exercise,
   onClose,
 }: ExerciseDetailModalProps) {
-  const [imageGender, setImageGender] = useState<"male" | "female">("male");
+  const { profile } = useUserProfile();
+  const imageGender = profile.gender;
   const iframeRef = useRef<HTMLIFrameElement>(null);
 
   // Close on escape key
@@ -49,85 +49,59 @@ export default function ExerciseDetailModal({
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="sticky top-0 bg-white border-b px-6 py-4 flex items-center justify-between z-10">
-          <h2 className="text-2xl font-bold text-gray-900">
+        <div className="sticky top-0 bg-white border-b px-4 sm:px-6 py-2 sm:py-4 flex items-center justify-between z-10">
+          <h2 className="text-base sm:text-2xl font-bold text-gray-900">
             {exercise.exerciseName}
           </h2>
           <button
             onClick={onClose}
-            className="text-gray-500 hover:text-gray-700 text-2xl font-bold"
+            className="text-gray-500 hover:text-gray-700 text-xl sm:text-2xl font-bold"
           >
             ×
           </button>
         </div>
 
         {/* Content */}
-        <div className="p-6 space-y-6">
-          {/* Gender Toggle */}
-          <div className="flex gap-2 justify-center flex-wrap">
-            <button
-              onClick={() => setImageGender("male")}
-              className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 ${
-                imageGender === "male"
-                  ? "bg-blue-600 text-white"
-                  : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-              }`}
-            >
-              <FontAwesomeIcon icon={faMars} />
-              Male
-            </button>
-            <button
-              onClick={() => setImageGender("female")}
-              className={`px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2 ${
-                imageGender === "female"
-                  ? "bg-pink-600 text-white"
-                  : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-              }`}
-            >
-              <FontAwesomeIcon icon={faVenus} />
-              Female
-            </button>
-          </div>
-
-          {/* Exercise Animation - Using iframe */}
-          <div className="bg-gray-50 rounded-lg overflow-hidden flex items-center justify-center" style={{ minHeight: '400px' }}>
+        <div className="p-0 sm:p-6">
+          {/* Exercise Animation - Using iframe - Edge to edge on mobile */}
+          <div className="bg-gray-50 sm:rounded-lg overflow-hidden flex items-center justify-center mb-0 sm:mb-6" style={{ minHeight: '300px' }}>
             {iframeSrc ? (
               <iframe
                 ref={iframeRef}
                 key={`${exercise.exerciseSlug}-${imageGender}`}
                 src={iframeSrc}
-                className="w-full h-[400px] border-0"
+                className="w-full h-[300px] sm:h-[400px] border-0"
                 style={{ background: 'transparent' }}
                 title={exercise.exerciseName}
                 loading="eager"
               />
             ) : (
-              <div className="text-center py-12">
-                <div className="text-6xl mb-2">💪</div>
-                <p className="text-gray-500">No image available</p>
+              <div className="text-center py-8 sm:py-12">
+                <div className="text-4xl sm:text-6xl mb-2">💪</div>
+                <p className="text-gray-500 text-sm sm:text-base">No image available</p>
               </div>
             )}
           </div>
 
           {/* Exercise Stats */}
-          <div className="grid grid-cols-3 gap-4">
-            <div className="text-center p-4 bg-blue-50 rounded-lg">
-              <div className="text-3xl font-bold text-blue-600">{exercise.sets}</div>
-              <div className="text-sm text-gray-600 font-medium">Sets</div>
+          <div className="grid grid-cols-3 gap-1 sm:gap-4 px-2 sm:px-0 py-1 sm:py-0 mb-0.5 sm:mb-6">
+            <div className="text-center p-1 sm:p-4 bg-blue-50 rounded">
+              <div className="text-base sm:text-3xl font-bold text-blue-600">{exercise.sets}</div>
+              <div className="text-[10px] sm:text-sm text-gray-600 font-medium">Sets</div>
             </div>
-            <div className="text-center p-4 bg-green-50 rounded-lg">
-              <div className="text-3xl font-bold text-green-600">{exercise.reps}</div>
-              <div className="text-sm text-gray-600 font-medium">Reps</div>
+            <div className="text-center p-1 sm:p-4 bg-green-50 rounded">
+              <div className="text-base sm:text-3xl font-bold text-green-600">{exercise.reps}</div>
+              <div className="text-[10px] sm:text-sm text-gray-600 font-medium">Reps</div>
             </div>
-            <div className="text-center p-4 bg-orange-50 rounded-lg">
-              <div className="text-3xl font-bold text-orange-600">{exercise.restSeconds}s</div>
-              <div className="text-sm text-gray-600 font-medium">Rest</div>
+            <div className="text-center p-1 sm:p-4 bg-orange-50 rounded">
+              <div className="text-base sm:text-3xl font-bold text-orange-600">{exercise.restSeconds}s</div>
+              <div className="text-[10px] sm:text-sm text-gray-600 font-medium">Rest</div>
             </div>
           </div>
 
           {/* Muscle Diagram */}
           {exercise.primaryMuscles && exercise.primaryMuscles.length > 0 && (
-            <div>
+            <div className="px-4 sm:px-0 mb-2 sm:mb-6">
               <MuscleGroupImage
                 exercise={{
                   primary_muscles: exercise.primaryMuscles,
@@ -139,38 +113,21 @@ export default function ExerciseDetailModal({
 
           {/* Description */}
           {exercise.description && (
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Description</h3>
-              <p className="text-gray-700 leading-relaxed">{exercise.description}</p>
-            </div>
-          )}
-
-          {/* Primary Muscles */}
-          {exercise.primaryMuscles && exercise.primaryMuscles.length > 0 && (
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Primary Muscles</h3>
-              <div className="flex flex-wrap gap-2">
-                {exercise.primaryMuscles.map((muscle, idx) => (
-                  <span
-                    key={idx}
-                    className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-medium"
-                  >
-                    {muscle}
-                  </span>
-                ))}
-              </div>
+            <div className="px-4 sm:px-0 mb-2 sm:mb-6">
+              <h3 className="text-sm sm:text-lg font-semibold text-gray-900 mb-1 sm:mb-2">Description</h3>
+              <p className="text-xs sm:text-base text-gray-700 leading-relaxed">{exercise.description}</p>
             </div>
           )}
 
           {/* Equipment */}
           {exercise.equipment && exercise.equipment.length > 0 && (
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Equipment</h3>
-              <div className="flex flex-wrap gap-2">
+            <div className="px-4 sm:px-0 mb-2 sm:mb-6">
+              <h3 className="text-sm sm:text-lg font-semibold text-gray-900 mb-1 sm:mb-2">Equipment</h3>
+              <div className="flex flex-wrap gap-1 sm:gap-2">
                 {exercise.equipment.map((item, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm font-medium"
+                    className="px-2 sm:px-3 py-0.5 sm:py-1 bg-gray-100 text-gray-700 rounded-full text-xs sm:text-sm font-medium"
                   >
                     {item}
                   </span>
@@ -181,9 +138,9 @@ export default function ExerciseDetailModal({
 
           {/* Notes */}
           {exercise.notes && (
-            <div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">Notes</h3>
-              <p className="text-gray-700 leading-relaxed">{exercise.notes}</p>
+            <div className="px-4 sm:px-0 pb-4 sm:pb-0 mb-2 sm:mb-6">
+              <h3 className="text-sm sm:text-lg font-semibold text-gray-900 mb-1 sm:mb-2">Notes</h3>
+              <p className="text-xs sm:text-base text-gray-700 leading-relaxed">{exercise.notes}</p>
             </div>
           )}
         </div>
