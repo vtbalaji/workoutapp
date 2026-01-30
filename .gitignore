@@ -56,3 +56,6 @@ yoga-old/
 
 # Test files to be deleted
 tobedelete/
+
+# Large HTML files
+complete_new.html
