@@ -62,7 +62,7 @@ function WorkoutViewContent() {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-600"></div>
+          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600"></div>
           <p className="mt-4 text-gray-600">Loading workout...</p>
         </div>
       </div>
@@ -131,13 +131,13 @@ function WorkoutViewContent() {
           </h1>
 
           <div className="flex flex-wrap items-center gap-2 sm:gap-3 mb-4 sm:mb-6">
-            <span className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-semibold">
+            <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
               {workout.estimatedDuration || Math.ceil(totalExercises * 3)} min
             </span>
             <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
               {totalExercises} exercises
             </span>
-            <span className="px-3 py-1 bg-purple-100 text-purple-700 rounded-full text-sm font-semibold">
+            <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
               {workout.difficulty || 'Beginner'}
             </span>
             {(() => {
@@ -160,7 +160,7 @@ function WorkoutViewContent() {
               }
 
               return equipmentList.slice(0, 3).map(item => (
-                <span key={item} className="px-3 py-1 bg-orange-100 text-orange-700 rounded-full text-sm font-semibold">
+                <span key={item} className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
                   {item}
                 </span>
               ));
@@ -186,7 +186,7 @@ function WorkoutViewContent() {
                       {section.name}
                     </h2>
                     {section.sets && section.sets > 1 && (
-                      <span className="px-3 py-1 bg-indigo-100 text-indigo-700 rounded-full text-sm font-semibold">
+                      <span className="px-3 py-1 bg-blue-100 text-blue-700 rounded-full text-sm font-semibold">
                         {section.sets} rounds
                       </span>
                     )}
@@ -349,7 +349,7 @@ function WorkoutViewContent() {
 
               <div className="mt-6 pt-4 border-t">
                 <h4 className="text-sm font-bold text-gray-900 mb-2">Difficulty</h4>
-                <span className="inline-block px-4 py-2 bg-green-600 text-white rounded-lg font-semibold">
+                <span className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg font-semibold">
                   {workout.difficulty || 'Beginner'}
                 </span>
               </div>
@@ -380,8 +380,8 @@ function WorkoutViewContent() {
       <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t shadow-lg z-10">
         <div className="max-w-4xl mx-auto">
           <Link
-            href={`/workout-player?id=${workout.id}`}
-            className="block w-full px-6 py-4 bg-indigo-600 text-white text-xl rounded-lg hover:bg-indigo-700 transition-colors font-bold text-center"
+            href={`/workout-player?id=${workout.id}&autostart=true`}
+            className="block w-full px-6 py-4 bg-blue-600 text-white text-xl rounded-lg hover:bg-blue-700 transition-colors font-bold text-center"
           >
             Let&apos;s do this! →
           </Link>

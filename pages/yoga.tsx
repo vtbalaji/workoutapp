@@ -60,7 +60,7 @@ export default function YogaPage() {
       <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-3">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-2xl font-bold mb-1">🧘 Yoga Poses</h1>
-          <p className="text-green-100 text-sm">
+          <p className="text-blue-100 text-sm">
             Explore {yogaPoses.length} yoga asanas and poses
           </p>
         </div>
@@ -90,7 +90,7 @@ export default function YogaPage() {
                   onClick={() => setFilterCategory(cat)}
                   className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                     filterCategory === cat
-                      ? "bg-green-600 text-white"
+                      ? "bg-blue-600 text-white"
                       : "bg-gray-200 text-gray-800 hover:bg-gray-300"
                   }`}
                 >
@@ -112,7 +112,7 @@ export default function YogaPage() {
                   onClick={() => setFilterDifficulty(diff)}
                   className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                     filterDifficulty === diff
-                      ? "bg-green-600 text-white"
+                      ? "bg-blue-600 text-white"
                       : "bg-gray-200 text-gray-800 hover:bg-gray-300"
                   }`}
                 >

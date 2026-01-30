@@ -26,7 +26,7 @@ export default function Toast({
   }, [duration, onClose]);
 
   const bgColor = {
-    success: "bg-green-600",
+    success: "bg-blue-600",
     error: "bg-red-600",
     info: "bg-blue-600",
   }[type];

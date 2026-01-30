@@ -62,7 +62,7 @@ export default function SignupPage() {
     <div className="min-h-screen bg-gradient-to-br from-indigo-600 to-blue-800 flex items-center justify-center px-4">
       <div className="bg-white rounded-lg shadow-xl max-w-md w-full p-8">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold text-indigo-600">FitnessPro</h1>
+          <h1 className="text-3xl font-bold text-blue-600">FitnessPro</h1>
           <p className="text-gray-600 mt-2">Create your account</p>
         </div>
 
@@ -118,7 +118,7 @@ export default function SignupPage() {
           <button
             type="submit"
             disabled={loading}
-            className="w-full bg-indigo-600 text-white py-2 rounded-lg font-semibold hover:bg-indigo-700 transition-colors disabled:opacity-50"
+            className="w-full bg-blue-600 text-white py-2 rounded-lg font-semibold hover:bg-blue-700 transition-colors disabled:opacity-50"
           >
             {loading ? "Creating account..." : "Sign Up"}
           </button>
@@ -143,7 +143,7 @@ export default function SignupPage() {
 
         <p className="text-center text-gray-600">
           Already have an account?{" "}
-          <Link href="/login" className="text-indigo-600 hover:text-indigo-700 font-semibold">
+          <Link href="/login" className="text-blue-600 hover:text-blue-700 font-semibold">
             Sign in
           </Link>
         </p>

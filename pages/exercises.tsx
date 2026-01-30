@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import ExerciseCard from "@/components/ExerciseCard";
 import DetailModal from "@/components/DetailModal";
+import { SkeletonCard } from "@/components/Skeleton";
 import { Exercise } from "@/lib/types";
 
 export default function ExercisesPage() {
@@ -101,8 +102,10 @@ export default function ExercisesPage() {
 
         {/* Loading State */}
         {loading && (
-          <div className="flex justify-center items-center py-12">
-            <div className="text-xl text-gray-600">Loading exercises...</div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            {Array.from({ length: 8 }).map((_, i) => (
+              <SkeletonCard key={i} />
+            ))}
           </div>
         )}
 

@@ -128,10 +128,10 @@ function TemplatesContent() {
   const getCategoryColor = (category: string) => {
     const colors: Record<string, string> = {
       warmup: "bg-orange-100 text-orange-700",
-      core: "bg-purple-100 text-purple-700",
+      core: "bg-blue-100 text-blue-700",
       cooldown: "bg-blue-100 text-blue-700",
       cardio: "bg-red-100 text-red-700",
-      strength: "bg-green-100 text-green-700",
+      strength: "bg-blue-100 text-blue-700",
       custom: "bg-gray-100 text-gray-700",
     };
     return colors[category] || colors.custom;
@@ -178,7 +178,7 @@ function TemplatesContent() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold mb-1">My Templates</h1>
-              <p className="text-green-100 text-sm">
+              <p className="text-blue-100 text-sm">
                 Create and manage reusable exercise templates
               </p>
             </div>
@@ -212,7 +212,7 @@ function TemplatesContent() {
             </p>
             <Link
               href="/template-builder"
-              className="inline-block px-6 py-3 bg-green-600 text-white rounded-lg font-semibold hover:bg-green-700 transition-colors"
+              className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
               Create Template
             </Link>

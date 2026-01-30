@@ -18,6 +18,15 @@ type PlayerState = "preview" | "active" | "rest" | "complete";
 export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
   const router = useRouter();
 
+  // Check if autostart is enabled
+  const [autostart] = useState(() => {
+    if (typeof window !== 'undefined') {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('autostart') === 'true';
+    }
+    return false;
+  });
+
   // Flatten all exercises from sections, accounting for section sets
   // If a section has sets=3, include each exercise 3 times
   const allExercises = workout.sections.flatMap(section => {
@@ -39,8 +48,8 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
 
   const totalExercises = allExercises.length;
 
-  // Player state
-  const [playerState, setPlayerState] = useState<PlayerState>("preview");
+  // Player state - start active if autostart is true
+  const [playerState, setPlayerState] = useState<PlayerState>(autostart ? "active" : "preview");
   const [currentExerciseIndex, setCurrentExerciseIndex] = useState(0);
   const [currentSet, setCurrentSet] = useState(1);
   const [restSecondsLeft, setRestSecondsLeft] = useState(0);
@@ -48,6 +57,36 @@ export default function WorkoutPlayerPage({ workout }: WorkoutPlayerPageProps) {
   const [isPaused, setIsPaused] = useState(false);
 
   const currentExercise = allExercises[currentExerciseIndex];
+
+  // Keyboard shortcuts
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Ignore if typing in an input
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) {
+        return;
+      }
+
+      switch (e.key) {
+        case " ": // Space - pause/play
+        case "k":
+          e.preventDefault();
+          handlePauseToggle();
+          break;
+        case "ArrowRight": // Next
+        case "n":
+          e.preventDefault();
+          handleNext();
+          break;
+        case "Escape": // Exit
+          e.preventDefault();
+          handleExit();
+          break;
+      }
+    };
+
+    window.addEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener("keydown", handleKeyPress);
+  }, [playerState, isPaused]); // Dependencies needed for handlers
 
   // Total elapsed timer
   useEffect(() => {

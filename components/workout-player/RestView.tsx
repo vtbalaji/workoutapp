@@ -51,12 +51,12 @@ export default function RestView({
       </div>
 
       {/* Rest label */}
-      <p className="text-green-500 text-base font-semibold mb-3">
+      <p className="text-blue-500 text-base font-semibold mb-3">
         Rest before next set
       </p>
 
       {/* HUGE countdown */}
-      <p className="text-green-500 text-7xl font-bold">
+      <p className="text-blue-500 text-7xl font-bold">
         {formatCountdown(restSecondsLeft)}
       </p>
     </div>

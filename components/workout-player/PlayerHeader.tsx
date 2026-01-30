@@ -26,7 +26,7 @@ export default function PlayerHeader({
       {/* Thin progress bar */}
       <div className="h-1 bg-gray-200">
         <div
-          className="h-full bg-green-500 transition-all duration-300"
+          className="h-full bg-blue-500 transition-all duration-300"
           style={{ width: `${progress}%` }}
         />
       </div>

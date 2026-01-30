@@ -63,7 +63,7 @@ export default function ExerciseView({
             <p className="text-gray-500 text-base text-center mb-2">
               Set {currentSet} of {exercise.sets}
             </p>
-            <p className="text-green-500 text-6xl font-bold text-center mb-2">
+            <p className="text-blue-500 text-6xl font-bold text-center mb-2">
               {exercise.reps}
             </p>
             <p className="text-gray-400 text-lg text-center font-semibold">reps</p>

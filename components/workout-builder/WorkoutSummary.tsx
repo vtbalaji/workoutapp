@@ -38,21 +38,21 @@ export default function WorkoutSummary({ workout }: WorkoutSummaryProps) {
           <p className="text-3xl font-bold text-blue-600">{totalExercises}</p>
         </div>
 
-        <div className="bg-green-50 p-4 rounded-lg">
+        <div className="bg-blue-50 p-4 rounded-lg">
           <p className="text-gray-600 text-sm">Total Sets</p>
-          <p className="text-3xl font-bold text-green-600">{totalSets}</p>
+          <p className="text-3xl font-bold text-blue-600">{totalSets}</p>
         </div>
 
-        <div className="bg-purple-50 p-4 rounded-lg">
+        <div className="bg-blue-50 p-4 rounded-lg">
           <p className="text-gray-600 text-sm">Duration</p>
-          <p className="text-3xl font-bold text-purple-600">
+          <p className="text-3xl font-bold text-blue-600">
             {estimatedDuration} min
           </p>
         </div>
 
-        <div className="bg-orange-50 p-4 rounded-lg">
+        <div className="bg-blue-50 p-4 rounded-lg">
           <p className="text-gray-600 text-sm">Sections</p>
-          <p className="text-3xl font-bold text-orange-600">
+          <p className="text-3xl font-bold text-blue-600">
             {workout.sections.length}
           </p>
         </div>
@@ -108,10 +108,10 @@ export default function WorkoutSummary({ workout }: WorkoutSummaryProps) {
         <div
           className={`inline-block px-4 py-2 rounded-lg font-medium text-white ${
             workout.difficulty === "Beginner"
-              ? "bg-green-600"
+              ? "bg-blue-500"
               : workout.difficulty === "Intermediate"
-              ? "bg-yellow-600"
-              : "bg-red-600"
+              ? "bg-blue-600"
+              : "bg-blue-700"
           }`}
         >
           {workout.difficulty}

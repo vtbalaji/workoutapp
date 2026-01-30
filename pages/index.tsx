@@ -33,10 +33,10 @@ export default function Home() {
 
           {/* Yoga Card */}
           <Link href="/yoga">
-            <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-lg shadow-lg p-8 cursor-pointer hover:shadow-xl transform hover:-translate-y-1 transition-all text-white">
+            <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg shadow-lg p-8 cursor-pointer hover:shadow-xl transform hover:-translate-y-1 transition-all text-white">
               <div className="text-5xl mb-4">🧘</div>
               <h3 className="text-3xl font-bold mb-2">Yoga Poses</h3>
-              <p className="text-green-100 mb-4">
+              <p className="text-blue-100 mb-4">
                 Master yoga asanas and improve flexibility and balance
               </p>
               <div className="text-sm opacity-75">
