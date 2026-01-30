@@ -2,21 +2,27 @@
 
 import { useEffect, useRef } from "react";
 import { WorkoutExercise } from "@/lib/types";
+import { useUserProfile } from "@/hooks/useUserProfile";
 
 interface AnimatedExerciseImageProps {
   exercise: WorkoutExercise;
   isPlaying?: boolean;
   opacity?: number;
   containerId?: string;
+  overrideGender?: "male" | "female";
 }
 
 export default function AnimatedExerciseImage({
   exercise,
   isPlaying = true,
   opacity = 1,
+  overrideGender,
 }: AnimatedExerciseImageProps) {
+  const { profile, loading } = useUserProfile();
+  const gender = overrideGender || profile.gender;
   const iframeRef = useRef<HTMLIFrameElement>(null);
   const lastPlayingRef = useRef(isPlaying);
+  const lastGenderRef = useRef(gender);
 
   // Send play/pause message to iframe when isPlaying changes
   useEffect(() => {
@@ -29,6 +35,15 @@ export default function AnimatedExerciseImage({
     }
   }, [isPlaying]);
 
+  // Reload iframe when gender changes
+  useEffect(() => {
+    if (!loading && lastGenderRef.current !== gender && iframeRef.current) {
+      const newSrc = `/svg-animator.html?slug=${encodeURIComponent(exercise.exerciseSlug || '')}&playing=${isPlaying}&gender=${gender}`;
+      iframeRef.current.src = newSrc;
+      lastGenderRef.current = gender;
+    }
+  }, [gender, loading, exercise.exerciseSlug, isPlaying]);
+
   if (!exercise.exerciseSlug) {
     return (
       <div className="w-full h-full flex items-center justify-center">
@@ -40,7 +55,7 @@ export default function AnimatedExerciseImage({
     );
   }
 
-  const iframeSrc = `/svg-animator.html?slug=${encodeURIComponent(exercise.exerciseSlug)}&playing=${isPlaying}`;
+  const iframeSrc = `/svg-animator.html?slug=${encodeURIComponent(exercise.exerciseSlug)}&playing=${isPlaying}&gender=${gender}`;
 
   return (
     <iframe

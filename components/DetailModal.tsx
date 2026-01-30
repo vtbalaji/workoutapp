@@ -4,8 +4,7 @@
 import { useState } from "react";
 import { Yoga, Exercise } from "@/lib/types";
 import MuscleGroupImage from "./MuscleGroupImage";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMars, faVenus } from "@fortawesome/free-solid-svg-icons";
+import { useUserProfile } from "@/hooks/useUserProfile";
 
 interface DetailModalProps {
   item: Yoga | Exercise | null;
@@ -19,7 +18,8 @@ function isYoga(item: Yoga | Exercise): item is Yoga {
 
 export default function DetailModal({ item, onClose }: DetailModalProps) {
   const [selectedRelated, setSelectedRelated] = useState<Yoga | Exercise | null>(null);
-  const [imageGender, setImageGender] = useState<"male" | "female">("male");
+  const { profile } = useUserProfile();
+  const imageGender = profile.gender;
 
   const handleRelatedExerciseClick = async (exerciseTitle: string) => {
     try {
@@ -69,8 +69,8 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
         className="bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto"
         onClick={(e) => e.stopPropagation()}
       >
-        <div className="sticky top-0 bg-white border-b p-4 flex justify-between items-center">
-          <h2 className="text-2xl font-bold">{item.title}</h2>
+        <div className="sticky top-0 bg-white border-b px-4 py-3 flex justify-between items-center">
+          <h2 className="text-lg font-bold">{item.title}</h2>
           <button
             onClick={onClose}
             className="text-gray-500 hover:text-gray-700 text-2xl font-bold leading-none"
@@ -79,35 +79,9 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
           </button>
         </div>
 
-        <div className="p-6">
-          {/* Images with Gender Selector */}
-          <div className="mb-6">
-            {!isYoga(item) && (
-              <div className="flex gap-2 mb-4">
-                <button
-                  onClick={() => setImageGender("male")}
-                  className={`px-4 py-2 rounded-lg font-semibold transition-colors flex items-center gap-2 ${
-                    imageGender === "male"
-                      ? "bg-blue-600 text-white"
-                      : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-                  }`}
-                >
-                  <FontAwesomeIcon icon={faMars} />
-                  Male
-                </button>
-                <button
-                  onClick={() => setImageGender("female")}
-                  className={`px-4 py-2 rounded-lg font-semibold transition-colors flex items-center gap-2 ${
-                    imageGender === "female"
-                      ? "bg-pink-600 text-white"
-                      : "bg-gray-200 text-gray-800 hover:bg-gray-300"
-                  }`}
-                >
-                  <FontAwesomeIcon icon={faVenus} />
-                  Female
-                </button>
-              </div>
-            )}
+        <div className="p-4">
+          {/* Exercise Image */}
+          <div className="mb-4">
             <div className="bg-gray-100 rounded-lg overflow-hidden h-80">
               {!isYoga(item) ? (
                 <iframe
@@ -132,7 +106,7 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
           </div>
 
           {/* Category and Difficulty */}
-          <div className="grid grid-cols-2 gap-4 mb-6">
+          <div className="grid grid-cols-2 gap-4 mb-4">
             <div>
               <p className="text-gray-600 text-sm">Category</p>
               <p className="font-semibold">{item.pose_category}</p>
@@ -146,18 +120,18 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
           </div>
 
           {/* Description */}
-          <div className="mb-6">
-            <h3 className="font-semibold text-lg mb-2">Description</h3>
-            <p className="text-gray-700">{item.description}</p>
+          <div className="mb-4">
+            <h3 className="font-semibold text-base mb-2">Description</h3>
+            <p className="text-gray-700 text-sm">{item.description}</p>
           </div>
 
           {/* Benefits */}
           {item.benefits && item.benefits.length > 0 && (
-            <div className="mb-6">
-              <h3 className="font-semibold text-lg mb-2">Benefits</h3>
+            <div className="mb-4">
+              <h3 className="font-semibold text-base mb-2">Benefits</h3>
               <ul className="list-disc list-inside space-y-1">
                 {item.benefits.map((benefit, idx) => (
-                  <li key={idx} className="text-gray-700">
+                  <li key={idx} className="text-gray-700 text-sm">
                     {benefit}
                   </li>
                 ))}
@@ -167,11 +141,11 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
 
           {/* Alignment Cues */}
           {item.alignment_cues && item.alignment_cues.length > 0 && (
-            <div className="mb-6">
-              <h3 className="font-semibold text-lg mb-2">Alignment Cues</h3>
+            <div className="mb-4">
+              <h3 className="font-semibold text-base mb-2">Alignment Cues</h3>
               <ul className="list-disc list-inside space-y-1">
                 {item.alignment_cues.map((cue, idx) => (
-                  <li key={idx} className="text-gray-700">
+                  <li key={idx} className="text-gray-700 text-sm">
                     {cue}
                   </li>
                 ))}
@@ -182,8 +156,8 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
           {/* Body Parts / Muscles */}
           {isYoga(item) ? (
             <>
-              <div className="mb-6">
-                <h3 className="font-semibold text-lg mb-2">Primary Body Parts</h3>
+              <div className="mb-4">
+                <h3 className="font-semibold text-base mb-2">Primary Body Parts</h3>
                 <div className="flex flex-wrap gap-2">
                   {item.primary_body_parts.map((part, idx) => (
                     <span
@@ -199,14 +173,14 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
           ) : (
             <>
               {/* Muscle Group Image */}
-              <div className="mb-6">
-                <h3 className="font-semibold text-lg mb-4">Muscles Engaged</h3>
+              <div className="mb-4">
+                <h3 className="font-semibold text-base mb-3">Muscles Engaged</h3>
                 <MuscleGroupImage exercise={item as Exercise} />
               </div>
 
               {(item as Exercise).equipment && (item as Exercise).equipment.length > 0 && (
-                <div className="mb-6">
-                  <h3 className="font-semibold text-lg mb-2">Equipment</h3>
+                <div className="mb-4">
+                  <h3 className="font-semibold text-base mb-2">Equipment</h3>
                   <div className="flex flex-wrap gap-2">
                     {(item as Exercise).equipment.map((eq, idx) => (
                       <span
@@ -224,8 +198,8 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
 
           {/* Related Items */}
           {isYoga(item) && item.related_poses && item.related_poses.length > 0 && (
-            <div className="mb-6">
-              <h3 className="font-semibold text-lg mb-2">Related Poses</h3>
+            <div className="mb-4">
+              <h3 className="font-semibold text-base mb-2">Related Poses</h3>
               <div className="flex flex-wrap gap-2">
                 {item.related_poses.map((pose, idx) => (
                   <button
@@ -241,8 +215,8 @@ export default function DetailModal({ item, onClose }: DetailModalProps) {
           )}
 
           {!isYoga(item) && (item as Exercise).related_exercises && (item as Exercise).related_exercises.length > 0 && (
-            <div className="mb-6">
-              <h3 className="font-semibold text-lg mb-2">Related Exercises</h3>
+            <div className="mb-4">
+              <h3 className="font-semibold text-base mb-2">Related Exercises</h3>
               <div className="flex flex-wrap gap-2">
                 {(item as Exercise).related_exercises.map((exercise, idx) => (
                   <button

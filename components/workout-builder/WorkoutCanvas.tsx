@@ -6,6 +6,7 @@ import { v4 as uuidv4 } from "uuid";
 import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import SectionCard from "./SectionCard";
 import SectionTemplateModal from "./SectionTemplateModal";
+import ConfirmModal from "../ConfirmModal";
 
 interface WorkoutCanvasProps {
   workout: Workout;
@@ -26,6 +27,7 @@ export default function WorkoutCanvas({
   const [templateSectionId, setTemplateSectionId] = useState<string | null>(null);
   const [showAddSection, setShowAddSection] = useState(false);
   const [customSectionName, setCustomSectionName] = useState("");
+  const [deleteSectionId, setDeleteSectionId] = useState<string | null>(null);
 
   const updateWorkout = useCallback((updatedWorkout: Workout) => {
     onWorkoutChange(updatedWorkout);
@@ -109,10 +111,16 @@ export default function WorkoutCanvas({
   };
 
   const handleDeleteSection = (sectionId: string) => {
+    setDeleteSectionId(sectionId);
+  };
+
+  const confirmDeleteSection = () => {
+    if (!deleteSectionId) return;
     const updatedSections = workout.sections.filter(
-      (section) => section.id !== sectionId
+      (section) => section.id !== deleteSectionId
     );
     updateWorkout({ ...workout, sections: updatedSections });
+    setDeleteSectionId(null);
   };
 
   const handleUpdateSectionName = (sectionId: string, newName: string) => {
@@ -346,6 +354,19 @@ export default function WorkoutCanvas({
             setShowTemplateModal(false);
             setTemplateSectionId(null);
           }}
+        />
+      )}
+
+      {/* Delete Section Confirmation */}
+      {deleteSectionId && (
+        <ConfirmModal
+          title="Delete Section?"
+          message="Are you sure you want to delete this section? All exercises in this section will be removed."
+          confirmText="Delete Section"
+          cancelText="Cancel"
+          confirmColor="red"
+          onConfirm={confirmDeleteSection}
+          onCancel={() => setDeleteSectionId(null)}
         />
       )}
     </DndContext>

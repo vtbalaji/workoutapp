@@ -6,6 +6,7 @@ import { Workout, WorkoutExercise } from "@/lib/types";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
 import Link from "next/link";
 import ExerciseDetailModal from "@/components/ExerciseDetailModal";
+import { useUserProfile } from "@/hooks/useUserProfile";
 
 
 export default function WorkoutViewPage() {
@@ -18,6 +19,8 @@ export default function WorkoutViewPage() {
 
 function WorkoutViewContent() {
   const { user } = useAuth();
+  const { profile } = useUserProfile();
+  const gender = profile.gender;
   const [workout, setWorkout] = useState<Workout | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -210,7 +213,17 @@ function WorkoutViewContent() {
                       <div className="flex gap-4">
                         {/* Exercise Image */}
                         <div className="flex-shrink-0 w-24 sm:w-40 h-24 sm:h-40 bg-gray-50 rounded-lg overflow-hidden flex items-center justify-center">
-                          {exercise.imageUrl && exercise.imageUrl.trim() ? (
+                          {exercise.exerciseSlug ? (
+                            <img
+                              src={`/exercise-images/${exercise.exerciseSlug}/${gender}.svg`}
+                              alt={exercise.exerciseName}
+                              className="w-full h-full object-contain"
+                              onError={(e) => {
+                                e.currentTarget.style.display = "none";
+                              }}
+                              loading="lazy"
+                            />
+                          ) : exercise.imageUrl && exercise.imageUrl.trim() ? (
                             <img
                               src={exercise.imageUrl}
                               alt={exercise.exerciseName}
@@ -220,14 +233,12 @@ function WorkoutViewContent() {
                               }}
                               loading="lazy"
                             />
-                          ) : null}
-                          {!exercise.imageUrl || !exercise.imageUrl.trim() ? (
+                          ) : (
                             <div className="text-center">
                               <div className="text-3xl sm:text-5xl mb-1 sm:mb-2">💪</div>
                               <p className="text-gray-500 text-xs sm:text-sm hidden sm:block">{exercise.exerciseName}</p>
                             </div>
-                          ) : null}
-                        </div>
+                          )}</div>
 
                         {/* Exercise Details */}
                         <div className="flex-1 flex flex-col justify-center">

@@ -101,12 +101,12 @@ export default function TopNav() {
         <>
           {/* Backdrop */}
           <div
-            className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden"
+            className="fixed inset-0 bg-black bg-opacity-50 z-40 animate-fadeIn"
             onClick={() => setShowMobileMenu(false)}
           />
 
           {/* Menu Panel */}
-          <div className="fixed top-0 left-0 bottom-0 w-64 bg-white shadow-xl z-50 md:hidden">
+          <div className="fixed top-0 left-0 bottom-0 w-64 bg-white shadow-xl z-50 animate-slideInLeft">
             <div className="p-4">
               {/* Close button */}
               <button

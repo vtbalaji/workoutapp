@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { Exercise } from "@/lib/types";
 import { useState } from "react";
+import { useUserProfile } from "@/hooks/useUserProfile";
 
 interface ExerciseCardProps {
   exercise: Exercise;
@@ -9,9 +10,11 @@ interface ExerciseCardProps {
 
 export default function ExerciseCard({ exercise, onClick }: ExerciseCardProps) {
   const [isLoading, setIsLoading] = useState(true);
+  const { profile, loading: profileLoading } = useUserProfile();
+  const gender = profile.gender;
 
-  // Use local images from public/exercise-images/{slug}/male.svg
-  const localImagePath = `/exercise-images/${exercise.slug}/male.svg`;
+  // Use local images from public/exercise-images/{slug}/{gender}.svg
+  const localImagePath = `/exercise-images/${exercise.slug}/${gender}.svg`;
 
   return (
     <div
@@ -19,22 +22,23 @@ export default function ExerciseCard({ exercise, onClick }: ExerciseCardProps) {
       onClick={() => onClick?.(exercise)}
     >
       <div className="aspect-[3/2] rounded-md mb-4 overflow-hidden relative bg-gray-100">
-        {isLoading && (
+        {(isLoading || profileLoading) && (
           <div className="absolute inset-0 bg-gray-300 animate-pulse z-10" />
         )}
-        <img
-          src={localImagePath}
-          alt={exercise.title}
-          className="w-full h-full object-contain"
-          loading="lazy"
-          onLoad={() => setIsLoading(false)}
-          onError={(e) => {
-            setIsLoading(false);
-            e.currentTarget.src = "https://via.placeholder.com/400?text=Exercise";
-          }}
-        />
+        {!profileLoading && (
+          <img
+            src={localImagePath}
+            alt={exercise.title}
+            className="w-full h-full object-contain"
+            loading="lazy"
+            onLoad={() => setIsLoading(false)}
+            onError={(e) => {
+              setIsLoading(false);
+              e.currentTarget.src = "https://via.placeholder.com/400?text=Exercise";
+            }}
+          />
+        )}
       </div>
-      <p className="text-xs text-gray-500 mb-2">Male</p>
       <h3 className="font-semibold text-lg mb-2">{exercise.title}</h3>
       <p className="text-gray-600 text-sm mb-2">{exercise.pose_category}</p>
       <p className="text-gray-700 text-sm mb-3 line-clamp-2">{exercise.description}</p>
