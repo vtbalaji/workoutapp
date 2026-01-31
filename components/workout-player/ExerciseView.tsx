@@ -21,19 +21,19 @@ export default function ExerciseView({
   return (
     <div className="h-full flex flex-col">
       {/* Exercise name and reps */}
-      <div className="text-center py-1 px-2 bg-white border-b">
-        <h1 className="text-sm font-bold text-gray-900 truncate">
+      <div className="text-center py-0.5 px-2 bg-white border-b">
+        <h1 className="text-xs font-bold text-gray-900 truncate leading-tight">
           {exercise.exerciseName}
         </h1>
         {exercise.sectionName && exercise.sectionSets && exercise.sectionSets > 1 && (
-          <p className="text-[10px] text-indigo-600">
+          <p className="text-[8px] text-indigo-600 leading-tight">
             {exercise.sectionName} • Round {exercise.currentSectionRound}/{exercise.sectionSets}
           </p>
         )}
         {/* Reps display */}
-        <div className="mt-1">
-          <span className="text-2xl font-bold text-blue-600">{exercise.reps}</span>
-          <span className="text-xs text-gray-500 ml-1">reps</span>
+        <div className="mt-0">
+          <span className="text-lg font-bold text-blue-600">{exercise.reps}</span>
+          <span className="text-[10px] text-gray-500 ml-0.5">reps</span>
         </div>
       </div>
 
@@ -47,18 +47,18 @@ export default function ExerciseView({
       </div>
 
       {/* Info bar - fixed above bottom controls */}
-      <div className="py-2 px-4 text-center bg-white border-t mb-14">
+      <div className="py-1 px-4 text-center bg-white border-t mb-14">
         {playerState === "preview" ? (
-          <div className="flex items-center justify-center gap-3 text-base font-semibold">
+          <div className="flex items-center justify-center gap-2 text-sm font-semibold">
             <span>{exercise.sets} sets</span>
             <span className="text-gray-400">•</span>
             <span>{exercise.restSeconds}s rest</span>
           </div>
         ) : (
-          <div className="flex items-center justify-center gap-4">
-            <span className="text-lg font-bold text-gray-700">{currentSet}/{exercise.sets} <span className="text-sm text-gray-500 font-normal">set</span></span>
+          <div className="flex items-center justify-center gap-3">
+            <span className="text-base font-bold text-gray-700">{currentSet}/{exercise.sets} <span className="text-xs text-gray-500 font-normal">set</span></span>
             <span className="text-gray-300">|</span>
-            <span className="text-lg font-bold text-gray-700">{exercise.restSeconds}s <span className="text-sm text-gray-500 font-normal">rest</span></span>
+            <span className="text-base font-bold text-gray-700">{exercise.restSeconds}s <span className="text-xs text-gray-500 font-normal">rest</span></span>
           </div>
         )}
       </div>
