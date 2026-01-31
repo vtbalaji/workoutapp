@@ -41,7 +41,7 @@ export default function ExerciseDetailModal({
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50"
+      className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-black bg-opacity-50"
       onClick={onClose}
     >
       <div
@@ -49,59 +49,59 @@ export default function ExerciseDetailModal({
         onClick={(e) => e.stopPropagation()}
       >
         {/* Header */}
-        <div className="sticky top-0 bg-white border-b px-4 sm:px-6 py-2 sm:py-4 flex items-center justify-between z-10">
-          <h2 className="text-base sm:text-2xl font-bold text-gray-900">
+        <div className="sticky top-0 bg-white border-b px-4 sm:px-4 py-2 sm:py-2 flex items-center justify-between z-10">
+          <h2 className="text-base sm:text-lg font-bold text-gray-900">
             {exercise.exerciseName}
           </h2>
           <button
             onClick={onClose}
-            className="text-gray-500 hover:text-gray-700 text-xl sm:text-2xl font-bold"
+            className="text-gray-500 hover:text-gray-700 text-xl sm:text-xl font-bold"
           >
             ×
           </button>
         </div>
 
         {/* Content */}
-        <div className="p-0 sm:p-6">
+        <div className="p-0 sm:p-3">
           {/* Exercise Animation - Using iframe - Edge to edge on mobile */}
-          <div className="bg-gray-50 sm:rounded-lg overflow-hidden flex items-center justify-center mb-0 sm:mb-6" style={{ minHeight: '300px' }}>
+          <div className="bg-gray-50 sm:rounded-lg overflow-hidden flex items-center justify-center mb-0 sm:mb-3" style={{ minHeight: '300px' }}>
             {iframeSrc ? (
               <iframe
                 ref={iframeRef}
                 key={`${exercise.exerciseSlug}-${imageGender}`}
                 src={iframeSrc}
-                className="w-full h-[300px] sm:h-[400px] border-0"
+                className="w-full h-[300px] sm:h-[350px] border-0"
                 style={{ background: 'transparent' }}
                 title={exercise.exerciseName}
                 loading="eager"
               />
             ) : (
-              <div className="text-center py-8 sm:py-12">
-                <div className="text-4xl sm:text-6xl mb-2">💪</div>
+              <div className="text-center py-8 sm:py-10">
+                <div className="text-4xl sm:text-5xl mb-2">💪</div>
                 <p className="text-gray-500 text-sm sm:text-base">No image available</p>
               </div>
             )}
           </div>
 
           {/* Exercise Stats */}
-          <div className="grid grid-cols-3 gap-1 sm:gap-4 px-2 sm:px-0 py-1 sm:py-0 mb-0.5 sm:mb-6">
-            <div className="text-center p-1 sm:p-4 bg-blue-50 rounded">
-              <div className="text-base sm:text-3xl font-bold text-blue-600">{exercise.sets}</div>
-              <div className="text-[10px] sm:text-sm text-gray-600 font-medium">Sets</div>
+          <div className="grid grid-cols-3 gap-1 sm:gap-1 px-2 sm:px-0 py-1 sm:py-0 mb-0.5 sm:mb-2">
+            <div className="text-center p-1 sm:p-1 bg-blue-50 rounded flex items-center justify-center gap-1">
+              <span className="text-base sm:text-lg font-bold text-blue-600">{exercise.sets}</span>
+              <span className="text-[10px] sm:text-xs text-gray-600 font-medium">Sets</span>
             </div>
-            <div className="text-center p-1 sm:p-4 bg-green-50 rounded">
-              <div className="text-base sm:text-3xl font-bold text-green-600">{exercise.reps}</div>
-              <div className="text-[10px] sm:text-sm text-gray-600 font-medium">Reps</div>
+            <div className="text-center p-1 sm:p-1 bg-green-50 rounded flex items-center justify-center gap-1">
+              <span className="text-base sm:text-lg font-bold text-green-600">{exercise.reps}</span>
+              <span className="text-[10px] sm:text-xs text-gray-600 font-medium">Reps</span>
             </div>
-            <div className="text-center p-1 sm:p-4 bg-orange-50 rounded">
-              <div className="text-base sm:text-3xl font-bold text-orange-600">{exercise.restSeconds}s</div>
-              <div className="text-[10px] sm:text-sm text-gray-600 font-medium">Rest</div>
+            <div className="text-center p-1 sm:p-1 bg-orange-50 rounded flex items-center justify-center gap-1">
+              <span className="text-base sm:text-lg font-bold text-orange-600">{exercise.restSeconds}s</span>
+              <span className="text-[10px] sm:text-xs text-gray-600 font-medium">Rest</span>
             </div>
           </div>
 
           {/* Muscle Diagram */}
           {exercise.primaryMuscles && exercise.primaryMuscles.length > 0 && (
-            <div className="px-4 sm:px-0 mb-2 sm:mb-6">
+            <div className="px-4 sm:px-0 mb-2 sm:mb-3">
               <MuscleGroupImage
                 exercise={{
                   primary_muscles: exercise.primaryMuscles,
@@ -113,21 +113,21 @@ export default function ExerciseDetailModal({
 
           {/* Description */}
           {exercise.description && (
-            <div className="px-4 sm:px-0 mb-2 sm:mb-6">
-              <h3 className="text-sm sm:text-lg font-semibold text-gray-900 mb-1 sm:mb-2">Description</h3>
-              <p className="text-xs sm:text-base text-gray-700 leading-relaxed">{exercise.description}</p>
+            <div className="px-4 sm:px-0 mb-2 sm:mb-3">
+              <h3 className="text-sm sm:text-base font-semibold text-gray-900 mb-1 sm:mb-1">Description</h3>
+              <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">{exercise.description}</p>
             </div>
           )}
 
           {/* Equipment */}
           {exercise.equipment && exercise.equipment.length > 0 && (
-            <div className="px-4 sm:px-0 mb-2 sm:mb-6">
-              <h3 className="text-sm sm:text-lg font-semibold text-gray-900 mb-1 sm:mb-2">Equipment</h3>
-              <div className="flex flex-wrap gap-1 sm:gap-2">
+            <div className="px-4 sm:px-0 mb-2 sm:mb-3">
+              <h3 className="text-sm sm:text-base font-semibold text-gray-900 mb-1 sm:mb-1">Equipment</h3>
+              <div className="flex flex-wrap gap-1 sm:gap-1">
                 {exercise.equipment.map((item, idx) => (
                   <span
                     key={idx}
-                    className="px-2 sm:px-3 py-0.5 sm:py-1 bg-gray-100 text-gray-700 rounded-full text-xs sm:text-sm font-medium"
+                    className="px-2 sm:px-2 py-0.5 sm:py-0.5 bg-gray-100 text-gray-700 rounded-full text-xs sm:text-xs font-medium"
                   >
                     {item}
                   </span>
@@ -138,9 +138,9 @@ export default function ExerciseDetailModal({
 
           {/* Notes */}
           {exercise.notes && (
-            <div className="px-4 sm:px-0 pb-4 sm:pb-0 mb-2 sm:mb-6">
-              <h3 className="text-sm sm:text-lg font-semibold text-gray-900 mb-1 sm:mb-2">Notes</h3>
-              <p className="text-xs sm:text-base text-gray-700 leading-relaxed">{exercise.notes}</p>
+            <div className="px-4 sm:px-0 pb-4 sm:pb-2 mb-2 sm:mb-3">
+              <h3 className="text-sm sm:text-base font-semibold text-gray-900 mb-1 sm:mb-1">Notes</h3>
+              <p className="text-xs sm:text-sm text-gray-700 leading-relaxed">{exercise.notes}</p>
             </div>
           )}
         </div>

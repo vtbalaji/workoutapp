@@ -20,8 +20,8 @@ export default function ExerciseView({
 }: ExerciseViewProps) {
   return (
     <div className="h-full flex flex-col">
-      {/* Exercise name */}
-      <div className="text-center py-1 px-2">
+      {/* Exercise name and reps */}
+      <div className="text-center py-1 px-2 bg-white border-b">
         <h1 className="text-sm font-bold text-gray-900 truncate">
           {exercise.exerciseName}
         </h1>
@@ -30,6 +30,11 @@ export default function ExerciseView({
             {exercise.sectionName} • Round {exercise.currentSectionRound}/{exercise.sectionSets}
           </p>
         )}
+        {/* Reps display */}
+        <div className="mt-1">
+          <span className="text-2xl font-bold text-blue-600">{exercise.reps}</span>
+          <span className="text-xs text-gray-500 ml-1">reps</span>
+        </div>
       </div>
 
       {/* Large exercise image - takes all available space */}
@@ -47,14 +52,10 @@ export default function ExerciseView({
           <div className="flex items-center justify-center gap-3 text-base font-semibold">
             <span>{exercise.sets} sets</span>
             <span className="text-gray-400">•</span>
-            <span>{exercise.reps} reps</span>
-            <span className="text-gray-400">•</span>
             <span>{exercise.restSeconds}s rest</span>
           </div>
         ) : (
           <div className="flex items-center justify-center gap-4">
-            <span className="text-3xl font-bold text-blue-600">{exercise.reps} <span className="text-sm text-gray-500 font-normal">reps</span></span>
-            <span className="text-gray-300">|</span>
             <span className="text-lg font-bold text-gray-700">{currentSet}/{exercise.sets} <span className="text-sm text-gray-500 font-normal">set</span></span>
             <span className="text-gray-300">|</span>
             <span className="text-lg font-bold text-gray-700">{exercise.restSeconds}s <span className="text-sm text-gray-500 font-normal">rest</span></span>

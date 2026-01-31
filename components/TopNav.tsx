@@ -30,18 +30,18 @@ export default function TopNav() {
 
   return (
     <nav className="bg-white shadow-md sticky top-0 z-40">
-      <div className="max-w-7xl mx-auto px-2 sm:px-4 py-0.5 sm:py-2">
+      <div className="max-w-7xl mx-auto px-2 sm:px-4 py-0.5 sm:py-1">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link
             href="/"
-            className="text-sm sm:text-2xl font-bold text-blue-600 hover:text-blue-700 transition-colors"
+            className="text-base sm:text-lg font-bold text-blue-600 hover:text-blue-700 transition-colors"
           >
             💪 FitnessPro
           </Link>
 
           {/* Center Links */}
-          <div className="hidden md:flex gap-6 items-center">
+          <div className="hidden md:flex gap-4 items-center">
             {navLinks.map((link) => {
               // Hide protected links if not authenticated
               if (link.protected && !user) {
@@ -52,7 +52,7 @@ export default function TopNav() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-gray-700 hover:text-blue-600 font-medium transition-colors"
+                  className="text-gray-700 hover:text-blue-600 font-medium transition-colors text-sm"
                 >
                   {link.label}
                 </Link>

@@ -146,33 +146,35 @@ function WorkoutsContent() {
               return (
                 <div
                   key={workout.id}
-                  className="bg-white rounded-lg shadow-md p-3 hover:shadow-lg transition-all"
+                  className="bg-white rounded-lg shadow-md p-2 hover:shadow-lg transition-all"
                 >
-                  <div className="flex items-center justify-between">
-                    <h3 className="text-sm font-bold text-gray-800 flex-1 truncate">
+                  <div className="flex items-center justify-between mb-0.5">
+                    <h3 className="text-lg sm:text-xl font-bold text-gray-800 flex-1 truncate">
                       {workout.workoutName}
                     </h3>
-                    <div className="flex">
+                    <div className="flex gap-1">
                       <button
                         onClick={() =>
                           router.push(`/workout-builder?id=${workout.id}`)
                         }
-                        className="p-1 text-blue-600 hover:bg-blue-50 rounded"
+                        className="p-2 text-blue-600 hover:bg-blue-50 rounded transition-colors"
                         title="Edit"
+                        aria-label="Edit workout"
                       >
-                        <FontAwesomeIcon icon={faEdit} className="text-xs" />
+                        <FontAwesomeIcon icon={faEdit} className="text-base sm:text-lg" />
                       </button>
                       <button
                         onClick={() => handleDelete(workout.id)}
-                        className="p-1 text-red-600 hover:bg-red-50 rounded"
+                        className="p-2 text-red-600 hover:bg-red-50 rounded transition-colors"
                         title="Delete"
+                        aria-label="Delete workout"
                       >
-                        <FontAwesomeIcon icon={faTrash} className="text-xs" />
+                        <FontAwesomeIcon icon={faTrash} className="text-base sm:text-lg" />
                       </button>
                     </div>
                   </div>
 
-                  <div className="grid grid-cols-3 gap-1 my-1 py-1 border-y text-center">
+                  <div className="grid grid-cols-3 gap-1 mt-0.5 py-1 border-y text-center">
                     <div>
                       <p className="text-gray-500 text-[10px]">Exercises</p>
                       <p className="text-lg font-bold text-blue-600">{totalExercises}</p>

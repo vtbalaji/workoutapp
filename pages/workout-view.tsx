@@ -106,7 +106,7 @@ function WorkoutViewContent() {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <div className="bg-white border-b sticky top-0 z-10">
-        <div className="max-w-4xl mx-auto px-2 sm:px-4 py-1 sm:py-4">
+        <div className="max-w-4xl mx-auto px-2 sm:px-4 py-0.5 sm:py-2">
           <Link
             href="/workouts"
             className="text-blue-600 hover:text-blue-700 font-medium text-xs sm:text-base"
@@ -117,14 +117,14 @@ function WorkoutViewContent() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-0 sm:px-4 py-0 sm:py-12">
+      <div className="max-w-4xl mx-auto px-0 sm:px-4 py-0 sm:py-2">
         {/* Workout Header */}
-        <div className="mb-2 sm:mb-8 px-2 sm:px-0 pt-1 sm:pt-0">
-          <h1 className="text-base sm:text-4xl font-bold text-gray-900 mb-1 sm:mb-3">
+        <div className="mb-0.5 sm:mb-3 px-2 sm:px-0 pt-0 sm:pt-0">
+          <h1 className="text-base sm:text-4xl font-bold text-gray-900 mb-0 sm:mb-2">
             {workout.workoutName}
           </h1>
 
-          <div className="flex flex-wrap items-center gap-1 sm:gap-3 mb-2 sm:mb-6">
+          <div className="flex flex-wrap items-center gap-1 sm:gap-2 mb-0.5 sm:mb-3">
             <span className="px-1.5 sm:px-3 py-0.5 sm:py-1 bg-blue-100 text-blue-700 rounded-full text-[10px] sm:text-sm font-semibold">
               {workout.estimatedDuration || Math.ceil(totalExercises * 3)} min
             </span>
@@ -162,31 +162,31 @@ function WorkoutViewContent() {
           </div>
 
           {workout.workoutDescription && (
-            <p className="text-xs sm:text-lg text-gray-700 leading-tight sm:leading-relaxed">
+            <p className="text-xs sm:text-base text-gray-700 leading-tight sm:leading-normal mt-0.5 sm:mt-2">
               {workout.workoutDescription}
             </p>
           )}
         </div>
 
         {/* Exercises by Section */}
-        <div className="space-y-2 sm:space-y-8">
+        <div className="space-y-0.5 sm:space-y-4">
           {workout.sections.map((section, sectionIndex) => (
             <div key={section.id}>
               {/* Section Header */}
               {section.name && (
-                <div className="mb-2 sm:mb-3 pb-1 sm:pb-2 border-b px-2 sm:px-0">
+                <div className="mb-0.5 sm:mb-2 pb-0 sm:pb-1 border-b px-2 sm:px-0">
                   <div className="flex items-center justify-between">
-                    <h2 className="text-sm sm:text-xl font-bold text-gray-900">
+                    <h2 className="text-sm sm:text-lg font-bold text-gray-900">
                       {section.name}
                     </h2>
                     {section.sets && section.sets > 1 && (
-                      <span className="px-1.5 py-0.5 sm:px-2 sm:py-1 bg-blue-100 text-blue-700 rounded-full text-[10px] sm:text-sm font-semibold">
+                      <span className="px-1.5 py-0.5 sm:px-2 sm:py-1 bg-blue-100 text-blue-700 rounded-full text-[10px] sm:text-xs font-semibold">
                         {section.sets} rounds
                       </span>
                     )}
                   </div>
                   {section.sets && section.sets > 1 && (
-                    <p className="text-[10px] sm:text-sm text-gray-600 mt-0.5 sm:mt-1">
+                    <p className="text-[10px] sm:text-xs text-gray-600 mt-0.5 sm:mt-0.5">
                       Complete all exercises below {section.sets} times
                     </p>
                   )}
@@ -194,16 +194,16 @@ function WorkoutViewContent() {
               )}
 
               {/* Exercise Cards */}
-              <div className="space-y-1 sm:space-y-4">
+              <div className="space-y-0 sm:space-y-2">
                 {section.exercises.map((exercise, exerciseIndex) => (
                   <div key={exercise.id}>
                     <div
-                      className="bg-white rounded-none sm:rounded-lg p-2 sm:p-6 shadow-none sm:shadow-sm cursor-pointer sm:hover:shadow-md transition-shadow"
+                      className="bg-white rounded-none sm:rounded-lg py-0 px-1 sm:py-0 sm:px-3 shadow-none sm:shadow-sm cursor-pointer sm:hover:shadow-md transition-shadow h-9 sm:h-32"
                       onClick={() => setSelectedExercise(exercise)}
                     >
-                      <div className="flex gap-2 sm:gap-4">
+                      <div className="flex gap-0.5 sm:gap-2 items-center h-full">
                         {/* Exercise Image */}
-                        <div className="flex-shrink-0 w-20 sm:w-40 h-10 sm:h-20 bg-gray-50 rounded-lg overflow-hidden flex items-center justify-center">
+                        <div className="flex-shrink-0 w-16 sm:w-32 h-8 sm:h-32 bg-gray-50 rounded overflow-hidden flex items-center justify-center">
                           {exercise.exerciseSlug ? (
                             <img
                               src={`/exercise-images/${exercise.exerciseSlug}/${gender}.svg`}
@@ -233,16 +233,20 @@ function WorkoutViewContent() {
 
                         {/* Exercise Details */}
                         <div className="flex-1 flex flex-col justify-center min-w-0">
-                          <h3 className="text-sm sm:text-2xl font-black text-gray-900 mb-1 sm:mb-2 leading-tight line-clamp-2">
+                          <h3 className="text-xs sm:text-lg font-black text-gray-900 mb-0 sm:mb-1 leading-none line-clamp-1">
                             {exercise.exerciseName}
                           </h3>
 
                           {/* Sets, Reps, Rest */}
-                          <div className="text-xs sm:text-base">
-                            <span className="font-black text-gray-900">
-                              {exercise.sets}
-                            </span>
-                            <span className="text-gray-400 font-medium"> sets </span>
+                          <div className="text-[10px] sm:text-sm mt-0">
+                            {exercise.sets > 1 && (
+                              <>
+                                <span className="font-black text-gray-900">
+                                  {exercise.sets}
+                                </span>
+                                <span className="text-gray-400 font-medium"> sets </span>
+                              </>
+                            )}
                             <span className="font-black text-gray-900">
                               {exercise.reps}
                             </span>
@@ -258,7 +262,7 @@ function WorkoutViewContent() {
 
                     {/* Rest between exercises */}
                     {exerciseIndex < section.exercises.length - 1 && (
-                      <div className="text-[10px] sm:text-lg font-black text-gray-900 mt-1 sm:mt-3 mb-1 sm:mb-3 px-2">
+                      <div className="text-[10px] sm:text-sm font-black text-gray-900 mt-0 sm:mt-1 mb-0 sm:mb-1 px-2">
                         {formatTime(exercise.restSeconds)} <span className="text-gray-400 font-medium">rest</span>
                       </div>
                     )}
@@ -268,7 +272,7 @@ function WorkoutViewContent() {
 
               {/* Rest between sections */}
               {sectionIndex < workout.sections.length - 1 && section.exercises.length > 0 && (
-                <div className="text-center py-1 sm:py-4 text-gray-500 text-[10px] sm:text-lg">
+                <div className="text-center py-0.5 sm:py-2 text-gray-500 text-[10px] sm:text-sm">
                   <span>1:30 rest</span>
                 </div>
               )}
@@ -277,10 +281,10 @@ function WorkoutViewContent() {
         </div>
 
         {/* Workout Summary */}
-        <div className="mt-3 sm:mt-12 pt-2 sm:pt-8 border-t px-2 sm:px-0">
-          <h2 className="text-sm sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-6">Workout Summary</h2>
+        <div className="mt-2 sm:mt-6 pt-1 sm:pt-4 border-t px-2 sm:px-0">
+          <h2 className="text-sm sm:text-xl font-bold text-gray-900 mb-1 sm:mb-3">Workout Summary</h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 sm:gap-6 mb-3 sm:mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-1 sm:gap-3 mb-2 sm:mb-4">
             {/* Target Muscles */}
             <div className="bg-white rounded-none sm:rounded-lg shadow-none sm:shadow p-2 sm:p-6">
               <h3 className="text-xs sm:text-lg font-bold text-gray-900 mb-2 sm:mb-4">Target Muscles</h3>
@@ -356,8 +360,8 @@ function WorkoutViewContent() {
         </div>
 
         {/* Footer */}
-        <div className="mt-2 sm:mt-6 pt-2 sm:pt-6 border-t mb-14 sm:mb-24 px-2 sm:px-0">
-          <div className="flex flex-col sm:flex-row gap-1 sm:gap-4">
+        <div className="mt-1 sm:mt-4 pt-1 sm:pt-3 border-t mb-14 sm:mb-16 px-2 sm:px-0">
+          <div className="flex flex-col sm:flex-row gap-1 sm:gap-2">
             <Link
               href="/workouts"
               className="flex-1 px-3 py-1.5 sm:py-3 bg-gray-200 text-gray-800 rounded-lg hover:bg-gray-300 transition-colors font-medium text-center text-xs sm:text-base"

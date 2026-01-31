@@ -28,31 +28,31 @@ export default function WorkoutSummary({ workout }: WorkoutSummaryProps) {
     .slice(0, 5);
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-6 sticky top-0 max-h-screen overflow-y-auto">
-      <h2 className="text-xl font-bold mb-6 text-gray-800">Workout Summary</h2>
+    <div className="bg-white rounded-lg shadow-md p-3 sm:p-6 sticky top-0 max-h-screen overflow-y-auto overflow-x-hidden">
+      <h2 className="text-base sm:text-xl font-bold mb-3 sm:mb-6 text-gray-800 break-words">Workout Summary</h2>
 
       {/* Stats Grid */}
-      <div className="grid grid-cols-2 gap-4 mb-6">
-        <div className="bg-blue-50 p-4 rounded-lg">
-          <p className="text-gray-600 text-sm">Exercises</p>
-          <p className="text-3xl font-bold text-blue-600">{totalExercises}</p>
+      <div className="grid grid-cols-2 gap-2 sm:gap-4 mb-3 sm:mb-6">
+        <div className="bg-blue-50 p-2 sm:p-4 rounded-lg">
+          <p className="text-gray-600 text-xs sm:text-sm truncate">Exercises</p>
+          <p className="text-xl sm:text-3xl font-bold text-blue-600">{totalExercises}</p>
         </div>
 
-        <div className="bg-blue-50 p-4 rounded-lg">
-          <p className="text-gray-600 text-sm">Total Sets</p>
-          <p className="text-3xl font-bold text-blue-600">{totalSets}</p>
+        <div className="bg-blue-50 p-2 sm:p-4 rounded-lg">
+          <p className="text-gray-600 text-xs sm:text-sm truncate">Total Sets</p>
+          <p className="text-xl sm:text-3xl font-bold text-blue-600">{totalSets}</p>
         </div>
 
-        <div className="bg-blue-50 p-4 rounded-lg">
-          <p className="text-gray-600 text-sm">Duration</p>
-          <p className="text-3xl font-bold text-blue-600">
+        <div className="bg-blue-50 p-2 sm:p-4 rounded-lg">
+          <p className="text-gray-600 text-xs sm:text-sm truncate">Duration</p>
+          <p className="text-xl sm:text-3xl font-bold text-blue-600 truncate">
             {estimatedDuration} min
           </p>
         </div>
 
-        <div className="bg-blue-50 p-4 rounded-lg">
-          <p className="text-gray-600 text-sm">Sections</p>
-          <p className="text-3xl font-bold text-blue-600">
+        <div className="bg-blue-50 p-2 sm:p-4 rounded-lg">
+          <p className="text-gray-600 text-xs sm:text-sm truncate">Sections</p>
+          <p className="text-xl sm:text-3xl font-bold text-blue-600">
             {workout.sections.length}
           </p>
         </div>
@@ -60,14 +60,14 @@ export default function WorkoutSummary({ workout }: WorkoutSummaryProps) {
 
       {/* Target Muscles */}
       {targetMuscles.length > 0 && (
-        <div className="mb-6">
-          <h3 className="font-semibold text-gray-800 mb-3">Target Muscles</h3>
+        <div className="mb-3 sm:mb-6">
+          <h3 className="font-semibold text-gray-800 mb-2 sm:mb-3 text-sm sm:text-base">Target Muscles</h3>
           <div className="space-y-2">
             {sortedMuscles.map(([muscle, count]) => (
               <div key={muscle}>
-                <div className="flex justify-between items-center mb-1">
-                  <span className="text-sm text-gray-700">{muscle}</span>
-                  <span className="text-xs text-gray-500">{count} exercises</span>
+                <div className="flex justify-between items-center mb-1 gap-2">
+                  <span className="text-xs sm:text-sm text-gray-700 truncate">{muscle}</span>
+                  <span className="text-[10px] sm:text-xs text-gray-500 whitespace-nowrap">{count} ex</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2">
                   <div
@@ -85,17 +85,17 @@ export default function WorkoutSummary({ workout }: WorkoutSummaryProps) {
 
       {/* Equipment */}
       {requiredEquipment.length > 0 && (
-        <div className="mb-6">
-          <h3 className="font-semibold text-gray-800 mb-3">Equipment Needed</h3>
-          <div className="space-y-2">
+        <div className="mb-3 sm:mb-6">
+          <h3 className="font-semibold text-gray-800 mb-2 sm:mb-3 text-sm sm:text-base">Equipment Needed</h3>
+          <div className="space-y-1 sm:space-y-2">
             {requiredEquipment.map((equipment) => (
               <label key={equipment} className="flex items-center gap-2">
                 <input
                   type="checkbox"
-                  className="w-4 h-4 rounded border-gray-300"
+                  className="w-3 h-3 sm:w-4 sm:h-4 rounded border-gray-300 flex-shrink-0"
                   defaultChecked={false}
                 />
-                <span className="text-sm text-gray-700">{equipment}</span>
+                <span className="text-xs sm:text-sm text-gray-700 break-words">{equipment}</span>
               </label>
             ))}
           </div>
@@ -103,10 +103,10 @@ export default function WorkoutSummary({ workout }: WorkoutSummaryProps) {
       )}
 
       {/* Difficulty Badge */}
-      <div className="mb-6 pb-6 border-b">
-        <h3 className="font-semibold text-gray-800 mb-2">Difficulty</h3>
+      <div className="mb-3 sm:mb-6 pb-3 sm:pb-6 border-b">
+        <h3 className="font-semibold text-gray-800 mb-2 text-sm sm:text-base">Difficulty</h3>
         <div
-          className={`inline-block px-4 py-2 rounded-lg font-medium text-white ${
+          className={`inline-block px-3 py-1 sm:px-4 sm:py-2 rounded-lg font-medium text-white text-xs sm:text-base ${
             workout.difficulty === "Beginner"
               ? "bg-blue-500"
               : workout.difficulty === "Intermediate"
@@ -120,12 +120,12 @@ export default function WorkoutSummary({ workout }: WorkoutSummaryProps) {
 
       {/* Sections Overview */}
       <div>
-        <h3 className="font-semibold text-gray-800 mb-3">Sections</h3>
-        <div className="space-y-2">
+        <h3 className="font-semibold text-gray-800 mb-2 sm:mb-3 text-sm sm:text-base">Sections</h3>
+        <div className="space-y-1 sm:space-y-2">
           {workout.sections.map((section) => (
-            <div key={section.id} className="flex justify-between items-center p-2 bg-gray-50 rounded">
-              <span className="text-sm text-gray-700">{section.name}</span>
-              <span className="text-xs font-medium bg-gray-200 text-gray-700 px-2 py-1 rounded">
+            <div key={section.id} className="flex justify-between items-center p-2 bg-gray-50 rounded gap-2">
+              <span className="text-xs sm:text-sm text-gray-700 truncate">{section.name}</span>
+              <span className="text-[10px] sm:text-xs font-medium bg-gray-200 text-gray-700 px-2 py-1 rounded whitespace-nowrap flex-shrink-0">
                 {section.exercises.length}
               </span>
             </div>
