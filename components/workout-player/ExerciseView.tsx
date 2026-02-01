@@ -18,13 +18,23 @@ export default function ExerciseView({
   currentSet,
   playerState,
 }: ExerciseViewProps) {
+  // Split exercise name by "/" and show first name prominently
+  const namesParts = exercise.exerciseName.split('/').map(name => name.trim());
+  const primaryName = namesParts[0];
+  const alternateNames = namesParts.slice(1);
+
   return (
     <div className="h-full flex flex-col">
       {/* Exercise name and reps */}
       <div className="text-center py-0.5 px-2 bg-white border-b">
-        <h1 className="text-xs font-bold text-gray-900 truncate leading-tight">
-          {exercise.exerciseName}
+        <h1 className="text-base font-bold text-gray-900 truncate leading-tight">
+          {primaryName}
         </h1>
+        {alternateNames.length > 0 && (
+          <p className="text-[10px] text-gray-500 truncate leading-tight">
+            {alternateNames.join(' / ')}
+          </p>
+        )}
         {exercise.sectionName && exercise.sectionSets && exercise.sectionSets > 1 && (
           <p className="text-[8px] text-indigo-600 leading-tight">
             {exercise.sectionName} • Round {exercise.currentSectionRound}/{exercise.sectionSets}
