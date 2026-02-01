@@ -1,7 +1,10 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback, useRef } from "react";
 import YogaCard from "@/components/YogaCard";
 import DetailModal from "@/components/DetailModal";
+import { SkeletonCard } from "@/components/Skeleton";
 import { Yoga } from "@/lib/types";
+
+const ITEMS_PER_PAGE = 24;
 
 export default function YogaPage() {
   const [yogaPoses, setYogaPoses] = useState<Yoga[]>([]);
@@ -13,6 +16,8 @@ export default function YogaPage() {
   const [filterDifficulty, setFilterDifficulty] = useState("All");
   const [categories, setCategories] = useState<string[]>([]);
   const [difficulties, setDifficulties] = useState<string[]>([]);
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
+  const observerRef = useRef<IntersectionObserver | null>(null);
 
   useEffect(() => {
     fetchYogaPoses();
@@ -26,7 +31,6 @@ export default function YogaPage() {
       const data = await response.json();
       setYogaPoses(data);
 
-      // Extract unique categories and difficulties
       const uniqueCategories = Array.from(
         new Set(data.map((pose: Yoga) => pose.pose_category))
       ) as string[];
@@ -54,44 +58,53 @@ export default function YogaPage() {
     return matchesSearch && matchesCategory && matchesDifficulty;
   });
 
+  useEffect(() => {
+    setVisibleCount(ITEMS_PER_PAGE);
+  }, [searchTerm, filterCategory, filterDifficulty]);
+
+  const lastItemRef = useCallback((node: HTMLDivElement | null) => {
+    if (observerRef.current) observerRef.current.disconnect();
+    observerRef.current = new IntersectionObserver((entries) => {
+      if (entries[0].isIntersecting) {
+        setVisibleCount((prev) => prev + ITEMS_PER_PAGE);
+      }
+    }, { rootMargin: "200px" });
+    if (node) observerRef.current.observe(node);
+  }, []);
+
+  const visiblePoses = filteredPoses.slice(0, visibleCount);
+  const hasMore = visibleCount < filteredPoses.length;
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
-      <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-3">
-        <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-2xl font-bold mb-1">🧘 Yoga Poses</h1>
-          <p className="text-blue-100 text-sm">
-            Explore {yogaPoses.length} yoga asanas and poses
-          </p>
+      <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-1">
+        <div className="max-w-7xl mx-auto px-2">
+          <h1 className="text-sm font-semibold">Yoga Poses ({filteredPoses.length})</h1>
         </div>
       </div>
 
       {/* Filters and Search */}
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        <div className="bg-white rounded-lg shadow-md p-6 mb-8">
-          {/* Search */}
-          <div className="mb-6">
-            <input
-              type="text"
-              placeholder="Search by pose name or Sanskrit name..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
-            />
-          </div>
-
-          {/* Category Filter */}
-          <div className="mb-6">
-            <label className="block text-sm font-semibold mb-3">Category</label>
-            <div className="flex flex-wrap gap-2">
+      <div className="max-w-7xl mx-auto px-1 sm:px-2 py-1">
+        <div className="bg-white rounded shadow p-2 mb-1">
+          <input
+            type="text"
+            placeholder="Search poses..."
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full px-2 py-1 text-sm border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-green-500"
+          />
+          
+          <div className="mt-1.5">
+            <div className="flex flex-wrap gap-1">
               {categories.map((cat) => (
                 <button
                   key={cat}
                   onClick={() => setFilterCategory(cat)}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                  className={`px-2 py-0.5 rounded-full text-[10px] font-medium ${
                     filterCategory === cat
-                      ? "bg-blue-600 text-white"
-                      : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+                      ? "bg-green-600 text-white"
+                      : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                   }`}
                 >
                   {cat}
@@ -100,20 +113,16 @@ export default function YogaPage() {
             </div>
           </div>
 
-          {/* Difficulty Filter */}
-          <div>
-            <label className="block text-sm font-semibold mb-3">
-              Difficulty
-            </label>
-            <div className="flex flex-wrap gap-2">
+          <div className="mt-1.5 pt-1.5 border-t">
+            <div className="flex flex-wrap gap-1">
               {difficulties.map((diff) => (
                 <button
                   key={diff}
                   onClick={() => setFilterDifficulty(diff)}
-                  className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
+                  className={`px-2 py-0.5 rounded-full text-[10px] font-medium ${
                     filterDifficulty === diff
                       ? "bg-blue-600 text-white"
-                      : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+                      : "bg-gray-200 text-gray-700 hover:bg-gray-300"
                   }`}
                 >
                   {diff}
@@ -123,41 +132,51 @@ export default function YogaPage() {
           </div>
         </div>
 
-        {/* Error State */}
         {error && (
-          <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-8">
+          <div className="bg-red-100 border border-red-400 text-red-700 px-2 py-1 rounded text-xs mb-1">
             {error}
           </div>
         )}
 
-        {/* Loading State */}
         {loading && (
-          <div className="flex justify-center items-center py-12">
-            <div className="text-xl text-gray-600">Loading yoga poses...</div>
-          </div>
-        )}
-
-        {/* Grid of Yoga Poses */}
-        {!loading && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {filteredPoses.map((pose) => (
-              <div key={pose.id} onClick={() => setSelectedYoga(pose)}>
-                <YogaCard yoga={pose} />
-              </div>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1">
+            {Array.from({ length: 10 }).map((_, i) => (
+              <SkeletonCard key={i} />
             ))}
           </div>
         )}
 
+        {!loading && (
+          <>
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-1">
+              {visiblePoses.map((pose, index) => (
+                <div 
+                  key={pose.id} 
+                  ref={index === visiblePoses.length - 1 ? lastItemRef : null}
+                  onClick={() => setSelectedYoga(pose)}
+                >
+                  <YogaCard yoga={pose} />
+                </div>
+              ))}
+            </div>
+
+            {hasMore && (
+              <div className="flex justify-center py-3">
+                <div className="text-[10px] text-gray-400">
+                  Showing {visibleCount} of {filteredPoses.length}
+                </div>
+              </div>
+            )}
+          </>
+        )}
+
         {!loading && filteredPoses.length === 0 && (
-          <div className="text-center py-12">
-            <p className="text-gray-600 text-lg">
-              No yoga poses found. Try adjusting your filters.
-            </p>
+          <div className="text-center py-4">
+            <p className="text-gray-600 text-sm">No yoga poses found.</p>
           </div>
         )}
       </div>
 
-      {/* Detail Modal */}
       <DetailModal
         item={selectedYoga}
         type="yoga"

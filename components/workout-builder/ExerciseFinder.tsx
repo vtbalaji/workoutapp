@@ -83,32 +83,32 @@ export default function ExerciseFinder({
   }, [exercises, searchTerm, selectedCategory, selectedEquipment, selectedMuscle]);
 
   return (
-    <div className="bg-white rounded-lg shadow-md p-4 h-full flex flex-col">
+    <div className="bg-white rounded-lg shadow-md p-2 h-full flex flex-col">
       {/* Header */}
-      <h2 className="text-xl font-bold mb-4 text-gray-800">Exercises</h2>
+      <h2 className="text-sm font-bold mb-1.5 text-gray-800">Exercises</h2>
 
       {/* Search */}
-      <div className="mb-3">
+      <div className="mb-2">
         <input
           type="text"
           placeholder="Search exercises..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm"
+          className="w-full px-2 py-1 border border-gray-300 rounded text-xs focus:outline-none focus:ring-1 focus:ring-blue-500"
         />
       </div>
 
       {/* Category Tabs */}
-      <div className="mb-3 pb-3 border-b">
-        <div className="flex flex-wrap gap-2">
+      <div className="mb-2 pb-2 border-b">
+        <div className="flex flex-wrap gap-1">
           {categories.map((cat) => (
             <button
               key={cat}
               onClick={() => setSelectedCategory(cat)}
-              className={`px-3 py-1 rounded-full text-xs font-medium transition-all ${
+              className={`px-2 py-0.5 rounded-full text-[10px] font-medium transition-all ${
                 selectedCategory === cat
                   ? "bg-blue-600 text-white"
-                  : "bg-gray-200 text-gray-800 hover:bg-gray-300"
+                  : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               }`}
             >
               {cat}
@@ -118,12 +118,12 @@ export default function ExerciseFinder({
       </div>
 
       {/* Equipment Filter */}
-      <div className="mb-3">
-        <label className="block text-xs font-semibold text-gray-700 mb-1">Equipment</label>
+      <div className="mb-2">
+        <label className="block text-[10px] font-semibold text-gray-700 mb-0.5">Equipment</label>
         <select
           value={selectedEquipment}
           onChange={(e) => setSelectedEquipment(e.target.value)}
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+          className="w-full px-2 py-1 border border-gray-300 rounded text-xs focus:outline-none focus:ring-1 focus:ring-blue-500 bg-white"
         >
           {equipment.map((eq) => (
             <option key={eq} value={eq}>
@@ -134,12 +134,12 @@ export default function ExerciseFinder({
       </div>
 
       {/* Primary Muscle Filter */}
-      <div className="mb-3">
-        <label className="block text-xs font-semibold text-gray-700 mb-1">Primary Muscle</label>
+      <div className="mb-2">
+        <label className="block text-[10px] font-semibold text-gray-700 mb-0.5">Primary Muscle</label>
         <select
           value={selectedMuscle}
           onChange={(e) => setSelectedMuscle(e.target.value)}
-          className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm bg-white"
+          className="w-full px-2 py-1 border border-gray-300 rounded text-xs focus:outline-none focus:ring-1 focus:ring-blue-500 bg-white"
         >
           {muscles.map((muscle) => (
             <option key={muscle} value={muscle}>
@@ -152,15 +152,15 @@ export default function ExerciseFinder({
       {/* Exercise List */}
       <div className="flex-1 overflow-y-auto">
         {loading ? (
-          <div className="text-center py-8 text-gray-500">
+          <div className="text-center py-4 text-gray-500 text-xs">
             Loading exercises...
           </div>
         ) : filteredExercises.length === 0 ? (
-          <div className="text-center py-8 text-gray-500">
-            No exercises found. Try adjusting your filters.
+          <div className="text-center py-4 text-gray-500 text-xs">
+            No exercises found. Try adjusting filters.
           </div>
         ) : (
-          <div className="space-y-2">
+          <div className="space-y-1">
             {filteredExercises.map((exercise) => (
               <ExerciseFinderCard
                 key={exercise.id}
@@ -181,7 +181,7 @@ interface ExerciseFinderCardProps {
 }
 
 function ExerciseFinderCard({ exercise, onSelect }: ExerciseFinderCardProps) {
-  const { setNodeRef, isDragging } = useDraggable({
+  const { attributes, listeners, setNodeRef, isDragging } = useDraggable({
     id: `exercise-finder-${exercise.id}`,
     data: {
       type: "exercise",
@@ -189,33 +189,58 @@ function ExerciseFinderCard({ exercise, onSelect }: ExerciseFinderCardProps) {
     },
   });
 
-  const handleSelect = () => {
-    onSelect(exercise);
-  };
-
   return (
     <div
       ref={setNodeRef}
-      onClick={handleSelect}
-      className={`p-3 rounded-lg border-2 cursor-move transition-all ${
+      onClick={() => onSelect(exercise)}
+      className={`relative flex items-center gap-1.5 px-1.5 py-1 rounded border cursor-pointer transition-all ${
         isDragging
           ? "border-blue-500 bg-blue-50 opacity-50"
           : "border-gray-200 bg-gray-50 hover:border-blue-300 hover:bg-blue-50"
       }`}
     >
-      <p className="font-medium text-sm text-gray-800">{exercise.title}</p>
-      {exercise.primary_muscles && exercise.primary_muscles.length > 0 && (
-        <div className="flex gap-2 mt-2 flex-wrap">
-          {exercise.primary_muscles.slice(0, 2).map((muscle, idx) => (
-            <span
-              key={idx}
-              className="text-xs bg-blue-100 text-blue-700 px-2 py-1 rounded"
-            >
-              {muscle}
-            </span>
-          ))}
-        </div>
-      )}
+      {/* Drag Handle - top right */}
+      <div
+        {...listeners}
+        {...attributes}
+        onClick={(e) => e.stopPropagation()}
+        className="absolute top-0.5 right-0.5 cursor-grab active:cursor-grabbing text-gray-300 hover:text-gray-500 p-0.5"
+        title="Drag to section"
+      >
+        <svg className="w-2.5 h-2.5" viewBox="0 0 10 10" fill="currentColor">
+          <circle cx="2" cy="2" r="1.2" />
+          <circle cx="8" cy="2" r="1.2" />
+          <circle cx="2" cy="8" r="1.2" />
+          <circle cx="8" cy="8" r="1.2" />
+        </svg>
+      </div>
+      {/* Exercise SVG */}
+      <div className="flex-shrink-0 w-10 h-10 bg-white rounded overflow-hidden flex items-center justify-center">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
+          src={`/exercise-images/${exercise.slug}/male.svg`}
+          alt={exercise.title}
+          className="w-full h-full object-contain"
+          onError={(e) => {
+            e.currentTarget.style.display = "none";
+          }}
+        />
+      </div>
+      <div className="flex-1 min-w-0 pr-3">
+        <p className="font-medium text-xs text-gray-800 leading-tight truncate">{exercise.title}</p>
+        {exercise.primary_muscles && exercise.primary_muscles.length > 0 && (
+          <div className="flex gap-1 mt-0.5 flex-wrap">
+            {exercise.primary_muscles.slice(0, 2).map((muscle, idx) => (
+              <span
+                key={idx}
+                className="text-[10px] bg-blue-100 text-blue-700 px-1 py-0.5 rounded"
+              >
+                {muscle}
+              </span>
+            ))}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

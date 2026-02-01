@@ -18,12 +18,12 @@ export default function ExerciseCard({ exercise, onClick }: ExerciseCardProps) {
 
   return (
     <div
-      className="bg-white rounded shadow p-2 cursor-pointer hover:shadow-md transition-shadow flex gap-2 items-center"
+      className="bg-white rounded shadow-sm p-1 cursor-pointer hover:shadow transition-shadow flex flex-col"
       onClick={() => onClick?.(exercise)}
     >
-      <div className="w-16 h-16 flex-shrink-0 rounded overflow-hidden relative bg-gray-100">
+      <div className="w-full aspect-square flex-shrink-0 rounded overflow-hidden relative bg-gray-50">
         {(isLoading || profileLoading) && (
-          <div className="absolute inset-0 bg-gray-300 animate-pulse z-10" />
+          <div className="absolute inset-0 bg-gray-200 animate-pulse z-10" />
         )}
         {!profileLoading && (
           <img
@@ -39,9 +39,9 @@ export default function ExerciseCard({ exercise, onClick }: ExerciseCardProps) {
           />
         )}
       </div>
-      <div className="flex-1 min-w-0">
-        <h3 className="font-semibold text-sm leading-tight line-clamp-2">{exercise.title}</h3>
-        <p className="text-gray-500 text-xs truncate">{exercise.pose_category}</p>
+      <div className="pt-1">
+        <h3 className="font-medium text-[11px] leading-tight line-clamp-2">{exercise.title}</h3>
+        <p className="text-gray-400 text-[9px] truncate">{exercise.pose_category}</p>
       </div>
     </div>
   );

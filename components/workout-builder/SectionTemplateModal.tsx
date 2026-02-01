@@ -80,6 +80,7 @@ export default function SectionTemplateModal({
           order: idx,
           imageUrl: ex.imageUrl || `/exercise-images/${ex.exerciseSlug || fullExercise?.slug}/male.svg`,
           primaryMuscles: ex.primaryMuscles || fullExercise?.primary_muscles || [],
+          secondaryMuscles: ex.secondaryMuscles || fullExercise?.secondary_muscles || [],
           equipment: ex.equipment || fullExercise?.equipment || [],
           description: ex.description || fullExercise?.description,
           animation_frames: ex.animation_frames || fullExercise?.animation_frames,

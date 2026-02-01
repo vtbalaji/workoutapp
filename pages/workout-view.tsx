@@ -50,7 +50,32 @@ function WorkoutViewContent() {
         }
 
         const data = await response.json();
-        setWorkout(data);
+
+        // Enrich exercises with secondary muscles if missing
+        const exercisesResponse = await fetch('/api/exercises');
+        const exercisesData = await exercisesResponse.json();
+
+        const enrichedWorkout = {
+          ...data,
+          sections: data.sections.map((section: any) => ({
+            ...section,
+            exercises: section.exercises.map((exercise: any) => {
+              // If secondary muscles already exist, use them
+              if (exercise.secondaryMuscles && exercise.secondaryMuscles.length > 0) {
+                return exercise;
+              }
+
+              // Otherwise, try to find from exercise database
+              const fullExercise = exercisesData.find((ex: any) => ex.id === exercise.exerciseId || ex.slug === exercise.exerciseSlug);
+              return {
+                ...exercise,
+                secondaryMuscles: fullExercise?.secondary_muscles || [],
+              };
+            }),
+          })),
+        };
+
+        setWorkout(enrichedWorkout);
       } catch (err) {
         setError(err instanceof Error ? err.message : "Failed to load workout");
       } finally {

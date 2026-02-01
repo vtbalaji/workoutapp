@@ -106,85 +106,76 @@ export default function MuscleGroupImage({ exercise }: MuscleGroupImageProps) {
 
   return (
     <div className="w-full">
-      {/* Image and Legend Side by Side */}
-      <div className="flex gap-4 items-start">
-        {/* Base anatomy image with overlays */}
-        <div className="relative flex-shrink-0 w-32 sm:w-48 bg-gray-100 rounded-lg overflow-hidden">
-          {/* Master anatomy image */}
+      {/* Base anatomy image with overlays */}
+      <div className="relative w-full bg-gray-50 rounded overflow-hidden flex items-center justify-center" style={{ minHeight: '180px' }}>
+        {/* Master anatomy image */}
+        <img
+          src="/muscle-groups/master.png"
+          alt="Muscle Groups"
+          className="w-auto h-[180px] sm:h-[200px] block"
+          onError={(e) => {
+            e.currentTarget.style.display = "none";
+          }}
+        />
+
+        {/* Primary muscle overlays */}
+        {primaryImages.map((url, idx) => (
           <img
-            src="/muscle-groups/master.png"
-            alt="Muscle Groups"
-            className="w-full h-auto block"
+            key={`primary-${idx}`}
+            src={url}
+            alt="Primary muscle"
+            className="absolute w-auto h-[180px] sm:h-[200px]"
+            style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
             onError={(e) => {
               e.currentTarget.style.display = "none";
             }}
           />
+        ))}
 
-          {/* Primary muscle overlays */}
-          {primaryImages.map((url, idx) => (
-            <img
-              key={`primary-${idx}`}
-              src={url}
-              alt="Primary muscle"
-              className="absolute inset-0 w-full h-auto"
-              style={{ top: 0, left: 0 }}
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-              }}
-            />
-          ))}
+        {/* Secondary muscle overlays (lighter) */}
+        {secondaryImages.map((url, idx) => (
+          <img
+            key={`secondary-${idx}`}
+            src={url}
+            alt="Secondary muscle"
+            className="absolute w-auto h-[180px] sm:h-[200px] opacity-60"
+            style={{ top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
+            onError={(e) => {
+              e.currentTarget.style.display = "none";
+            }}
+          />
+        ))}
+      </div>
 
-          {/* Secondary muscle overlays (lighter) */}
-          {secondaryImages.map((url, idx) => (
-            <img
-              key={`secondary-${idx}`}
-              src={url}
-              alt="Secondary muscle"
-              className="absolute inset-0 w-full h-auto opacity-60"
-              style={{ top: 0, left: 0 }}
-              onError={(e) => {
-                e.currentTarget.style.display = "none";
-              }}
-            />
-          ))}
-        </div>
+      {/* Legend - Below Image */}
+      <div className="mt-2 space-y-1.5">
+        {(exercise.primary_muscles || []).length > 0 && (
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <p className="font-medium text-gray-700 text-[10px]">Primary:</p>
+            {exercise.primary_muscles.map((muscle, idx) => (
+              <span
+                key={idx}
+                className="bg-green-500 text-white text-[10px] px-1.5 py-0.5 rounded font-medium"
+              >
+                {muscle}
+              </span>
+            ))}
+          </div>
+        )}
 
-        {/* Legend */}
-        <div className="flex-1 space-y-2 text-sm">
-          {(exercise.primary_muscles || []).length > 0 && (
-            <div>
-              <p className="font-semibold text-gray-700 mb-1">Primary Muscles:</p>
-              <div className="flex flex-wrap gap-2">
-                {exercise.primary_muscles.map((muscle, idx) => (
-                  <span
-                    key={idx}
-                    className="bg-green-500 text-white text-xs px-2 py-1 rounded"
-                  >
-                    {muscle}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {(exercise.secondary_muscles || []).length > 0 && (
-            <div>
-              <p className="font-semibold text-gray-700 mb-1">
-                Secondary Muscles:
-              </p>
-              <div className="flex flex-wrap gap-2">
-                {exercise.secondary_muscles.map((muscle, idx) => (
-                  <span
-                    key={idx}
-                    className="bg-green-400 text-white text-xs px-2 py-1 rounded"
-                  >
-                    {muscle}
-                  </span>
-                ))}
-              </div>
-            </div>
-          )}
-        </div>
+        {(exercise.secondary_muscles || []).length > 0 && (
+          <div className="flex items-center gap-1.5 flex-wrap">
+            <p className="font-medium text-gray-700 text-[10px]">Secondary:</p>
+            {exercise.secondary_muscles.map((muscle, idx) => (
+              <span
+                key={idx}
+                className="bg-green-300 text-green-800 text-[10px] px-1.5 py-0.5 rounded font-medium"
+              >
+                {muscle}
+              </span>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );

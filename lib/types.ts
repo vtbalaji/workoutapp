@@ -68,6 +68,7 @@ export interface WorkoutExercise {
   order: number;
   imageUrl: string;
   primaryMuscles: string[];
+  secondaryMuscles?: string[];
   equipment: string[];
   description?: string;
   animation_frames?: number; // 1, 2, or 3

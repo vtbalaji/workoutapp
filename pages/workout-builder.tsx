@@ -6,6 +6,7 @@ import { useAuth } from "@/contexts/AuthContext";
 import { Workout, Exercise } from "@/lib/types";
 import { ProtectedRoute } from "@/components/ProtectedRoute";
 import { v4 as uuidv4 } from "uuid";
+import { DndContext, DragEndEvent } from "@dnd-kit/core";
 import ExerciseFinder from "@/components/workout-builder/ExerciseFinder";
 import WorkoutCanvas from "@/components/workout-builder/WorkoutCanvas";
 import ExercisePreview from "@/components/workout-builder/ExercisePreview";
@@ -141,6 +142,7 @@ function WorkoutBuilderContent() {
           order: section.exercises.length,
           imageUrl: imageUrl,
           primaryMuscles: exercise.primary_muscles || [],
+          secondaryMuscles: exercise.secondary_muscles || [],
           equipment: exercise.equipment || [],
           description: exercise.description,
         };
@@ -268,10 +270,10 @@ function WorkoutBuilderContent() {
       )}
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-4">
-        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-          <h1 className="text-2xl font-bold">Workout Builder</h1>
-          <div className="flex gap-2">
+      <div className="bg-gradient-to-r from-blue-600 to-blue-800 text-white py-1.5">
+        <div className="max-w-7xl mx-auto px-2 flex items-center justify-between">
+          <h1 className="text-sm sm:text-base font-bold">Workout Builder</h1>
+          <div className="flex gap-1">
             <button
               onClick={() => {
                 if (hasUnsavedChanges) {
@@ -280,30 +282,30 @@ function WorkoutBuilderContent() {
                   router.push("/");
                 }
               }}
-              className="px-3 py-2 bg-white text-blue-600 rounded-lg font-medium hover:bg-gray-100 transition-colors flex items-center gap-2 text-sm"
+              className="px-2 py-0.5 bg-white text-blue-600 rounded text-xs font-medium hover:bg-gray-100 transition-colors flex items-center gap-1"
               title="Cancel"
             >
-              <FontAwesomeIcon icon={faTimes} />
+              <FontAwesomeIcon icon={faTimes} className="text-[10px]" />
               Cancel
             </button>
             <button
               onClick={handleSaveWorkout}
               disabled={saving}
-              className="px-4 py-2 bg-blue-500 text-white rounded-lg font-medium hover:bg-blue-600 transition-colors disabled:opacity-50 flex items-center gap-2 text-sm"
+              className="px-2 py-0.5 bg-blue-500 text-white rounded text-xs font-medium hover:bg-blue-600 transition-colors disabled:opacity-50 flex items-center gap-1"
               title="Save Workout"
             >
               {saving ? (
                 <>
-                  <svg className="animate-spin h-4 w-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <svg className="animate-spin h-3 w-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                   </svg>
-                  Saving...
+                  ...
                 </>
               ) : (
                 <>
-                  <FontAwesomeIcon icon={faSave} />
-                  Save Workout
+                  <FontAwesomeIcon icon={faSave} className="text-[10px]" />
+                  Save
                 </>
               )}
             </button>
@@ -312,44 +314,63 @@ function WorkoutBuilderContent() {
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 py-8">
-        {error && (
-          <div className="mb-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded">
-            {error}
-          </div>
-        )}
+      <DndContext onDragEnd={handleDragEnd}>
+        <div className="max-w-7xl mx-auto px-2 py-1.5">
+          {error && (
+            <div className="mb-2 px-2 py-1 bg-red-100 border border-red-400 text-red-700 rounded text-xs">
+              {error}
+            </div>
+          )}
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
-          {/* Left Panel: Exercise Finder */}
-          <div className="lg:col-span-1">
-            <ExerciseFinder onExerciseSelect={setSelectedExercise} />
-          </div>
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-2">
+            {/* Left Panel: Exercise Finder */}
+            <div className="lg:col-span-1">
+              <ExerciseFinder onExerciseSelect={setSelectedExercise} />
+            </div>
 
-          {/* Center Panel: Workout Builder */}
-          <div className="lg:col-span-2">
-            <WorkoutCanvas
-              workout={workout}
-              onWorkoutChange={setWorkout}
-              hasUnsavedChanges={hasUnsavedChanges}
-              onUnsavedChangesChange={setHasUnsavedChanges}
-            />
-          </div>
-
-          {/* Right Panel: Exercise Preview or Summary */}
-          <div className="lg:col-span-1">
-            {selectedExercise ? (
-              <ExercisePreview
-                selectedExercise={selectedExercise}
+            {/* Center Panel: Workout Builder */}
+            <div className="lg:col-span-2">
+              <WorkoutCanvas
                 workout={workout}
-                onAddExerciseToSection={handleAddExerciseToSection}
-                onShowToast={(message, type) => setToast({ message, type: type || "success" })}
+                onWorkoutChange={setWorkout}
+                hasUnsavedChanges={hasUnsavedChanges}
+                onUnsavedChangesChange={setHasUnsavedChanges}
               />
-            ) : (
-              <WorkoutSummary workout={workout} />
-            )}
+            </div>
+
+            {/* Right Panel: Exercise Preview or Summary */}
+            <div className="lg:col-span-1">
+              {selectedExercise ? (
+                <ExercisePreview
+                  selectedExercise={selectedExercise}
+                  workout={workout}
+                  onAddExerciseToSection={handleAddExerciseToSection}
+                  onShowToast={(message, type) => setToast({ message, type: type || "success" })}
+                />
+              ) : (
+                <WorkoutSummary workout={workout} />
+              )}
+            </div>
           </div>
         </div>
-      </div>
+      </DndContext>
     </div>
   );
+
+  function handleDragEnd(event: DragEndEvent) {
+    const { active, over } = event;
+
+    if (!over || !workout) return;
+
+    // Handle dragging from exercise finder to section
+    if (
+      active.data?.current?.type === "exercise" &&
+      over.data?.current?.type === "section"
+    ) {
+      const exercise = active.data.current.exercise as Exercise;
+      const sectionId = over.data.current.sectionId as string;
+
+      handleAddExerciseToSection(sectionId, exercise, 3, 10, 60);
+    }
+  }
 }

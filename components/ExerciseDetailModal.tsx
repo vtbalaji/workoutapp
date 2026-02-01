@@ -50,12 +50,31 @@ export default function ExerciseDetailModal({
       >
         {/* Header */}
         <div className="sticky top-0 bg-white border-b px-4 sm:px-4 py-2 sm:py-2 flex items-center justify-between z-10">
-          <h2 className="text-base sm:text-lg font-bold text-gray-900">
-            {exercise.exerciseName}
-          </h2>
+          <div className="flex-1 mr-2 text-center">
+            {(() => {
+              const names = exercise.exerciseName.split('/').map(name => name.trim());
+              if (names.length === 1) {
+                return (
+                  <h2 className="text-base sm:text-lg font-bold text-gray-900">
+                    {names[0]}
+                  </h2>
+                );
+              }
+              return (
+                <div>
+                  <h2 className="text-base sm:text-lg font-bold text-gray-900 leading-tight">
+                    {names[0]}
+                  </h2>
+                  <p className="text-xs sm:text-sm text-gray-600 leading-tight">
+                    {names.slice(1).join(' / ')}
+                  </p>
+                </div>
+              );
+            })()}
+          </div>
           <button
             onClick={onClose}
-            className="text-gray-500 hover:text-gray-700 text-xl sm:text-xl font-bold"
+            className="text-gray-500 hover:text-gray-700 text-xl sm:text-xl font-bold flex-shrink-0"
           >
             ×
           </button>
@@ -84,11 +103,13 @@ export default function ExerciseDetailModal({
           </div>
 
           {/* Exercise Stats */}
-          <div className="grid grid-cols-3 gap-1 sm:gap-1 px-2 sm:px-0 py-1 sm:py-0 mb-0.5 sm:mb-2">
-            <div className="text-center p-1 sm:p-1 bg-blue-50 rounded flex items-center justify-center gap-1">
-              <span className="text-base sm:text-lg font-bold text-blue-600">{exercise.sets}</span>
-              <span className="text-[10px] sm:text-xs text-gray-600 font-medium">Sets</span>
-            </div>
+          <div className={`grid ${exercise.sets > 1 ? 'grid-cols-3' : 'grid-cols-2'} gap-1 sm:gap-1 px-2 sm:px-0 py-1 sm:py-0 mb-0.5 sm:mb-2`}>
+            {exercise.sets > 1 && (
+              <div className="text-center p-1 sm:p-1 bg-blue-50 rounded flex items-center justify-center gap-1">
+                <span className="text-base sm:text-lg font-bold text-blue-600">{exercise.sets}</span>
+                <span className="text-[10px] sm:text-xs text-gray-600 font-medium">Sets</span>
+              </div>
+            )}
             <div className="text-center p-1 sm:p-1 bg-green-50 rounded flex items-center justify-center gap-1">
               <span className="text-base sm:text-lg font-bold text-green-600">{exercise.reps}</span>
               <span className="text-[10px] sm:text-xs text-gray-600 font-medium">Reps</span>
@@ -101,11 +122,11 @@ export default function ExerciseDetailModal({
 
           {/* Muscle Diagram */}
           {exercise.primaryMuscles && exercise.primaryMuscles.length > 0 && (
-            <div className="px-4 sm:px-0 mb-2 sm:mb-3">
+            <div className="mb-2 sm:mb-3">
               <MuscleGroupImage
                 exercise={{
                   primary_muscles: exercise.primaryMuscles,
-                  secondary_muscles: [],
+                  secondary_muscles: exercise.secondaryMuscles || [],
                 } as any}
               />
             </div>

@@ -9,18 +9,16 @@ interface YogaCardProps {
 
 export default function YogaCard({ yoga, onClick }: YogaCardProps) {
   const [isLoading, setIsLoading] = useState(true);
-
-  // Use local images from public/yoga-images/{slug}/male.svg
   const localImagePath = `/yoga-images/${yoga.slug}/male.svg`;
 
   return (
     <div
-      className="bg-white rounded-lg shadow-md p-4 cursor-pointer hover:shadow-lg transition-shadow"
+      className="bg-white rounded shadow-sm p-1 cursor-pointer hover:shadow transition-shadow flex flex-col"
       onClick={() => onClick?.(yoga)}
     >
-      <div className="aspect-[3/2] bg-gray-100 rounded-md mb-4 overflow-hidden relative">
+      <div className="w-full aspect-square flex-shrink-0 rounded overflow-hidden relative bg-gray-50">
         {isLoading && (
-          <div className="absolute inset-0 bg-gray-300 animate-pulse z-10" />
+          <div className="absolute inset-0 bg-gray-200 animate-pulse z-10" />
         )}
         <img
           src={localImagePath}
@@ -34,15 +32,15 @@ export default function YogaCard({ yoga, onClick }: YogaCardProps) {
           }}
         />
       </div>
-      <p className="text-xs text-gray-500 mb-2">Male</p>
-      <h3 className="font-semibold text-lg mb-1">{yoga.title}</h3>
-      <p className="text-gray-500 text-sm mb-1">{yoga.sanskrit_name}</p>
-      <p className="text-gray-600 text-sm mb-2">{yoga.pose_category}</p>
-      <p className="text-gray-700 text-xs mb-3 line-clamp-2">{yoga.description}</p>
-      <div className="flex items-center justify-between">
-        <span className="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">
-          {yoga.difficulty}
-        </span>
+      <div className="pt-1">
+        <h3 className="font-medium text-[11px] leading-tight line-clamp-2">{yoga.title}</h3>
+        <p className="text-gray-400 text-[9px] truncate">{yoga.sanskrit_name}</p>
+        <div className="flex items-center justify-between mt-0.5">
+          <span className="text-gray-400 text-[9px]">{yoga.pose_category}</span>
+          <span className="bg-green-100 text-green-700 text-[8px] px-1 py-0.5 rounded">
+            {yoga.difficulty}
+          </span>
+        </div>
       </div>
     </div>
   );

@@ -131,6 +131,7 @@ function TemplateBuilderContent() {
       order: template.exercises.length,
       imageUrl: imageUrl,
       primaryMuscles: exercise.primary_muscles || [],
+      secondaryMuscles: exercise.secondary_muscles || [],
       equipment: exercise.equipment || [],
       description: exercise.description,
     };
@@ -256,10 +257,10 @@ function TemplateBuilderContent() {
       )}
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-6">
-        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
-          <h1 className="text-3xl font-bold">Template Builder</h1>
-          <div className="flex gap-3">
+      <div className="bg-gradient-to-r from-green-600 to-green-800 text-white py-1.5">
+        <div className="max-w-7xl mx-auto px-2 flex items-center justify-between">
+          <h1 className="text-sm sm:text-base font-bold">Template Builder</h1>
+          <div className="flex gap-1">
             <button
               onClick={() => {
                 if (hasUnsavedChanges) {
@@ -268,33 +269,33 @@ function TemplateBuilderContent() {
                   router.push("/templates");
                 }
               }}
-              className="px-4 py-2 bg-white text-green-600 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center gap-2"
+              className="px-2 py-0.5 bg-white text-green-600 rounded text-xs font-medium hover:bg-gray-100 transition-colors flex items-center gap-1"
             >
-              <FontAwesomeIcon icon={faTimes} />
+              <FontAwesomeIcon icon={faTimes} className="text-[10px]" />
               Cancel
             </button>
             <button
               onClick={handleSaveTemplate}
               disabled={saving}
-              className="px-6 py-2 bg-yellow-500 text-white rounded-lg font-semibold hover:bg-yellow-600 transition-colors disabled:opacity-50 flex items-center gap-2"
+              className="px-2 py-0.5 bg-yellow-500 text-white rounded text-xs font-medium hover:bg-yellow-600 transition-colors disabled:opacity-50 flex items-center gap-1"
             >
-              <FontAwesomeIcon icon={faSave} />
-              {saving ? "Saving..." : "Save Template"}
+              <FontAwesomeIcon icon={faSave} className="text-[10px]" />
+              {saving ? "..." : "Save"}
             </button>
           </div>
         </div>
       </div>
 
       {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto px-2 py-1.5 overflow-x-hidden">
         {error && (
-          <div className="mb-6 p-4 bg-red-100 border border-red-400 text-red-700 rounded">
+          <div className="mb-2 px-2 py-1 bg-red-100 border border-red-400 text-red-700 rounded text-xs">
             {error}
           </div>
         )}
 
         <DndContext onDragEnd={handleDragEnd}>
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-2">
             {/* Left Panel: Exercise Finder */}
             <div className="lg:col-span-1">
               <ExerciseFinder onExerciseSelect={setSelectedExercise} />

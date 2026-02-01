@@ -52,16 +52,16 @@ export default function SectionCard({
   return (
     <div
       ref={setNodeRef}
-      className={`border-2 rounded-lg overflow-hidden transition-all ${
+      className={`border rounded overflow-hidden transition-all ${
         isOver ? "border-blue-500 bg-blue-50" : "border-gray-300 bg-white"
       }`}
     >
       {/* Header */}
-      <div className="bg-gradient-to-r from-gray-50 to-gray-100 p-4 border-b flex justify-between items-center cursor-pointer hover:bg-gray-100">
-        <div className="flex items-center gap-3 flex-1">
+      <div className="bg-gradient-to-r from-gray-50 to-gray-100 px-2 py-1.5 border-b flex justify-between items-center cursor-pointer hover:bg-gray-100">
+        <div className="flex items-center gap-2 flex-1 min-w-0">
           <button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="text-gray-600 hover:text-gray-800"
+            className="text-gray-600 hover:text-gray-800 text-xs"
           >
             {isExpanded ? "▼" : "▶"}
           </button>
@@ -79,26 +79,24 @@ export default function SectionCard({
                   setIsEditingName(false);
                 }
               }}
-              className="flex-1 px-2 py-1 border border-blue-500 rounded font-semibold"
+              className="flex-1 px-1.5 py-0.5 border border-blue-500 rounded text-xs font-semibold"
             />
           ) : (
             <h3
               onClick={() => setIsEditingName(true)}
-              className="font-semibold text-gray-800 hover:text-blue-600 flex-1"
+              className="font-semibold text-xs text-gray-800 hover:text-blue-600 truncate"
             >
               {section.name}
             </h3>
           )}
 
-          <span className="text-sm text-gray-600 bg-gray-200 px-2 py-1 rounded">
+          <span className="text-[10px] text-gray-600 bg-gray-200 px-1.5 py-0.5 rounded">
             {section.exercises.length}
           </span>
 
           {/* Section Sets Input */}
-          <div className="flex items-center gap-2 ml-4">
-            <label className="text-sm font-medium text-gray-700">
-              Rounds:
-            </label>
+          <div className="flex items-center gap-1">
+            <label className="text-[10px] font-medium text-gray-700">Rnd:</label>
             <input
               type="number"
               min="1"
@@ -110,21 +108,21 @@ export default function SectionCard({
                 onUpdateSectionSets(section.id, value);
               }}
               onClick={(e) => e.stopPropagation()}
-              className="w-16 px-2 py-1 border border-gray-300 rounded text-center font-semibold focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              className="w-10 px-1 py-0.5 border border-gray-300 rounded text-center text-xs font-semibold focus:outline-none focus:ring-1 focus:ring-indigo-500"
             />
           </div>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-1">
           <button
             onClick={() => onApplyTemplate(section.id)}
-            className="px-3 py-1 text-xs font-medium bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors"
+            className="px-1.5 py-0.5 text-[10px] font-medium bg-green-100 text-green-700 rounded hover:bg-green-200 transition-colors"
           >
             Template
           </button>
           <button
             onClick={() => onDeleteSection(section.id)}
-            className="px-3 py-1 text-xs font-medium bg-red-100 text-red-700 rounded hover:bg-red-200 transition-colors"
+            className="px-1.5 py-0.5 text-[10px] font-medium bg-red-100 text-red-700 rounded hover:bg-red-200 transition-colors"
           >
             Delete
           </button>
@@ -133,10 +131,10 @@ export default function SectionCard({
 
       {/* Exercises */}
       {isExpanded && (
-        <div className="p-4 space-y-3">
+        <div className="p-2 space-y-1.5">
           {section.exercises.length === 0 ? (
-            <div className="text-center py-8 text-gray-500 border-2 border-dashed border-gray-300 rounded">
-              Drag exercises here or select from the left panel
+            <div className="text-center py-4 text-gray-500 text-xs border border-dashed border-gray-300 rounded">
+              Drag exercises here or select from left
             </div>
           ) : (
             section.exercises.map((exercise) => (
