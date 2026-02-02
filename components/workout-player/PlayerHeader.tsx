@@ -32,10 +32,10 @@ export default function PlayerHeader({
       </div>
 
       {/* Header info */}
-      <div className="flex justify-between items-center px-3 py-1">
+      <div className="flex justify-between items-center px-3 py-1.5">
         <button
           onClick={onExit}
-          className="text-gray-500 text-xs hover:text-gray-700"
+          className="text-gray-500 text-base sm:text-lg hover:text-gray-700 px-1 py-0.5"
         >
           ← Exit
         </button>

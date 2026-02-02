@@ -258,12 +258,12 @@ function WorkoutViewContent() {
 
                         {/* Exercise Details */}
                         <div className="flex-1 flex flex-col justify-center min-w-0">
-                          <h3 className="text-xs sm:text-lg font-black text-gray-900 mb-0 sm:mb-1 leading-none line-clamp-1">
-                            {exercise.exerciseName}
+                          <h3 className="text-xl sm:text-3xl font-black text-gray-900 mb-0 sm:mb-1 leading-none line-clamp-1">
+                            {exercise.exerciseName.split('/')[0].trim()}
                           </h3>
 
                           {/* Sets, Reps, Rest */}
-                          <div className="text-[10px] sm:text-sm mt-0">
+                          <div className="text-sm sm:text-xl mt-0">
                             {exercise.sets > 1 && (
                               <>
                                 <span className="font-black text-gray-900">
@@ -408,7 +408,7 @@ function WorkoutViewContent() {
         <div className="max-w-4xl mx-auto">
           <Link
             href={`/workout-player?id=${workout.id}&autostart=true`}
-            className="block w-full px-3 sm:px-6 py-2 sm:py-4 bg-blue-600 text-white text-sm sm:text-xl rounded-lg hover:bg-blue-700 transition-colors font-bold text-center"
+            className="block w-full px-4 sm:px-8 py-3 sm:py-6 bg-blue-600 text-white text-xl sm:text-3xl rounded-lg hover:bg-blue-700 transition-colors font-bold text-center"
           >
             Let&apos;s do this! →
           </Link>
