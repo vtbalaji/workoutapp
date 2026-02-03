@@ -128,7 +128,7 @@ function WorkoutViewContent() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-100">
       {/* Header */}
       <div className="bg-white border-b sticky top-0 z-10">
         <div className="max-w-4xl mx-auto px-2 sm:px-4 py-0.5 sm:py-2">
@@ -219,16 +219,16 @@ function WorkoutViewContent() {
               )}
 
               {/* Exercise Cards */}
-              <div className="space-y-0 sm:space-y-2">
+              <div className="space-y-1 sm:space-y-2">
                 {section.exercises.map((exercise, exerciseIndex) => (
                   <div key={exercise.id}>
                     <div
-                      className="bg-white rounded-none sm:rounded-lg py-0 px-1 sm:py-0 sm:px-3 shadow-none sm:shadow-sm cursor-pointer sm:hover:shadow-md transition-shadow h-9 sm:h-32"
+                      className="bg-white rounded-lg sm:rounded-lg py-0 px-1 sm:py-0 sm:px-3 shadow-sm sm:shadow-sm cursor-pointer sm:hover:shadow-md transition-shadow h-12 sm:h-32 mx-1 sm:mx-0"
                       onClick={() => setSelectedExercise(exercise)}
                     >
                       <div className="flex gap-0.5 sm:gap-2 items-center h-full">
                         {/* Exercise Image */}
-                        <div className="flex-shrink-0 w-16 sm:w-32 h-8 sm:h-32 bg-gray-50 rounded overflow-hidden flex items-center justify-center">
+                        <div className="flex-shrink-0 w-20 sm:w-32 h-10 sm:h-32 bg-white rounded overflow-hidden flex items-center justify-center">
                           {exercise.exerciseSlug ? (
                             <img
                               src={`/exercise-images/${exercise.exerciseSlug}/${gender}.svg`}
@@ -284,13 +284,6 @@ function WorkoutViewContent() {
                         </div>
                       </div>
                     </div>
-
-                    {/* Rest between exercises */}
-                    {exerciseIndex < section.exercises.length - 1 && (
-                      <div className="text-[10px] sm:text-sm font-black text-gray-900 mt-0 sm:mt-1 mb-0 sm:mb-1 px-2">
-                        {formatTime(exercise.restSeconds)} <span className="text-gray-400 font-medium">rest</span>
-                      </div>
-                    )}
                   </div>
                 ))}
               </div>

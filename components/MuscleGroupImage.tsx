@@ -19,13 +19,13 @@ const MUSCLE_NAME_MAP: Record<string, string> = {
   Pectorals: "chest",
   Pecs: "chest",
 
-  // Back/Lats (we don't have these, fallback to shoulders or lower-back)
-  Back: "lower-back",
-  Lats: "lower-back",
-  "Latissimus Dorsi": "lower-back",
-  "Middle Back": "lower-back",
-  "Middle Back / Lats": "lower-back",
-  "Upper Back": "lower-back",
+  // Back/Lats
+  Back: "middle-back-lats",
+  Lats: "middle-back-lats",
+  "Latissimus Dorsi": "middle-back-lats",
+  "Middle Back": "middle-back-lats",
+  "Middle Back / Lats": "middle-back-lats",
+  "Upper Back": "middle-back-lats",
   "Upper Back & Lower Traps": "neck-upper-traps",
   "Lower Back": "lower-back",
 
