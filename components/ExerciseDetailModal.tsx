@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { WorkoutExercise } from "@/lib/types";
 import MuscleGroupImage from "./MuscleGroupImage";
 import AnimatedExerciseImage from "./AnimatedExerciseImage";
-import { useUserProfile } from "@/hooks/useUserProfile";
 
 interface ExerciseDetailModalProps {
   exercise: WorkoutExercise;
@@ -15,8 +14,6 @@ export default function ExerciseDetailModal({
   exercise,
   onClose,
 }: ExerciseDetailModalProps) {
-  const { profile } = useUserProfile();
-  const imageGender = profile.gender;
 
   // Close on escape key
   useEffect(() => {
