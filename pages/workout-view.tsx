@@ -220,7 +220,7 @@ function WorkoutViewContent() {
 
               {/* Exercise Cards */}
               <div className="space-y-1 sm:space-y-2">
-                {section.exercises.map((exercise, exerciseIndex) => (
+                {section.exercises.map((exercise) => (
                   <div key={exercise.id}>
                     <div
                       className="bg-white rounded-lg sm:rounded-lg py-0 px-1 sm:py-0 sm:px-3 shadow-sm sm:shadow-sm cursor-pointer sm:hover:shadow-md transition-shadow h-12 sm:h-32 mx-1 sm:mx-0"
