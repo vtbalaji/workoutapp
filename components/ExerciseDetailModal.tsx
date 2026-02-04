@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect } from "react";
 import { WorkoutExercise } from "@/lib/types";
 import MuscleGroupImage from "./MuscleGroupImage";
 import AnimatedExerciseImage from "./AnimatedExerciseImage";
@@ -17,7 +17,6 @@ export default function ExerciseDetailModal({
 }: ExerciseDetailModalProps) {
   const { profile } = useUserProfile();
   const imageGender = profile.gender;
-  const iframeRef = useRef<HTMLIFrameElement>(null);
 
   // Close on escape key
   useEffect(() => {
@@ -35,10 +34,6 @@ export default function ExerciseDetailModal({
       document.body.style.overflow = "unset";
     };
   }, []);
-
-  const iframeSrc = exercise.exerciseSlug
-    ? `/svg-animator.html?slug=${encodeURIComponent(exercise.exerciseSlug)}&gender=${imageGender}&playing=true`
-    : null;
 
   return (
     <div
